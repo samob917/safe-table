@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Safe Table</title>
+  <meta name="description" content="Hand-picked recipes free of eggs, wheat, gluten, barley, dairy, tree nuts, peanuts and shellfish — grouped by meal, with date-night and entertaining menus.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#/" class="brand"><span class="brand-mark">◐</span> The Safe Table</a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#/c/breakfast">Breakfast</a>
+        <a href="#/c/lunch">Lunch</a>
+        <a href="#/c/dinner">Dinner</a>
+        <a href="#/c/sides">Sides</a>
+        <a href="#/c/appetizers">Apps</a>
+        <a href="#/c/snacks">Snacks</a>
+        <a href="#/c/breads">Breads</a>
+        <a href="#/c/desserts">Desserts</a>
+        <a href="#/plans" class="nav-em">Menus</a>
+        <a href="#/swaps" class="nav-em">Swaps</a>
+        <a href="#/list" class="nav-em" title="Shopping list">🛒 <span id="cart-count">0</span></a>
+        <a href="#/saved" class="nav-saved" title="Saved recipes">♥ <span id="saved-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="allergen-bar">
+    <div class="wrap">
+      <strong>Every recipe is screened to be free of:</strong>
+      <span class="chips">
+        <span class="chip">Egg</span><span class="chip">Wheat</span><span class="chip">Gluten</span><span class="chip">Barley</span><span class="chip">Dairy</span><span class="chip">Tree nuts</span><span class="chip">Peanuts</span><span class="chip">Shellfish</span>
+      </span>
+      <span class="bar-note">…as written or with the swap listed on the card.</span>
+    </div>
+  </div>
+
+  <main id="app" class="wrap" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Always read labels.</strong> Recipes link to their original authors, who deserve the clicks. Each was checked against its ingredient list, but brands change formulas and recipes get edited — glance at the ingredients before you cook, and check “may contain” statements on packaged foods.</p>
+      <p class="muted"><a href="#/sources">See every source site →</a> · <a href="#/swaps">Swap guide</a> · <a href="#/saved">Saved recipes</a></p>
+    </div>
+  </footer>
+
+  <script src="data/recipes.js"></script>
+  <script src="data/plans.js"></script>
+  <script src="data/swaps.js"></script>
+  <script src="data/ingredients.js"></script>
+  <script src="data/wholefoods.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
