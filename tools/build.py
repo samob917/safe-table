@@ -81,7 +81,8 @@ if RS:
     rest, seen_names = [], set()
     for p in RS:
         for x in json.load(open(p)):
-            if x.get("name") and x.get("chart_url") and x["name"].lower() not in seen_names:
-                seen_names.add(x["name"].lower()); rest.append(x)
+            key = re.sub(r"[^a-z0-9]", "", x.get("name", "").lower().replace("the ", "", 1))
+            if x.get("name") and x.get("chart_url") and key not in seen_names:
+                seen_names.add(key); rest.append(x)
     open("/Users/samob917/safe-table/data/restaurants.js", "w").write("window.RESTAURANTS = " + json.dumps(rest, ensure_ascii=False, indent=1) + ";\n")
     print("restaurants", len(rest))

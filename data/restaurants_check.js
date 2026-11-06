@@ -14,4 +14,8 @@ window.RESTAURANTS_CHECK = [
   ["Steak 'n Shake", "https://www.steaknshake.com"], ["Texas Roadhouse", "https://www.texasroadhouse.com"], ["The Cheesecake Factory", "https://www.thecheesecakefactory.com"],
   ["Tim Hortons", "https://www.timhortons.com"], ["Waffle House", "https://www.wafflehouse.com"], ["Wawa", "https://www.wawa.com"],
   ["White Castle", "https://www.whitecastle.com"], ["Wingstop", "https://www.wingstop.com"],
+  ["Bojangles", "https://www.bojangles.com"], ["Burger King", "https://www.bk.com"], ["Cava", "https://cava.com"], ["Del Taco", "https://www.deltaco.com"],
+  ["Jersey Mike's", "https://www.jerseymikes.com"], ["KFC", "https://www.kfc.com"], ["Krispy Kreme", "https://www.krispykreme.com"], ["Mission BBQ", "https://mission-bbq.com"],
+  ["Nando's PERi-PERi", "https://www.nandosperiperi.com"], ["Panda Express", "https://www.pandaexpress.com"], ["Panera Bread", "https://www.panerabread.com"], ["Popeyes", "https://www.popeyes.com"],
+  ["Smashburger", "https://smashburger.com"], ["Whataburger", "https://whataburger.com"], ["Zaxby's", "https://www.zaxbys.com"],
 ];
