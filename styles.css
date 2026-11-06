@@ -399,3 +399,7 @@ main { padding-top: 44px; padding-bottom: 90px; }
 .eo-head h3 a { color: var(--ink); text-decoration: none; }
 .eo-head h3 a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
 .eo[hidden] { display: none; }
+.check-list { columns: 3 220px; list-style: none; padding: 0; }
+.check-list li { padding: 5px 0; break-inside: avoid; }
+.check-list li[hidden] { display: none; }
+.check-list a { text-decoration: none; }

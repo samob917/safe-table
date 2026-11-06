@@ -855,7 +855,14 @@
         ${(r.likely_safe || []).length ? `<div class="note ok"><b>Likely options (confirm first):</b><ul>${r.likely_safe.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
         <div class="eo-actions"><a class="btn" href="${esc(r.chart_url)}" target="_blank" rel="noopener">Allergen chart ↗</a>${r.homepage ? `<a class="btn ghost" href="${esc(r.homepage)}" target="_blank" rel="noopener">Website</a>` : ""}</div>
       </article>`).join("")}</div>` : `<div class="empty">Restaurant list coming shortly.</div>`}
-      <div class="empty" id="eo-none" hidden>No matches. Try fewer letters.</div>`;
+      <div class="empty" id="eo-none" hidden>No matches. Try fewer letters.</div>
+      ${(() => {
+        const have = new Set(R.map(r => norm(r.name).replace(/^the /, "")));
+        const extra = (window.RESTAURANTS_CHECK || []).filter(([n]) => !have.has(norm(n).replace(/^the /, "")));
+        return extra.length ? `<h2 class="group-title">More chains to check yourself <small>${extra.length}</small></h2>
+          <p class="muted">These chains have nutrition or allergen info, but their sites block automated checking, so we couldn't verify a chart link. Open the site and look for "Nutrition" or "Allergens", usually in the footer.</p>
+          <ul class="check-list">${extra.map(([n, u]) => `<li data-fz="${esc(n)}"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a></li>`).join("")}</ul>` : "";
+      })()}`;
   }
 
   // fuzzy matching: substring > word-prefix > subsequence > small typo distance
@@ -894,6 +901,7 @@
     scored.sort((x, y) => q ? y[0] - x[0] : 0);
     scored.forEach(([s, c]) => { c.hidden = s <= 0; if (s > 0) shown++; if (q) grid.appendChild(c); });
     if (!q) cards.sort((x, y) => x.dataset.fz.localeCompare(y.dataset.fz)).forEach(c => grid.appendChild(c));
+    document.querySelectorAll(".check-list li").forEach(li => { li.hidden = fuzzyScore(q, li.dataset.fz) <= 0; });
     document.getElementById("eo-count").textContent = shown;
     document.getElementById("eo-none").hidden = shown > 0;
   }
