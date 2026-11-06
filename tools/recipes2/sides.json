@@ -1,0 +1,881 @@
+[
+ {
+  "title": "Garlicky Saffron Rice",
+  "url": "https://spainonafork.com/quick-easy-garlicky-saffron-rice-recipe/",
+  "site": "Spain on a Fork",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Golden, fragrant long-grain rice simmered with saffron, shallots, plenty of garlic, carrot and sweet peas. A one-pot Spanish side that dresses up fish, chicken or beans.",
+  "swaps": "",
+  "watch": "Use a gluten-free vegetable broth.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Spanish Garlic Cabbage Salad (Ensalada de Col Andaluza)",
+  "url": "https://spainonafork.com/better-than-coleslaw-spanish-garlic-cabbage-salad/",
+  "site": "Spain on a Fork",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "15 min",
+  "serves": "4",
+  "description": "Shredded cabbage tossed with sizzling garlic-infused olive oil, sherry vinegar, smoked paprika and cumin. Warm, tangy and mayo-free, a smart alternative to coleslaw.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "weeknight",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Spanish Pisto Andaluz",
+  "url": "https://spainonafork.com/better-than-ratatouille-spanish-pisto-andaluz-recipe/",
+  "site": "Spain on a Fork",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "50 min",
+  "serves": "4",
+  "description": "Spain's answer to ratatouille: peppers, zucchini, onion, potato and tomatoes slowly stewed in olive oil with smoked paprika. Spoon it beside grilled meats, fish or a pile of rice.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "starch"
+  ],
+  "season": [
+   "summer",
+   "fall"
+  ]
+ },
+ {
+  "title": "Vegan Southern Collard Greens",
+  "url": "https://sweetpotatosoul.com/vegan-southern-collard-greens/",
+  "site": "Sweet Potato Soul",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "40 min",
+  "serves": "4",
+  "description": "Thinly sliced collards braised with garlic, juicy tomatoes and smoked paprika for a smoky, savory pot of greens without any ham hock.",
+  "swaps": "Use tamari (gluten-free) rather than soy sauce.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Maple Roasted Brussels Sprouts & Carrots",
+  "url": "https://sweetpotatosoul.com/smoky-maple-roasted-brussels-sprouts-carrots/",
+  "site": "Sweet Potato Soul",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "40 min",
+  "serves": "4",
+  "description": "Brussels sprouts, carrots and red onion roasted until caramelized with maple, smoked paprika and a hint of cayenne, finished with crunchy pumpkin seeds.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "holiday",
+   "weeknight",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Vegan Kale Caesar Salad",
+  "url": "https://sweetpotatosoul.com/best-vegan-caesar-salad/",
+  "site": "Sweet Potato Soul",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Romaine and kale tossed in a creamy, briny Caesar dressing made from sunflower seeds, capers and nutritional yeast, topped with spiced crispy chickpeas instead of croutons. Totally egg-, dairy- and nut-free.",
+  "swaps": "Use tamari (not soy sauce).",
+  "watch": "Vegan Worcestershire sauce can contain soy sauce made with wheat or malt vinegar; pick a gluten-free, malt-free brand. Soak sunflower seeds ahead.",
+  "tags": [
+   "make-ahead",
+   "date-night",
+   "crowd"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Jamaican Coleslaw",
+  "url": "https://thatgirlcookshealthy.com/jamaican-coleslaw/",
+  "site": "That Girl Cooks Healthy",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "40 min",
+  "serves": "6",
+  "description": "Creamy Caribbean-style slaw of cabbage, carrot, chayote (cho cho) and red pepper with lime, celery seed and mustard. The classic partner for jerk dishes and rice and peas.",
+  "swaps": "",
+  "watch": "Use an egg-free, nut-free vegan mayonnaise (some vegan mayos are cashew- or almond-based).",
+  "tags": [
+   "crowd",
+   "make-ahead",
+   "grill"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Caribbean",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Vegan Cuban Black Beans (Frijoles Negros)",
+  "url": "https://thatgirlcookshealthy.com/cuban-black-beans/",
+  "site": "That Girl Cooks Healthy",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "2 hr 20 min",
+  "serves": "4",
+  "description": "Dried black beans simmered low and slow with a sofrito of onion, green pepper and garlic, cumin and oregano, then brightened with a splash of vinegar. Rich, saucy and perfect over white rice.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Latin American",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Jamaican Coconut Rice",
+  "url": "https://thatgirlcookshealthy.com/jamaican-coconut-rice/",
+  "site": "That Girl Cooks Healthy",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "35 min",
+  "serves": "6",
+  "description": "Basmati brown rice cooked in coconut milk and creamed coconut with thyme sprigs, garlic, onion and pimento berries for a fragrant Instant Pot side.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Caribbean",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Garlic Hasselback Potatoes with Sage",
+  "url": "https://vancouverwithlove.com/sage-garlic-hasselback-potatoes/",
+  "site": "Vancouver with Love",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "1 hr 15 min",
+  "serves": "4",
+  "description": "Potatoes sliced accordion-style and roasted with garlic oil and crisp sage leaves until the edges fan out golden and crunchy. Showy but simple.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "holiday",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "British",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Classic Vegan Stuffing (Gluten-Free)",
+  "url": "https://vancouverwithlove.com/vegan-stuffing/",
+  "site": "Vancouver with Love",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "50 min",
+  "serves": "6",
+  "description": "Old-fashioned sage-and-onion stuffing made with chunky bread, celery and broth, no eggs needed. Bake it in a dish for crisp edges alongside a holiday roast.",
+  "swaps": "Use gluten-free, egg-free bread; olive oil (or a nut-free vegan butter) instead of vegan butter.",
+  "watch": "Many gluten-free breads contain egg; check labels. Use gluten-free vegetable broth.",
+  "tags": [
+   "holiday",
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "British",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Vegan Green Bean Casserole (Gluten-Free)",
+  "url": "https://www.keepingthepeas.com/vegan-green-bean-casserole/",
+  "site": "Keeping the Peas",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "50 min",
+  "serves": "8",
+  "description": "Green beans and mushrooms baked in a creamy, from-scratch soy-milk sauce seasoned with Dijon and sage, topped with crispy onions and gluten-free panko.",
+  "swaps": "",
+  "watch": "Check that the gluten-free panko is egg-free.",
+  "tags": [
+   "holiday",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Vegan Cranberry Sauce",
+  "url": "https://www.keepingthepeas.com/vegan-cranberry-sauce/",
+  "site": "Keeping the Peas",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "35 min",
+  "serves": "8",
+  "description": "Fresh cranberries simmered with orange juice, zest, cinnamon and maple syrup into a glossy, sweet-tart sauce. Make it days ahead.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "holiday",
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Sautéed Spinach with Garlic",
+  "url": "https://www.lemonblossoms.com/blog/sauteed-spinach-with-garlic/",
+  "site": "Lemon Blossoms",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "10 min",
+  "serves": "4",
+  "description": "Baby spinach wilted in olive oil with garlic in just a few minutes. The fastest green side for any weeknight plate.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Tostones (Fried Green Plantains)",
+  "url": "https://www.lemonblossoms.com/blog/tostones-recipe/",
+  "site": "Lemon Blossoms",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Green plantains fried, smashed flat and fried again until crisp and golden, then showered with flaky salt. Great with mojo or guacamole.",
+  "swaps": "Make the mayo-ketchup dip with egg-free mayonnaise, or serve with guacamole instead.",
+  "watch": "",
+  "tags": [
+   "kid-friendly",
+   "crowd"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Caribbean",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "French Potato Salad",
+  "url": "https://www.lemonblossoms.com/blog/french-potato-salad/",
+  "site": "Lemon Blossoms",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "1 hr 30 min",
+  "serves": "6",
+  "description": "Baby potatoes soaked in a bright Dijon-shallot vinaigrette with white wine and loads of tarragon, parsley and chives. Mayo-free and picnic-proof.",
+  "swaps": "Use vegetable broth.",
+  "watch": "Use gluten-free broth.",
+  "tags": [
+   "make-ahead",
+   "grill",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Balsamic Roasted Carrots",
+  "url": "https://www.theendlessmeal.com/balsamic-roasted-carrots/",
+  "site": "The Endless Meal",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "40 min",
+  "serves": "4",
+  "description": "Carrots roasted with Italian herbs, then glazed with balsamic and honey until sticky and caramelized.",
+  "swaps": "Swap the butter for olive oil or a nut-free vegan butter.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "holiday",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Sauteed Bok Choy with Garlic",
+  "url": "https://www.theendlessmeal.com/sauteed-bok-choy/",
+  "site": "The Endless Meal",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "10 min",
+  "serves": "4",
+  "description": "Halved bok choy seared until lightly charred, then tossed with ginger, garlic and a splash of savory sauce. A ten-minute Asian green.",
+  "swaps": "Use tamari instead of soy sauce; use canola or avocado oil (not peanut).",
+  "watch": "",
+  "tags": [
+   "quick",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "German Potato Salad",
+  "url": "https://www.platingsandpairings.com/german-potato-salad/",
+  "site": "Platings + Pairings",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "25 min",
+  "serves": "6",
+  "description": "Warm red potatoes tossed in a tangy bacon, cider-vinegar and whole-grain mustard dressing with red onion and celery.",
+  "swaps": "",
+  "watch": "Choose gluten-free bacon; check mustard for malt vinegar.",
+  "tags": [
+   "grill",
+   "crowd",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Braised Red Cabbage",
+  "url": "https://www.platingsandpairings.com/braised-red-cabbage/",
+  "site": "Platings + Pairings",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "1 hr 15 min",
+  "serves": "4",
+  "description": "Ruby cabbage gently braised with apples, onion, red wine vinegar and brown sugar until silky and sweet-sour. Lovely with pork or roasts.",
+  "swaps": "Use olive oil or a nut-free vegan butter instead of butter.",
+  "watch": "",
+  "tags": [
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Chinese Cucumber Salad",
+  "url": "https://thewoksoflife.com/chinese-cucumber-salad/",
+  "site": "The Woks of Life",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "30 min",
+  "serves": "6",
+  "description": "Crunchy salted cucumbers dressed with a hot garlic oil, rice vinegar and a whisper of sesame oil. Cool, punchy and soy-sauce-free.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Cilantro Lime Quinoa Salad",
+  "url": "https://plantbasedrdblog.com/2021/04/cilantro-lime-quinoa-salad/",
+  "site": "Plant Based RD",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Fluffy quinoa, white beans, cucumber and red onion tossed in a zesty blended cilantro-lime dressing. Hearty enough to carry a light dinner.",
+  "swaps": "Use the olive-oil option in the dressing (or a dairy-free, nut-free yogurt such as soy or coconut).",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Latin American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Oven-Roasted Potatoes and Asparagus",
+  "url": "https://wholefully.com/roasted-potatoes-asparagus/",
+  "site": "Wholefully",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "55 min",
+  "serves": "4",
+  "description": "Yellow potatoes and asparagus roasted together with garlic, onion powder and fresh rosemary on one pan.",
+  "swaps": "Skip the Parmesan.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "spring"
+  ]
+ },
+ {
+  "title": "Cilantro Lime Rice",
+  "url": "https://reciperunner.com/cilantro-lime-rice/",
+  "site": "Recipe Runner",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Jasmine or basmati rice cooked with garlic, then folded with lime zest, juice and fresh cilantro. A bright, burrito-bowl-style side.",
+  "swaps": "",
+  "watch": "Use gluten-free broth if cooking in broth.",
+  "tags": [
+   "quick",
+   "weeknight",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Mexican Rice 2.0",
+  "url": "https://www.mexicanplease.com/mexican-rice-2-0/",
+  "site": "Mexican Please",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "35 min",
+  "serves": "6",
+  "description": "Toasted white rice simmered in a blended sauce of tomatoes, tomatillos, onion, garlic and jalapeño for a tangy, restaurant-style arroz.",
+  "swaps": "",
+  "watch": "Use a gluten-free vegetable or chicken stock.",
+  "tags": [
+   "weeknight",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Classic Creamy Coleslaw",
+  "url": "https://natashaskitchen.com/coleslaw-recipe/",
+  "site": "Natasha's Kitchen",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "10 min",
+  "serves": "6",
+  "description": "Green and red cabbage, carrot and green onion in a lemony, lightly sweet creamy dressing. The classic BBQ side.",
+  "swaps": "Use egg-free (vegan) mayonnaise.",
+  "watch": "Pick a nut-free vegan mayo.",
+  "tags": [
+   "quick",
+   "grill",
+   "crowd",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Curry Roasted Cauliflower",
+  "url": "https://kalynskitchen.com/roasted-cauliflower-recipe-with-lemon/",
+  "site": "Kalyn's Kitchen",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "55 min",
+  "serves": "4",
+  "description": "Cauliflower florets roasted with olive oil, lemon, curry powder and cumin until browned and tender.",
+  "swaps": "Skip the optional Spike seasoning or use plain salt.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Easy Ratatouille",
+  "url": "https://cafedelites.com/easy-ratatouille/",
+  "site": "Café Delites",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "1 hr 10 min",
+  "serves": "4",
+  "description": "Eggplant, zucchini, peppers and tomatoes simmered with garlic, thyme and basil into a rustic Provençal stew of vegetables.",
+  "swaps": "",
+  "watch": "Use gluten-free vegetable stock.",
+  "tags": [
+   "make-ahead",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer",
+   "fall"
+  ]
+ },
+ {
+  "title": "Easy Thai Coconut Rice",
+  "url": "https://hungryinthailand.com/coconut-rice-recipe/",
+  "site": "Hungry in Thailand",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Jasmine rice simmered in coconut milk and a pinch of salt for a lightly rich, fragrant rice that tames spicy curries.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "weeknight",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Coconut Creamed Spinach",
+  "url": "https://thecoconutmama.com/coconut-creamed-spinach/",
+  "site": "The Coconut Mama",
+  "category": "sides",
+  "subcategory": "Vegetables",
+  "time": "12 min",
+  "serves": "4",
+  "description": "Spinach, shallot and garlic bathed in a silky coconut-milk sauce thickened with arrowroot and brightened with lemon. Steakhouse comfort with no dairy.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "holiday",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Quinoa Tabbouleh",
+  "url": "https://www.jessicagavin.com/quinoa-tabbouleh-with-lemon-garlic-dressing/",
+  "site": "Jessica Gavin",
+  "category": "sides",
+  "subcategory": "Salads",
+  "time": "30 min",
+  "serves": "8",
+  "description": "A gluten-free take on tabbouleh with quinoa, cucumber, cherry tomatoes and loads of parsley and mint in a lemon-garlic dressing.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Creamy Polenta",
+  "url": "https://www.wellplated.com/creamy-polenta/",
+  "site": "Well Plated",
+  "category": "sides",
+  "subcategory": "Potatoes & Grains",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Stone-ground polenta simmered in broth and milk with garlic until soft and spoonable, then finished with basil. A cozy base for braises and ragù.",
+  "swaps": "Use oat or soy milk (not almond); nutritional yeast instead of Parmesan; nut-free vegan butter or olive oil.",
+  "watch": "Use gluten-free vegetable broth; check polenta is certified gluten-free.",
+  "tags": [
+   "weeknight",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ }
+]

@@ -1,0 +1,1258 @@
+[
+ {
+  "title": "Teriyaki Chicken",
+  "url": "https://omnivorescookbook.com/teriyaki-chicken/",
+  "site": "Omnivore's Cookbook",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "2-3",
+  "description": "Crisp-skinned boneless chicken legs glazed in a glossy homemade sake, mirin and soy teriyaki that reduces right in the pan. Far better than bottled, and done in half an hour.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce.",
+  "watch": "Check mirin labels (pure rice mirin is fine).",
+  "tags": [
+   "weeknight",
+   "one-pan",
+   "quick"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Thai Salmon Coconut Curry",
+  "url": "https://omnivorescookbook.com/thai-salmon-curry/",
+  "site": "Omnivore's Cookbook",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "23 min",
+  "serves": "4",
+  "description": "Seared salmon fillets nestled into a fragrant green curry with coconut milk, green beans and Japanese eggplant, finished with Thai basil.",
+  "swaps": "Use a shellfish-free curry paste (e.g. Thai Kitchen); many restaurant-style pastes contain shrimp paste.",
+  "watch": "Green curry paste: confirm no shrimp paste. Check broth/stock labels for wheat and dairy.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Chicken Curry (Indian Style)",
+  "url": "https://www.indianhealthyrecipes.com/chicken-curry/",
+  "site": "Swasthi's Recipes",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "50 min",
+  "serves": "3",
+  "description": "A home-style North Indian chicken curry: bone-in chicken simmered in an onion-tomato masala with whole spices, garam masala and fresh coriander.",
+  "swaps": "Skip the yogurt (and the cashew alternative); use the recipe's light coconut milk option in place of the hot water for a richer gravy.",
+  "watch": "Check garam masala/chili powder blends for added wheat fillers.",
+  "tags": [
+   "comfort",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Fish Curry (Indian Fish Masala)",
+  "url": "https://www.indianhealthyrecipes.com/fish-curry-recipe/",
+  "site": "Swasthi's Recipes",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "40 min",
+  "serves": "3",
+  "description": "Pan-fried firm white fish simmered in a spiced onion-tomato masala with curry leaves and fennel, enriched with coconut.",
+  "swaps": "Use the coconut option (grated coconut or coconut milk), not the cashews.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "comfort"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Rajma Masala (Kidney Bean Curry)",
+  "url": "https://www.cookwithmanali.com/rajma-masala/",
+  "site": "Cook with Manali",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "1 hr 15 min (plus soaking)",
+  "serves": "5",
+  "description": "Punjabi-style kidney beans pressure-cooked until creamy, then simmered in a gingery tomato-onion gravy with kasuri methi. The classic with rice.",
+  "swaps": "Replace the 1 Tbsp ghee with oil (ghee is dairy).",
+  "watch": "Soak the beans overnight; works on the stove or in an Instant Pot.",
+  "tags": [
+   "instant-pot",
+   "make-ahead",
+   "budget",
+   "vegan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Caribbean Curry Chicken (Bunjay Style)",
+  "url": "https://caribbeanpot.com/caribbean-curry-chicken-bunjay-style-easy-dry-curry-recipe/",
+  "site": "Caribbean Pot",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "50 min",
+  "serves": "6",
+  "description": "Trinidad-style dry curry: bone-in chicken marinated in green seasoning and lime, then cooked down with toasted curry, geera and Scotch bonnet until the masala clings to every piece.",
+  "swaps": "",
+  "watch": "Check curry powder and anchar masala labels for wheat. Green seasoning is a fresh herb blend (make it or check the jar).",
+  "tags": [
+   "comfort",
+   "spicy",
+   "crowd"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Jerk Chicken",
+  "url": "https://www.bbcgoodfood.com/recipes/jerk-chicken",
+  "site": "BBC Good Food",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 5 min (plus marinating)",
+  "serves": "4",
+  "description": "Bone-in chicken thighs rubbed with jerk seasoning, coconut cream, chilli, thyme, ginger and lime, then roasted or grilled until charred and sticky.",
+  "swaps": "",
+  "watch": "Check jerk seasoning labels for wheat or soy sauce; a dry spice blend is safest. Serve with rice and peas.",
+  "tags": [
+   "grill",
+   "make-ahead",
+   "spicy"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Ratatouille",
+  "url": "https://www.bbcgoodfood.com/recipes/ratatouille",
+  "site": "BBC Good Food",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "50 min",
+  "serves": "4",
+  "description": "The Provençal summer stew of aubergine, courgette, peppers and ripe tomatoes, gently cooked in olive oil with garlic and torn basil.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "vegan",
+   "make-ahead",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer",
+   "fall"
+  ]
+ },
+ {
+  "title": "Vietnamese Spicy Lemongrass Chicken (Gà Xào Sả Ớt)",
+  "url": "https://www.hungryhuy.com/vietnamese-lemongrass-chicken/",
+  "site": "Hungry Huy",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "25 min",
+  "serves": "2",
+  "description": "Bite-size chicken stir-fried with heaps of minced lemongrass, shallot and garlic, then glazed with fish sauce, sambal and coconut juice.",
+  "swaps": "",
+  "watch": "Check sambal oelek and optional chicken bouillon labels for wheat.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "spicy"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Cá Kho Tộ (Vietnamese Caramelized Braised Fish)",
+  "url": "https://www.hungryhuy.com/ca-kho-to-recipe-vietnamese-braised-fish/",
+  "site": "Hungry Huy",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "40 min",
+  "serves": "2",
+  "description": "Catfish braised in a clay pot with garlic, fish sauce and coconut juice until the sauce turns into a deep, savory-sweet caramel. Spoon it over plenty of rice.",
+  "swaps": "Replace the ½ tsp thick (dark) soy sauce with GF tamari or leave it out (it is only there for color).",
+  "watch": "",
+  "tags": [
+   "comfort",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Thai Red Curry Chicken",
+  "url": "https://carlsbadcravings.com/thai-red-curry-chicken-recipe/",
+  "site": "Carlsbad Cravings",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "4-6",
+  "description": "Tender sliced chicken with bell pepper, carrot and broccoli in a creamy red curry coconut sauce brightened with lime, basil and cilantro.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce. Use a shellfish-free curry paste (e.g. Thai Kitchen); many restaurant-style pastes contain shrimp paste.",
+  "watch": "Check the sweet chili sauce label.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Greek Chicken Skewers",
+  "url": "https://carlsbadcravings.com/greek-chicken-kabobs/",
+  "site": "Carlsbad Cravings",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "50 min (plus 4 hr marinating)",
+  "serves": "8-10 skewers",
+  "description": "Lemon-oregano marinated chicken threaded with peppers, zucchini, onion and cherry tomatoes and grilled, souvlaki-style.",
+  "swaps": "Make the tzatziki with plain unsweetened coconut or soy yogurt (not almond/cashew), or skip it.",
+  "watch": "",
+  "tags": [
+   "grill",
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Moroccan Chicken with Preserved Lemon and Olives",
+  "url": "https://tasteofmaroc.com/moroccan-chicken-with-preserved-lemon-olives-daghmira/",
+  "site": "Taste of Maroc",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "2 hr 30 min",
+  "serves": "4",
+  "description": "A classic Moroccan m'qualli: whole chicken braised with saffron, ginger and a thick golden onion daghmira, finished with preserved lemon and olives. Dinner-party worthy.",
+  "swaps": "Replace the 1 tsp smen (aged butter) with olive oil.",
+  "watch": "Recipe starts with a brined chicken; the livers are optional.",
+  "tags": [
+   "dinner-party",
+   "date-night",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Moroccan Fish Tagine with Chermoula",
+  "url": "https://tasteofmaroc.com/moroccan-fish-tagine-with-chermoula-and-vegetables/",
+  "site": "Taste of Maroc",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "2 hr",
+  "serves": "6",
+  "description": "Thick white fish marinated in cilantro chermoula and slow-cooked in a tagine over layers of potato, carrot, tomato and pepper, crowned with preserved lemon and olives.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "dinner-party",
+   "one-pan"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Easy Chicken Cacciatore",
+  "url": "https://www.saltandlavender.com/chicken-cacciatore/",
+  "site": "Salt & Lavender",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "55 min",
+  "serves": "6",
+  "description": "Boneless thighs braised in a rustic tomato sauce with peppers, carrot, white wine, thyme and Kalamata olives. Great over GF pasta or polenta.",
+  "swaps": "Dredge in a gluten-free flour blend; use olive oil instead of butter. Check broth/stock labels for wheat and dairy.",
+  "watch": "",
+  "tags": [
+   "comfort",
+   "one-pan",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Honey Chipotle Chicken",
+  "url": "https://reciperunner.com/honey-chipotle-chicken/",
+  "site": "Recipe Runner",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "25 min (plus marinating)",
+  "serves": "6",
+  "description": "Smoky-sweet chicken marinated in chipotles in adobo, lime and honey, then seared or grilled. Use it for tacos, bowls or straight off the grill.",
+  "swaps": "",
+  "watch": "Chipotles in adobo: some brands contain wheat flour; check the can.",
+  "tags": [
+   "weeknight",
+   "grill",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Rosemary Chicken with Potatoes and Green Beans",
+  "url": "https://www.littlespicejar.com/one-sheet-pan-rosemary-chicken-with-potatoes/",
+  "site": "Little Spice Jar",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "40 min",
+  "serves": "4",
+  "description": "Bone-in chicken roasted on one sheet pan with baby red potatoes and green beans, seasoned with rosemary, garlic, paprika and lemon zest.",
+  "swaps": "Replace the melted butter with olive oil or a nut-free DF butter.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan",
+   "sheet-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Roast Turkey Breast with Gravy",
+  "url": "https://recipesfromapantry.com/roast-turkey-breast-recipe/",
+  "site": "Recipes from a Pantry",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 20 min",
+  "serves": "6",
+  "description": "A boneless turkey breast rubbed with garlic-herb butter and roasted until juicy, plus a quick pan gravy. Holiday flavor without the whole bird.",
+  "swaps": "Use a nut-free dairy-free butter (avoid almond/cashew-based brands) or olive oil. Thicken gravy with a GF flour blend or cornstarch; use full-fat coconut milk or skip the cream. Check broth/stock labels for wheat and dairy.",
+  "watch": "",
+  "tags": [
+   "dinner-party",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Moroccan-Spiced Sheet Pan Chicken with Ras el Hanout",
+  "url": "https://www.fearlessdining.com/sheet-pan-spiced-drumsticks-with-citrus/",
+  "site": "Fearless Dining",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 15 min",
+  "serves": "6",
+  "description": "Drumsticks roasted with red onion, carrots and orange slices in a honey, garlic and ras el hanout glaze. Scatter pomegranate on top before serving.",
+  "swaps": "",
+  "watch": "Check the ras el hanout blend label.",
+  "tags": [
+   "one-pan",
+   "sheet-pan",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Coq au Vin with Mashed Potatoes",
+  "url": "https://www.jocooks.com/recipes/coq-au-vin-with-mashed-potatoes/",
+  "site": "Jo Cooks",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "2 hr 25 min",
+  "serves": "8",
+  "description": "Chicken braised in red wine with bacon, mushrooms, onions and herbs, served over mashed potatoes. A French bistro classic that feeds a crowd.",
+  "swaps": "Use olive oil or nut-free DF butter for the butter; thicken with a GF flour blend. For the mash, use unsweetened soy or coconut milk and DF butter instead of cream and butter. Check broth/stock labels for wheat and dairy.",
+  "watch": "Check bacon labels.",
+  "tags": [
+   "dinner-party",
+   "comfort",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Birria de Res (Beef Birria)",
+  "url": "https://www.mexicanplease.com/birria-de-res-recipe-beef-birria/",
+  "site": "Mexican Please",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "6 hr 30 min",
+  "serves": "8",
+  "description": "Chuck or brisket slow-braised in a rich ancho and New Mexican chile sauce with cumin, oregano, cinnamon and clove until it shreds. Serve in corn tortillas with the consommé for dipping.",
+  "swaps": "",
+  "watch": "Use 100% corn tortillas. Chipotles in adobo: check for wheat. Check broth/stock labels for wheat and dairy.",
+  "tags": [
+   "slow-cooker",
+   "crowd",
+   "make-ahead",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Vegetarian Red Pozole",
+  "url": "https://www.mexicanplease.com/vegetarian-red-pozole/",
+  "site": "Mexican Please",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "1 hr",
+  "serves": "8",
+  "description": "A brick-red ancho and guajillo broth loaded with hominy, piled high with crunchy cabbage, radish, avocado and lime.",
+  "swaps": "",
+  "watch": "Use vegetable stock checked for wheat/dairy; buy corn-only tortilla strips or fry your own.",
+  "tags": [
+   "crowd",
+   "make-ahead",
+   "vegan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Instant Pot Carnitas",
+  "url": "https://www.wholesomelicious.com/instant-pot-carnitas-paleo-whole30/",
+  "site": "Wholesomelicious",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "1 hr",
+  "serves": "8",
+  "description": "Pork shoulder pressure-cooked with orange, lime, garlic and cumin, then shredded and crisped under the broiler. Tacos, bowls or salads.",
+  "swaps": "",
+  "watch": "Serve with 100% corn tortillas.",
+  "tags": [
+   "instant-pot",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Andalusian Pork Kebabs (Pinchos Morunos)",
+  "url": "https://spainonafork.com/the-famous-andalusian-pork-kebabs-pinchos-morunos-recipe/",
+  "site": "Spain on a Fork",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "25 min (plus marinating)",
+  "serves": "6",
+  "description": "Pork tenderloin cubes marinated in saffron, smoked paprika, cumin, turmeric and lemon, then seared on skewers. A Spanish tapas-bar favorite that also makes a quick dinner.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "grill",
+   "weeknight",
+   "quick"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Spanish Garlic Pork Tenderloin (Solomillo al Ajillo)",
+  "url": "https://spainonafork.com/spanish-garlic-pork-tenderloin-authentic-solomillo-al-ajillo-recipe/",
+  "site": "Spain on a Fork",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Medallions of pork tenderloin seared in garlic-infused olive oil, then finished in a white wine and thyme garlic sauce. Simple, but it feels like a restaurant plate.",
+  "swaps": "Use 1 Tbsp gluten-free flour blend (or 2 tsp cornstarch) instead of all-purpose flour. Check broth/stock labels for wheat and dairy.",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Spanish Chicken Paella (Paella de Pollo)",
+  "url": "https://spainonafork.com/authentic-spanish-chicken-paella-recipe/",
+  "site": "Spain on a Fork",
+  "category": "dinner",
+  "subcategory": "Pasta & Rice",
+  "time": "45 min",
+  "serves": "4",
+  "description": "Valencian-style paella with chicken thighs, flat green beans, butter beans, saffron and rosemary, cooked until a crisp socarrat forms on the bottom.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "one-pan",
+   "dinner-party",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Spanish",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Lamb Mandi (Yemeni Lamb and Rice)",
+  "url": "https://www.hungrypaprikas.com/lamb-mandi/",
+  "site": "Hungry Paprikas",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "4 hr 15 min",
+  "serves": "10",
+  "description": "Spiced lamb shoulder slow-roasted until it falls off the bone over cardamom-cinnamon basmati, with caramelized onions, raisins and a fresh green chutney.",
+  "swaps": "Omit the slivered almonds (tree nut); top with toasted pumpkin seeds instead if you want crunch.",
+  "watch": "",
+  "tags": [
+   "dinner-party",
+   "crowd",
+   "weekend"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Slow Cooker Osso Buco",
+  "url": "https://www.platingsandpairings.com/osso-buco/",
+  "site": "Platings & Pairings",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "6 hr 10 min",
+  "serves": "4",
+  "description": "Veal shanks browned, then slow-cooked with vermouth, tomatoes and soffritto until meltingly tender, finished with a lemon-parsley gremolata. Serve over polenta.",
+  "swaps": "Dredge in a gluten-free flour blend; brown in olive oil or nut-free DF butter instead of butter. Check broth/stock labels for wheat and dairy.",
+  "watch": "",
+  "tags": [
+   "slow-cooker",
+   "dinner-party",
+   "date-night"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Grilled Swordfish with Rosé Wine Mayonnaise",
+  "url": "https://www.platingsandpairings.com/grilled-swordfish-with-tangy-rose-wine-mayonnaise/",
+  "site": "Platings & Pairings",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Lemony grilled swordfish steaks over a shaved fennel, radish, spinach and avocado salad, with a tangy rosé-shallot mayonnaise on the side.",
+  "swaps": "Use an egg-free, nut-free vegan mayo (e.g. soy-based) for the mayonnaise.",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "grill",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Bulgogi Deopbap (Bulgogi Rice Bowl)",
+  "url": "https://www.koreanbapsang.com/bulgogi-deopbap-bulgogi-rice-bowl/",
+  "site": "Korean Bapsang",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Thin-sliced beef in a classic sweet-savory bulgogi marinade with Asian pear, cooked saucy with mushrooms and carrot and spooned over rice.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce.",
+  "watch": "Use water or vegetable broth (or a fish-only anchovy broth).",
+  "tags": [
+   "weeknight",
+   "quick"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Jeyuk Bokkeum (Spicy Pork Bulgogi)",
+  "url": "https://www.koreanbapsang.com/dweji-bulgogi-korean-spicy-pork-bbq/",
+  "site": "Korean Bapsang",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "20 min (plus marinating)",
+  "serves": "4",
+  "description": "Thin pork shoulder in a fiery-sweet gochujang, gochugaru, ginger and grated-apple marinade, stir-fried with onion and scallions until caramelized at the edges.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce. Use a certified gluten-free gochujang.",
+  "watch": "Most gochujang contains wheat or barley; read the label carefully.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "spicy"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Slow Cooker BBQ Pulled Beef",
+  "url": "https://www.jocooks.com/recipes/slow-cooker-bbq-pulled-beef/",
+  "site": "Jo Cooks",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "8 hr 15 min",
+  "serves": "8",
+  "description": "Chuck roast cooked low and slow in a tangy BBQ, cider vinegar and smoked paprika sauce, then shredded. Pile it onto GF buns or baked potatoes.",
+  "swaps": "Use a GF Worcestershire (no malt vinegar) and a GF BBQ sauce. Check broth/stock labels for wheat and dairy.",
+  "watch": "BBQ sauce: avoid malt vinegar and barley malt.",
+  "tags": [
+   "slow-cooker",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Vietnamese Caramelized Lamb Chops",
+  "url": "https://www.cooking-therapy.com/vietnamese-caramelized-lamb-chops/",
+  "site": "Cooking Therapy",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "2 hr 25 min (mostly marinating)",
+  "serves": "4",
+  "description": "Bone-in lamb chops marinated in fish sauce, honey, garlic and shallot, then seared hard so the glaze turns sticky and caramelized.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce. Skip the optional butter or use nut-free DF butter.",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "dinner-party",
+   "quick-cook"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Lemongrass Salmon Vermicelli Bowl",
+  "url": "https://www.cooking-therapy.com/lemongrass-salmon-vermicelli-bowl/",
+  "site": "Cooking Therapy",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "50 min",
+  "serves": "4",
+  "description": "Lemongrass-marinated salmon bites seared and served over rice vermicelli with lettuce, pickled daikon and carrot, cucumber, mint and nuoc cham.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce. Omit the crushed peanuts.",
+  "watch": "Use 100% rice vermicelli.",
+  "tags": [
+   "weeknight",
+   "fresh"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein",
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ {
+  "title": "Sirloin Tip Roast with Gravy",
+  "url": "https://www.allergyfreealaska.com/sirloin-tip-roast/",
+  "site": "Allergy Free Alaska",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "1 hr 45 min",
+  "serves": "6",
+  "description": "An herb-crusted beef round tip roast seared and oven-roasted to rosy medium-rare, with a red wine pan gravy thickened with arrowroot. Already gluten- and dairy-free.",
+  "swaps": "",
+  "watch": "Check broth label.",
+  "tags": [
+   "dinner-party",
+   "sunday-roast"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ {
+  "title": "Instant Pot Pulled Pork",
+  "url": "https://www.allergyfreealaska.com/instant-pot-pulled-pork/",
+  "site": "Allergy Free Alaska",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "3 hr 20 min",
+  "serves": "12",
+  "description": "A big pork shoulder rubbed with smoked paprika, cumin and coconut sugar, pressure-cooked until it shreds with a fork. Easily feeds a crowd.",
+  "swaps": "",
+  "watch": "Serve with a GF BBQ sauce (no malt vinegar) and GF buns.",
+  "tags": [
+   "instant-pot",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Picadillo (Ground Beef with Tomato and Olives)",
+  "url": "https://www.primaverakitchen.com/picadillo-recipe/",
+  "site": "Primavera Kitchen",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "6",
+  "description": "Latin-style ground beef simmered with peppers, tomato sauce, cumin and bay leaves, salted with green olives. Spoon it over rice or into corn tortillas.",
+  "swaps": "",
+  "watch": "Check broth/stock labels for wheat and dairy.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "budget",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Latin American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Garlic Butter Pan-Seared Halibut",
+  "url": "https://www.primaverakitchen.com/garlic-butter-halibut-fish-recipe/",
+  "site": "Primavera Kitchen",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "13 min",
+  "serves": "3",
+  "description": "Spiced halibut fillets seared golden, then basted in garlic butter with lemon and rosemary. A 15-minute dinner that's elegant enough for a date night.",
+  "swaps": "Use a nut-free dairy-free butter (avoid almond/cashew-based brands) or olive oil.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "quick",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Garlic Butter Baked Rainbow Trout",
+  "url": "https://www.primaverakitchen.com/garlic-butter-rainbow-trout-in-foil/",
+  "site": "Primavera Kitchen",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "18 min",
+  "serves": "4",
+  "description": "Rainbow trout baked in a foil packet with garlic and dill. Five ingredients, almost no cleanup.",
+  "swaps": "Use a nut-free dairy-free butter (avoid almond/cashew-based brands) or olive oil.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "quick",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Creamy Coconut Cod Curry",
+  "url": "https://www.jaroflemons.com/creamy-coconut-cod-curry/",
+  "site": "Jar of Lemons",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Flaky cod poached in a red curry coconut sauce with broccoli and carrots, served over rice with lime and green onion.",
+  "swaps": "Use certified gluten-free tamari (or coconut aminos) in place of soy sauce. Use a shellfish-free curry paste (e.g. Thai Kitchen); many restaurant-style pastes contain shrimp paste.",
+  "watch": "Chili crisp often contains soy sauce with wheat; check the label or skip it. Check broth/stock labels for wheat and dairy.",
+  "tags": [
+   "weeknight",
+   "quick",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg",
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Sesame Cumin Tofu Bowls with Potato Crisps",
+  "url": "https://plantbasedrdblog.com/2026/10/sesame-cumin-tofu-bowls/",
+  "site": "Plant-Based RD",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "1 hr 10 min",
+  "serves": "4",
+  "description": "Crispy tamari-glazed tofu with cumin and sesame over roasted sweet potato and baby gold potato 'crisps', drizzled with a garlicky lemon yogurt sauce.",
+  "swaps": "Use a nut-free plant yogurt (soy or coconut, not almond/cashew) and an egg-free, nut-free vegan mayo.",
+  "watch": "Use certified GF tamari.",
+  "tags": [
+   "vegan",
+   "meal-prep"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Global",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein",
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Red Curry Vegetable Stir Fry with Seared Tofu",
+  "url": "https://www.heynutritionlady.com/red-curry-coconut-stir-fry-tofu-vegetables/",
+  "site": "Hey Nutrition Lady",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "35 min",
+  "serves": "6",
+  "description": "Seared tofu and a rainbow of vegetables (broccoli, cauliflower, zucchini, snap peas, baby corn) simmered in a coconut red curry sauce.",
+  "swaps": "Use a shellfish-free curry paste (e.g. Thai Kitchen); many restaurant-style pastes contain shrimp paste.",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "vegan",
+   "one-pan"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Sweet Potato Glass Noodles (Vegan Japchae)",
+  "url": "https://www.enhanceyourpalate.com/sweet-potato-glass-noodles-vegan-japchae/",
+  "site": "Enhance Your Palate",
+  "category": "dinner",
+  "subcategory": "Pasta & Rice",
+  "time": "35 min",
+  "serves": "4",
+  "description": "Chewy sweet-potato starch noodles tossed with tofu, peppers, bok choy, carrots, mushrooms and spinach in a sesame-tamari sauce with a little gochugaru heat.",
+  "swaps": "Use certified GF tamari (ignore the note suggesting regular soy sauce). Use a certified GF gochujang, or leave the 1 tsp chili paste out.",
+  "watch": "Check that the noodles are 100% sweet potato starch.",
+  "tags": [
+   "weeknight",
+   "vegan"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "General Tso's Tempeh",
+  "url": "https://thehealthyfoodie.com/vegan-general-tsos-tempeh/",
+  "site": "The Healthy Foodie",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Crispy tapioca-dredged tempeh in a tangy-sweet General Tso's sauce of tamari, tomato paste, molasses, ginger and garlic, served with rice and broccoli.",
+  "swaps": "Replace the 1 Tbsp peanut butter with sunflower seed butter.",
+  "watch": "Use certified GF tamari; some tempeh is made with barley or wheat, so buy a soy-only tempeh.",
+  "tags": [
+   "weeknight",
+   "vegan",
+   "takeout-fakeout"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ {
+  "title": "Quinoa Stuffed Eggplant with Tahini Sauce",
+  "url": "https://www.simplyquinoa.com/quinoa-stuffed-eggplant-with-tahini-sauce/",
+  "site": "Simply Quinoa",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "35 min",
+  "serves": "2",
+  "description": "Roasted eggplant halves filled with quinoa, mushrooms, tomatoes and cumin, then drizzled with a lemony tahini sauce.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "vegan",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "summer",
+   "fall"
+  ]
+ }
+]

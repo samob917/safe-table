@@ -84,7 +84,7 @@ window.SWAPS_HTML = `
     <tr><td>Nutella</td><td>Nut-free chocolate sunflower spreads</td></tr>
   </table></div>
   <div class="callout good"><b>Fun fact:</b> sunflower butter can turn baked goods green when it reacts with baking soda. It's harmless chlorophyll. Reduce the soda slightly or add a bit of lemon juice to prevent it.</div>
-  <div class="callout"><b>About coconut:</b> botanically a fruit, and most people with tree-nut allergies tolerate it, but check with her allergist. Recipes using coconut are flagged on each card.</div>
+  <div class="callout good"><b>Coconut is on the menu.</b> It's safe for her, so coconut milk, cream, yogurt, oil and flour are all fair game, and they make some of the best dairy swaps.</div>
   <p>Also watch: chocolate and baked goods with "may contain" warnings, pesto, romesco, mole, satay, many granola and protein bars, nut oils, marzipan, praline, nougat, and almond extract (use vanilla; pure almond extract is made from nuts or apricot kernels).</p>
 </section>
 

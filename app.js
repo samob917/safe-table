@@ -15,6 +15,7 @@
     { key: "snacks",     name: "Snacks",     emoji: "🍿", blurb: "Bites, bars and crunchy things for between meals." },
     { key: "breads",     name: "Breads & Baking", short: "Breads", emoji: "🍞", blurb: "Yeast breads, muffins, quick breads, biscuits and pizza." },
     { key: "desserts",   name: "Desserts",   emoji: "🍰", blurb: "Cookies, cakes, pies, mousse and celebration-worthy sweets." },
+    { key: "staples",    name: "Staples & Meal Prep", short: "Staples", emoji: "🫙", blurb: "Make-ahead basics to keep on hand: pasta, rice, doughs, sauces, broths, baking basics and batch-cooked proteins, each with how long it keeps." },
   ];
   const catByKey = Object.fromEntries(CATS.map(c => [c.key, c]));
 
@@ -62,7 +63,8 @@
     if (r.watch) notes.push(`<div class="note watch"><b>Check:</b> ${esc(r.watch)}</div>`);
     if (!r.swaps && !r.watch) notes.push(`<div class="note ok">✓ Safe as written</div>`);
     const tags = (r.tags || []).slice(0, 5).map(t => `<span class="tag">${esc(t)}</span>`).join("");
-    const meta = [r.time && `⏱ ${esc(r.time)}`, r.serves && `🍽 ${esc(r.serves)}`].filter(Boolean).map(m => `<span>${m}</span>`).join("");
+    const st = r.storage && (r.storage.fridge || r.storage.freezer);
+    const meta = [r.time && `⏱ ${esc(r.time)}`, r.serves && `🍽 ${esc(r.serves)}`, st && `🧊 Fridge ${esc(r.storage.fridge || "–")} · Freezer ${esc(r.storage.freezer || "–")}`].filter(Boolean).map(m => `<span>${m}</span>`).join("");
     return `<article class="card">
       <a class="card-img" href="#/r/${esc(r.id)}" aria-hidden="true" tabindex="-1">${photo(r)}</a>
       ${opts.course ? `<div class="course-label">${esc(opts.course)}</div>` : ""}
@@ -89,6 +91,30 @@
     return `<img class="${cls}" src="${esc(r.img)}" alt="${esc(r.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='${fallback.replace(/"/g, "&quot;")}'">`;
   }
 
+  function storageFor(r) {
+    if (r.storage && (r.storage.fridge || r.storage.freezer || r.storage.room)) return { ...r.storage, general: false };
+    const role = roleOf(r), sc = (r.subcategory || "").toLowerCase();
+    const g = (room, fridge, freezer, tips) => ({ room, fridge, freezer, tips, general: true });
+    if (r.category === "desserts") {
+      if (sc.includes("cookie")) return g("Up to 1 week, airtight", "", "3 months", "Freeze baked cookies or balls of dough.");
+      if (sc.includes("cake")) return g("1–2 days, covered", "Up to 5 days", "3 months (unfrosted layers wrap best)", "Frosted cakes keep best in the fridge.");
+      if (sc.includes("frozen") || sc.includes("mousse") || sc.includes("pudding")) return g("", "3–4 days (mousse and pudding)", "1–2 months (ice cream and sorbet)", "Keep covered so they don't pick up fridge smells.");
+      if (sc.includes("pie") || sc.includes("tart") || sc.includes("crisp")) return g("Fruit pies and crisps: 1–2 days", "3–4 days", "2–3 months (fruit pies)", "Custard, pumpkin and cream pies always go in the fridge.");
+      return g("Up to 1 week, airtight", "1–2 weeks", "2–3 months", "");
+    }
+    if (role === "bread" || role === "breakfast-bake" || r.category === "breads") return g("2–3 days, wrapped", "Not recommended (GF bread stales faster)", "3 months, sliced", "Freeze sliced, then toast or warm straight from the freezer.");
+    if (role === "snack") return g("Up to 1 week, airtight", "1–2 weeks (energy bites and bars)", "2–3 months", "");
+    if (role === "salad") return g("", "3–5 days undressed, 1 day once dressed", "Not recommended", "Store the dressing separately.");
+    return g("Max 2 hours", "3–4 days", "2–3 months", "Cool quickly, store airtight, and reheat to 165°F.");
+  }
+  function storageBox(r) {
+    const s = storageFor(r);
+    const row = (k, v) => v ? `<div><span>${k}</span><b>${esc(v)}</b></div>` : "";
+    return `<div class="storage"><h3>How long it keeps</h3><div class="recipe-facts">${row("Counter", s.room)}${row("Fridge", s.fridge)}${row("Freezer", s.freezer)}</div>
+      ${s.tips ? `<p class="small">${esc(s.tips)}</p>` : ""}
+      <p class="muted small">${s.general ? "General guideline for this kind of dish (USDA/FoodSafety.gov). The author's notes may differ." : s.source === "recipe" ? "From the recipe author's storage notes." : "Based on USDA/FoodSafety.gov guidance."} <a href="#/storage">Full storage chart →</a></p></div>`;
+  }
+
   function viewRecipe(id) {
     const r = byId[id];
     if (!r) return viewNotFound();
@@ -104,7 +130,7 @@
         <input type="checkbox" id="ing-${n}"><label for="ing-${n}">
           <span class="ing-line">${esc(i.r)}</span>
           ${i.b ? `<span class="ing-swap">→ Use: <b>${esc(i.b)}</b></span>` : ""}
-          ${warns.map(w => `<span class="ing-warn ${/coconut/i.test(w) ? "coco" : ""}">${/coconut/i.test(w) ? "" : "⚠ "}${esc(w)}</span>`).join("")}
+          ${warns.map(w => `<span class="ing-warn">⚠ ${esc(w)}</span>`).join("")}
         </label></li>`;
     };
     return `
@@ -124,6 +150,7 @@
             <p class="desc">${esc(r.description)}</p>
             <div class="recipe-actions no-print">
               ${r.print ? `<a class="btn" href="${esc(r.print)}" target="_blank" rel="noopener">🖨 Author's print version (with steps) ↗</a>` : `<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Full recipe & steps on ${esc(r.site)} ↗</a>`}
+              <a class="btn ghost" href="#/build?mode=${["breakfast-main","breakfast-side","breakfast-bake"].includes(roleOf(r)) ? "brunch" : "dinner"}&with=${esc(r.id)}">🍽 Build a meal around this</a>
               <button class="btn ghost" onclick="window.print()">Print this card</button>
               ${ings.length ? `<button class="btn ghost add-list" data-id="${esc(r.id)}" aria-pressed="${inCart}">${inCart ? "✓ On list" : "+ List"}</button>` : ""}
               <button class="btn ghost save-inline save" data-id="${esc(r.id)}" aria-pressed="${saved.has(id)}">${saved.has(id) ? "♥" : "♡"}</button>
@@ -146,6 +173,7 @@
             <p class="no-print"><a class="btn" href="${esc(r.print || r.url)}" target="_blank" rel="noopener">${r.print ? "Open print version ↗" : "Open recipe ↗"}</a></p>
             <p class="print-only small">Method: ${esc(r.print || r.url)}</p>
             ${r.print ? `<p class="no-print small"><a href="${esc(r.url)}" target="_blank" rel="noopener">Or read the full post with photos and tips ↗</a></p>` : ""}
+            ${storageBox(r)}
             ${menus.length ? `<h3>Part of these menus</h3><ul class="tips">${menus.map(p => `<li><a href="#/plan/${esc(p.id)}">${esc(p.title)}</a></li>`).join("")}</ul>` : ""}
             ${(r.tags || []).length ? `<div class="tags">${r.tags.map(t => `<a class="tag" href="#/c/${r.category}?tag=${encodeURIComponent(t)}">${esc(t)}</a>`).join("")}</div>` : ""}
           </aside>
@@ -160,7 +188,7 @@
       return r ? `<li><span>${esc(m.course)}</span>${esc(r.title)}</li>` : "";
     }).join("");
     return `<a class="plan-card" href="#/plan/${esc(p.id)}">
-      <div class="band"><div class="k">${p.type === "two" ? "Dinner for two" : "Entertaining · serves " + esc(p.serves)}</div>
+      <div class="band"><div class="k">${p.type === "two" ? "Dinner for two" : p.type === "go" ? "On the go · " + esc(p.serves) : "Entertaining · serves " + esc(p.serves)}</div>
       <h3>${esc(p.title)}</h3><p>${esc(p.blurb)}</p></div>
       <ul>${items}</ul></a>`;
   }
@@ -197,13 +225,16 @@
       </section>
       <h2>Browse by meal</h2>
       <div class="tiles">
-        ${CATS.map(c => `<a class="tile" href="#/c/${c.key}"><span class="emoji">${c.emoji}</span><b>${esc(c.short || c.name)}</b><span class="count">${RECIPES.filter(r => r.category === c.key).length} recipes</span></a>`).join("")}
+        ${CATS.filter(c => RECIPES.some(r => r.category === c.key)).map(c => `<a class="tile" href="#/c/${c.key}"><span class="emoji">${c.emoji}</span><b>${esc(c.short || c.name)}</b><span class="count">${RECIPES.filter(r => r.category === c.key).length} recipes</span></a>`).join("")}
+        <a class="tile" href="#/build"><span class="emoji">🍽</span><b>Build a meal</b><span class="count">pick one dish, get a whole menu</span></a>
         <a class="tile" href="#/swaps"><span class="emoji">🔁</span><b>Swap guide</b><span class="count">eggs, flour, butter, milk…</span></a>
       </div>
       <div class="section-head"><h2>Dinner for two</h2><a href="#/plans#two">All date-night menus →</a></div>
       <div class="plan-grid">${two.map(planCard).join("")}</div>
       <div class="section-head"><h2>Entertaining</h2><a href="#/plans#entertain">All party menus →</a></div>
-      <div class="plan-grid">${ent.map(planCard).join("")}</div>`;
+      <div class="plan-grid">${ent.map(planCard).join("")}</div>
+      ${PLANS.some(p => p.type === "go") ? `<div class="section-head"><h2>On the go</h2><a href="#/plans#go">Picnics, road trips & rentals →</a></div>
+      <div class="plan-grid">${PLANS.filter(p => p.type === "go").slice(0, 3).map(planCard).join("")}</div>` : ""}`;
   }
 
   function viewCategory(key, params) {
@@ -233,7 +264,7 @@
       <div class="page-head">
         <div class="crumbs"><a href="#/">Home</a> / ${esc(c.name)}</div>
         <h1>${c.emoji} ${esc(c.name)}</h1>
-        <p>${esc(c.blurb)} ${list.length} recipes from ${new Set(list.map(r => r.site)).size} different sites.</p>
+        <p>${esc(c.blurb)} ${list.length} recipes from ${new Set(list.map(r => r.site)).size} different sites.${key === "staples" ? ` <a href="#/storage">See the full storage chart →</a>` : ""}</p>
       </div>
       <form class="search" id="cat-search" data-cat="${key}"><input type="search" name="q" value="${esc(q)}" placeholder="Search ${esc(c.short || c.name).toLowerCase()}…" aria-label="Search this category"></form>
       <div class="filters">
@@ -253,6 +284,7 @@
     setTitle("Menus");
     const two = PLANS.filter(p => p.type === "two");
     const ent = PLANS.filter(p => p.type === "entertain");
+    const go = PLANS.filter(p => p.type === "go");
     return `
       <div class="page-head">
         <div class="crumbs"><a href="#/">Home</a> / Menus</div>
@@ -262,7 +294,10 @@
       <h2 class="group-title" id="g-two">❤️ Dinner for two <small>${two.length}</small></h2>
       <div class="plan-grid">${two.map(planCard).join("")}</div>
       <h2 class="group-title" id="g-entertain">🎉 Entertaining <small>${ent.length}</small></h2>
-      <div class="plan-grid">${ent.map(planCard).join("")}</div>`;
+      <div class="plan-grid">${ent.map(planCard).join("")}</div>
+      ${go.length ? `<h2 class="group-title" id="g-go">🧺 On the go <small>${go.length}</small></h2>
+      <p class="muted">Picnics, road trips and vacation rentals, where you can't count on finding anything safe once you leave home. Each comes with a packing list.</p>
+      <div class="plan-grid">${go.map(planCard).join("")}</div>` : ""}`;
   }
 
   function viewPlan(id) {
@@ -272,7 +307,7 @@
     return `
       <div class="crumbs"><a href="#/">Home</a> / <a href="#/plans">Menus</a> / ${esc(p.title)}</div>
       <section class="plan-hero">
-        <div class="course-label">${p.type === "two" ? "Dinner for two" : "Entertaining"}</div>
+        <div class="course-label">${p.type === "two" ? "Dinner for two" : p.type === "go" ? "On the go" : "Entertaining"}</div>
         <h1>${esc(p.title)}</h1>
         <p>${esc(p.intro || p.blurb)}</p>
         <p><button class="btn" data-add-menu="${esc(p.id)}">🛒 Add the whole menu to my shopping list</button></p>
@@ -289,6 +324,7 @@
           <h3>Game plan</h3>
           <ol class="timeline">${(p.timeline || []).map(t => `<li><b>${esc(t.when)}</b>${esc(t.what)}</li>`).join("")}</ol>
           ${p.tips?.length ? `<h3>Tips</h3><ul class="tips">${p.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+          ${p.packing?.length ? `<h3>Packing list</h3><ul class="pack">${p.packing.map((t, i) => `<li><input type="checkbox" id="pk-${i}"><label for="pk-${i}">${esc(t)}</label></li>`).join("")}</ul>` : ""}
           ${p.drinks ? `<h3>To drink</h3><p>${esc(p.drinks)}</p>` : ""}
         </aside>
       </div>`;
@@ -405,8 +441,7 @@
     const id = "chk-" + slug(it.key);
     const isChecked = checked.has(it.key);
     const pick = wfmPicks(it.key);
-    const warns = [...it.warns].filter(w => !/^Contains coconut$/.test(w));
-    const coconut = it.warns.has("Contains coconut");
+    const warns = [...it.warns];
     return `<li class="li ${isChecked ? "done" : ""}">
       <input type="checkbox" id="${id}" data-check="${esc(it.key)}" ${isChecked ? "checked" : ""}>
       <label for="${id}">
@@ -414,7 +449,6 @@
         <span class="li-amt">${esc(fmtAmount(it.entries))}</span>
         ${it.orig.size ? `<span class="li-sub">recipe lists: ${esc([...it.orig].join(", "))}</span>` : ""}
         ${warns.length ? `<span class="li-warn">⚠ ${esc(warns.join(" · "))}</span>` : ""}
-        ${coconut ? `<span class="li-coco">contains coconut</span>` : ""}
         ${pick ? `<span class="li-pick">✓ Safe pick at Whole Foods: ${pick.picks.map(esc).join(" · ")}</span>` : ""}
         ${pick && pick.avoid ? `<span class="li-warn">✕ Avoid: ${esc(pick.avoid)}</span>` : ""}
         <details class="li-from"><summary>${it.recipes.size} recipe${it.recipes.size > 1 ? "s" : ""}</summary>${it.lines.map(l => `<div>${esc(l)}</div>`).join("")}</details>
@@ -479,6 +513,257 @@
     return "Shopping list · The Safe Table\n" + Object.keys(cart).map(id => "• " + byId[id]?.title).join("\n") + "\n" + out.join("\n");
   }
 
+  // ---------- meal builder ----------
+  const CUISINE_GROUPS = {
+    Asian: ["Thai", "Chinese", "Japanese", "Korean", "Vietnamese"],
+    Latin: ["Mexican", "Latin American", "Caribbean"],
+    Med: ["Mediterranean", "Middle Eastern", "Italian", "French", "Spanish"],
+    Anglo: ["American", "British", "Global"],
+    Indian: ["Indian"],
+  };
+  const groupOf = c => Object.keys(CUISINE_GROUPS).find(g => CUISINE_GROUPS[g].includes(c)) || "Anglo";
+  function roleOf(r) {
+    if (r.role) return r.role;
+    const sc = (r.subcategory || "").toLowerCase();
+    if (r.category === "dinner") return "main";
+    if (r.category === "lunch") return sc.includes("soup") ? "soup" : sc.includes("salad") ? "salad" : "main";
+    if (r.category === "appetizers") return "starter";
+    if (r.category === "sides") return sc.includes("salad") ? "salad" : sc.includes("potato") || sc.includes("grain") ? "side-starch" : "side-veg";
+    if (r.category === "breads") return /muffin|scone|sweet|cinnamon/.test(sc + r.title.toLowerCase()) ? "breakfast-bake" : "bread";
+    if (r.category === "desserts") return "dessert";
+    if (r.category === "breakfast") return sc.includes("baked") ? "breakfast-bake" : "breakfast-main";
+    return "snack";
+  }
+  const PROTEINS = {
+    chicken: /chicken|poultry|turkey|duck/, beef: /beef|steak|short rib|carne|burger|brisket/, pork: /pork|bacon|sausage|carnitas|ham\b/,
+    lamb: /lamb/, fish: /fish|salmon|cod|tuna|halibut|trout|tilapia|sea bass|swordfish/, veg: /vegetarian|vegan|tofu|tempeh|lentil|chickpea|bean/,
+  };
+  const proteinOf = r => {
+    const h = [r.title, r.subcategory, ...(r.tags || [])].join(" ").toLowerCase();
+    return Object.keys(PROTEINS).find(p => p !== "veg" && PROTEINS[p].test(h)) || (PROTEINS.veg.test(h) ? "veg" : "");
+  };
+  const MOODS = {
+    "date-night": { label: "Date night", tags: ["date-night", "dinner-party"] },
+    weeknight: { label: "Quick weeknight", tags: ["weeknight", "quick", "one-pan", "easy"] },
+    cozy: { label: "Cozy comfort", tags: ["comfort", "slow-cooker", "fall", "winter", "make-ahead"] },
+    crowd: { label: "Feeding a crowd", tags: ["crowd", "make-ahead", "party", "game-day"] },
+    light: { label: "Light & fresh", tags: ["summer", "spring", "quick"] },
+    grill: { label: "Grill night", tags: ["grill", "summer"] },
+  };
+  const CUISINE_CHIPS = { Italian: ["Italian"], Mexican: ["Mexican", "Latin American"], Asian: CUISINE_GROUPS.Asian, Indian: ["Indian"], Mediterranean: ["Mediterranean", "Middle Eastern", "Spanish"], American: ["American", "British"], French: ["French"], Caribbean: ["Caribbean"] };
+  const nowSeason = (() => { const m = new Date().getMonth(); return m < 2 || m === 11 ? "winter" : m < 5 ? "spring" : m < 8 ? "summer" : "fall"; })();
+
+  function score(x, ctx) {
+    let s = Math.random() * 2;
+    const anchorC = ctx.cuisine;
+    if (anchorC && x.cuisine) {
+      if (x.cuisine === anchorC) s += 4;
+      else if (groupOf(x.cuisine) === groupOf(anchorC)) s += 2;
+      else if (x.cuisine === "Global" || x.cuisine === "American") s += 0.5;
+      else s -= 1.5;
+    }
+    const tags = x.tags || [];
+    if (ctx.moodTags) s += 2 * tags.filter(t => ctx.moodTags.includes(t)).length;
+    if (ctx.weeknight) { if (x.difficulty === "involved") s -= 4; if (x.difficulty === "easy") s += 1; }
+    const season = x.season || [];
+    if (season.includes(nowSeason)) s += 1; else if (season.length && !season.includes("all")) s -= 1;
+    if (ctx.heavy && x.weight === "hearty") s -= 2;
+    if (ctx.heavy && x.weight === "light") s += 1;
+    return s;
+  }
+  function slotOk(x, ctx) {
+    if (roleOf(x) !== "bread") return true;
+    const t = x.title.toLowerCase();
+    if (/pizza|bagel|english muffin|cracker|pretzel|tortilla chip|banana|pumpkin|zucchini|cinnamon|raisin|apple|muffin|scone|chocolate/.test(t)) return false;
+    if (/tortilla|naan|flatbread|pita|arepa|pupusa|chapati|roti/.test(t)) return !!ctx.cuisine && !!x.cuisine && groupOf(x.cuisine) === groupOf(ctx.cuisine);
+    return true;
+  }
+  function pick(pool, ctx, exclude) {
+    const cands = pool.filter(x => !exclude.has(x.id) && slotOk(x, ctx)).map(x => [score(x, ctx), x]).sort((a, b) => b[0] - a[0]).slice(0, 6);
+    if (!cands.length) return null;
+    return cands[Math.floor(Math.random() * Math.min(cands.length, 4))][1];
+  }
+
+  let meal = store.get("safe-table-meal", null);   // {mode, slots: [{slot, id, locked}], anchor, opts}
+  const SLOTS_DINNER = [
+    { slot: "starter", label: "Starter", roles: ["starter", "soup", "salad"] },
+    { slot: "main", label: "Main", roles: ["main"] },
+    { slot: "starch", label: "Side", roles: ["side-starch"] },
+    { slot: "veg", label: "Side", roles: ["side-veg", "salad"] },
+    { slot: "bread", label: "Bread", roles: ["bread"] },
+    { slot: "dessert", label: "Dessert", roles: ["dessert"] },
+  ];
+  const SLOTS_BRUNCH = [
+    { slot: "main", label: "Main", roles: ["breakfast-main"] },
+    { slot: "side", label: "Side", roles: ["breakfast-side", "side-starch"] },
+    { slot: "bake", label: "From the oven", roles: ["breakfast-bake", "bread"] },
+    { slot: "sweet", label: "Something sweet", roles: ["breakfast-main", "dessert"] },
+  ];
+
+  function buildMeal(opts, prev) {
+    const mode = opts.mode || "dinner";
+    const defs = mode === "brunch" ? SLOTS_BRUNCH : SLOTS_DINNER;
+    const anchor = opts.with ? byId[opts.with] : null;
+    const pool = role => RECIPES.filter(r => role.includes(roleOf(r)));
+    const exclude = new Set();
+    const result = [];
+    const locked = Object.fromEntries((prev?.slots || []).filter(s => s.locked && s.id).map(s => [s.slot, s.id]));
+    const ctx = { moodTags: MOODS[opts.mood]?.tags, weeknight: opts.mood === "weeknight" };
+
+    // 1) choose main
+    let main = locked.main ? byId[locked.main] : null;
+    const anchorRole = anchor ? roleOf(anchor) : "";
+    const anchorSlot = anchor ? (defs.find(d => d.roles.includes(anchorRole)) || {}).slot : null;
+    if (!main && anchor && anchorSlot === "main") main = anchor;
+    if (!main) {
+      let mains = pool(defs.find(d => d.slot === "main").roles);
+      if (opts.protein) mains = mains.filter(r => proteinOf(r) === opts.protein);
+      if (opts.cuisine) mains = mains.filter(r => CUISINE_CHIPS[opts.cuisine]?.includes(r.cuisine));
+      const mctx = { ...ctx, cuisine: anchor?.cuisine };
+      main = pick(mains.length ? mains : pool(["main"]), mctx, exclude);
+    }
+    if (main) exclude.add(main.id);
+    const inc = main?.includes || [];
+    ctx.cuisine = main?.cuisine || anchor?.cuisine;
+    ctx.heavy = main?.weight === "hearty";
+
+    for (const d of defs) {
+      if (d.slot === "main") { result.push({ ...d, id: main?.id, locked: !!locked.main || (anchor && anchor.id === main?.id) }); continue; }
+      if (opts.skip?.includes(d.slot)) continue;
+      if (mode === "dinner" && d.slot === "starch" && inc.includes("starch") && !(anchor && anchorSlot === "starch")) continue;
+      if (mode === "dinner" && d.slot === "veg" && inc.includes("veg") && !(anchor && anchorSlot === "veg")) { /* keep a salad instead */ }
+      let r = locked[d.slot] ? byId[locked[d.slot]] : null;
+      let isLocked = !!r;
+      if (!r && anchor && anchorSlot === d.slot && !exclude.has(anchor.id)) { r = anchor; isLocked = true; }
+      if (!r) {
+        let roles = d.roles;
+        if (d.slot === "veg" && inc.includes("veg")) roles = ["salad"];
+        if (d.slot === "starter" && ctx.heavy) roles = ["salad", "starter", "soup"];
+        r = pick(pool(roles), ctx, exclude);
+      }
+      if (r) { exclude.add(r.id); result.push({ ...d, id: r.id, locked: isLocked }); }
+    }
+    return { mode, opts, slots: result.map(({ slot, label, id, locked }) => ({ slot, label, id, locked })) };
+  }
+
+  function shuffleSlot(slot) {
+    if (!meal) return;
+    const s = meal.slots.find(x => x.slot === slot);
+    if (!s) return;
+    const defs = meal.mode === "brunch" ? SLOTS_BRUNCH : SLOTS_DINNER;
+    const d = defs.find(x => x.slot === slot);
+    const used = new Set(meal.slots.map(x => x.id));
+    const main = byId[meal.slots.find(x => x.slot === "main")?.id];
+    let roles = d.roles;
+    if (slot === "main") {
+      let mains = RECIPES.filter(r => roles.includes(roleOf(r)));
+      if (meal.opts.protein) mains = mains.filter(r => proteinOf(r) === meal.opts.protein);
+      if (meal.opts.cuisine) mains = mains.filter(r => CUISINE_CHIPS[meal.opts.cuisine]?.includes(r.cuisine));
+      const r = pick(mains, { moodTags: MOODS[meal.opts.mood]?.tags }, used);
+      if (r) s.id = r.id;
+    } else {
+      const ctx = { cuisine: main?.cuisine, heavy: main?.weight === "hearty", moodTags: MOODS[meal.opts.mood]?.tags, weeknight: meal.opts.mood === "weeknight" };
+      const r = pick(RECIPES.filter(x => roles.includes(roleOf(x))), ctx, used);
+      if (r) s.id = r.id;
+    }
+    s.locked = false;
+    store.set("safe-table-meal", meal);
+  }
+
+  function viewBuild(params) {
+    setTitle("Build a meal");
+    const opts = {
+      mode: params.get("mode") || "dinner",
+      with: params.get("with") || "",
+      protein: params.get("protein") || "",
+      cuisine: params.get("cuisine") || "",
+      mood: params.get("mood") || "",
+      skip: (params.get("skip") || "").split(",").filter(Boolean),
+    };
+    const sig = JSON.stringify(opts);
+    if (!meal || meal.sig !== sig) {
+      meal = { ...buildMeal(opts, meal && meal.sig === sig ? meal : null), sig };
+      store.set("safe-table-meal", meal);
+    }
+    const link = (k, v) => {
+      const p = new URLSearchParams(params); p.delete("go");
+      if (v === null || p.get(k) === v) p.delete(k); else p.set(k, v);
+      return "#/build?" + p.toString();
+    };
+    const chip = (k, v, label) => `<a class="filter-btn" href="${link(k, v)}" aria-pressed="${opts[k] === v}">${esc(label)}</a>`;
+    const anchor = byId[opts.with];
+    const toggleSkip = s => { const set = new Set(opts.skip); set.has(s) ? set.delete(s) : set.add(s); return link("skip", [...set].join(",") || null); };
+    const slotsAvail = opts.mode === "brunch" ? [] : [["starter", "Starter"], ["starch", "Starch side"], ["veg", "Veg side"], ["bread", "Bread"], ["dessert", "Dessert"]];
+    const main = byId[meal.slots.find(s => s.slot === "main")?.id];
+    return `
+      <div class="page-head"><div class="crumbs"><a href="#/">Home</a> / Build a meal</div>
+        <h1>🍽 Build a meal</h1>
+        <p>Pick a starting point and we'll put together a full menu that goes together: matching cuisine, balanced richness, right for the season. Shuffle any course you don't love, or lock the ones you do.</p>
+      </div>
+      <section class="builder">
+        <div class="builder-row"><span class="filter-label">Meal</span>
+          <a class="filter-btn" href="${link("mode", "dinner")}" aria-pressed="${opts.mode === "dinner"}">Dinner</a>
+          <a class="filter-btn" href="${link("mode", "brunch")}" aria-pressed="${opts.mode === "brunch"}">Brunch</a>
+        </div>
+        <div class="builder-row"><span class="filter-label">Start with a dish</span>
+          <form id="anchor-form" class="anchor-form">
+            <input list="recipe-names" name="dish" placeholder="Type any recipe, e.g. “short ribs”, “lemon bars”…" value="${anchor ? esc(anchor.title) : ""}" aria-label="Choose a recipe to build around">
+            <datalist id="recipe-names">${RECIPES.map(r => `<option value="${esc(r.title)}">`).join("")}</datalist>
+            ${anchor ? `<a class="filter-btn" href="${link("with", null)}">✕ clear</a>` : ""}
+          </form>
+        </div>
+        ${opts.mode === "dinner" ? `
+        <div class="builder-row"><span class="filter-label">…or a protein</span>
+          ${chip("protein", "chicken", "🍗 Chicken")}${chip("protein", "beef", "🥩 Beef")}${chip("protein", "pork", "🐖 Pork")}${chip("protein", "lamb", "🐑 Lamb")}${chip("protein", "fish", "🐟 Fish")}${chip("protein", "veg", "🌱 Vegetarian")}
+        </div>
+        <div class="builder-row"><span class="filter-label">Cuisine</span>
+          ${Object.keys(CUISINE_CHIPS).map(c => chip("cuisine", c, c)).join("")}
+        </div>` : ""}
+        <div class="builder-row"><span class="filter-label">Mood</span>
+          ${Object.entries(MOODS).map(([k, m]) => chip("mood", k, m.label)).join("")}
+        </div>
+        ${slotsAvail.length ? `<div class="builder-row"><span class="filter-label">Courses</span>
+          ${slotsAvail.map(([s, l]) => `<a class="filter-btn" href="${toggleSkip(s)}" aria-pressed="${!opts.skip.includes(s)}">${opts.skip.includes(s) ? "＋" : "✓"} ${l}</a>`).join("")}
+        </div>` : ""}
+      </section>
+      <div class="meal-head">
+        <h2>${main ? `Your ${esc(main.cuisine && main.cuisine !== "Global" ? main.cuisine + " " : "")}${opts.mode === "brunch" ? "brunch" : "dinner"}` : "No match. Try fewer filters"}</h2>
+        <div class="list-actions">
+          <button class="btn" data-shuffle-all>🔀 Shuffle unlocked</button>
+          <button class="btn ghost" data-meal-list>🛒 Add meal to shopping list</button>
+        </div>
+      </div>
+      <div class="meal-grid">
+        ${meal.slots.map(s => {
+          const r = byId[s.id]; if (!r) return "";
+          return `<div class="meal-slot">
+            <div class="slot-bar"><span class="course-label">${esc(s.label)}</span>
+              <span><button class="slot-btn" data-lock="${s.slot}" aria-pressed="${!!s.locked}" title="${s.locked ? "Unlock" : "Lock"}">${s.locked ? "🔒" : "🔓"}</button>
+              <button class="slot-btn" data-shuffle="${s.slot}" title="Swap this course">🔀</button></span></div>
+            ${card(r)}
+          </div>`;
+        }).join("")}
+      </div>
+      <p class="muted small">Pairings use each recipe's cuisine, richness, season and what's already in the main (e.g. no potato side when the main has potatoes).</p>`;
+  }
+
+  function viewStorage() {
+    setTitle("Storage chart");
+    const S = window.STORAGE || { rules: [], rows: [] };
+    const groups = {};
+    S.rows.forEach(r => (groups[r.group || "Other"] ||= []).push(r));
+    const host = u => { try { return new URL(u).hostname.replace("www.", ""); } catch { return ""; } };
+    return `<div class="page-head"><div class="crumbs"><a href="#/">Home</a> / <a href="#/c/staples">Staples</a> / Storage chart</div>
+      <h1>🧊 How long does it keep?</h1>
+      <p>Fridge and freezer times for homemade food, from USDA and FoodSafety.gov guidance. Freezer times are for best quality: frozen food stays safe indefinitely but slowly loses flavor and texture.</p></div>
+      ${S.rules.length ? `<div class="guide-sec"><h2>Ground rules</h2><ul class="tips">${S.rules.map(r => `<li>${esc(r.rule)} ${r.source ? `<a class="muted small" href="${esc(r.source)}" target="_blank" rel="noopener">source</a>` : ""}</li>`).join("")}</ul></div>` : ""}
+      ${Object.entries(groups).map(([g, rows]) => `<h2 class="group-title">${esc(g)}</h2>
+        <div class="table-scroll guide-sec" style="padding:6px 10px"><table class="storage-table"><tr><th>Food</th><th>Counter</th><th>Fridge</th><th>Freezer</th><th>Tips</th></tr>
+        ${rows.map(r => `<tr><td><b>${esc(r.food)}</b></td><td>${esc(r.room || "—")}</td><td>${esc(r.fridge || "—")}</td><td>${esc(r.freezer || "—")}</td><td class="small">${esc(r.tips || "")} ${r.source ? `<a class="muted" href="${esc(r.source)}" target="_blank" rel="noopener">(${esc(host(r.source))})</a>` : ""}</td></tr>`).join("")}
+        </table></div>`).join("")}
+      ${!S.rows.length ? `<div class="empty">Storage chart coming soon.</div>` : ""}`;
+  }
+
   function viewNotFound() {
     setTitle("Not found");
     return `<div class="empty"><h2>Page not found</h2><a href="#/">Back home</a></div>`;
@@ -502,6 +787,8 @@
     else if (parts[0] === "sources") html = viewSources();
     else if (parts[0] === "list") html = viewList();
     else if (parts[0] === "r") html = viewRecipe(parts[1]);
+    else if (parts[0] === "build") html = viewBuild(params);
+    else if (parts[0] === "storage") html = viewStorage();
     else html = viewNotFound();
     app.innerHTML = html;
     setActiveNav(hash);
@@ -524,6 +811,13 @@
       am.textContent = "✓ Added. View shopping list →";
       return;
     }
+    if (e.target.closest("[data-shuffle-all]") && meal) { meal = { ...buildMeal(meal.opts, meal), sig: meal.sig }; store.set("safe-table-meal", meal); route(); return; }
+    const sh = e.target.closest("[data-shuffle]");
+    if (sh) { shuffleSlot(sh.dataset.shuffle); route(); return; }
+    const lk = e.target.closest("[data-lock]");
+    if (lk && meal) { const s = meal.slots.find(x => x.slot === lk.dataset.lock); s.locked = !s.locked; store.set("safe-table-meal", meal); route(); return; }
+    const ml = e.target.closest("[data-meal-list]");
+    if (ml && meal) { meal.slots.forEach(s => { if (ING[s.id] && !cart[s.id]) cart[s.id] = 1; }); saveCart(); ml.textContent = "✓ Added. View list →"; ml.onclick = () => location.hash = "#/list"; return; }
     const mu = e.target.closest("[data-mult]");
     if (mu) { const id = mu.dataset.mult; cart[id] = Math.max(1, Math.min(6, (cart[id] || 1) + Number(mu.dataset.d))); saveCart(); route(); return; }
     const rm = e.target.closest("[data-rm]");
@@ -550,6 +844,14 @@
   document.addEventListener("submit", e => {
     const f = e.target;
     if (f.id === "home-search") { e.preventDefault(); location.hash = "#/search?q=" + encodeURIComponent(f.q.value.trim()); }
+    if (f.id === "anchor-form") {
+      e.preventDefault();
+      const name = f.dish.value.trim().toLowerCase();
+      const r = RECIPES.find(x => x.title.toLowerCase() === name) || RECIPES.find(x => x.title.toLowerCase().includes(name));
+      if (!r) { f.dish.setCustomValidity("No recipe by that name"); f.dish.reportValidity(); setTimeout(() => f.dish.setCustomValidity(""), 1500); return; }
+      const mode = ["breakfast-main", "breakfast-side", "breakfast-bake"].includes(roleOf(r)) ? "brunch" : "dinner";
+      location.hash = `#/build?mode=${mode}&with=${encodeURIComponent(r.id)}`;
+    }
     if (f.id === "cat-search") {
       e.preventDefault();
       const p = new URLSearchParams((location.hash.split("?")[1]) || "");
@@ -558,6 +860,7 @@
     }
   });
   document.addEventListener("change", e => {
+    if (e.target.name === "dish" && RECIPES.some(r => r.title === e.target.value)) { e.target.form.requestSubmit(); return; }
     const c = e.target.closest("[data-check]");
     if (!c) return;
     c.checked ? checked.add(c.dataset.check) : checked.delete(c.dataset.check);

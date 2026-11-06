@@ -198,7 +198,6 @@ def safety(raw_line, key):
         W.append("Shellfish. Leave out")
     if re.search(r"mayo|mayonnaise", L) and not re.search(r"vegan|egg[- ]free", L): W.append("Use egg-free (vegan) mayo")
     elif re.search(r"vegan mayo|egg[- ]free mayo|vegenaise", L): W.append("Check vegan mayo is nut-free")
-    if re.search(r"coconut", L): W.append("Contains coconut")
     # dedupe
     out = []
     for w in W:

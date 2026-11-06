@@ -18,6 +18,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "involved",
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.bakerita.com/wp-content/uploads/2021/02/Gluten-Free-Sourdough-Bread-26.jpg",
   "print": "https://www.bakerita.com/wprm_print/how-to-make-gluten-free-sourdough-bread"
  },
@@ -39,6 +48,15 @@ window.RECIPES = [
    "crowd-pleaser"
   ],
   "difficulty": "involved",
+  "cuisine": "Italian",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.bakerita.com/wp-content/uploads/2021/08/Sourdough-Focaccia-10.jpg",
   "print": "https://www.bakerita.com/wprm_print/gluten-free-sourdough-focaccia"
  },
@@ -60,6 +78,15 @@ window.RECIPES = [
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.bakerita.com/wp-content/uploads/2022/09/Gluten-Free-Flatbread-20-scaled.jpg",
   "print": "https://www.bakerita.com/wprm_print/fluffy-stovetop-gluten-free-flatbread"
  },
@@ -82,6 +109,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Vegan-Bagels_1200-x-1200_Featured-Image_2.jpg",
   "print": ""
  },
@@ -104,6 +140,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-free-Vegan-Pumpkin-Bread8-e1476715950521.jpg",
   "print": ""
  },
@@ -125,6 +170,15 @@ window.RECIPES = [
    "allergy-blog"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.allergyfreealaska.com/wp-content/uploads/2020/01/gluten-free-bagels.jpg",
   "print": ""
  },
@@ -147,6 +201,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2019/10/homemade-round-loaf-fresh-from-the-oven.jpg",
   "print": "https://elavegan.com/wprm_print/gluten-free-bread-recipe"
  },
@@ -167,6 +230,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.theconsciousplantkitchen.com/wp-content/uploads/2022/09/Vegan-Gluten-Free-Bread-8-scaled.jpg",
   "print": "https://www.theconsciousplantkitchen.com/wprm_print/vegan-gluten-free-bread"
  },
@@ -189,6 +261,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2024/01/gluten-free-tortillas-3-scaled.jpg",
   "print": ""
  },
@@ -210,6 +291,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2024/03/GF-pizza-crust-4-scaled.jpg",
   "print": ""
  },
@@ -224,7 +314,7 @@ window.RECIPES = [
   "serves": "12 muffins",
   "description": "Deep-cocoa, applesauce-moist muffins dotted with chocolate chips — a fast breakfast-treat that is top-8 free by design.",
   "swaps": "Use maple syrup or agave (not honey) to keep vegan; any safe milk can replace rice milk.",
-  "watch": "Uses Ener-G egg replacer and coconut oil (coconut — flag). Author recommends her own GF flour blend; a nut-free 1:1 blend with xanthan also works. Use dairy-free, nut-free chocolate chips (e.g., Enjoy Life).",
+  "watch": "Author recommends her own GF flour blend; a nut-free 1:1 blend with xanthan also works. Use dairy-free, nut-free chocolate chips (e.g., Enjoy Life).",
   "tags": [
    "beginner",
    "kid-friendly",
@@ -232,6 +322,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2016/01/double.choc_.muffins.5x7.logo_.stacked.jpg",
   "print": ""
  },
@@ -246,13 +345,22 @@ window.RECIPES = [
   "serves": "6 buns",
   "description": "Pillowy golden buns made tender with mashed potato — sized for burgers and sandwiches, and gum-free thanks to psyllium.",
   "swaps": "Use a nut-free non-dairy milk such as oat (certified GF) or soy.",
-  "watch": "Uses a simple homemade blend (brown + white rice flour, tapioca). Coconut sugar (sweetener, not coconut meat — flag for caution). Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
+  "watch": "Uses a simple homemade blend (brown + white rice flour, tapioca). Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
   "tags": [
    "sandwich-bread",
    "freezer-friendly",
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://feastingonfruit.com/wp-content/uploads/2016/07/IMG_6661-3.jpg",
   "print": ""
  },
@@ -267,13 +375,23 @@ window.RECIPES = [
   "serves": "8 rolls",
   "description": "Yeast-free swirls built on sweet potato and date paste, with a whipped coconut-milk frosting — a fruit-sweetened take on Sunday cinnamon rolls.",
   "swaps": "",
-  "watch": "Tested with King Arthur gluten-free all-purpose blend (author says Bob's 1-to-1 also works) plus tapioca flour. Frosting is full-fat coconut milk and dough uses coconut sugar — coconut flag.",
+  "watch": "Tested with King Arthur gluten-free all-purpose blend (author says Bob's 1-to-1 also works) plus tapioca flour.",
   "tags": [
    "kid-friendly",
    "brunch",
    "no-yeast"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://feastingonfruit.com/wp-content/uploads/2016/03/IMG_0464-2.jpg",
   "print": ""
  },
@@ -288,13 +406,23 @@ window.RECIPES = [
   "serves": "10 slices",
   "description": "A classic, deeply caramelized banana loaf with cinnamon and nutmeg, bound with a flax egg and finished with a crackly sugar top.",
   "swaps": "Omit the walnuts (in the batter and on top) — swap in pumpkin seeds or dairy-free chocolate chips if you want crunch.",
-  "watch": "Uses a store-bought gluten-free all-purpose flour (272 g) — choose a nut-free 1:1 blend with xanthan gum. Coconut oil (flag); soy milk is fine.",
+  "watch": "Uses a store-bought gluten-free all-purpose flour (272 g) — choose a nut-free 1:1 blend with xanthan gum. soy milk is fine.",
   "tags": [
    "beginner",
    "freezer-friendly",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2019/06/Vegan-Gluten-Free-Banana-Bread-17.jpg",
   "print": "https://lovingitvegan.com/wprm_print/vegan-gluten-free-banana-bread"
  },
@@ -309,13 +437,22 @@ window.RECIPES = [
   "serves": "8 bagels",
   "description": "Earthy, cinnamon-scented bagels ground from whole buckwheat groats and studded with raisins — fantastic toasted with jam.",
   "swaps": "",
-  "watch": "You grind buckwheat groats yourself (buy certified gluten-free groats). Coconut oil (flag). Flax + psyllium bind the dough. Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
+  "watch": "You grind buckwheat groats yourself (buy certified gluten-free groats). Flax + psyllium bind the dough. Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
   "tags": [
    "project",
    "freezer-friendly",
    "whole-grain"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2016/03/IMG_0930-1.jpg",
   "print": "https://meaningfuleats.com/wprm_print/buckwheat-cinnamon-raisin-bagels-gluten-free-vegan"
  },
@@ -337,6 +474,15 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "medium",
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2016/11/IMG_4726.jpg",
   "print": "https://meaningfuleats.com/wprm_print/gluten-free-crusty-seeded-rolls-vegan"
  },
@@ -351,13 +497,22 @@ window.RECIPES = [
   "serves": "16 pieces",
   "description": "Tender, lightly sweet cornbread made with oat flour and a vegan 'buttermilk' — a thoroughly tested, egg-free side for chili and holiday tables.",
   "swaps": "Use a nut-free non-dairy milk such as oat (certified GF) or soy.",
-  "watch": "Oat flour MUST be certified gluten-free; cornmeal should be labeled GF. Coconut oil (flag).",
+  "watch": "Oat flour MUST be certified gluten-free; cornmeal should be labeled GF.",
   "tags": [
    "holiday",
    "make-ahead",
    "crowd-pleaser"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.texanerin.com/content/uploads/2014/11/vegan-cornbread-1.jpg",
   "print": "https://www.texanerin.com/wprm_print/vegan-cornbread-gluten-free"
  },
@@ -379,6 +534,16 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.texanerin.com/content/uploads/2025/07/eggless-banana-muffins-1600-image.jpg",
   "print": "https://www.texanerin.com/wprm_print/eggless-banana-muffins"
  },
@@ -400,6 +565,15 @@ window.RECIPES = [
    "beginner"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://zestforbaking.com/wp-content/uploads/2018/02/gluten-free-rolls-without-xanthan-gum-2.jpg",
   "print": "https://zestforbaking.com/wprm_print/gluten-free-rolls-without-xanthan-gum"
  },
@@ -414,7 +588,7 @@ window.RECIPES = [
   "serves": "12 slices",
   "description": "A yeasted pull-apart-style loaf layered with tart apples, brown sugar and cinnamon — a fall showpiece for brunch.",
   "swaps": "Recipe uses almond milk — swap oat or soy milk. Use a nut-free vegan butter (e.g., Earth Balance or Melt — check label; avoid Miyoko's and other cashew/almond-based butters).",
-  "watch": "Uses Zest for Baking's homemade rice-and-starch flour blend (other blends untested). Coconut oil in dough (flag). Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
+  "watch": "Uses Zest for Baking's homemade rice-and-starch flour blend (other blends untested). Use plain dry/instant yeast labeled gluten-free (avoid brewer's yeast and malted products).",
   "tags": [
    "fall",
    "holiday",
@@ -422,6 +596,16 @@ window.RECIPES = [
    "project"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://zestforbaking.com/wp-content/uploads/2018/10/gluten-free-apple-bread-sliced-1.jpg",
   "print": "https://zestforbaking.com/wprm_print/gluten-free-apple-bread-dairy-free"
  },
@@ -444,6 +628,15 @@ window.RECIPES = [
    "brunch"
   ],
   "difficulty": "medium",
+  "cuisine": "British",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2022/02/Gluten-Free-English-Muffins-10-ingredients-tender-inside-crusty-outside-SO-classic-minimalistbaker-recipe-glutenfree-englishmuffins-11.jpg",
   "print": "https://minimalistbaker.com/wprm_print/gluten-free-english-muffins"
  },
@@ -465,6 +658,15 @@ window.RECIPES = [
    "brunch"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://veggiekinsblog.com/wp-content/uploads/2022/12/Gluten-Free-Biscuits-with-Scallions-Veggiekins-Blog-13-1200x1799.jpg",
   "print": "https://veggiekinsblog.com/wprm_print/10244/"
  },
@@ -486,6 +688,13 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.cottercrunch.com/wp-content/uploads/2020/03/EXTRA-paleo-seed-crackers-5.jpg",
   "print": ""
  },
@@ -500,13 +709,23 @@ window.RECIPES = [
   "serves": "12 muffins",
   "description": "Bakery-style blueberry muffins made with whole-grain oat flour and aquafaba, bursting with fresh berries and labeled nut-free by the author.",
   "swaps": "Use a nut-free vegan butter (e.g., Earth Balance or Melt — check label; avoid Miyoko's and other cashew/almond-based butters).",
-  "watch": "Oat flour MUST be certified gluten-free; oat milk too. Coconut sugar (flag).",
+  "watch": "Oat flour MUST be certified gluten-free; oat milk too.",
   "tags": [
    "beginner",
    "kid-friendly",
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://watchlearneat.com/wp-content/uploads/2021/01/close-up-overhead-of-muffins-e1610906067695.jpg",
   "print": "https://watchlearneat.com/wprm_print/vegan-blueberry-muffins-gluten-free-refined-sugar-free-nut-free"
  },
@@ -521,13 +740,22 @@ window.RECIPES = [
   "serves": "6 biscuits",
   "description": "Southern-style, pull-apart biscuits with a tangy dairy-free 'buttermilk' — six ingredients and on the table in under 20 minutes.",
   "swaps": "Use a nut-free vegan butter (e.g., Earth Balance or Melt — check label; avoid Miyoko's and other cashew/almond-based butters). (for brushing)",
-  "watch": "Coconut milk is the 'buttermilk' base (coconut flag — soy milk + vinegar is a common swap but untested). Gluten-free baking flour + sorghum flour; use a nut-free 1:1 blend.",
+  "watch": "Gluten-free baking flour + sorghum flour; use a nut-free 1:1 blend.",
   "tags": [
    "beginner",
    "quick",
    "top-8-free"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2018/02/Old-Fashioned-Gluten-Free-Vegan-Buttermilk-Biscuits-Allergy-Free-PM1.jpg",
   "print": ""
  },
@@ -550,6 +778,15 @@ window.RECIPES = [
    "top-8-free"
   ],
   "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2022/12/Gluten-Free-Naan-3.jpg",
   "print": ""
  },
@@ -571,6 +808,15 @@ window.RECIPES = [
    "snack"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.fooduzzi.com/wp-content/uploads/2017/03/gluten-free-vegan-soft-pretzel-bites-everything-bagel-9.jpg",
   "print": ""
  },
@@ -593,6 +839,16 @@ window.RECIPES = [
    "nut-free"
   ],
   "difficulty": "involved",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://georgeats.com/wp-content/uploads/2022/05/Vegan-cinnamon-scrolls-1.jpg",
   "print": "https://georgeats.com/wprm_print/vegan-gluten-free-cinnamon-rolls"
  },
@@ -607,13 +863,23 @@ window.RECIPES = [
   "serves": "6 large scones",
   "description": "Tender, lightly sweet scones with tart dried cranberries and a crunchy sugar top, made with a flax egg and coconut oil.",
   "swaps": "",
-  "watch": "Coconut oil and coconut milk (flag). Author used Bob's Red Mill All-Purpose Baking Flour (a bean-based blend, not the 1-to-1); results will differ with other blends. Check the dried cranberry label for cross-contact.",
+  "watch": "Author used Bob's Red Mill All-Purpose Baking Flour (a bean-based blend, not the 1-to-1); results will differ with other blends. Check the dried cranberry label for cross-contact.",
   "tags": [
    "beginner",
    "holiday",
    "brunch"
   ],
   "difficulty": "easy",
+  "cuisine": "British",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://theconscientiouseater.com/wp-content/uploads/2014/04/DSC07425.jpg",
   "print": "https://theconscientiouseater.com/wprm_print/8-ingredient-coconut-cranberry-scones"
  },
@@ -635,6 +901,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://thehiddenveggies.com/wp-content/uploads/2021/05/vegan-zucchini-bread-3.jpg",
   "print": "https://thehiddenveggies.com/wprm_print/vegan-zucchini-bread"
  },
@@ -656,6 +931,16 @@ window.RECIPES = [
    "high-protein"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2014/08/BEST-Tofu-scramble-with-loads-of-veggies-and-smoky-southwest-flavor-vegan-glutenfree.jpg",
   "print": "https://minimalistbaker.com/wprm_print/southwest-tofu-scramble"
  },
@@ -670,13 +955,23 @@ window.RECIPES = [
   "serves": "5",
   "description": "Fresh strawberries blended into creamy coconut milk and set with chia seeds into a pink, spoonable pudding. Stir it together the night before and grab a jar in the morning.",
   "swaps": "If not using coconut milk, use oat or soy milk (not almond/cashew). Skip graham cracker topping unless certified GF and vegan.",
-  "watch": "Contains coconut (coconut milk; optional coconut whip). Use dairy-free, nut-free yogurt if topping.",
+  "watch": "Use dairy-free, nut-free yogurt if topping.",
   "tags": [
    "make-ahead",
    "sweet",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2025/06/Strawberry-Chia-Pudding-5.jpg",
   "print": "https://minimalistbaker.com/wprm_print/strawberries-cream-chia-pudding"
  },
@@ -691,13 +986,22 @@ window.RECIPES = [
   "serves": "1",
   "description": "Rolled oats soaked overnight with cocoa, chia and a little maple until thick and brownie-like. Top with raspberries for a breakfast that tastes like dessert.",
   "swaps": "Use oat or soy milk instead of almond milk; use sunflower seed butter instead of almond butter (the recipe allows seed butters).",
-  "watch": "Use certified GF oats. Skip nut-butter and coconut toppings or note coconut.",
+  "watch": "Use certified GF oats. Skip nut-butter toppings.",
   "tags": [
    "make-ahead",
    "sweet",
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2022/02/CREAMY-Chocolate-Overnight-Oats-8-ingredients-vegan-naturally-sweetened-SO-chocolatey-minimalistbaker-recipe-plantbased-chocolate-overnightoats-8.jpg",
   "print": "https://minimalistbaker.com/wprm_print/decadent-chocolate-overnight-oats"
  },
@@ -720,6 +1024,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2018/07/Easy-Fluffy-Gluten-Free-Vegan-Buttermilk-Pancakes-Allergy-Free-PM1.jpg",
   "print": ""
  },
@@ -742,6 +1055,16 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2016/06/Cocoa-Banana-Cinnamon-Quinoa-Flakes-PM1.jpg",
   "print": ""
  },
@@ -763,6 +1086,15 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.forkandbeans.com/wp-content/uploads/2012/07/Gluten-Free-Vegan-Waffles-FB.jpg",
   "print": ""
  },
@@ -777,7 +1109,7 @@ window.RECIPES = [
   "serves": "8–10 slices",
   "description": "Thick slices of sturdy GF bread dunked in a blended banana, flax, cinnamon and rice-milk custard, then griddled until golden. Banana stands in for egg and adds natural sweetness.",
   "swaps": "",
-  "watch": "Use a certified GF, egg-free, dairy-free bread (author suggests Ener-G, Canyon Bakehouse, Schar etc. — check each for egg/milk). Use nut-free vegan butter (e.g., Earth Balance, not cashew-based). Coconut whipped cream topping contains coconut.",
+  "watch": "Use a certified GF, egg-free, dairy-free bread (author suggests Ener-G, Canyon Bakehouse, Schar etc. — check each for egg/milk). Use nut-free vegan butter (e.g., Earth Balance, not cashew-based).",
   "tags": [
    "kid-friendly",
    "sweet",
@@ -785,6 +1117,16 @@ window.RECIPES = [
    "brunch"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2016/10/french.toast_.drip_.5x7.jpg",
   "print": ""
  },
@@ -807,6 +1149,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2021/10/pumpkin-baked-oatmeal-scaled.jpg",
   "print": ""
  },
@@ -828,6 +1179,16 @@ window.RECIPES = [
    "sweet"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2017/11/sunbutter-gluten-free-waffles-scaled.jpg",
   "print": ""
  },
@@ -849,6 +1210,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.rhiansrecipes.com/wp-content/uploads/2020/08/IMG_0511-2.jpeg",
   "print": "https://www.rhiansrecipes.com/wprm_print/flaxseed-pancakes-vegan-gluten-free"
  },
@@ -871,6 +1241,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "involved",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2026/02/breakfast-skillet-04.jpg",
   "print": "https://www.veganricha.com/wprm_print/country-breakfast-skillet"
  },
@@ -892,6 +1273,17 @@ window.RECIPES = [
    "whole30"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://www.primalpalate.com/wp-content/uploads/2018/01/AIP-Whole30-Breakfast-Hash-egg-free-18-200x300.jpg",
   "print": ""
  },
@@ -912,6 +1304,15 @@ window.RECIPES = [
    "sweet"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://petiteallergytreats.com/wp-content/uploads/2014/07/CCPancakes1.jpg",
   "print": ""
  },
@@ -926,13 +1327,20 @@ window.RECIPES = [
   "serves": "4–5",
   "description": "A grain-free, nut-free granola of pumpkin, sunflower, sesame and flax seeds toasted with maple syrup and pumpkin spice. Crunchy over dairy-free yogurt or by the handful.",
   "swaps": "",
-  "watch": "Contains coconut (unsweetened flakes; can be omitted). Buy seeds from nut-free facilities if sensitive.",
+  "watch": "can be omitted). Buy seeds from nut-free facilities if sensitive.",
   "tags": [
    "make-ahead",
    "sweet",
    "oat-free"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.cottercrunch.com/wp-content/uploads/2021/08/pumpkin-seed-spiced-granola-GF-V-14.jpg",
   "print": ""
  },
@@ -947,13 +1355,22 @@ window.RECIPES = [
   "serves": "6",
   "description": "Gluten-free oats, sunflower seeds and toasty sesame baked with maple and cinnamon into golden clusters. A simple, nut-free pantry staple.",
   "swaps": "",
-  "watch": "Use certified GF oats. Use avocado oil to avoid coconut (coconut oil is the other option).",
+  "watch": "Use certified GF oats.",
   "tags": [
    "make-ahead",
    "sweet",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://nyssaskitchen.com/wp-content/uploads/2019/10/Maple-Sesame-Granola-9-of-20.jpg",
   "print": ""
  },
@@ -975,6 +1392,15 @@ window.RECIPES = [
    "savory"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://sweetsensitivefree.com/wp-content/uploads/2024/07/2-ingredients-vegan-buckwheat-crepes-4.jpg",
   "print": "https://sweetsensitivefree.com/wprm_print/2-ingredient-vegan-buckwheat-crepes-sweet-or-savory"
  },
@@ -996,6 +1422,15 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://thehiddenveggies.com/wp-content/uploads/2020/11/vegan-crepes.jpg",
   "print": "https://thehiddenveggies.com/wprm_print/chickpea-crepes"
  },
@@ -1017,6 +1452,17 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://thehiddenveggies.com/wp-content/uploads/2025/09/vegan-breakfast-hash-sq.jpg",
   "print": "https://thehiddenveggies.com/wprm_print/vegan-breakfast-hash"
  },
@@ -1039,6 +1485,15 @@ window.RECIPES = [
    "high-protein"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://autoimmunewellness.com/wp-content/uploads/2017/02/maplesage4.jpg",
   "print": ""
  },
@@ -1053,13 +1508,23 @@ window.RECIPES = [
   "serves": "2",
   "description": "Quinoa simmered in plant milk with maple, vanilla and cardamom until creamy, then topped with berries. A protein-rich, oat-free warm bowl.",
   "swaps": "Use oat or soy milk. Skip nut and peanut-butter topping ideas.",
-  "watch": "Toasted coconut garnish contains coconut (optional).",
+  "watch": "",
   "tags": [
    "sweet",
    "oat-free",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://moonandspoonandyum.com/wp-content/uploads/2026/01/easy-quinoa-porridge-recipe-15.jpg",
   "print": "https://moonandspoonandyum.com/wprm_print/creamy-quinoa-porridge-with-berries"
  },
@@ -1074,13 +1539,22 @@ window.RECIPES = [
   "serves": "1",
   "description": "Frozen pink dragon fruit and banana whipped into a thick magenta bowl, ready for fruit and seed toppings. Bright, refreshing and two ingredients at its core.",
   "swaps": "Top with fruit and seeds only — skip nuts and use only nut-free, GF granola.",
-  "watch": "Shredded coconut topping contains coconut (optional).",
+  "watch": "",
   "tags": [
    "quick",
    "sweet",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.alecooks.com/wp-content/uploads/2023/04/vegan-dragon-fruit-bowl.jpg",
   "print": "https://www.alecooks.com/wprm_print/dragon-fruit-smoothie-bowl"
  },
@@ -1102,6 +1576,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://simple-veganista.com/wp-content/uploads/2020/01/best-roasted-breakfast-potatoes-recipe_1.jpg",
   "print": ""
  },
@@ -1123,6 +1606,16 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": ""
  },
@@ -1144,6 +1637,15 @@ window.RECIPES = [
    "high-protein"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": ""
  },
@@ -1165,6 +1667,18 @@ window.RECIPES = [
    "high-protein"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://blog.fatfreevegan.com/wp-content/uploads/2013/10/breakfast-beans-grits-fb.jpg",
   "print": "https://blog.fatfreevegan.com/wprm_print/sausage-flavored-breakfast-beans-and-grits"
  },
@@ -1179,13 +1693,23 @@ window.RECIPES = [
   "serves": "2",
   "description": "Avocado, banana, strawberries, spinach and kale blended with hemp milk into a thick green bowl, then topped with berries and seeds.",
   "swaps": "",
-  "watch": "Coconut water is an optional sub for hemp milk (contains coconut). Choose seed toppings from nut-free facilities.",
+  "watch": "Choose seed toppings from nut-free facilities.",
   "tags": [
    "quick",
    "sweet",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://img.thrivemarket.com/wp/wp-content/uploads/2015/09/green_smoothie_bowl_blog.jpg",
   "print": ""
  },
@@ -1200,7 +1724,7 @@ window.RECIPES = [
   "serves": "9 large muffins",
   "description": "A flexible, top-8-free muffin base made with applesauce or banana that you can turn into chocolate chip, apple cinnamon, double chocolate or multi-seed versions.",
   "swaps": "",
-  "watch": "Use purity-protocol/certified GF oat flour and a nut-free GF flour blend. Use avocado oil to avoid coconut oil.",
+  "watch": "Use purity-protocol/certified GF oat flour and a nut-free GF flour blend.",
   "tags": [
    "make-ahead",
    "kid-friendly",
@@ -1208,6 +1732,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "http://static1.squarespace.com/static/577028116b8f5b047c020f3b/t/60819e020906ac5e06408f4d/1619107330615/gluten+free+top+8+free+breakfast+muffins.jpg?format=1500w",
   "print": ""
  },
@@ -1228,6 +1761,13 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2022/09/CLASSIC-Chocolate-Chip-Cookies-made-Vegan-and-Gluten-Free-Just-1-bowl-and-8-ingredients-minimalistbaker-recipe-vegan-glutenfree-chocolatechip-10.jpg",
   "print": "https://minimalistbaker.com/wprm_print/classic-vegan-gluten-free-chocolate-chip-cookies"
  },
@@ -1242,13 +1782,20 @@ window.RECIPES = [
   "serves": "10 slices",
   "description": "A flaky butter-style GF crust filled with silky spiced pumpkin set with cornstarch instead of eggs. A Thanksgiving centerpiece nobody will guess is free-from.",
   "swaps": "Replace the almond milk in the filling with oat, soy, or rice milk.",
-  "watch": "Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). If serving with the optional coconut whipped cream: Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "holiday",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2014/11/EASY-Vegan-Gluten-Free-Pumpkin-Pie-699x1024-1.jpg",
   "print": "https://minimalistbaker.com/wprm_print/vegan-gluten-free-pumpkin-pie"
  },
@@ -1263,13 +1810,22 @@ window.RECIPES = [
   "serves": "11 half-cup servings",
   "description": "Ripe mango, tart raspberries and a splash of coconut milk churned into a vivid, creamy sorbet with a hint of lime.",
   "swaps": "",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "",
   "tags": [
    "date-night",
    "make-ahead",
    "summer"
   ],
   "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2015/07/AMAZING-Creamy-Mango-Raspberry-COCONUT-Sorbet-vegan-glutenfree-recipe-summer-dessert-sorbet.jpg",
   "print": "https://minimalistbaker.com/wprm_print/raspberry-coconut-mango-sorbet"
  },
@@ -1284,13 +1840,21 @@ window.RECIPES = [
   "serves": "9 bars",
   "description": "A buttery shortbread base under a tangy, sunshine-yellow lemon curd thickened with starch and coconut milk instead of eggs, dusted with powdered sugar.",
   "swaps": "",
-  "watch": "Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "dinner-party",
    "make-ahead",
    "spring"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2021/05/Gluten-Free-Vegan-Lemon-Bars-9.jpg",
   "print": ""
  },
@@ -1305,13 +1869,20 @@ window.RECIPES = [
   "serves": "12 brownies",
   "description": "Dense, deeply cocoa-rich brownies stirred together in one bowl with brown rice flour, applesauce and coconut milk. Top-8 allergen-free as written.",
   "swaps": "Erythritol can be swapped for regular sugar, as the recipe allows.",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it). Use a nut-free GF flour blend (avoid paleo/almond blends).",
+  "watch": "Use a nut-free GF flour blend (avoid paleo/almond blends).",
   "tags": [
    "kid-friendly",
    "crowd",
    "birthday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2018/04/Thick-Fudgy-Gluten-Free-Vegan-Brownies-Allergy-Free-PM1.jpg",
   "print": ""
  },
@@ -1333,6 +1904,13 @@ window.RECIPES = [
    "fall"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2018/09/Baked-Gluten-Free-Apple-Cider-Doughnuts-Vegan-Allergy-Free-PM1.jpg",
   "print": ""
  },
@@ -1354,6 +1932,15 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2018/11/gluten-free-apple-tart-recipe-scaled.jpg",
   "print": ""
  },
@@ -1376,6 +1963,13 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "spring"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2017/03/carrot.cake_.slice_.straight.jpg",
   "print": ""
  },
@@ -1390,7 +1984,7 @@ window.RECIPES = [
   "serves": "1 pie (8-10 slices)",
   "description": "A no-bake, spiced pumpkin mousse folded with dairy-free whipped topping over a cinnamon graham crust. Light, fluffy and free of the top allergens.",
   "swaps": "",
-  "watch": "Graham crackers must be gluten-free AND nut-free (check the label). Use a nut-free DF cream cheese (Tofutti or Daiya, as the recipe suggests). Coco Whip: Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Graham crackers must be gluten-free AND nut-free (check the label). Use a nut-free DF cream cheese (Tofutti or Daiya, as the recipe suggests).",
   "tags": [
    "holiday",
    "no-bake",
@@ -1398,6 +1992,13 @@ window.RECIPES = [
    "dinner-party"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2017/11/pumpkin.mousse.slice_.above_-scaled.jpg",
   "print": ""
  },
@@ -1412,13 +2013,23 @@ window.RECIPES = [
   "serves": "6 servings",
   "description": "Silky vanilla coconut panna cotta set with agar, crowned with a bright fresh strawberry layer and mint. A make-ahead showstopper.",
   "swaps": "",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "",
   "tags": [
    "date-night",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Coconut-Panna-Cotta-Gluten-Free-Vegan_Featured-Image-1200-x-1200_2.jpg",
   "print": ""
  },
@@ -1439,6 +2050,13 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "winter"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Gingerbread-Men-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
   "print": ""
  },
@@ -1460,6 +2078,13 @@ window.RECIPES = [
    "birthday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Rice-Krispies-Treats-Vegan_Final4.jpg",
   "print": ""
  },
@@ -1481,6 +2106,13 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2021/01/Gluten-Free-Chocolate-Cake-20.jpg",
   "print": "https://lovingitvegan.com/wprm_print/gluten-free-chocolate-cake"
  },
@@ -1502,6 +2134,13 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2021/06/Vegan-Gluten-Free-Vanilla-Cupcakes-13.jpg",
   "print": "https://lovingitvegan.com/wprm_print/vegan-gluten-free-vanilla-cupcakes"
  },
@@ -1516,13 +2155,20 @@ window.RECIPES = [
   "serves": "4 servings",
   "description": "Ripe avocado blended with melted chocolate, cocoa and maple into a thick, velvety mousse. Nobody tastes the avocado.",
   "swaps": "",
-  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts.",
   "tags": [
    "date-night",
    "no-bake",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2019/03/Vegan-Avocado-Chocolate-Mousse-Square.jpg",
   "print": "https://lovingitvegan.com/wprm_print/vegan-chocolate-avocado-mousse"
  },
@@ -1537,13 +2183,20 @@ window.RECIPES = [
   "serves": "10 cookies",
   "description": "Soft, chewy oat-and-date cookies with no oil, rolled in cinnamon coconut sugar for that classic snickerdoodle crackle.",
   "swaps": "",
-  "watch": "Oats must be certified gluten-free. Coconut sugar is not a nut, but if avoiding all coconut products use brown sugar.",
+  "watch": "Oats must be certified gluten-free.",
   "tags": [
    "kid-friendly",
    "easy",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://feastingonfruit.com/wp-content/uploads/2015/07/Vegan Chewy Snickerdoodle Recipe5.jpg",
   "print": ""
  },
@@ -1558,7 +2211,7 @@ window.RECIPES = [
   "serves": "4 servings per flavor",
   "description": "Two no-churn ice creams, one golden mango-turmeric and one ginger-berry swirl, blended from frozen fruit and a little coconut cream.",
   "swaps": "",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "",
   "tags": [
    "no-bake",
    "summer",
@@ -1566,6 +2219,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://nataliejo.co/wp-content/uploads/2018/06/No-Churn-Vegan-Ice-Cream-3.jpg",
   "print": ""
  },
@@ -1580,13 +2242,20 @@ window.RECIPES = [
   "serves": "8 slices",
   "description": "A nut-free baked cheesecake: tangy dairy-free yogurt and coconut cream filling, naturally sweetened with dates, on a cinnamon oat crust.",
   "swaps": "",
-  "watch": "Oats must be certified gluten-free. Use a nut-free dairy-free yogurt (coconut or soy; avoid almond/cashew). Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Oats must be certified gluten-free. Use a nut-free dairy-free yogurt (coconut or soy; avoid almond/cashew).",
   "tags": [
    "date-night",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://feastingonfruit.com/wp-content/uploads/2019/07/Medjool-Date-Baked-Cheesecake-3.jpg",
   "print": ""
  },
@@ -1601,7 +2270,7 @@ window.RECIPES = [
   "serves": "12 slices",
   "description": "A cashew-free cheesecake of coconut cream and vegan cream cheese, topped with a silky eggless lemon curd on a crunchy cookie crust.",
   "swaps": "Use gluten-free cookies for the crust (as the recipe notes).",
-  "watch": "Crust cookies must be gluten-free and nut-free. Use a nut-free vegan cream cheese (e.g. Tofutti, Violife). Contains coconut (flagged: some people with tree-nut allergies avoid it). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
+  "watch": "Crust cookies must be gluten-free and nut-free. Use a nut-free vegan cream cheese (e.g. Tofutti, Violife). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "date-night",
    "dinner-party",
@@ -1609,6 +2278,14 @@ window.RECIPES = [
    "no-bake"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ],
   "img": "https://www.rainbownourishments.com/wp-content/uploads/2021/06/vegan-lemon-cheesecake-1.jpg",
   "print": "https://www.rainbownourishments.com/wprm_print/vegan-lemon-cheesecake-2"
  },
@@ -1623,13 +2300,20 @@ window.RECIPES = [
   "serves": "12 slices",
   "description": "A cocoa shortcrust filled with a dark, glossy chocolate-avocado mousse and finished with fresh raspberries. Rich enough for any dinner party.",
   "swaps": "Make the pastry with a 1:1 gluten-free flour blend instead of all-purpose flour (author's GF option). Do NOT use the alternative GF option in the notes that includes almond flour.",
-  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "date-night",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "involved",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.rainbownourishments.com/wp-content/uploads/2023/05/avocado-chocolate-tart-1.jpg",
   "print": "https://www.rainbownourishments.com/wprm_print/avocado-chocolate-tart"
  },
@@ -1644,13 +2328,22 @@ window.RECIPES = [
   "serves": "7 servings",
   "description": "Jammy blueberries bubbling under tender, cinnamon-sugar biscuits made with coconut milk instead of butter and cream.",
   "swaps": "",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). Use a nut-free GF flour blend (avoid paleo/almond blends).",
+  "watch": "Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). Use a nut-free GF flour blend (avoid paleo/almond blends).",
   "tags": [
    "summer",
    "crowd",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://zestforbaking.com/wp-content/uploads/2021/05/gluten-free-blueberry-cobbler-served.jpg",
   "print": "https://zestforbaking.com/wprm_print/gluten-free-blueberry-cobbler"
  },
@@ -1672,6 +2365,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "involved",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://zestforbaking.com/wp-content/uploads/2021/12/gluten-free-apple-pie-bite.jpg",
   "print": "https://zestforbaking.com/wprm_print/gluten-free-apple-pie-recipe-with-an-easy-flaky-crust"
  },
@@ -1686,12 +2388,19 @@ window.RECIPES = [
   "serves": "6 servings",
   "description": "Old-fashioned stovetop chocolate pudding made thick and creamy with coconut milk, cornstarch and melted dark chocolate.",
   "swaps": "Replace the almond milk with oat, soy or rice milk.",
-  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Contains coconut (flagged: some people with tree-nut allergies avoid it). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
+  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "kid-friendly",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://zestforbaking.com/wp-content/uploads/2025/01/Gluten-free-pudding-cup.jpg",
   "print": "https://zestforbaking.com/wprm_print/gluten-free-pudding-recipe"
  },
@@ -1713,6 +2422,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2013/08/gluten-free-peach-cobbler.jpg",
   "print": "https://meaningfuleats.com/wprm_print/gluten-free-peach-cobbler"
  },
@@ -1727,13 +2445,20 @@ window.RECIPES = [
   "serves": "8-10 servings",
   "description": "A salty-sweet crushed pretzel crust filled with silky chocolate pudding and topped with whipped coconut cream and chocolate curls.",
   "swaps": "Replace the almond milk with oat, soy or rice milk.",
-  "watch": "Use certified GF pretzels. Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). CocoWhip: Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use certified GF pretzels. Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "dinner-party",
    "make-ahead",
    "crowd"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2016/11/IMG_4826-1.jpg",
   "print": "https://meaningfuleats.com/wprm_print/gluten-free-vegan-chocolate-pudding-pretzel-pie"
  },
@@ -1748,13 +2473,20 @@ window.RECIPES = [
   "serves": "4 servings",
   "description": "Just four ingredients: coconut milk, dark chocolate, maple and agar make an elegant, wobbly chocolate panna cotta.",
   "swaps": "",
-  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts.",
   "tags": [
    "date-night",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2024/08/chocolate-panna-cotta-on-small-plate-with-spoon.jpg",
   "print": "https://elavegan.com/wprm_print/chocolate-panna-cotta"
  },
@@ -1769,7 +2501,7 @@ window.RECIPES = [
   "serves": "20 truffles",
   "description": "Two-ingredient fudgy truffles of vegan condensed milk and cocoa, rolled and dusted. Effortless homemade gifts.",
   "swaps": "",
-  "watch": "Use a coconut- or oat-based vegan condensed milk and check it is nut-free. Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use a coconut- or oat-based vegan condensed milk and check it is nut-free.",
   "tags": [
    "holiday",
    "no-bake",
@@ -1777,6 +2509,13 @@ window.RECIPES = [
    "gift"
   ],
   "difficulty": "easy",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "winter"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2021/04/homemade-condensed-milk-truffles-with-cocoa-powder-on-wooden-board.jpg",
   "print": "https://elavegan.com/wprm_print/condensed-milk-truffles"
  },
@@ -1798,6 +2537,13 @@ window.RECIPES = [
    "birthday"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.cleverlysimple.com/wp-content/uploads/2018/02/gluten-free-sugar-cookies-11.jpg",
   "print": "https://www.cleverlysimple.com/wprm_print/gluten-free-sugar-cookies"
  },
@@ -1812,13 +2558,22 @@ window.RECIPES = [
   "serves": "8 servings",
   "description": "Blueberries and ripe peaches with a maple-sweetened oat crumble. Lightly sweet, summery and simple.",
   "swaps": "Omit the optional almond flour and sliced almonds (or replace the almonds with pumpkin or sunflower seeds).",
-  "watch": "Oats must be certified gluten-free. Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Oats must be certified gluten-free.",
   "tags": [
    "summer",
    "crowd",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://maesmenu.com/wp-content/uploads/2021/06/blueberry-peach-crisp-16.jpg",
   "print": "https://maesmenu.com/wprm_print/blueberry-peach-crisp-gluten-free"
  },
@@ -1833,13 +2588,20 @@ window.RECIPES = [
   "serves": "2 servings",
   "description": "Whipped coconut cream and cocoa turn into a light, airy chocolate mousse in minutes, sized just right for two.",
   "swaps": "",
-  "watch": "Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "",
   "tags": [
    "date-night",
    "no-bake",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": ""
  },
@@ -1854,12 +2616,19 @@ window.RECIPES = [
   "serves": "16-18 cookies",
   "description": "Crisp, buttery-tasting rice-flour sugar cookies made with a flax egg and dipped halfway in dark chocolate.",
   "swaps": "Use a nut-free non-dairy milk instead of almond milk. For the coconut flour, the recipe allows oat flour (certified GF) as an alternative; do not use the cashew-flour option.",
-  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Coconut flour: Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts.",
   "tags": [
    "holiday",
    "kid-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2014/03/glutenfree-sugar-cookies-029.jpg",
   "print": "https://www.veganricha.com/wprm_print/gluten-free-vegan-sugar-cookies-chocolate-dipped"
  },
@@ -1881,6 +2650,13 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.forkandbeans.com/wp-content/uploads/2012/12/choco2.jpg",
   "print": ""
  },
@@ -1895,13 +2671,20 @@ window.RECIPES = [
   "serves": "4-6 servings",
   "description": "A rich, cheesecake-like chocolate mousse served with chocolate-dipped graham crackers and flaky salt for dunking.",
   "swaps": "Use a nut-free non-dairy milk and a nut-free dairy-free cream cheese (e.g. Tofutti or Violife).",
-  "watch": "Graham crackers must be gluten-free AND nut-free. Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts. Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Graham crackers must be gluten-free AND nut-free. Use allergy-safe, dairy-free chocolate (e.g. Enjoy Life); many dark chocolates share lines with milk and nuts.",
   "tags": [
    "date-night",
    "dinner-party",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://nyssaskitchen.com/wp-content/uploads/2020/12/Chocolate-Cheesecake-Pudding-20.jpg",
   "print": ""
  },
@@ -1916,13 +2699,20 @@ window.RECIPES = [
   "serves": "12 servings",
   "description": "A tender two-layer vanilla birthday cake made egg-free with vinegar and baking soda, finished with a fluffy dairy-free chocolate frosting.",
   "swaps": "Swap the all-purpose flour 1:1 for a gluten-free all-purpose flour (the author confirms a 1:1 swap, e.g. Bob's Red Mill 1-to-1).",
-  "watch": "Use a nut-free GF flour blend (avoid paleo/almond blends). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew). Coconut milk is used in the batter: Contains coconut (flagged: some people with tree-nut allergies avoid it).",
+  "watch": "Use a nut-free GF flour blend (avoid paleo/almond blends). Use a nut-free vegan butter and check the label (some brands are made with almond or cashew).",
   "tags": [
    "birthday",
    "crowd",
    "kid-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://theurbenlife.com/wp-content/uploads/2020/07/dairy-free-and-egg-free-cake.jpg",
   "print": "https://theurbenlife.com/wprm_print/dairy-free-and-egg-free-vanilla-cake"
  },
@@ -1944,6 +2734,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://rachlmansfield.com/wp-content/uploads/2021/07/IMG_2299-scaled.jpg",
   "print": ""
  },
@@ -1966,6 +2765,16 @@ window.RECIPES = [
    "comfort"
   ],
   "difficulty": "involved",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/02/Braised-Short-Ribs-main-2.jpg",
   "print": "https://downshiftology.com/wprm_print/33064/"
  },
@@ -1986,6 +2795,15 @@ window.RECIPES = [
    "dinner-party"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/03/Rack-of-Lamb-main.jpg",
   "print": "https://downshiftology.com/wprm_print/94771/"
  },
@@ -2008,6 +2826,18 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/11/Slow-Cooker-Pot-Roast-main.jpg",
   "print": "https://downshiftology.com/wprm_print/56018/"
  },
@@ -2022,12 +2852,22 @@ window.RECIPES = [
   "serves": "4",
   "description": "Thin chicken strips in a coconut-milk cream sauce with sun-dried tomatoes, garlic and Italian herbs, tossed with gluten-free spaghetti. Written to be top-8 allergen free.",
   "swaps": "Use gluten-free spaghetti (as the recipe specifies); use full-fat coconut milk or a nut-free plant cream (not cashew/almond)",
-  "watch": "Contains coconut; check chicken bouillon is gluten-free",
+  "watch": "check chicken bouillon is gluten-free",
   "tags": [
    "weeknight",
    "comfort"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2016/07/tuscan.ckn_.spread.5x7.jpg",
   "print": ""
  },
@@ -2049,6 +2889,16 @@ window.RECIPES = [
    "comfort"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2021/10/honey-mustard-above-busy.jpg",
   "print": ""
  },
@@ -2069,6 +2919,17 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2022/07/sweet-and-sour-8-scaled.jpg",
   "print": ""
  },
@@ -2089,6 +2950,15 @@ window.RECIPES = [
    "weeknight"
   ],
   "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Chicken-Piccata-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
   "print": ""
  },
@@ -2110,6 +2980,16 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.dishbydish.net/wp-content/uploads/2015/11/Tukey-Bolognese-with-Gluten-free-Fusilli-Pasta2-e14465935414681.jpg",
   "print": ""
  },
@@ -2131,6 +3011,16 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2016/08/AMAZING-Chickpea-SHAKSHUKA-1-Pot-30-minutes-so-much-plantprotein-vegan-glutenfree-plantbased-shakshuka-recipe-easy-healthy.jpg",
   "print": "https://minimalistbaker.com/wprm_print/1-pot-chickpea-shakshuka"
  },
@@ -2152,6 +3042,17 @@ window.RECIPES = [
    "comfort"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2016/02/AMAZING-Red-Lentil-CHILI-with-black-beans-and-corn.-Hearty-thick-rich-and-filling-vegan-glutenfree-chili-lentils-recipe.jpg",
   "print": "https://minimalistbaker.com/wprm_print/1-pot-red-lentil-chili"
  },
@@ -2166,12 +3067,23 @@ window.RECIPES = [
   "serves": "3",
   "description": "Red lentils simmered in a red curry, tomato and ginger sauce with a splash of coconut milk, served over rice with pickled onion and cilantro.",
   "swaps": "Omit the pita/naan; serve over rice",
-  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste; contains coconut (oil and milk)",
+  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste",
   "tags": [
    "weeknight",
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2016/01/AMAZING-Spicy-Red-Lentil-Curry-1-Pot-30-minutes-10-ingredients-vegan-glutenfree-plantbased-curry-indian-recipe-healthy.jpg",
   "print": "https://minimalistbaker.com/wprm_print/spicy-red-lentil-curry"
  },
@@ -2194,6 +3106,18 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "British",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://www.recipetineats.com/tachyon/2026/08/Slow-Cooker-Beef-Stew-9.jpg",
   "print": "https://www.recipetineats.com/wprm_print/200392"
  },
@@ -2215,6 +3139,15 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "Latin American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.recipetineats.com/tachyon/2016/08/Steak-with-Chimichurri-Sauce_1.jpg",
   "print": "https://www.recipetineats.com/wprm_print/25104"
  },
@@ -2236,6 +3169,15 @@ window.RECIPES = [
    "weeknight"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.recipetineats.com/tachyon/2017/06/Carne-Asada-4.jpg",
   "print": "https://www.recipetineats.com/wprm_print/21707"
  },
@@ -2256,6 +3198,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://foodbymars.com/wp-content/uploads/2020/12/eggless-meatballs-8275-scaled.jpg",
   "print": "https://foodbymars.com/wprm_print/ridiculously-delicious-eggless-meatball-paleo-aip-whole30"
  },
@@ -2276,6 +3227,17 @@ window.RECIPES = [
    "comfort"
   ],
   "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://runningonrealfood.com/wp-content/uploads/2021/01/Vegan-Mushroom-Risotto-Recipe-1-4.jpg",
   "print": "https://runningonrealfood.com/wprm_print/creamy-vegan-mushroom-risotto"
  },
@@ -2296,6 +3258,16 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ],
   "img": "https://kalejunkie.com/wp-content/uploads/2022/05/KALEJUNKIE-SHEET-PAN-LEMON-HERB-SALMON-3-683x1024.jpg",
   "print": "https://kalejunkie.com/wprm_print/sheet-pan-lemon-herb-salmon-with-asparagus"
  },
@@ -2316,6 +3288,17 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://livelytable.com/wp-content/uploads/2017/09/sheet-pan-maple-dijon-salmon-6.jpg",
   "print": ""
  },
@@ -2337,6 +3320,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.cottercrunch.com/wp-content/uploads/2023/04/updated-superfood-blueberry-salmon-8.jpg",
   "print": ""
  },
@@ -2357,6 +3351,16 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2022/02/Tofu-Jalfrezi-8601.jpg",
   "print": "https://www.veganricha.com/wprm_print/tofu-jalfrezi-one-pan-indian-smoky-tofu-pepper-tomato-stir-fry"
  },
@@ -2371,12 +3375,21 @@ window.RECIPES = [
   "serves": "4",
   "description": "A mostly hands-off vegan 'butter tofu': tofu, aromatics and spices baked in a creamy tomato and coconut milk sauce until rich and thick.",
   "swaps": "Use the coconut milk option, not the cashew milk alternative",
-  "watch": "Contains coconut",
+  "watch": "",
   "tags": [
    "one-pan",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2021/05/Baked-Tofu-Curry-5098.jpg",
   "print": "https://www.veganricha.com/wprm_print/baked-tofu-curry-vegan-tofu-makhani"
  },
@@ -2391,7 +3404,7 @@ window.RECIPES = [
   "serves": "4",
   "description": "Chicken pressure-cooked (or slow-cooked) with bell peppers, garlic, paprika, cumin and harissa into a smoky, spicy shreddable stew. Serve over rice.",
   "swaps": "Skip the optional 'creamy herb sauce' topping (it may be egg- or nut-based); serve with capers and lemon instead",
-  "watch": "Contains coconut (coconut aminos); check harissa and chicken broth labels",
+  "watch": "check harissa and chicken broth labels",
   "tags": [
    "instant-pot",
    "slow-cooker",
@@ -2399,6 +3412,16 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://realsimplegood.com/wp-content/uploads/Easy-harissa-chicken-recipe-4.jpg",
   "print": "https://realsimplegood.com/wprm_print/easy-harissa-chicken-recipe-paleo-whole30-instant-pot-slow-cooker"
  },
@@ -2413,7 +3436,7 @@ window.RECIPES = [
   "serves": "8",
   "description": "Cuban-style shredded chuck roast cooked with peppers, onion, tomatoes, cumin, oregano and green olives in the Instant Pot or slow cooker.",
   "swaps": "Use the coconut oil option (or olive oil) instead of ghee",
-  "watch": "If using coconut oil, it is coconut; check beef broth is gluten-free",
+  "watch": "check beef broth is gluten-free",
   "tags": [
    "instant-pot",
    "slow-cooker",
@@ -2421,6 +3444,16 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://realsimplegood.com/wp-content/uploads/Ropa-vieja-one.jpg",
   "print": "https://realsimplegood.com/wprm_print/ropa-vieja-paleo-whole30-slow-cooker-or-instant-pot"
  },
@@ -2441,6 +3474,17 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://thecleaneatingcouple.com/wp-content/uploads/2019/09/apple-pork-tenderloin-sheet-pan-dinner-1.jpg",
   "print": "https://thecleaneatingcouple.com/wprm_print/pork-tenderloin-with-apples"
  },
@@ -2462,6 +3506,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://eatthegains.com/wp-content/uploads/2022/08/Salsa-Pork-Chops-8.jpg",
   "print": "https://eatthegains.com/wprm_print/salsa-pork-chops"
  },
@@ -2483,6 +3536,15 @@ window.RECIPES = [
    "comfort"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.onceuponachef.com/images/2011/01/roast-chicken-1.jpg",
   "print": "https://www.onceuponachef.com/wprm_print/roast-chicken-with-herb-butter-2"
  },
@@ -2504,6 +3566,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Latin American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.onceuponachef.com/images/2026/03/Chimichurri-Chicken-4-e1774297498731-1200x674.jpg",
   "print": "https://www.onceuponachef.com/wprm_print/grilled-chimichurri-chicken-thighs"
  },
@@ -2524,6 +3595,16 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.skinnytaste.com/wp-content/uploads/2025/03/Baked-Cod-6.jpg",
   "print": "https://www.skinnytaste.com/wprm_print/baked-cod-recipe"
  },
@@ -2538,13 +3619,25 @@ window.RECIPES = [
   "serves": "6",
   "description": "Lentils and mixed vegetables in a savory thyme-rosemary tomato filling, topped with fluffy mashed potatoes. Written by an allergy-focused blogger.",
   "swaps": "Use a nut-free vegan butter and a non-nut milk (oat certified GF, soy, rice or hemp) in the mash",
-  "watch": "Contains coconut (coconut aminos)",
+  "watch": "",
   "tags": [
    "comfort",
    "make-ahead",
    "weeknight"
   ],
   "difficulty": "easy",
+  "cuisine": "British",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2021/03/Easy-Vegan-Shepherds-Pie-8.jpg",
   "print": ""
  },
@@ -2565,6 +3658,15 @@ window.RECIPES = [
    "weeknight"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.simplywhisked.com/wp-content/uploads/2019/01/Baked-Hamburgers-8.jpg",
   "print": "https://www.simplywhisked.com/wprm_print/baked-hamburgers"
  },
@@ -2579,12 +3681,22 @@ window.RECIPES = [
   "serves": "6",
   "description": "Chicken and baby potatoes simmered in a mellow, golden coconut curry sauce, served over jasmine rice with cilantro.",
   "swaps": "",
-  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste; contains coconut; check fish sauce is gluten-free (some brands add wheat)",
+  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste; check fish sauce is gluten-free (some brands add wheat)",
   "tags": [
    "weeknight",
    "comfort"
   ],
   "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://pinchofyum.com/tachyon/Thai-Yellow-Chicken-Curry-Square.jpg",
   "print": ""
  },
@@ -2599,12 +3711,24 @@ window.RECIPES = [
   "serves": "4",
   "description": "Chicken thighs, sweet potato and red peppers slow-cooked in a smoky curry-spiced coconut sauce brightened with lime.",
   "swaps": "",
-  "watch": "Contains coconut",
+  "watch": "",
   "tags": [
    "slow-cooker",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://www.wellplated.com/wp-content/uploads/2019/07/Slow-Cooker-Chicken-Curry-Recipe.jpg",
   "print": "https://www.wellplated.com/wprm_print/slow-cooker-chicken-curry"
  },
@@ -2619,12 +3743,22 @@ window.RECIPES = [
   "serves": "4",
   "description": "Thin-sliced flank steak seared crisp and tossed with broccoli and scallions in a glossy tamari, ginger and maple glaze. Takeout at home.",
   "swaps": "",
-  "watch": "Use gluten-free tamari as specified; contains coconut oil (avocado oil works too)",
+  "watch": "Use gluten-free tamari as specified",
   "tags": [
    "weeknight",
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://feedmephoebe.com/wp-content/uploads/2018/11/Easy-Mongolian-Beef-Recipe-with-Copy-Cat-PF-Changs-Sauce-and-Broccoli-Healthy-Gluten-Free-Paleo-7.jpg",
   "print": "https://feedmephoebe.com/wprm_print/20-minute-gluten-free-mongolian-beef"
  },
@@ -2645,6 +3779,17 @@ window.RECIPES = [
    "dinner-party"
   ],
   "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://familyfocusblog.com/wp-content/uploads/2020/09/paleo-duck-breast-recipe-750x501.jpg",
   "print": ""
  },
@@ -2665,6 +3810,17 @@ window.RECIPES = [
    "one-pan"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.cookingclassy.com/wp-content/uploads/2016/07/sheet_pan_fajitas10..jpg",
   "print": "https://www.cookingclassy.com/wprm_print/sheet-pan-chicken-fajitas"
  },
@@ -2688,6 +3844,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2018/02/gluten-free.taco_.soup_.above_.5x7.jpg",
   "print": ""
  },
@@ -2710,6 +3877,16 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2021/05/chicken-salad-sandwich-4-scaled.jpg",
   "print": ""
  },
@@ -2724,13 +3901,24 @@ window.RECIPES = [
   "serves": "6",
   "description": "Crisp greens, mandarin oranges, sweet peas, red pepper and shredded chicken get a gingery honey-rice-vinegar dressing, with sunflower seeds standing in for the usual peanuts.",
   "swaps": "Use GF tamari or coconut aminos for the soy sauce",
-  "watch": "Check chile-garlic sauce and rotisserie chicken labels; contains coconut if using coconut aminos",
+  "watch": "Check chile-garlic sauce and rotisserie chicken labels",
   "tags": [
    "chicken",
    "quick",
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Thai",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2019/07/allergy-friendly-summer-salad-recipe-1-of-1.jpg",
   "print": ""
  },
@@ -2752,6 +3940,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://downshiftology.com/wp-content/uploads/2026/08/Korean-Beef-Bowl-main.jpg",
   "print": "https://downshiftology.com/wprm_print/101287/"
  },
@@ -2773,6 +3972,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Tuscan-White-Bean-Soup-main.jpg",
   "print": "https://downshiftology.com/wprm_print/101203/"
  },
@@ -2795,6 +4005,16 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/07/Chicken-Tinga-main.jpg",
   "print": "https://downshiftology.com/wprm_print/100298/"
  },
@@ -2816,6 +4036,17 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2025/03/Crispy-Chickpea-Quinoa-Kale-Salad-7.jpg",
   "print": "https://minimalistbaker.com/wprm_print/lemony-quinoa-kale-salad-with-crispy-chickpeas"
  },
@@ -2837,6 +4068,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2023/05/Jerk-Tofu-and-Roasted-Plantain-Bowls-7.jpg",
   "print": "https://minimalistbaker.com/wprm_print/jerk-tofu-roasted-plantain-bowls"
  },
@@ -2858,6 +4100,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://minimalistbaker.com/wp-content/uploads/2023/01/Salmon-Sushi-Bowls-8.jpg",
   "print": "https://minimalistbaker.com/wprm_print/easy-salmon-sushi-bowls"
  },
@@ -2880,6 +4133,17 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2026/01/Easy-Lentil-Soup-1.jpg",
   "print": ""
  },
@@ -2902,6 +4166,18 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2020/01/Slow-Cooker-3-Bean-Chili-2.jpg",
   "print": ""
  },
@@ -2924,6 +4200,16 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2020/05/Gluten-Free-Italain-Pasta-Salad-4.jpg",
   "print": ""
  },
@@ -2938,13 +4224,24 @@ window.RECIPES = [
   "serves": "2",
   "description": "Sweet-and-spicy glazed salmon bites over rice with cucumber, carrot, edamame and avocado, drizzled with a creamy sriracha-lime sauce.",
   "swaps": "Make the sriracha mayo with egg-free vegan mayo",
-  "watch": "Contains coconut (coconut aminos); check sriracha label",
+  "watch": "check sriracha label",
   "tags": [
    "fish",
    "quick",
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://eatthegains.com/wp-content/uploads/2025/04/Salmon-Rice-Bowls-10.jpg",
   "print": "https://eatthegains.com/wprm_print/salmon-rice-bowls"
  },
@@ -2959,7 +4256,7 @@ window.RECIPES = [
   "serves": "6 (9 cups)",
   "description": "Slow-cooked chicken thighs, white beans, poblanos and green chiles in a cumin-spiced broth that turns silky with a final stir of cream cheese and lime.",
   "swaps": "Use a nut-free dairy-free cream cheese (many are cashew/almond-based); skip cheese/sour cream toppings",
-  "watch": "Check broth is GF; check dairy-free cream cheese is nut-free; contains coconut if using a coconut-based cream cheese",
+  "watch": "Check broth is GF; check dairy-free cream cheese is nut-free",
   "tags": [
    "chicken",
    "make-ahead",
@@ -2967,6 +4264,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://eatthegains.com/wp-content/uploads/2025/10/Healthy-White-Chicken-Chili-11.jpg",
   "print": "https://eatthegains.com/wprm_print/healthy-white-chicken-chili"
  },
@@ -2981,12 +4289,22 @@ window.RECIPES = [
   "serves": "4",
   "description": "Savory chicken stir-fried with broccoli, water chestnuts and carrots in a ginger-rice-vinegar sauce, spooned into buttery lettuce cups with a tangy dipping sauce.",
   "swaps": "Use coconut aminos or GF tamari instead of soy sauce (in filling and dip); cook in oil, not butter/ghee",
-  "watch": "Contains coconut if using coconut aminos; check sriracha label",
+  "watch": "check sriracha label",
   "tags": [
    "chicken",
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://thecleaneatingcouple.com/wp-content/uploads/2022/05/chicken-lettuce-wraps-1-scaled.jpg",
   "print": "https://thecleaneatingcouple.com/wprm_print/healthy-chicken-lettuce-wraps"
  },
@@ -3001,12 +4319,22 @@ window.RECIPES = [
   "serves": "1",
   "description": "Flaked tuna with finely minced carrot and celery in a creamy, garlicky dressing — a five-minute lunch for lettuce cups, GF crackers or toast.",
   "swaps": "Replace Greek yogurt with plain unsweetened nut-free dairy-free yogurt (soy or coconut) or egg-free vegan mayo",
-  "watch": "Check dairy-free yogurt is nut-free; contains coconut if using coconut yogurt",
+  "watch": "Check dairy-free yogurt is nut-free",
   "tags": [
    "fish",
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://thecleaneatingcouple.com/wp-content/uploads/2024/02/healthy-tuna-salad-1.jpg",
   "print": "https://thecleaneatingcouple.com/wprm_print/healthy-tuna-salad-without-mayo"
  },
@@ -3027,6 +4355,19 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ],
   "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2023/05/spring-roll.jpg",
   "print": ""
  },
@@ -3048,6 +4389,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://cdn.loveandlemons.com/wp-content/uploads/2024/12/red-lentil-soup-social.jpg",
   "print": ""
  },
@@ -3068,6 +4420,18 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://cdn.loveandlemons.com/wp-content/uploads/2026/01/vegan-pho-social.jpg",
   "print": ""
  },
@@ -3082,13 +4446,23 @@ window.RECIPES = [
   "serves": "4",
   "description": "Turmeric- and cinnamon-spiced quinoa cooked in one pot with chickpeas, tart cranberries and fresh parsley — warm or cold, it packs beautifully.",
   "swaps": "Replace sliced almonds with toasted pepitas or sunflower seeds; use olive oil instead of coconut oil if preferred",
-  "watch": "Check broth is GF (or use water); contains coconut if using coconut oil",
+  "watch": "Check broth is GF (or use water)",
   "tags": [
    "vegetarian",
    "meal-prep",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": ""
  },
@@ -3110,6 +4484,17 @@ window.RECIPES = [
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "",
   "print": ""
  },
@@ -3132,6 +4517,17 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ],
   "img": "https://www.simplyquinoa.com/wp-content/uploads/2012/05/herbed-spring-quinoa-salad-4.jpg",
   "print": "https://www.simplyquinoa.com/wprm_print/herbed-spring-quinoa-salad"
  },
@@ -3152,6 +4548,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://cdn.pickuplimes.com/cache/f6/48/f64850c7d982234b321a96700034245e.jpg",
   "print": ""
  },
@@ -3166,13 +4573,23 @@ window.RECIPES = [
   "serves": "4",
   "description": "All the flavor of an egg roll without the wrapper: ground pork and shredded cabbage stir-fried in a savory coconut aminos-ginger sauce with a hit of fish sauce.",
   "swaps": "",
-  "watch": "Contains coconut (coconut aminos); check broth and fish sauce are GF",
+  "watch": "check broth and fish sauce are GF",
   "tags": [
    "pork",
    "quick",
    "meal-prep"
   ],
   "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://realsimplegood.com/wp-content/uploads/Egg-roll-in-a-bowl-one.jpg",
   "print": "https://realsimplegood.com/wprm_print/egg-roll-in-a-bowl-paleo-whole30-keto"
  },
@@ -3194,6 +4611,16 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2022/12/gluten-free-tacos-1-1.jpg",
   "print": "https://meaningfuleats.com/wprm_print/easy-gluten-free-tacos"
  },
@@ -3214,6 +4641,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2017/02/IMG_5939-2.jpg",
   "print": "https://meaningfuleats.com/wprm_print/gluten-free-fish-tacos"
  },
@@ -3228,13 +4666,23 @@ window.RECIPES = [
   "serves": "8",
   "description": "A thick, creamy one-pot potato soup enriched with coconut milk and thyme, topped with crispy bacon and green onions.",
   "swaps": "",
-  "watch": "Contains coconut (coconut milk); check broth and bacon are GF; any dairy-free cheese/sour cream topping must be nut-free",
+  "watch": "check broth and bacon are GF; any dairy-free cheese/sour cream topping must be nut-free",
   "tags": [
    "pork",
    "crowd",
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://www.hotpankitchen.com/wp-content/uploads/2021/10/potato-soup-1.jpg",
   "print": "https://www.hotpankitchen.com/wprm_print/gluten-free-dairy-free-potato-soup-one-pot"
  },
@@ -3256,6 +4704,17 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.skinnytaste.com/wp-content/uploads/2025/02/Vietnamese-Lemongrass-Chicken-Bowl-9.jpg",
   "print": "https://www.skinnytaste.com/wprm_print/lemongrass-chicken-noodle-bowls"
  },
@@ -3277,6 +4736,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
   "print": "https://downshiftology.com/wprm_print/101826/"
  },
@@ -3291,7 +4759,7 @@ window.RECIPES = [
   "serves": "6-8",
   "description": "Crunchy raw broccoli, red onion, raisins and roasted sunflower seeds tossed in a tangy-sweet creamy dressing, with smoky coconut 'bacon' bits. A no-cook potluck classic built nut-free from the start.",
   "swaps": "Use an egg-free vegan mayo that is not cashew- or almond-based.",
-  "watch": "Contains coconut (coconut bacon); some people with tree-nut allergies avoid coconut. Check vegan mayo label for nuts.",
+  "watch": "Check vegan mayo label for nuts.",
   "tags": [
    "make-ahead",
    "crowd",
@@ -3299,6 +4767,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2021/06/Vegan-Broccoli-Salad-1.jpg",
   "print": ""
  },
@@ -3319,6 +4796,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2018/09/Easy-Gluten-Free-Homemade-Rice-A-Roni-Vegan-Allergy-Free-PM1.jpg",
   "print": ""
  },
@@ -3338,6 +4824,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://strengthandsunshine.com/wp-content/uploads/2016/09/Purple-Sweet-Potato-Tots-PM1.jpg",
   "print": ""
  },
@@ -3358,6 +4853,15 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "easy",
+  "cuisine": "British",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.recipetineats.com/tachyon/2023/09/Easy-roast-potatoes_4a.jpg",
   "print": "https://www.recipetineats.com/wprm_print/119985"
  },
@@ -3379,6 +4883,15 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2022/03/top-shot-smashed-potatoes-on-white-plate.jpg",
   "print": "https://elavegan.com/wprm_print/smashed-potatoes"
  },
@@ -3393,13 +4906,23 @@ window.RECIPES = [
   "serves": "4",
   "description": "Fluffy mashed potatoes made creamy with plant milk and starchy cooking water, seasoned with nutmeg and finished with a drizzle of good olive oil and chives.",
   "swaps": "Use a nut-free plant milk (oat, soy or the light coconut milk the author suggests) and olive oil rather than vegan butter.",
-  "watch": "If using coconut milk, note it is coconut. If you choose vegan butter, pick a nut-free brand.",
+  "watch": "If you choose vegan butter, pick a nut-free brand.",
   "tags": [
    "holiday",
    "kid-friendly",
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2020/12/Eating-vegan-mashed-potatoes-in-black-bowl-with-olive-oil-drizzle.jpg",
   "print": "https://elavegan.com/wprm_print/vegan-mashed-potatoes"
  },
@@ -3414,13 +4937,22 @@ window.RECIPES = [
   "serves": "6",
   "description": "Tender, golden gluten-free cornbread where pumpkin puree and soured plant milk stand in for eggs and buttermilk. Lightly sweet and great with chili or a holiday spread.",
   "swaps": "Use a gluten-free flour blend that is nut-free (the author uses white rice flour plus cornstarch). Use oat, soy or canned coconut milk, NOT the cashew/almond milk the notes suggest.",
-  "watch": "Use certified gluten-free cornmeal. Check GF flour blend for almond flour. Coconut milk is coconut.",
+  "watch": "Use certified gluten-free cornmeal. Check GF flour blend for almond flour.",
   "tags": [
    "holiday",
    "crowd",
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://elavegan.com/wp-content/uploads/2020/09/3-slices-of-gluten-free-vegan-cornbread.jpg",
   "print": "https://elavegan.com/wprm_print/vegan-cornbread"
  },
@@ -3441,6 +4973,18 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "",
   "print": ""
  },
@@ -3462,6 +5006,15 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.spendwithpennies.com/wp-content/uploads/2019/02/Roasted-Green-Beans-SpendWithPennies-5.jpg",
   "print": "https://www.spendwithpennies.com/wprm_print/roasted-green-beans"
  },
@@ -3476,12 +5029,22 @@ window.RECIPES = [
   "serves": "6",
   "description": "Choose sweet cinnamon-coconut-sugar medallions or smoky chili-cumin chunks; both roast until caramelized at the edges and soft in the middle.",
   "swaps": "For the chili-cumin version use avocado oil, not ghee.",
-  "watch": "Cinnamon version uses coconut oil and coconut sugar (coconut).",
+  "watch": "",
   "tags": [
    "kid-friendly",
    "holiday"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://meaningfuleats.com/wp-content/uploads/2019/01/roasted-sweet-potatoes.jpg",
   "print": "https://meaningfuleats.com/wprm_print/easy-roasted-sweet-potatoes"
  },
@@ -3502,6 +5065,16 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2019/01/kale-salad.jpg",
   "print": ""
  },
@@ -3522,6 +5095,16 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "winter"
+  ],
   "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/03/IMG_25701-cropped.jpg",
   "print": ""
  },
@@ -3542,6 +5125,16 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://runningonrealfood.com/wp-content/uploads/2024/01/vegan-gluten-free-quinoa-kale-salad-lemon-dressing-1-2.jpg",
   "print": "https://runningonrealfood.com/wprm_print/vegan-kale-quinoa-salad-with-lemon-dressing"
  },
@@ -3563,6 +5156,13 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2017/02/cinn.choc_.popcorn.stacked.bowl_.5x7-scaled.jpg",
   "print": ""
  },
@@ -3584,6 +5184,13 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2015/09/trail-mix-hand-5x7-logo.jpg",
   "print": ""
  },
@@ -3604,6 +5211,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://cdn.pickuplimes.com/cache/02/d9/02d987f34ed1585575b88109fbac7b5c.jpg",
   "print": ""
  },
@@ -3624,6 +5240,13 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "medium",
+  "cuisine": "Global",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.fearlessdining.com/wp-content/uploads/2025/05/baked-seed-crackers.jpg",
   "print": "https://www.fearlessdining.com/wprm_print/thin-and-crispy-gluten-free-seed-crackers"
  },
@@ -3643,6 +5266,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2017/01/Kale-Chips-Square.jpg",
   "print": "https://lovingitvegan.com/wprm_print/kale-chips"
  },
@@ -3664,6 +5296,13 @@ window.RECIPES = [
    "quick"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "fall"
+  ],
   "img": "https://www.jessicagavin.com/wp-content/uploads/2017/10/roasted-pumpkin-seeds-savory-1200.jpg",
   "print": "https://www.jessicagavin.com/wprm_print/roasted-pumpkin-seeds"
  },
@@ -3685,6 +5324,13 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://happihomemade.com/wp-content/uploads/2024/08/plate-of-PBJ-Energy-Bites.jpg",
   "print": "https://happihomemade.com/wprm_print/no-bake-pbj-energy-bites-nut-free-recipe"
  },
@@ -3705,6 +5351,13 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2019/06/no-bake-sunbutter-granola-bars-veganricha-5200.jpg",
   "print": "https://www.veganricha.com/wprm_print/vegan-sunbutter-granola-bars"
  },
@@ -3719,12 +5372,19 @@ window.RECIPES = [
   "serves": "10 bars",
   "description": "Toasted oats and quinoa with sunflower and pumpkin seeds, chopped figs and flax, bound with sunflower butter and honey, then drizzled with dark chocolate.",
   "swaps": "Use certified gluten-free oats; use dairy-free dark chocolate chips.",
-  "watch": "Coconut oil in the drizzle (coconut).",
+  "watch": "",
   "tags": [
    "make-ahead",
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": ""
  },
@@ -3745,6 +5405,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.freshoffthegrid.com/wp-content/uploads/Strawberry-Fruit-Leathers-Fruit-Roll-Ups.jpg",
   "print": "https://www.freshoffthegrid.com/wprm_print/strawberry-fruit-leathers"
  },
@@ -3765,6 +5434,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ],
   "img": "https://runningonrealfood.com/wp-content/uploads/2020/09/Easy-Vegan-Cinnamon-Baked-Apple-Chips-1-3.jpg",
   "print": "https://runningonrealfood.com/wprm_print/baked-cinnamon-apple-chips"
  },
@@ -3786,6 +5464,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.inspiredtaste.net/wp-content/uploads/2019/07/The-Best-Homemade-Hummus-Recipe-1200.jpg",
   "print": ""
  },
@@ -3806,6 +5493,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.recipetineats.com/tachyon/2016/12/Guacamole_6.jpg",
   "print": "https://www.recipetineats.com/wprm_print/21922"
  },
@@ -3827,6 +5523,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://www.inspiredtaste.net/wp-content/uploads/2020/01/Easy-Salsa-Recipe-1200.jpg",
   "print": ""
  },
@@ -3847,6 +5552,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2021/12/Baba-Ganoush-Square.jpg",
   "print": "https://lovingitvegan.com/wprm_print/baba-ganoush-moutabel"
  },
@@ -3867,6 +5581,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "medium",
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": "https://www.makingthymeforhealth.com/wprm_print/healthy-vegan-queso"
  },
@@ -3888,6 +5611,13 @@ window.RECIPES = [
    "holiday"
   ],
   "difficulty": "medium",
+  "cuisine": "Global",
+  "role": "starter",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
   "img": "",
   "print": "https://wholenewmom.com/wprm_print/garlic-and-chive-sunflower-seed-cheese-dairy-and-soy-free-2"
  },
@@ -3909,6 +5639,16 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ],
   "img": "https://lovingitvegan.com/wp-content/uploads/2019/01/Vegan-Bruschetta-Square.jpg",
   "print": "https://lovingitvegan.com/wprm_print/vegan-bruschetta"
  },
@@ -3930,6 +5670,15 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "medium",
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "spring"
+  ],
   "img": "https://www.worldofvegan.com/wp-content/uploads/2023/03/vegan-deviled-eggs-featured.jpg",
   "print": "https://www.worldofvegan.com/wprm_print/vegan-deviled-eggs-with-potatoes"
  },
@@ -3951,6 +5700,16 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2022/07/Stuffed-Mushrooms-4420.jpg",
   "print": "https://www.veganricha.com/wprm_print/vegan-stuffed-mushrooms"
  },
@@ -3971,6 +5730,16 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "involved",
+  "cuisine": "Vietnamese",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2020/12/baked-vegan-spring-rolls-macro.jpg",
   "print": "https://www.lazycatkitchen.com/baked-vegan-spring-rolls/?print-version=true"
  },
@@ -3991,6 +5760,15 @@ window.RECIPES = [
    "crowd"
   ],
   "difficulty": "medium",
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://www.veganricha.com/wp-content/uploads/2014/07/Falafel-Bowl-1432.jpg",
   "print": "https://www.veganricha.com/wprm_print/baked-lentil-split-pea-falafel-bowl-with-tahini-dressing-gluten-free-soy-free-recipe"
  },
@@ -4011,6 +5789,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/01/Soy-Garlic-Ginger-Chicken-Wings-3.jpg",
   "print": "https://downshiftology.com/wprm_print/39098/"
  },
@@ -4032,6 +5819,15 @@ window.RECIPES = [
    "kid-friendly"
   ],
   "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
   "img": "https://allergyawesomeness.com/wp-content/uploads/2015/12/quinoa.meatballs.5x7.logo_.closeup.jpg",
   "print": ""
  }

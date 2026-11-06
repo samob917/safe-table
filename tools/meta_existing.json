@@ -1,0 +1,2184 @@
+{
+ "how-to-make-gluten-free-sourdough-bread": {
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-sourdough-focaccia": {
+  "cuisine": "Italian",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "fluffy-stovetop-gluten-free-flatbread": {
+  "cuisine": "Mediterranean",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-bagels-chewy-and-tender": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-pumpkin-bread": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "gluten-free-bagels": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-bread-buckwheat-and-psyllium": {
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-gluten-free-bread": {
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-flour-tortillas": {
+  "cuisine": "Mexican",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-pizza-crust": {
+  "cuisine": "Italian",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-double-chocolate-muffins": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-gluten-free-potato-buns": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "oil-free-cinnamon-rolls-vegan-gf": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "vegan-gluten-free-banana-bread": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "buckwheat-cinnamon-raisin-bagels": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-crusty-seeded-rolls-vegan": {
+  "cuisine": "Global",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-cornbread-gluten-free": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "eggless-banana-muffins": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-rolls-without-xanthan-gum": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-apple-bread-dairy-free": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "gluten-free-english-muffins": {
+  "cuisine": "British",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-biscuits-vegan-and-dairy-free": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "multiseed-homemade-healthy-crackers": {
+  "cuisine": "Global",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-blueberry-muffins-gluten-free-nut-free": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "old-fashioned-gluten-free-vegan-buttermilk-biscuits": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-naan": {
+  "cuisine": "Indian",
+  "role": "bread",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-and-vegan-soft-pretzel-bites": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-gluten-free-cinnamon-rolls": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "8-ingredient-coconut-cranberry-scones": {
+  "cuisine": "British",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "vegan-zucchini-bread": {
+  "cuisine": "American",
+  "role": "bread",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "southwest-tofu-scramble": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "strawberries-and-cream-chia-pudding": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ "decadent-chocolate-overnight-oats": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-fluffy-gluten-free-vegan-buttermilk-pancakes": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "cocoa-banana-cinnamon-quinoa-flakes": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "the-best-gluten-free-vegan-waffle": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-banana-french-toast": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-baked-pumpkin-oatmeal": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "blender-sunbutter-banana-and-buckwheat-waffles": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "flaxseed-pancakes-vegan-gluten-free": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-country-breakfast-skillet": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "aip-and-whole30-breakfast-hash": {
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "gluten-free-chocolate-chip-pancakes-teff-flour": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "pumpkin-seed-gluten-free-granola": {
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "the-best-toasted-maple-sesame-granola": {
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "2-ingredient-vegan-buckwheat-crepes": {
+  "cuisine": "French",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-crepes-chickpea-crepes": {
+  "cuisine": "French",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-breakfast-hash": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "maple-sage-breakfast-patties": {
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "quinoa-breakfast-porridge": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "pitaya-dragon-fruit-smoothie-bowl": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "breakfast-potatoes-crispy-tender": {
+  "cuisine": "American",
+  "role": "breakfast-side",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-baked-oatmeal": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "chickpea-flour-omelette-vegan": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "sausage-flavored-breakfast-beans-and-grits": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "easy-green-veggie-packed-smoothie-bowl": {
+  "cuisine": "American",
+  "role": "breakfast-main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "moist-and-flavorful-breakfast-muffins-top-8-free": {
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "classic-vegan-gluten-free-chocolate-chip-cookies": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-gluten-free-pumpkin-pie": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ]
+ },
+ "raspberry-coconut-mango-sorbet": {
+  "cuisine": "Global",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "vegan-lemon-bars-gluten-free-eggless": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ "easy-thick-and-fudgy-one-bowl-gluten-free-vegan-brownies": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "baked-gluten-free-apple-cider-doughnuts": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ]
+ },
+ "ina-garten-s-french-apple-tart-made-gluten-free-and-vegan": {
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "easy-vegan-carrot-sheet-cake": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "spring"
+  ]
+ },
+ "allergy-friendly-pumpkin-mousse-pie": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall"
+  ]
+ },
+ "coconut-panna-cotta-gluten-free-vegan": {
+  "cuisine": "Italian",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ "gluten-free-gingerbread-men-dairy-free": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "winter"
+  ]
+ },
+ "gluten-free-rice-krispies-treats-vegan": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-chocolate-cake": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-gluten-free-vanilla-cupcakes": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-chocolate-avocado-mousse": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-snickerdoodles-oil-free-gluten-free": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "mango-turmeric-and-ginger-berry-ice-cream-no-churn": {
+  "cuisine": "Global",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "medjool-date-baked-cheesecake": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-lemon-cheesecake-no-bake-no-cashews": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ "avocado-chocolate-tart": {
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-blueberry-cobbler": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "gluten-free-apple-pie-with-an-easy-flaky-crust": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "gluten-free-chocolate-pudding": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-peach-cobbler": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "gluten-free-vegan-chocolate-pudding-pretzel-pie": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "chocolate-panna-cotta": {
+  "cuisine": "Italian",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "condensed-milk-truffles": {
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "winter"
+  ]
+ },
+ "gluten-free-sugar-cookies-cut-out": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "blueberry-peach-crisp-gluten-free": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "vegan-chocolate-mousse": {
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-sugar-cookies-chocolate-dipped": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-vegan-chocolate-chip-cookies": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-chocolate-mousse-with-chocolate-covered-graham-cracker": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "dairy-free-and-egg-free-vanilla-cake": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-blueberry-white-chocolate-chip-blondies": {
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "braised-short-ribs-cabernet": {
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "rack-of-lamb-with-dijon-herb-crust": {
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ]
+ },
+ "slow-cooker-pot-roast": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "30-minute-dairy-free-creamy-tuscan-chicken": {
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "baked-honey-mustard-chicken-and-potatoes": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "30-minute-sweet-and-sour-chicken-stir-fry": {
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-chicken-piccata": {
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "turkey-bolognese-with-gluten-free-fusilli": {
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "1-pot-chickpea-shakshuka": {
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "1-pot-red-lentil-chili": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "spicy-red-lentil-curry": {
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "a-really-good-slow-cooker-beef-stew": {
+  "cuisine": "British",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "chimichurri-steak": {
+  "cuisine": "Latin American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "carne-asada": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "eggless-meatballs": {
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "creamy-vegan-mushroom-risotto": {
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "sheet-pan-lemon-herb-salmon-with-asparagus": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ]
+ },
+ "sheet-pan-maple-dijon-salmon": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "sheet-pan-blueberry-salmon": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "tofu-jalfrezi": {
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "baked-tofu-curry-tofu-makhani": {
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-harissa-chicken": {
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "ropa-vieja": {
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "pork-tenderloin-with-apples": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "salsa-pork-chops": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "roast-chicken-with-herb-butter": {
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "grilled-chimichurri-chicken-thighs": {
+  "cuisine": "Latin American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "baked-cod-with-fennel-and-tomatoes": {
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-lentil-shepherd-s-pie-vegan": {
+  "cuisine": "British",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "baked-hamburgers": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "thai-yellow-chicken-curry-with-potatoes": {
+  "cuisine": "Thai",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "slow-cooker-chicken-curry": {
+  "cuisine": "Indian",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "20-minute-gluten-free-mongolian-beef": {
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "roasted-duck-breast-with-cherry-relish": {
+  "cuisine": "French",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "sheet-pan-chicken-fajitas": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "allergy-friendly-taco-soup": {
+  "cuisine": "Mexican",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "gluten-and-dairy-free-chicken-salad-sandwich-egg-free-option": {
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "allergy-friendly-thai-chopped-salad": {
+  "cuisine": "Thai",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "korean-beef-bowl": {
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "tuscan-white-bean-soup": {
+  "cuisine": "Italian",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "chicken-tinga": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "lemony-quinoa-kale-salad-with-crispy-chickpeas": {
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "jerk-tofu-and-roasted-plantain-bowls": {
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-salmon-sushi-bowls": {
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "traditional-lentil-soup": {
+  "cuisine": "Mediterranean",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "easy-slow-cooker-vegan-chili": {
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "cold-italian-pasta-salad": {
+  "cuisine": "Italian",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "salmon-rice-bowls": {
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "healthy-white-chicken-chili": {
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "healthy-chicken-lettuce-wraps": {
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "healthy-tuna-salad-without-mayo": {
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "fresh-spring-rolls": {
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "protein",
+   "fruit"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ]
+ },
+ "red-lentil-soup": {
+  "cuisine": "Middle Eastern",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "vegan-pho": {
+  "cuisine": "Vietnamese",
+  "role": "soup",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "one-pot-moroccan-inspired-chickpea-quinoa-salad": {
+  "cuisine": "Middle Eastern",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "seriously-the-best-healthy-turkey-chili": {
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "herbed-spring-quinoa-salad": {
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "spring"
+  ]
+ },
+ "rainbow-veggie-rolls": {
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "egg-roll-in-a-bowl": {
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-tacos": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "gluten-free-fish-tacos": {
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "gluten-free-dairy-free-potato-soup-one-pot": {
+  "cuisine": "American",
+  "role": "soup",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "lemongrass-chicken-noodle-bowls": {
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "fall-roasted-vegetables": {
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "vegan-broccoli-salad": {
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-gluten-free-homemade-rice-a-roni-copycat": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "purple-sweet-potato-tater-tots": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-roast-potatoes": {
+  "cuisine": "British",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "crispy-smashed-potatoes-baked-or-air-fried": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-mashed-potatoes": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "moist-vegan-cornbread": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-polenta-with-mushrooms-and-beans": {
+  "cuisine": "Italian",
+  "role": "side-starch",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "roasted-green-beans": {
+  "cuisine": "American",
+  "role": "side-veg",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-roasted-sweet-potatoes-two-ways": {
+  "cuisine": "American",
+  "role": "side-starch",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "kale-salad-with-carrot-ginger-dressing": {
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "citrus-salad-with-fennel-and-avocado": {
+  "cuisine": "Mediterranean",
+  "role": "salad",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "fruit"
+  ],
+  "season": [
+   "winter"
+  ]
+ },
+ "vegan-kale-quinoa-salad-with-lemon-dressing": {
+  "cuisine": "American",
+  "role": "salad",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "allergy-friendly-cinnamon-chocolate-popcorn": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "nut-free-trail-mix": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "ranch-flavoured-roasted-chickpeas": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "thin-and-crispy-gluten-free-seed-crackers": {
+  "cuisine": "Global",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "cheesy-kale-chips": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "roasted-pumpkin-seeds": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "fall"
+  ]
+ },
+ "no-bake-pbandj-energy-bites-nut-free": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "no-bake-sunbutter-granola-bars": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "toasted-quinoa-fig-and-dark-chocolate-nut-free-granola-bars": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "strawberry-fruit-leathers": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "baked-cinnamon-apple-chips": {
+  "cuisine": "American",
+  "role": "snack",
+  "weight": "light",
+  "includes": [
+   "fruit"
+  ],
+  "season": [
+   "fall"
+  ]
+ },
+ "easy-hummus": {
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "guacamole": {
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "easy-salsa": {
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "the-best-baba-ganoush-moutabel": {
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "healthy-vegan-queso": {
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "garlic-and-chive-sunflower-seed-cheese": {
+  "cuisine": "Global",
+  "role": "starter",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ]
+ },
+ "vegan-bruschetta": {
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ]
+ },
+ "vegan-deviled-eggs-with-potatoes": {
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "spring"
+  ]
+ },
+ "vegan-stuffed-mushrooms": {
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ]
+ },
+ "baked-vegan-spring-rolls": {
+  "cuisine": "Vietnamese",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "baked-lentil-split-pea-falafel": {
+  "cuisine": "Middle Eastern",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "soy-garlic-ginger-chicken-wings": {
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ },
+ "asian-quinoa-meatballs": {
+  "cuisine": "Chinese",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ]
+ }
+}
