@@ -64,9 +64,10 @@
     const tags = (r.tags || []).slice(0, 5).map(t => `<span class="tag">${esc(t)}</span>`).join("");
     const meta = [r.time && `⏱ ${esc(r.time)}`, r.serves && `🍽 ${esc(r.serves)}`].filter(Boolean).map(m => `<span>${m}</span>`).join("");
     return `<article class="card">
+      <a class="card-img" href="#/r/${esc(r.id)}" aria-hidden="true" tabindex="-1">${photo(r)}</a>
       ${opts.course ? `<div class="course-label">${esc(opts.course)}</div>` : ""}
       <button class="save" data-id="${esc(r.id)}" aria-pressed="${isSaved}" aria-label="Save recipe" title="Save">${isSaved ? "♥" : "♡"}</button>
-      <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h3>
+      <h3><a href="#/r/${esc(r.id)}">${esc(r.title)}</a></h3>
       <div class="site">${esc(r.site)}</div>
       <div class="meta">${meta}</div>
       <p class="desc">${esc(r.description)}</p>
@@ -76,9 +77,81 @@
       <div class="card-actions">
         <span class="diff ${esc(r.difficulty)}">${esc(r.difficulty || "")}</span>
         ${ING[r.id] ? `<button class="add-list" data-id="${esc(r.id)}" aria-pressed="${inCart}" title="Add ingredients to shopping list">${inCart ? "✓ On list" : "+ List"}</button>` : ""}
-        <a class="go" href="${esc(r.url)}" target="_blank" rel="noopener">Open recipe ↗</a>
+        <a class="go" href="#/r/${esc(r.id)}">View recipe →</a>
       </div>
     </article>`;
+  }
+
+  function photo(r, cls = "") {
+    const c = catByKey[r.category] || {};
+    const fallback = `<span class="ph-fallback ${cls}">${c.emoji || "🍽️"}</span>`;
+    if (!r.img) return fallback;
+    return `<img class="${cls}" src="${esc(r.img)}" alt="${esc(r.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='${fallback.replace(/"/g, "&quot;")}'">`;
+  }
+
+  function viewRecipe(id) {
+    const r = byId[id];
+    if (!r) return viewNotFound();
+    setTitle(r.title);
+    const c = catByKey[r.category];
+    const ings = ING[id] || [];
+    const inCart = !!cart[id];
+    const menus = PLANS.filter(p => p.menu.some(m => m.id === id));
+    const related = RECIPES.filter(x => x.id !== id && x.category === r.category && x.subcategory === r.subcategory).slice(0, 3);
+    const ingRow = (i, n) => {
+      const warns = (i.w || "").split(" · ").filter(Boolean);
+      return `<li class="ing">
+        <input type="checkbox" id="ing-${n}"><label for="ing-${n}">
+          <span class="ing-line">${esc(i.r)}</span>
+          ${i.b ? `<span class="ing-swap">→ Use: <b>${esc(i.b)}</b></span>` : ""}
+          ${warns.map(w => `<span class="ing-warn ${/coconut/i.test(w) ? "coco" : ""}">${/coconut/i.test(w) ? "" : "⚠ "}${esc(w)}</span>`).join("")}
+        </label></li>`;
+    };
+    return `
+      <div class="crumbs"><a href="#/">Home</a> / <a href="#/c/${r.category}">${esc(c?.name || r.category)}</a> / ${esc(r.title)}</div>
+      <article class="recipe">
+        <header class="recipe-head">
+          <div class="recipe-photo">${photo(r, "big")}</div>
+          <div class="recipe-intro">
+            <div class="course-label">${esc(r.subcategory || "")}</div>
+            <h1>${esc(r.title)}</h1>
+            <p class="by">Recipe by <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.site)}</a></p>
+            <div class="recipe-facts">
+              ${r.time ? `<div><span>Time</span><b>${esc(r.time)}</b></div>` : ""}
+              ${r.serves ? `<div><span>Makes</span><b>${esc(r.serves)}</b></div>` : ""}
+              ${r.difficulty ? `<div><span>Level</span><b class="diff ${esc(r.difficulty)}">${esc(r.difficulty)}</b></div>` : ""}
+            </div>
+            <p class="desc">${esc(r.description)}</p>
+            <div class="recipe-actions no-print">
+              ${r.print ? `<a class="btn" href="${esc(r.print)}" target="_blank" rel="noopener">🖨 Author's print version (with steps) ↗</a>` : `<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Full recipe & steps on ${esc(r.site)} ↗</a>`}
+              <button class="btn ghost" onclick="window.print()">Print this card</button>
+              ${ings.length ? `<button class="btn ghost add-list" data-id="${esc(r.id)}" aria-pressed="${inCart}">${inCart ? "✓ On list" : "+ List"}</button>` : ""}
+              <button class="btn ghost save-inline save" data-id="${esc(r.id)}" aria-pressed="${saved.has(id)}">${saved.has(id) ? "♥" : "♡"}</button>
+            </div>
+          </div>
+        </header>
+
+        <div class="recipe-body">
+          <section class="recipe-ings">
+            <h2>Ingredients</h2>
+            ${r.swaps ? `<div class="note swap"><b>Swap:</b> ${esc(r.swaps)}</div>` : ""}
+            ${r.watch ? `<div class="note watch"><b>Check:</b> ${esc(r.watch)}</div>` : ""}
+            ${!r.swaps && !r.watch ? `<div class="note ok">✓ Safe as written</div>` : ""}
+            ${ings.length ? `<p class="muted small">Exactly as the author lists them, with her safe swap shown under any line that needs one. Tick them off as you go.</p><ul class="ings">${ings.map(ingRow).join("")}</ul>`
+              : `<p class="muted">The ingredient list isn't available here. <a href="${esc(r.url)}" target="_blank" rel="noopener">See it on ${esc(r.site)} ↗</a></p>`}
+          </section>
+          <aside class="recipe-side">
+            <h2>Method</h2>
+            <p>The step-by-step method is on ${esc(r.site)}${r.print ? `. Their <b>print version</b> is a clean, ad-free page with every step` : ""}.</p>
+            <p class="no-print"><a class="btn" href="${esc(r.print || r.url)}" target="_blank" rel="noopener">${r.print ? "Open print version ↗" : "Open recipe ↗"}</a></p>
+            <p class="print-only small">Method: ${esc(r.print || r.url)}</p>
+            ${r.print ? `<p class="no-print small"><a href="${esc(r.url)}" target="_blank" rel="noopener">Or read the full post with photos and tips ↗</a></p>` : ""}
+            ${menus.length ? `<h3>Part of these menus</h3><ul class="tips">${menus.map(p => `<li><a href="#/plan/${esc(p.id)}">${esc(p.title)}</a></li>`).join("")}</ul>` : ""}
+            ${(r.tags || []).length ? `<div class="tags">${r.tags.map(t => `<a class="tag" href="#/c/${r.category}?tag=${encodeURIComponent(t)}">${esc(t)}</a>`).join("")}</div>` : ""}
+          </aside>
+        </div>
+      </article>
+      ${related.length ? `<div class="no-print"><h2 class="group-title">More ${esc((r.subcategory || "").toLowerCase())}</h2><div class="grid">${related.map(x => card(x)).join("")}</div></div>` : ""}`;
   }
 
   function planCard(p) {
@@ -423,6 +496,7 @@
     else if (parts[0] === "swaps") html = viewSwaps();
     else if (parts[0] === "sources") html = viewSources();
     else if (parts[0] === "list") html = viewList();
+    else if (parts[0] === "r") html = viewRecipe(parts[1]);
     else html = viewNotFound();
     app.innerHTML = html;
     setActiveNav(hash);

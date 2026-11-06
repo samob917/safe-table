@@ -17,7 +17,9 @@ window.RECIPES = [
    "freezer-friendly",
    "make-ahead"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://www.bakerita.com/wp-content/uploads/2021/02/Gluten-Free-Sourdough-Bread-26.jpg",
+  "print": "https://www.bakerita.com/wprm_print/how-to-make-gluten-free-sourdough-bread"
  },
  {
   "id": "gluten-free-sourdough-focaccia",
@@ -36,7 +38,9 @@ window.RECIPES = [
    "sourdough",
    "crowd-pleaser"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://www.bakerita.com/wp-content/uploads/2021/08/Sourdough-Focaccia-10.jpg",
+  "print": "https://www.bakerita.com/wprm_print/gluten-free-sourdough-focaccia"
  },
  {
   "id": "fluffy-stovetop-gluten-free-flatbread",
@@ -55,7 +59,9 @@ window.RECIPES = [
    "weeknight",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.bakerita.com/wp-content/uploads/2022/09/Gluten-Free-Flatbread-20-scaled.jpg",
+  "print": "https://www.bakerita.com/wprm_print/fluffy-stovetop-gluten-free-flatbread"
  },
  {
   "id": "gluten-free-vegan-bagels-chewy-and-tender",
@@ -75,7 +81,9 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Vegan-Bagels_1200-x-1200_Featured-Image_2.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-pumpkin-bread",
@@ -95,7 +103,9 @@ window.RECIPES = [
    "beginner",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-free-Vegan-Pumpkin-Bread8-e1476715950521.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-bagels",
@@ -114,7 +124,9 @@ window.RECIPES = [
    "make-ahead",
    "allergy-blog"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2020/01/gluten-free-bagels.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-bread-buckwheat-and-psyllium",
@@ -134,7 +146,9 @@ window.RECIPES = [
    "sandwich-bread",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://elavegan.com/wp-content/uploads/2019/10/homemade-round-loaf-fresh-from-the-oven.jpg",
+  "print": "https://elavegan.com/wprm_print/gluten-free-bread-recipe"
  },
  {
   "id": "vegan-gluten-free-bread",
@@ -152,7 +166,9 @@ window.RECIPES = [
    "sandwich-bread",
    "freezer-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.theconsciousplantkitchen.com/wp-content/uploads/2022/09/Vegan-Gluten-Free-Bread-8-scaled.jpg",
+  "print": "https://www.theconsciousplantkitchen.com/wprm_print/vegan-gluten-free-bread"
  },
  {
   "id": "easy-gluten-free-flour-tortillas",
@@ -172,7 +188,9 @@ window.RECIPES = [
    "kid-friendly",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2024/01/gluten-free-tortillas-3-scaled.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-pizza-crust",
@@ -191,7 +209,9 @@ window.RECIPES = [
    "weeknight",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2024/03/GF-pizza-crust-4-scaled.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-double-chocolate-muffins",
@@ -211,7 +231,9 @@ window.RECIPES = [
    "quick",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2016/01/double.choc_.muffins.5x7.logo_.stacked.jpg",
+  "print": ""
  },
  {
   "id": "vegan-gluten-free-potato-buns",
@@ -230,7 +252,9 @@ window.RECIPES = [
    "freezer-friendly",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://feastingonfruit.com/wp-content/uploads/2016/07/IMG_6661-3.jpg",
+  "print": ""
  },
  {
   "id": "oil-free-cinnamon-rolls-vegan-gf",
@@ -249,7 +273,9 @@ window.RECIPES = [
    "brunch",
    "no-yeast"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://feastingonfruit.com/wp-content/uploads/2016/03/IMG_0464-2.jpg",
+  "print": ""
  },
  {
   "id": "vegan-gluten-free-banana-bread",
@@ -268,7 +294,9 @@ window.RECIPES = [
    "freezer-friendly",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2019/06/Vegan-Gluten-Free-Banana-Bread-17.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/vegan-gluten-free-banana-bread"
  },
  {
   "id": "buckwheat-cinnamon-raisin-bagels",
@@ -287,7 +315,9 @@ window.RECIPES = [
    "freezer-friendly",
    "whole-grain"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2016/03/IMG_0930-1.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/buckwheat-cinnamon-raisin-bagels-gluten-free-vegan"
  },
  {
   "id": "gluten-free-crusty-seeded-rolls-vegan",
@@ -306,7 +336,9 @@ window.RECIPES = [
    "freezer-friendly",
    "holiday"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2016/11/IMG_4726.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-crusty-seeded-rolls-vegan"
  },
  {
   "id": "vegan-cornbread-gluten-free",
@@ -325,7 +357,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd-pleaser"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.texanerin.com/content/uploads/2014/11/vegan-cornbread-1.jpg",
+  "print": "https://www.texanerin.com/wprm_print/vegan-cornbread-gluten-free"
  },
  {
   "id": "eggless-banana-muffins",
@@ -344,7 +378,9 @@ window.RECIPES = [
    "kid-friendly",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.texanerin.com/content/uploads/2025/07/eggless-banana-muffins-1600-image.jpg",
+  "print": "https://www.texanerin.com/wprm_print/eggless-banana-muffins"
  },
  {
   "id": "gluten-free-rolls-without-xanthan-gum",
@@ -363,7 +399,9 @@ window.RECIPES = [
    "holiday",
    "beginner"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://zestforbaking.com/wp-content/uploads/2018/02/gluten-free-rolls-without-xanthan-gum-2.jpg",
+  "print": "https://zestforbaking.com/wprm_print/gluten-free-rolls-without-xanthan-gum"
  },
  {
   "id": "gluten-free-apple-bread-dairy-free",
@@ -383,7 +421,9 @@ window.RECIPES = [
    "brunch",
    "project"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://zestforbaking.com/wp-content/uploads/2018/10/gluten-free-apple-bread-sliced-1.jpg",
+  "print": "https://zestforbaking.com/wprm_print/gluten-free-apple-bread-dairy-free"
  },
  {
   "id": "gluten-free-english-muffins",
@@ -403,7 +443,9 @@ window.RECIPES = [
    "freezer-friendly",
    "brunch"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2022/02/Gluten-Free-English-Muffins-10-ingredients-tender-inside-crusty-outside-SO-classic-minimalistbaker-recipe-glutenfree-englishmuffins-11.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/gluten-free-english-muffins"
  },
  {
   "id": "easy-gluten-free-biscuits-vegan-and-dairy-free",
@@ -422,7 +464,9 @@ window.RECIPES = [
    "quick",
    "brunch"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://veggiekinsblog.com/wp-content/uploads/2022/12/Gluten-Free-Biscuits-with-Scallions-Veggiekins-Blog-13-1200x1799.jpg",
+  "print": "https://veggiekinsblog.com/wprm_print/10244/"
  },
  {
   "id": "multiseed-homemade-healthy-crackers",
@@ -441,7 +485,9 @@ window.RECIPES = [
    "snack",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.cottercrunch.com/wp-content/uploads/2020/03/EXTRA-paleo-seed-crackers-5.jpg",
+  "print": ""
  },
  {
   "id": "vegan-blueberry-muffins-gluten-free-nut-free",
@@ -460,7 +506,9 @@ window.RECIPES = [
    "kid-friendly",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://watchlearneat.com/wp-content/uploads/2021/01/close-up-overhead-of-muffins-e1610906067695.jpg",
+  "print": "https://watchlearneat.com/wprm_print/vegan-blueberry-muffins-gluten-free-refined-sugar-free-nut-free"
  },
  {
   "id": "old-fashioned-gluten-free-vegan-buttermilk-biscuits",
@@ -479,7 +527,9 @@ window.RECIPES = [
    "quick",
    "top-8-free"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/02/Old-Fashioned-Gluten-Free-Vegan-Buttermilk-Biscuits-Allergy-Free-PM1.jpg",
+  "print": ""
  },
  {
   "id": "easy-gluten-free-naan",
@@ -499,7 +549,9 @@ window.RECIPES = [
    "freezer-friendly",
    "top-8-free"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2022/12/Gluten-Free-Naan-3.jpg",
+  "print": ""
  },
  {
   "id": "easy-gluten-free-and-vegan-soft-pretzel-bites",
@@ -518,7 +570,9 @@ window.RECIPES = [
    "party",
    "snack"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.fooduzzi.com/wp-content/uploads/2017/03/gluten-free-vegan-soft-pretzel-bites-everything-bagel-9.jpg",
+  "print": ""
  },
  {
   "id": "vegan-gluten-free-cinnamon-rolls",
@@ -538,7 +592,9 @@ window.RECIPES = [
    "holiday",
    "nut-free"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://georgeats.com/wp-content/uploads/2022/05/Vegan-cinnamon-scrolls-1.jpg",
+  "print": "https://georgeats.com/wprm_print/vegan-gluten-free-cinnamon-rolls"
  },
  {
   "id": "8-ingredient-coconut-cranberry-scones",
@@ -557,7 +613,9 @@ window.RECIPES = [
    "holiday",
    "brunch"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://theconscientiouseater.com/wp-content/uploads/2014/04/DSC07425.jpg",
+  "print": "https://theconscientiouseater.com/wprm_print/8-ingredient-coconut-cranberry-scones"
  },
  {
   "id": "vegan-zucchini-bread",
@@ -576,7 +634,9 @@ window.RECIPES = [
    "summer",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://thehiddenveggies.com/wp-content/uploads/2021/05/vegan-zucchini-bread-3.jpg",
+  "print": "https://thehiddenveggies.com/wprm_print/vegan-zucchini-bread"
  },
  {
   "id": "southwest-tofu-scramble",
@@ -595,7 +655,9 @@ window.RECIPES = [
    "quick",
    "high-protein"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2014/08/BEST-Tofu-scramble-with-loads-of-veggies-and-smoky-southwest-flavor-vegan-glutenfree.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/southwest-tofu-scramble"
  },
  {
   "id": "strawberries-and-cream-chia-pudding",
@@ -614,7 +676,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2025/06/Strawberry-Chia-Pudding-5.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/strawberries-cream-chia-pudding"
  },
  {
   "id": "decadent-chocolate-overnight-oats",
@@ -633,7 +697,9 @@ window.RECIPES = [
    "sweet",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2022/02/CREAMY-Chocolate-Overnight-Oats-8-ingredients-vegan-naturally-sweetened-SO-chocolatey-minimalistbaker-recipe-plantbased-chocolate-overnightoats-8.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/decadent-chocolate-overnight-oats"
  },
  {
   "id": "easy-fluffy-gluten-free-vegan-buttermilk-pancakes",
@@ -653,7 +719,9 @@ window.RECIPES = [
    "sweet",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/07/Easy-Fluffy-Gluten-Free-Vegan-Buttermilk-Pancakes-Allergy-Free-PM1.jpg",
+  "print": ""
  },
  {
   "id": "cocoa-banana-cinnamon-quinoa-flakes",
@@ -673,7 +741,9 @@ window.RECIPES = [
    "oat-free",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2016/06/Cocoa-Banana-Cinnamon-Quinoa-Flakes-PM1.jpg",
+  "print": ""
  },
  {
   "id": "the-best-gluten-free-vegan-waffle",
@@ -692,7 +762,9 @@ window.RECIPES = [
    "sweet",
    "freezer-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2012/07/Gluten-Free-Vegan-Waffles-FB.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-banana-french-toast",
@@ -712,7 +784,9 @@ window.RECIPES = [
    "date-night",
    "brunch"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2016/10/french.toast_.drip_.5x7.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-baked-pumpkin-oatmeal",
@@ -732,7 +806,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2021/10/pumpkin-baked-oatmeal-scaled.jpg",
+  "print": ""
  },
  {
   "id": "blender-sunbutter-banana-and-buckwheat-waffles",
@@ -751,7 +827,9 @@ window.RECIPES = [
    "kid-friendly",
    "sweet"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2017/11/sunbutter-gluten-free-waffles-scaled.jpg",
+  "print": ""
  },
  {
   "id": "flaxseed-pancakes-vegan-gluten-free",
@@ -770,7 +848,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.rhiansrecipes.com/wp-content/uploads/2020/08/IMG_0511-2.jpeg",
+  "print": "https://www.rhiansrecipes.com/wprm_print/flaxseed-pancakes-vegan-gluten-free"
  },
  {
   "id": "vegan-country-breakfast-skillet",
@@ -790,7 +870,9 @@ window.RECIPES = [
    "brunch",
    "date-night"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://www.veganricha.com/wp-content/uploads/2026/02/breakfast-skillet-04.jpg",
+  "print": "https://www.veganricha.com/wprm_print/country-breakfast-skillet"
  },
  {
   "id": "aip-and-whole30-breakfast-hash",
@@ -809,7 +891,9 @@ window.RECIPES = [
    "quick",
    "whole30"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.primalpalate.com/wp-content/uploads/2018/01/AIP-Whole30-Breakfast-Hash-egg-free-18-200x300.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-chocolate-chip-pancakes-teff-flour",
@@ -818,8 +902,8 @@ window.RECIPES = [
   "site": "Petite Allergy Treats",
   "category": "breakfast",
   "subcategory": "Pancakes & Waffles",
-  "time": "not listed",
-  "serves": "not listed",
+  "time": "",
+  "serves": "",
   "description": "Earthy teff flour and applesauce make tender, egg-free pancakes studded with melty allergy-friendly chocolate chips. A weekend treat kids love.",
   "swaps": "Use oat, soy or rice milk (or water) — not almond or dairy milk.",
   "watch": "Use Enjoy Life chips (check label) and a nut-free GF white flour mix.",
@@ -827,7 +911,9 @@ window.RECIPES = [
    "kid-friendly",
    "sweet"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2014/07/CCPancakes1.jpg",
+  "print": ""
  },
  {
   "id": "pumpkin-seed-gluten-free-granola",
@@ -846,7 +932,9 @@ window.RECIPES = [
    "sweet",
    "oat-free"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.cottercrunch.com/wp-content/uploads/2021/08/pumpkin-seed-spiced-granola-GF-V-14.jpg",
+  "print": ""
  },
  {
   "id": "the-best-toasted-maple-sesame-granola",
@@ -865,7 +953,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://nyssaskitchen.com/wp-content/uploads/2019/10/Maple-Sesame-Granola-9-of-20.jpg",
+  "print": ""
  },
  {
   "id": "2-ingredient-vegan-buckwheat-crepes",
@@ -884,7 +974,9 @@ window.RECIPES = [
    "sweet",
    "savory"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://sweetsensitivefree.com/wp-content/uploads/2024/07/2-ingredients-vegan-buckwheat-crepes-4.jpg",
+  "print": "https://sweetsensitivefree.com/wprm_print/2-ingredient-vegan-buckwheat-crepes-sweet-or-savory"
  },
  {
   "id": "vegan-crepes-chickpea-crepes",
@@ -903,7 +995,9 @@ window.RECIPES = [
    "sweet",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://thehiddenveggies.com/wp-content/uploads/2020/11/vegan-crepes.jpg",
+  "print": "https://thehiddenveggies.com/wprm_print/chickpea-crepes"
  },
  {
   "id": "vegan-breakfast-hash",
@@ -922,7 +1016,9 @@ window.RECIPES = [
    "quick",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://thehiddenveggies.com/wp-content/uploads/2025/09/vegan-breakfast-hash-sq.jpg",
+  "print": "https://thehiddenveggies.com/wprm_print/vegan-breakfast-hash"
  },
  {
   "id": "maple-sage-breakfast-patties",
@@ -942,7 +1038,9 @@ window.RECIPES = [
    "quick",
    "high-protein"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://autoimmunewellness.com/wp-content/uploads/2017/02/maplesage4.jpg",
+  "print": ""
  },
  {
   "id": "quinoa-breakfast-porridge",
@@ -961,7 +1059,9 @@ window.RECIPES = [
    "oat-free",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://moonandspoonandyum.com/wp-content/uploads/2026/01/easy-quinoa-porridge-recipe-15.jpg",
+  "print": "https://moonandspoonandyum.com/wprm_print/creamy-quinoa-porridge-with-berries"
  },
  {
   "id": "pitaya-dragon-fruit-smoothie-bowl",
@@ -980,7 +1080,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.alecooks.com/wp-content/uploads/2023/04/vegan-dragon-fruit-bowl.jpg",
+  "print": "https://www.alecooks.com/wprm_print/dragon-fruit-smoothie-bowl"
  },
  {
   "id": "breakfast-potatoes-crispy-tender",
@@ -999,7 +1101,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://simple-veganista.com/wp-content/uploads/2020/01/best-roasted-breakfast-potatoes-recipe_1.jpg",
+  "print": ""
  },
  {
   "id": "vegan-baked-oatmeal",
@@ -1018,7 +1122,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "chickpea-flour-omelette-vegan",
@@ -1037,7 +1143,9 @@ window.RECIPES = [
    "savory",
    "high-protein"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "sausage-flavored-breakfast-beans-and-grits",
@@ -1056,7 +1164,9 @@ window.RECIPES = [
    "crowd",
    "high-protein"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://blog.fatfreevegan.com/wp-content/uploads/2013/10/breakfast-beans-grits-fb.jpg",
+  "print": "https://blog.fatfreevegan.com/wprm_print/sausage-flavored-breakfast-beans-and-grits"
  },
  {
   "id": "easy-green-veggie-packed-smoothie-bowl",
@@ -1075,7 +1185,9 @@ window.RECIPES = [
    "sweet",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://img.thrivemarket.com/wp/wp-content/uploads/2015/09/green_smoothie_bowl_blog.jpg",
+  "print": ""
  },
  {
   "id": "moist-and-flavorful-breakfast-muffins-top-8-free",
@@ -1095,7 +1207,9 @@ window.RECIPES = [
    "sweet",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "http://static1.squarespace.com/static/577028116b8f5b047c020f3b/t/60819e020906ac5e06408f4d/1619107330615/gluten+free+top+8+free+breakfast+muffins.jpg?format=1500w",
+  "print": ""
  },
  {
   "id": "classic-vegan-gluten-free-chocolate-chip-cookies",
@@ -1113,7 +1227,9 @@ window.RECIPES = [
    "kid-friendly",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2022/09/CLASSIC-Chocolate-Chip-Cookies-made-Vegan-and-Gluten-Free-Just-1-bowl-and-8-ingredients-minimalistbaker-recipe-vegan-glutenfree-chocolatechip-10.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/classic-vegan-gluten-free-chocolate-chip-cookies"
  },
  {
   "id": "vegan-gluten-free-pumpkin-pie",
@@ -1132,7 +1248,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2014/11/EASY-Vegan-Gluten-Free-Pumpkin-Pie-699x1024-1.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/vegan-gluten-free-pumpkin-pie"
  },
  {
   "id": "raspberry-coconut-mango-sorbet",
@@ -1151,7 +1269,9 @@ window.RECIPES = [
    "make-ahead",
    "summer"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2015/07/AMAZING-Creamy-Mango-Raspberry-COCONUT-Sorbet-vegan-glutenfree-recipe-summer-dessert-sorbet.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/raspberry-coconut-mango-sorbet"
  },
  {
   "id": "vegan-lemon-bars-gluten-free-eggless",
@@ -1170,7 +1290,9 @@ window.RECIPES = [
    "make-ahead",
    "spring"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2021/05/Gluten-Free-Vegan-Lemon-Bars-9.jpg",
+  "print": ""
  },
  {
   "id": "easy-thick-and-fudgy-one-bowl-gluten-free-vegan-brownies",
@@ -1189,7 +1311,9 @@ window.RECIPES = [
    "crowd",
    "birthday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/04/Thick-Fudgy-Gluten-Free-Vegan-Brownies-Allergy-Free-PM1.jpg",
+  "print": ""
  },
  {
   "id": "baked-gluten-free-apple-cider-doughnuts",
@@ -1208,7 +1332,9 @@ window.RECIPES = [
    "holiday",
    "fall"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/09/Baked-Gluten-Free-Apple-Cider-Doughnuts-Vegan-Allergy-Free-PM1.jpg",
+  "print": ""
  },
  {
   "id": "ina-garten-s-french-apple-tart-made-gluten-free-and-vegan",
@@ -1227,7 +1353,9 @@ window.RECIPES = [
    "dinner-party",
    "holiday"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2018/11/gluten-free-apple-tart-recipe-scaled.jpg",
+  "print": ""
  },
  {
   "id": "easy-vegan-carrot-sheet-cake",
@@ -1247,7 +1375,9 @@ window.RECIPES = [
    "spring",
    "holiday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2017/03/carrot.cake_.slice_.straight.jpg",
+  "print": ""
  },
  {
   "id": "allergy-friendly-pumpkin-mousse-pie",
@@ -1267,7 +1397,9 @@ window.RECIPES = [
    "make-ahead",
    "dinner-party"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2017/11/pumpkin.mousse.slice_.above_-scaled.jpg",
+  "print": ""
  },
  {
   "id": "coconut-panna-cotta-gluten-free-vegan",
@@ -1286,7 +1418,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Coconut-Panna-Cotta-Gluten-Free-Vegan_Featured-Image-1200-x-1200_2.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-gingerbread-men-dairy-free",
@@ -1304,7 +1438,9 @@ window.RECIPES = [
    "holiday",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Gingerbread-Men-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-rice-krispies-treats-vegan",
@@ -1323,7 +1459,9 @@ window.RECIPES = [
    "kid-friendly",
    "birthday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Rice-Krispies-Treats-Vegan_Final4.jpg",
+  "print": ""
  },
  {
   "id": "gluten-free-chocolate-cake",
@@ -1342,7 +1480,9 @@ window.RECIPES = [
    "dinner-party",
    "crowd"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2021/01/Gluten-Free-Chocolate-Cake-20.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/gluten-free-chocolate-cake"
  },
  {
   "id": "vegan-gluten-free-vanilla-cupcakes",
@@ -1361,7 +1501,9 @@ window.RECIPES = [
    "kid-friendly",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2021/06/Vegan-Gluten-Free-Vanilla-Cupcakes-13.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/vegan-gluten-free-vanilla-cupcakes"
  },
  {
   "id": "vegan-chocolate-avocado-mousse",
@@ -1380,7 +1522,9 @@ window.RECIPES = [
    "no-bake",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2019/03/Vegan-Avocado-Chocolate-Mousse-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/vegan-chocolate-avocado-mousse"
  },
  {
   "id": "vegan-snickerdoodles-oil-free-gluten-free",
@@ -1399,7 +1543,9 @@ window.RECIPES = [
    "easy",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://feastingonfruit.com/wp-content/uploads/2015/07/Vegan Chewy Snickerdoodle Recipe5.jpg",
+  "print": ""
  },
  {
   "id": "mango-turmeric-and-ginger-berry-ice-cream-no-churn",
@@ -1419,7 +1565,9 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://nataliejo.co/wp-content/uploads/2018/06/No-Churn-Vegan-Ice-Cream-3.jpg",
+  "print": ""
  },
  {
   "id": "medjool-date-baked-cheesecake",
@@ -1438,7 +1586,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://feastingonfruit.com/wp-content/uploads/2019/07/Medjool-Date-Baked-Cheesecake-3.jpg",
+  "print": ""
  },
  {
   "id": "vegan-lemon-cheesecake-no-bake-no-cashews",
@@ -1458,7 +1608,9 @@ window.RECIPES = [
    "make-ahead",
    "no-bake"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.rainbownourishments.com/wp-content/uploads/2021/06/vegan-lemon-cheesecake-1.jpg",
+  "print": "https://www.rainbownourishments.com/wprm_print/vegan-lemon-cheesecake-2"
  },
  {
   "id": "avocado-chocolate-tart",
@@ -1477,7 +1629,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://www.rainbownourishments.com/wp-content/uploads/2023/05/avocado-chocolate-tart-1.jpg",
+  "print": "https://www.rainbownourishments.com/wprm_print/avocado-chocolate-tart"
  },
  {
   "id": "gluten-free-blueberry-cobbler",
@@ -1496,7 +1650,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://zestforbaking.com/wp-content/uploads/2021/05/gluten-free-blueberry-cobbler-served.jpg",
+  "print": "https://zestforbaking.com/wprm_print/gluten-free-blueberry-cobbler"
  },
  {
   "id": "gluten-free-apple-pie-with-an-easy-flaky-crust",
@@ -1515,7 +1671,9 @@ window.RECIPES = [
    "dinner-party",
    "crowd"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://zestforbaking.com/wp-content/uploads/2021/12/gluten-free-apple-pie-bite.jpg",
+  "print": "https://zestforbaking.com/wprm_print/gluten-free-apple-pie-recipe-with-an-easy-flaky-crust"
  },
  {
   "id": "gluten-free-chocolate-pudding",
@@ -1533,7 +1691,9 @@ window.RECIPES = [
    "kid-friendly",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://zestforbaking.com/wp-content/uploads/2025/01/Gluten-free-pudding-cup.jpg",
+  "print": "https://zestforbaking.com/wprm_print/gluten-free-pudding-recipe"
  },
  {
   "id": "gluten-free-peach-cobbler",
@@ -1552,7 +1712,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2013/08/gluten-free-peach-cobbler.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-peach-cobbler"
  },
  {
   "id": "gluten-free-vegan-chocolate-pudding-pretzel-pie",
@@ -1571,7 +1733,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2016/11/IMG_4826-1.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-vegan-chocolate-pudding-pretzel-pie"
  },
  {
   "id": "chocolate-panna-cotta",
@@ -1590,7 +1754,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://elavegan.com/wp-content/uploads/2024/08/chocolate-panna-cotta-on-small-plate-with-spoon.jpg",
+  "print": "https://elavegan.com/wprm_print/chocolate-panna-cotta"
  },
  {
   "id": "condensed-milk-truffles",
@@ -1610,7 +1776,9 @@ window.RECIPES = [
    "date-night",
    "gift"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://elavegan.com/wp-content/uploads/2021/04/homemade-condensed-milk-truffles-with-cocoa-powder-on-wooden-board.jpg",
+  "print": "https://elavegan.com/wprm_print/condensed-milk-truffles"
  },
  {
   "id": "gluten-free-sugar-cookies-cut-out",
@@ -1629,7 +1797,9 @@ window.RECIPES = [
    "kid-friendly",
    "birthday"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.cleverlysimple.com/wp-content/uploads/2018/02/gluten-free-sugar-cookies-11.jpg",
+  "print": "https://www.cleverlysimple.com/wprm_print/gluten-free-sugar-cookies"
  },
  {
   "id": "blueberry-peach-crisp-gluten-free",
@@ -1648,7 +1818,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://maesmenu.com/wp-content/uploads/2021/06/blueberry-peach-crisp-16.jpg",
+  "print": "https://maesmenu.com/wprm_print/blueberry-peach-crisp-gluten-free"
  },
  {
   "id": "vegan-chocolate-mousse",
@@ -1667,7 +1839,9 @@ window.RECIPES = [
    "no-bake",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "gluten-free-vegan-sugar-cookies-chocolate-dipped",
@@ -1685,7 +1859,9 @@ window.RECIPES = [
    "holiday",
    "kid-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.veganricha.com/wp-content/uploads/2014/03/glutenfree-sugar-cookies-029.jpg",
+  "print": "https://www.veganricha.com/wprm_print/gluten-free-vegan-sugar-cookies-chocolate-dipped"
  },
  {
   "id": "gluten-free-vegan-chocolate-chip-cookies",
@@ -1704,7 +1880,9 @@ window.RECIPES = [
    "kid-friendly",
    "holiday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2012/12/choco2.jpg",
+  "print": ""
  },
  {
   "id": "vegan-chocolate-mousse-with-chocolate-covered-graham-cracker",
@@ -1723,7 +1901,9 @@ window.RECIPES = [
    "dinner-party",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://nyssaskitchen.com/wp-content/uploads/2020/12/Chocolate-Cheesecake-Pudding-20.jpg",
+  "print": ""
  },
  {
   "id": "dairy-free-and-egg-free-vanilla-cake",
@@ -1742,7 +1922,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://theurbenlife.com/wp-content/uploads/2020/07/dairy-free-and-egg-free-cake.jpg",
+  "print": "https://theurbenlife.com/wprm_print/dairy-free-and-egg-free-vanilla-cake"
  },
  {
   "id": "gluten-free-blueberry-white-chocolate-chip-blondies",
@@ -1761,7 +1943,9 @@ window.RECIPES = [
    "summer",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://rachlmansfield.com/wp-content/uploads/2021/07/IMG_2299-scaled.jpg",
+  "print": ""
  },
  {
   "id": "braised-short-ribs-cabernet",
@@ -1781,7 +1965,9 @@ window.RECIPES = [
    "make-ahead",
    "comfort"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/02/Braised-Short-Ribs-main-2.jpg",
+  "print": "https://downshiftology.com/wprm_print/33064/"
  },
  {
   "id": "rack-of-lamb-with-dijon-herb-crust",
@@ -1799,7 +1985,9 @@ window.RECIPES = [
    "date-night",
    "dinner-party"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/03/Rack-of-Lamb-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/94771/"
  },
  {
   "id": "slow-cooker-pot-roast",
@@ -1819,7 +2007,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/11/Slow-Cooker-Pot-Roast-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/56018/"
  },
  {
   "id": "30-minute-dairy-free-creamy-tuscan-chicken",
@@ -1837,7 +2027,9 @@ window.RECIPES = [
    "weeknight",
    "comfort"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2016/07/tuscan.ckn_.spread.5x7.jpg",
+  "print": ""
  },
  {
   "id": "baked-honey-mustard-chicken-and-potatoes",
@@ -1856,7 +2048,9 @@ window.RECIPES = [
    "one-pan",
    "comfort"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2021/10/honey-mustard-above-busy.jpg",
+  "print": ""
  },
  {
   "id": "30-minute-sweet-and-sour-chicken-stir-fry",
@@ -1874,7 +2068,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2022/07/sweet-and-sour-8-scaled.jpg",
+  "print": ""
  },
  {
   "id": "easy-gluten-free-chicken-piccata",
@@ -1892,7 +2088,9 @@ window.RECIPES = [
    "date-night",
    "weeknight"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Chicken-Piccata-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
+  "print": ""
  },
  {
   "id": "turkey-bolognese-with-gluten-free-fusilli",
@@ -1911,7 +2109,9 @@ window.RECIPES = [
    "comfort",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.dishbydish.net/wp-content/uploads/2015/11/Tukey-Bolognese-with-Gluten-free-Fusilli-Pasta2-e14465935414681.jpg",
+  "print": ""
  },
  {
   "id": "1-pot-chickpea-shakshuka",
@@ -1930,7 +2130,9 @@ window.RECIPES = [
    "one-pan",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2016/08/AMAZING-Chickpea-SHAKSHUKA-1-Pot-30-minutes-so-much-plantprotein-vegan-glutenfree-plantbased-shakshuka-recipe-easy-healthy.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/1-pot-chickpea-shakshuka"
  },
  {
   "id": "1-pot-red-lentil-chili",
@@ -1949,7 +2151,9 @@ window.RECIPES = [
    "crowd",
    "comfort"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2016/02/AMAZING-Red-Lentil-CHILI-with-black-beans-and-corn.-Hearty-thick-rich-and-filling-vegan-glutenfree-chili-lentils-recipe.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/1-pot-red-lentil-chili"
  },
  {
   "id": "spicy-red-lentil-curry",
@@ -1967,7 +2171,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2016/01/AMAZING-Spicy-Red-Lentil-Curry-1-Pot-30-minutes-10-ingredients-vegan-glutenfree-plantbased-curry-indian-recipe-healthy.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/spicy-red-lentil-curry"
  },
  {
   "id": "a-really-good-slow-cooker-beef-stew",
@@ -1987,7 +2193,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.recipetineats.com/tachyon/2026/08/Slow-Cooker-Beef-Stew-9.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/200392"
  },
  {
   "id": "chimichurri-steak",
@@ -2006,7 +2214,9 @@ window.RECIPES = [
    "grill",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.recipetineats.com/tachyon/2016/08/Steak-with-Chimichurri-Sauce_1.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/25104"
  },
  {
   "id": "carne-asada",
@@ -2025,7 +2235,9 @@ window.RECIPES = [
    "crowd",
    "weeknight"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.recipetineats.com/tachyon/2017/06/Carne-Asada-4.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/21707"
  },
  {
   "id": "eggless-meatballs",
@@ -2043,7 +2255,9 @@ window.RECIPES = [
    "weeknight",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://foodbymars.com/wp-content/uploads/2020/12/eggless-meatballs-8275-scaled.jpg",
+  "print": "https://foodbymars.com/wprm_print/ridiculously-delicious-eggless-meatball-paleo-aip-whole30"
  },
  {
   "id": "creamy-vegan-mushroom-risotto",
@@ -2061,7 +2275,9 @@ window.RECIPES = [
    "date-night",
    "comfort"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://runningonrealfood.com/wp-content/uploads/2021/01/Vegan-Mushroom-Risotto-Recipe-1-4.jpg",
+  "print": "https://runningonrealfood.com/wprm_print/creamy-vegan-mushroom-risotto"
  },
  {
   "id": "sheet-pan-lemon-herb-salmon-with-asparagus",
@@ -2079,7 +2295,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://kalejunkie.com/wp-content/uploads/2022/05/KALEJUNKIE-SHEET-PAN-LEMON-HERB-SALMON-3-683x1024.jpg",
+  "print": "https://kalejunkie.com/wprm_print/sheet-pan-lemon-herb-salmon-with-asparagus"
  },
  {
   "id": "sheet-pan-maple-dijon-salmon",
@@ -2097,7 +2315,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://livelytable.com/wp-content/uploads/2017/09/sheet-pan-maple-dijon-salmon-6.jpg",
+  "print": ""
  },
  {
   "id": "sheet-pan-blueberry-salmon",
@@ -2116,7 +2336,9 @@ window.RECIPES = [
    "one-pan",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.cottercrunch.com/wp-content/uploads/2023/04/updated-superfood-blueberry-salmon-8.jpg",
+  "print": ""
  },
  {
   "id": "tofu-jalfrezi",
@@ -2134,7 +2356,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.veganricha.com/wp-content/uploads/2022/02/Tofu-Jalfrezi-8601.jpg",
+  "print": "https://www.veganricha.com/wprm_print/tofu-jalfrezi-one-pan-indian-smoky-tofu-pepper-tomato-stir-fry"
  },
  {
   "id": "baked-tofu-curry-tofu-makhani",
@@ -2152,7 +2376,9 @@ window.RECIPES = [
    "one-pan",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.veganricha.com/wp-content/uploads/2021/05/Baked-Tofu-Curry-5098.jpg",
+  "print": "https://www.veganricha.com/wprm_print/baked-tofu-curry-vegan-tofu-makhani"
  },
  {
   "id": "easy-harissa-chicken",
@@ -2172,7 +2398,9 @@ window.RECIPES = [
    "weeknight",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://realsimplegood.com/wp-content/uploads/Easy-harissa-chicken-recipe-4.jpg",
+  "print": "https://realsimplegood.com/wprm_print/easy-harissa-chicken-recipe-paleo-whole30-instant-pot-slow-cooker"
  },
  {
   "id": "ropa-vieja",
@@ -2192,7 +2420,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://realsimplegood.com/wp-content/uploads/Ropa-vieja-one.jpg",
+  "print": "https://realsimplegood.com/wprm_print/ropa-vieja-paleo-whole30-slow-cooker-or-instant-pot"
  },
  {
   "id": "pork-tenderloin-with-apples",
@@ -2210,7 +2440,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://thecleaneatingcouple.com/wp-content/uploads/2019/09/apple-pork-tenderloin-sheet-pan-dinner-1.jpg",
+  "print": "https://thecleaneatingcouple.com/wprm_print/pork-tenderloin-with-apples"
  },
  {
   "id": "salsa-pork-chops",
@@ -2229,7 +2461,9 @@ window.RECIPES = [
    "weeknight",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://eatthegains.com/wp-content/uploads/2022/08/Salsa-Pork-Chops-8.jpg",
+  "print": "https://eatthegains.com/wprm_print/salsa-pork-chops"
  },
  {
   "id": "roast-chicken-with-herb-butter",
@@ -2248,7 +2482,9 @@ window.RECIPES = [
    "dinner-party",
    "comfort"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.onceuponachef.com/images/2011/01/roast-chicken-1.jpg",
+  "print": "https://www.onceuponachef.com/wprm_print/roast-chicken-with-herb-butter-2"
  },
  {
   "id": "grilled-chimichurri-chicken-thighs",
@@ -2267,7 +2503,9 @@ window.RECIPES = [
    "weeknight",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.onceuponachef.com/images/2026/03/Chimichurri-Chicken-4-e1774297498731-1200x674.jpg",
+  "print": "https://www.onceuponachef.com/wprm_print/grilled-chimichurri-chicken-thighs"
  },
  {
   "id": "baked-cod-with-fennel-and-tomatoes",
@@ -2285,7 +2523,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.skinnytaste.com/wp-content/uploads/2025/03/Baked-Cod-6.jpg",
+  "print": "https://www.skinnytaste.com/wprm_print/baked-cod-recipe"
  },
  {
   "id": "easy-lentil-shepherd-s-pie-vegan",
@@ -2304,7 +2544,9 @@ window.RECIPES = [
    "make-ahead",
    "weeknight"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2021/03/Easy-Vegan-Shepherds-Pie-8.jpg",
+  "print": ""
  },
  {
   "id": "baked-hamburgers",
@@ -2322,7 +2564,9 @@ window.RECIPES = [
    "crowd",
    "weeknight"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.simplywhisked.com/wp-content/uploads/2019/01/Baked-Hamburgers-8.jpg",
+  "print": "https://www.simplywhisked.com/wprm_print/baked-hamburgers"
  },
  {
   "id": "thai-yellow-chicken-curry-with-potatoes",
@@ -2340,7 +2584,9 @@ window.RECIPES = [
    "weeknight",
    "comfort"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://pinchofyum.com/tachyon/Thai-Yellow-Chicken-Curry-Square.jpg",
+  "print": ""
  },
  {
   "id": "slow-cooker-chicken-curry",
@@ -2358,7 +2604,9 @@ window.RECIPES = [
    "slow-cooker",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.wellplated.com/wp-content/uploads/2019/07/Slow-Cooker-Chicken-Curry-Recipe.jpg",
+  "print": "https://www.wellplated.com/wprm_print/slow-cooker-chicken-curry"
  },
  {
   "id": "20-minute-gluten-free-mongolian-beef",
@@ -2376,7 +2624,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://feedmephoebe.com/wp-content/uploads/2018/11/Easy-Mongolian-Beef-Recipe-with-Copy-Cat-PF-Changs-Sauce-and-Broccoli-Healthy-Gluten-Free-Paleo-7.jpg",
+  "print": "https://feedmephoebe.com/wprm_print/20-minute-gluten-free-mongolian-beef"
  },
  {
   "id": "roasted-duck-breast-with-cherry-relish",
@@ -2394,7 +2644,9 @@ window.RECIPES = [
    "date-night",
    "dinner-party"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://familyfocusblog.com/wp-content/uploads/2020/09/paleo-duck-breast-recipe-750x501.jpg",
+  "print": ""
  },
  {
   "id": "sheet-pan-chicken-fajitas",
@@ -2412,7 +2664,9 @@ window.RECIPES = [
    "weeknight",
    "one-pan"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.cookingclassy.com/wp-content/uploads/2016/07/sheet_pan_fajitas10..jpg",
+  "print": "https://www.cookingclassy.com/wprm_print/sheet-pan-chicken-fajitas"
  },
  {
   "id": "allergy-friendly-taco-soup",
@@ -2433,7 +2687,9 @@ window.RECIPES = [
    "make-ahead",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2018/02/gluten-free.taco_.soup_.above_.5x7.jpg",
+  "print": ""
  },
  {
   "id": "gluten-and-dairy-free-chicken-salad-sandwich-egg-free-option",
@@ -2453,7 +2709,9 @@ window.RECIPES = [
    "make-ahead",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2021/05/chicken-salad-sandwich-4-scaled.jpg",
+  "print": ""
  },
  {
   "id": "allergy-friendly-thai-chopped-salad",
@@ -2472,7 +2730,9 @@ window.RECIPES = [
    "quick",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2019/07/allergy-friendly-summer-salad-recipe-1-of-1.jpg",
+  "print": ""
  },
  {
   "id": "korean-beef-bowl",
@@ -2491,7 +2751,9 @@ window.RECIPES = [
    "quick",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://downshiftology.com/wp-content/uploads/2026/08/Korean-Beef-Bowl-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/101287/"
  },
  {
   "id": "tuscan-white-bean-soup",
@@ -2510,7 +2772,9 @@ window.RECIPES = [
    "make-ahead",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Tuscan-White-Bean-Soup-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/101203/"
  },
  {
   "id": "chicken-tinga",
@@ -2530,7 +2794,9 @@ window.RECIPES = [
    "crowd",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/07/Chicken-Tinga-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/100298/"
  },
  {
   "id": "lemony-quinoa-kale-salad-with-crispy-chickpeas",
@@ -2549,7 +2815,9 @@ window.RECIPES = [
    "meal-prep",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2025/03/Crispy-Chickpea-Quinoa-Kale-Salad-7.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/lemony-quinoa-kale-salad-with-crispy-chickpeas"
  },
  {
   "id": "jerk-tofu-and-roasted-plantain-bowls",
@@ -2568,7 +2836,9 @@ window.RECIPES = [
    "meal-prep",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2023/05/Jerk-Tofu-and-Roasted-Plantain-Bowls-7.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/jerk-tofu-roasted-plantain-bowls"
  },
  {
   "id": "easy-salmon-sushi-bowls",
@@ -2587,7 +2857,9 @@ window.RECIPES = [
    "date-night",
    "meal-prep"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://minimalistbaker.com/wp-content/uploads/2023/01/Salmon-Sushi-Bowls-8.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/easy-salmon-sushi-bowls"
  },
  {
   "id": "traditional-lentil-soup",
@@ -2607,7 +2879,9 @@ window.RECIPES = [
    "meal-prep",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2026/01/Easy-Lentil-Soup-1.jpg",
+  "print": ""
  },
  {
   "id": "easy-slow-cooker-vegan-chili",
@@ -2627,7 +2901,9 @@ window.RECIPES = [
    "crowd",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2020/01/Slow-Cooker-3-Bean-Chili-2.jpg",
+  "print": ""
  },
  {
   "id": "cold-italian-pasta-salad",
@@ -2647,7 +2923,9 @@ window.RECIPES = [
    "crowd",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2020/05/Gluten-Free-Italain-Pasta-Salad-4.jpg",
+  "print": ""
  },
  {
   "id": "salmon-rice-bowls",
@@ -2666,7 +2944,9 @@ window.RECIPES = [
    "quick",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://eatthegains.com/wp-content/uploads/2025/04/Salmon-Rice-Bowls-10.jpg",
+  "print": "https://eatthegains.com/wprm_print/salmon-rice-bowls"
  },
  {
   "id": "healthy-white-chicken-chili",
@@ -2686,7 +2966,9 @@ window.RECIPES = [
    "crowd",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://eatthegains.com/wp-content/uploads/2025/10/Healthy-White-Chicken-Chili-11.jpg",
+  "print": "https://eatthegains.com/wprm_print/healthy-white-chicken-chili"
  },
  {
   "id": "healthy-chicken-lettuce-wraps",
@@ -2704,7 +2986,9 @@ window.RECIPES = [
    "chicken",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://thecleaneatingcouple.com/wp-content/uploads/2022/05/chicken-lettuce-wraps-1-scaled.jpg",
+  "print": "https://thecleaneatingcouple.com/wprm_print/healthy-chicken-lettuce-wraps"
  },
  {
   "id": "healthy-tuna-salad-without-mayo",
@@ -2722,7 +3006,9 @@ window.RECIPES = [
    "fish",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://thecleaneatingcouple.com/wp-content/uploads/2024/02/healthy-tuna-salad-1.jpg",
+  "print": "https://thecleaneatingcouple.com/wprm_print/healthy-tuna-salad-without-mayo"
  },
  {
   "id": "fresh-spring-rolls",
@@ -2740,7 +3026,9 @@ window.RECIPES = [
    "vegetarian",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2023/05/spring-roll.jpg",
+  "print": ""
  },
  {
   "id": "red-lentil-soup",
@@ -2759,7 +3047,9 @@ window.RECIPES = [
    "make-ahead",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/2024/12/red-lentil-soup-social.jpg",
+  "print": ""
  },
  {
   "id": "vegan-pho",
@@ -2777,7 +3067,9 @@ window.RECIPES = [
    "vegetarian",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/2026/01/vegan-pho-social.jpg",
+  "print": ""
  },
  {
   "id": "one-pot-moroccan-inspired-chickpea-quinoa-salad",
@@ -2796,7 +3088,9 @@ window.RECIPES = [
    "meal-prep",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "seriously-the-best-healthy-turkey-chili",
@@ -2815,7 +3109,9 @@ window.RECIPES = [
    "crowd",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "herbed-spring-quinoa-salad",
@@ -2835,7 +3131,9 @@ window.RECIPES = [
    "meal-prep",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.simplyquinoa.com/wp-content/uploads/2012/05/herbed-spring-quinoa-salad-4.jpg",
+  "print": "https://www.simplyquinoa.com/wprm_print/herbed-spring-quinoa-salad"
  },
  {
   "id": "rainbow-veggie-rolls",
@@ -2853,7 +3151,9 @@ window.RECIPES = [
    "vegetarian",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://cdn.pickuplimes.com/cache/f6/48/f64850c7d982234b321a96700034245e.jpg",
+  "print": ""
  },
  {
   "id": "egg-roll-in-a-bowl",
@@ -2872,7 +3172,9 @@ window.RECIPES = [
    "quick",
    "meal-prep"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://realsimplegood.com/wp-content/uploads/Egg-roll-in-a-bowl-one.jpg",
+  "print": "https://realsimplegood.com/wprm_print/egg-roll-in-a-bowl-paleo-whole30-keto"
  },
  {
   "id": "easy-gluten-free-tacos",
@@ -2891,7 +3193,9 @@ window.RECIPES = [
    "quick",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2022/12/gluten-free-tacos-1-1.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/easy-gluten-free-tacos"
  },
  {
   "id": "gluten-free-fish-tacos",
@@ -2909,7 +3213,9 @@ window.RECIPES = [
    "fish",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2017/02/IMG_5939-2.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-fish-tacos"
  },
  {
   "id": "gluten-free-dairy-free-potato-soup-one-pot",
@@ -2928,7 +3234,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.hotpankitchen.com/wp-content/uploads/2021/10/potato-soup-1.jpg",
+  "print": "https://www.hotpankitchen.com/wprm_print/gluten-free-dairy-free-potato-soup-one-pot"
  },
  {
   "id": "lemongrass-chicken-noodle-bowls",
@@ -2947,7 +3255,9 @@ window.RECIPES = [
    "make-ahead",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.skinnytaste.com/wp-content/uploads/2025/02/Vietnamese-Lemongrass-Chicken-Bowl-9.jpg",
+  "print": "https://www.skinnytaste.com/wprm_print/lemongrass-chicken-noodle-bowls"
  },
  {
   "id": "fall-roasted-vegetables",
@@ -2966,7 +3276,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/101826/"
  },
  {
   "id": "vegan-broccoli-salad",
@@ -2986,7 +3298,9 @@ window.RECIPES = [
    "quick",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2021/06/Vegan-Broccoli-Salad-1.jpg",
+  "print": ""
  },
  {
   "id": "easy-gluten-free-homemade-rice-a-roni-copycat",
@@ -3004,7 +3318,9 @@ window.RECIPES = [
    "quick",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/09/Easy-Gluten-Free-Homemade-Rice-A-Roni-Vegan-Allergy-Free-PM1.jpg",
+  "print": ""
  },
  {
   "id": "purple-sweet-potato-tater-tots",
@@ -3021,7 +3337,9 @@ window.RECIPES = [
   "tags": [
    "kid-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2016/09/Purple-Sweet-Potato-Tots-PM1.jpg",
+  "print": ""
  },
  {
   "id": "easy-roast-potatoes",
@@ -3039,7 +3357,9 @@ window.RECIPES = [
    "crowd",
    "holiday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.recipetineats.com/tachyon/2023/09/Easy-roast-potatoes_4a.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/119985"
  },
  {
   "id": "crispy-smashed-potatoes-baked-or-air-fried",
@@ -3058,7 +3378,9 @@ window.RECIPES = [
    "kid-friendly",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://elavegan.com/wp-content/uploads/2022/03/top-shot-smashed-potatoes-on-white-plate.jpg",
+  "print": "https://elavegan.com/wprm_print/smashed-potatoes"
  },
  {
   "id": "vegan-mashed-potatoes",
@@ -3077,7 +3399,9 @@ window.RECIPES = [
    "kid-friendly",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://elavegan.com/wp-content/uploads/2020/12/Eating-vegan-mashed-potatoes-in-black-bowl-with-olive-oil-drizzle.jpg",
+  "print": "https://elavegan.com/wprm_print/vegan-mashed-potatoes"
  },
  {
   "id": "moist-vegan-cornbread",
@@ -3096,7 +3420,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://elavegan.com/wp-content/uploads/2020/09/3-slices-of-gluten-free-vegan-cornbread.jpg",
+  "print": "https://elavegan.com/wprm_print/vegan-cornbread"
  },
  {
   "id": "vegan-polenta-with-mushrooms-and-beans",
@@ -3114,7 +3440,9 @@ window.RECIPES = [
    "quick",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "roasted-green-beans",
@@ -3133,7 +3461,9 @@ window.RECIPES = [
    "kid-friendly",
    "holiday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2019/02/Roasted-Green-Beans-SpendWithPennies-5.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/roasted-green-beans"
  },
  {
   "id": "easy-roasted-sweet-potatoes-two-ways",
@@ -3151,7 +3481,9 @@ window.RECIPES = [
    "kid-friendly",
    "holiday"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://meaningfuleats.com/wp-content/uploads/2019/01/roasted-sweet-potatoes.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/easy-roasted-sweet-potatoes"
  },
  {
   "id": "kale-salad-with-carrot-ginger-dressing",
@@ -3169,7 +3501,9 @@ window.RECIPES = [
    "make-ahead",
    "date-night"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2019/01/kale-salad.jpg",
+  "print": ""
  },
  {
   "id": "citrus-salad-with-fennel-and-avocado",
@@ -3187,7 +3521,9 @@ window.RECIPES = [
    "holiday",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/03/IMG_25701-cropped.jpg",
+  "print": ""
  },
  {
   "id": "vegan-kale-quinoa-salad-with-lemon-dressing",
@@ -3205,7 +3541,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://runningonrealfood.com/wp-content/uploads/2024/01/vegan-gluten-free-quinoa-kale-salad-lemon-dressing-1-2.jpg",
+  "print": "https://runningonrealfood.com/wprm_print/vegan-kale-quinoa-salad-with-lemon-dressing"
  },
  {
   "id": "allergy-friendly-cinnamon-chocolate-popcorn",
@@ -3224,7 +3562,9 @@ window.RECIPES = [
    "holiday",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2017/02/cinn.choc_.popcorn.stacked.bowl_.5x7-scaled.jpg",
+  "print": ""
  },
  {
   "id": "nut-free-trail-mix",
@@ -3243,7 +3583,9 @@ window.RECIPES = [
    "kid-friendly",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2015/09/trail-mix-hand-5x7-logo.jpg",
+  "print": ""
  },
  {
   "id": "ranch-flavoured-roasted-chickpeas",
@@ -3261,7 +3603,9 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://cdn.pickuplimes.com/cache/02/d9/02d987f34ed1585575b88109fbac7b5c.jpg",
+  "print": ""
  },
  {
   "id": "thin-and-crispy-gluten-free-seed-crackers",
@@ -3279,7 +3623,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2025/05/baked-seed-crackers.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/thin-and-crispy-gluten-free-seed-crackers"
  },
  {
   "id": "cheesy-kale-chips",
@@ -3296,7 +3642,9 @@ window.RECIPES = [
   "tags": [
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2017/01/Kale-Chips-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/kale-chips"
  },
  {
   "id": "roasted-pumpkin-seeds",
@@ -3315,7 +3663,9 @@ window.RECIPES = [
    "kid-friendly",
    "quick"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.jessicagavin.com/wp-content/uploads/2017/10/roasted-pumpkin-seeds-savory-1200.jpg",
+  "print": "https://www.jessicagavin.com/wprm_print/roasted-pumpkin-seeds"
  },
  {
   "id": "no-bake-pbandj-energy-bites-nut-free",
@@ -3334,7 +3684,9 @@ window.RECIPES = [
    "kid-friendly",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://happihomemade.com/wp-content/uploads/2024/08/plate-of-PBJ-Energy-Bites.jpg",
+  "print": "https://happihomemade.com/wprm_print/no-bake-pbj-energy-bites-nut-free-recipe"
  },
  {
   "id": "no-bake-sunbutter-granola-bars",
@@ -3352,7 +3704,9 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.veganricha.com/wp-content/uploads/2019/06/no-bake-sunbutter-granola-bars-veganricha-5200.jpg",
+  "print": "https://www.veganricha.com/wprm_print/vegan-sunbutter-granola-bars"
  },
  {
   "id": "toasted-quinoa-fig-and-dark-chocolate-nut-free-granola-bars",
@@ -3370,7 +3724,9 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "",
+  "print": ""
  },
  {
   "id": "strawberry-fruit-leathers",
@@ -3388,7 +3744,9 @@ window.RECIPES = [
    "kid-friendly",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.freshoffthegrid.com/wp-content/uploads/Strawberry-Fruit-Leathers-Fruit-Roll-Ups.jpg",
+  "print": "https://www.freshoffthegrid.com/wprm_print/strawberry-fruit-leathers"
  },
  {
   "id": "baked-cinnamon-apple-chips",
@@ -3406,7 +3764,9 @@ window.RECIPES = [
    "kid-friendly",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://runningonrealfood.com/wp-content/uploads/2020/09/Easy-Vegan-Cinnamon-Baked-Apple-Chips-1-3.jpg",
+  "print": "https://runningonrealfood.com/wprm_print/baked-cinnamon-apple-chips"
  },
  {
   "id": "easy-hummus",
@@ -3425,7 +3785,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.inspiredtaste.net/wp-content/uploads/2019/07/The-Best-Homemade-Hummus-Recipe-1200.jpg",
+  "print": ""
  },
  {
   "id": "guacamole",
@@ -3443,7 +3805,9 @@ window.RECIPES = [
    "quick",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.recipetineats.com/tachyon/2016/12/Guacamole_6.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/21922"
  },
  {
   "id": "easy-salsa",
@@ -3462,7 +3826,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://www.inspiredtaste.net/wp-content/uploads/2020/01/Easy-Salsa-Recipe-1200.jpg",
+  "print": ""
  },
  {
   "id": "the-best-baba-ganoush-moutabel",
@@ -3480,7 +3846,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2021/12/Baba-Ganoush-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/baba-ganoush-moutabel"
  },
  {
   "id": "healthy-vegan-queso",
@@ -3498,7 +3866,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "",
+  "print": "https://www.makingthymeforhealth.com/wprm_print/healthy-vegan-queso"
  },
  {
   "id": "garlic-and-chive-sunflower-seed-cheese",
@@ -3517,7 +3887,9 @@ window.RECIPES = [
    "crowd",
    "holiday"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "",
+  "print": "https://wholenewmom.com/wprm_print/garlic-and-chive-sunflower-seed-cheese-dairy-and-soy-free-2"
  },
  {
   "id": "vegan-bruschetta",
@@ -3536,7 +3908,9 @@ window.RECIPES = [
    "crowd",
    "date-night"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://lovingitvegan.com/wp-content/uploads/2019/01/Vegan-Bruschetta-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/vegan-bruschetta"
  },
  {
   "id": "vegan-deviled-eggs-with-potatoes",
@@ -3555,7 +3929,9 @@ window.RECIPES = [
    "crowd",
    "make-ahead"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.worldofvegan.com/wp-content/uploads/2023/03/vegan-deviled-eggs-featured.jpg",
+  "print": "https://www.worldofvegan.com/wprm_print/vegan-deviled-eggs-with-potatoes"
  },
  {
   "id": "vegan-stuffed-mushrooms",
@@ -3574,7 +3950,9 @@ window.RECIPES = [
    "date-night",
    "crowd"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.veganricha.com/wp-content/uploads/2022/07/Stuffed-Mushrooms-4420.jpg",
+  "print": "https://www.veganricha.com/wprm_print/vegan-stuffed-mushrooms"
  },
  {
   "id": "baked-vegan-spring-rolls",
@@ -3592,7 +3970,9 @@ window.RECIPES = [
    "crowd",
    "date-night"
   ],
-  "difficulty": "involved"
+  "difficulty": "involved",
+  "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2020/12/baked-vegan-spring-rolls-macro.jpg",
+  "print": "https://www.lazycatkitchen.com/baked-vegan-spring-rolls/?print-version=true"
  },
  {
   "id": "baked-lentil-split-pea-falafel",
@@ -3610,7 +3990,9 @@ window.RECIPES = [
    "make-ahead",
    "crowd"
   ],
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "img": "https://www.veganricha.com/wp-content/uploads/2014/07/Falafel-Bowl-1432.jpg",
+  "print": "https://www.veganricha.com/wprm_print/baked-lentil-split-pea-falafel-bowl-with-tahini-dressing-gluten-free-soy-free-recipe"
  },
  {
   "id": "soy-garlic-ginger-chicken-wings",
@@ -3628,7 +4010,9 @@ window.RECIPES = [
    "crowd",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/01/Soy-Garlic-Ginger-Chicken-Wings-3.jpg",
+  "print": "https://downshiftology.com/wprm_print/39098/"
  },
  {
   "id": "asian-quinoa-meatballs",
@@ -3647,6 +4031,8 @@ window.RECIPES = [
    "make-ahead",
    "kid-friendly"
   ],
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2015/12/quinoa.meatballs.5x7.logo_.closeup.jpg",
+  "print": ""
  }
 ];
