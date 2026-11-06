@@ -147,7 +147,7 @@ def safety(raw_line, key):
     def neg(pre, word):
         return re.search(pre + r"\s*(-)?\s*" + word, L)
     # eggs
-    if re.search(r"\beggs?\b|egg whites?|egg yolks?", L) and not re.search(r"flax ?egg|chia ?egg|egg replacer|eggplant|vegan egg|egg[- ]free|eggless|just egg", L):
+    if re.search(r"\beggs?\b|egg whites?|egg yolks?", L) and not re.search(r"flax ?egg|chia ?egg|egg replacer|eggplant|vegan (fried )?eggs?|egg[- ]free|eggless|just egg|egg[- ]sized|egg substitute", L):
         if re.search(r"flax|chia|aquafaba|replacer", L): W.append("Use the egg-free option listed here"); B = "Ground flaxseed (for flax eggs)"
         else: W.append("Contains egg. Use the recipe's egg-free option (flax egg)"); B = "Ground flaxseed (for flax eggs)"
     # nuts
@@ -175,7 +175,7 @@ def safety(raw_line, key):
         else:
             W.append("Dairy. Skip it or use a nut-free dairy-free version")
     # gluten
-    if re.search(r"\bflour\b", L) and not re.search(r"gluten[- ]free|gf |rice flour|oat flour|buckwheat|chickpea|garbanzo|bean flour|tapioca|coconut flour|sorghum|millet|teff|cassava|corn ?flour|masa|potato|arrowroot|almond|quinoa|1[- ]to[- ]1|1:1|measure for measure|cup4cup|all[- ]purpose gf|flour blend|flaxseed|flax|banana flour|tigernut", L):
+    if re.search(r"\bflour\b", L) and not re.search(r"gluten[- ]free|gf |besan|gram flour|rice flour|oat flour|buckwheat|chickpea|garbanzo|bean flour|tapioca|coconut flour|sorghum|millet|teff|cassava|corn ?flour|masa|potato|arrowroot|almond|quinoa|1[- ]to[- ]1|1:1|measure for measure|cup4cup|all[- ]purpose gf|flour blend|flaxseed|flax|banana flour|tigernut", L):
         W.append("Use a 1-to-1 gluten-free flour blend"); B = "1-to-1 gluten-free flour blend"
     if re.search(r"\boats?\b|oat flour|oatmeal|rolled oats|oat milk", L) and not re.search(r"certified|gluten[- ]free|gf", L):
         W.append("Must be certified gluten-free")
@@ -194,7 +194,7 @@ def safety(raw_line, key):
         W.append("Buy gluten-free, egg-free, dairy-free (check label)")
     if re.search(r"broth|stock|bouillon", L): W.append("Check label is gluten-free")
     if re.search(r"curry paste", L): W.append("Many contain shrimp paste. Check the label")
-    if re.search(r"\b(shrimp|prawns?|crab|lobster|scallops?|clams?|mussels?|oysters?)\b", L) and "oyster sauce" not in L and "oyster mushroom" not in L:
+    if re.search(r"\b(shrimp|prawns?|crab|lobster|scallops?|clams?|mussels?|oysters?)\b", L) and "oyster sauce" not in L and "mushroom" not in L:
         W.append("Shellfish. Leave out")
     if re.search(r"mayo|mayonnaise", L) and not re.search(r"vegan|egg[- ]free", L): W.append("Use egg-free (vegan) mayo")
     elif re.search(r"vegan mayo|egg[- ]free mayo|vegenaise", L): W.append("Check vegan mayo is nut-free")

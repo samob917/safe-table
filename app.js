@@ -241,7 +241,12 @@
     const c = catByKey[key];
     if (!c) return viewNotFound();
     setTitle(c.name);
-    const list = RECIPES.filter(r => r.category === key);
+    const BASIC_BREAD = /bagel|english muffin|tortilla|pizza|sandwich|vegan (gluten free )?bread|psyllium|loaf|naan|flatbread|buns?\b|rolls?\b|biscuit|focaccia|sourdough|cracker|pretzel|pita/i;
+    const SWEET = /cinnamon|banana|pumpkin|zucchini|apple|chocolate|blueberry|cranberry|muffins?$|scone/i;
+    const list = key === "staples"
+      ? [...RECIPES.filter(r => r.category === "staples"),
+         ...RECIPES.filter(r => r.category === "breads" && BASIC_BREAD.test(r.title) && (!SWEET.test(r.title) || /english/i.test(r.title))).map(r => ({ ...r, subcategory: "Doughs & Breads" }))]
+      : RECIPES.filter(r => r.category === key);
     const activeTag = params.get("tag") || "";
     const q = params.get("q") || "";
     const tagCounts = {};

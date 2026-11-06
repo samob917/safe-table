@@ -26,9 +26,14 @@ def get(r):
             if ing: return r['id'],[html.unescape(re.sub(r'<[^>]+>','',i)).strip() for i in ing]
         return r['id'],'NO_LDJSON'
     except Exception as e: return r['id'],'ERR '+str(e)[:60]
-out={}
+import os
+P='/Users/samob917/safe-table/tools/ingredients_raw.json'
+PREV=json.load(open(P)) if os.path.exists(P) else {}
+out=dict(PREV)
+todo=[r for r in R if r['id'] not in PREV or (isinstance(PREV[r['id']],str)) or (isinstance(PREV[r['id']],dict) and not PREV[r['id']].get('img'))]
+print('fetching',len(todo))
 with cf.ThreadPoolExecutor(12) as ex:
-    for k,v in ex.map(get,R): out[k]=v
+    for k,v in ex.map(get,todo): out[k]=v
 json.dump(out,open('/Users/samob917/safe-table/tools/ingredients_raw.json','w'),indent=1)
 ok=[k for k,v in out.items() if isinstance(v,list)]
 print('ok',len(ok),'of',len(R))

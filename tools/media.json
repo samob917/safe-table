@@ -770,5 +770,981 @@
  "asian-quinoa-meatballs": {
   "img": "https://allergyawesomeness.com/wp-content/uploads/2015/12/quinoa.meatballs.5x7.logo_.closeup.jpg",
   "print": null
+ },
+ "the-best-vegan-tzatziki": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2021/09/tzatziki-zaziki.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/the-best-vegan-tzatziki"
+ },
+ "mango-salsa-with-bell-pepper-and-lime": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2024/06/mango-taco-salat.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/the-best-mango-salsa-with-bell-pepper-and-lime"
+ },
+ "roasted-red-pepper-dip-nut-free-muhammara": {
+  "img": "https://hurrythefoodup.com/wp-content/uploads/2022/05/muhammara-dip-featured-image.jpg",
+  "print": "https://hurrythefoodup.com/wprm_print/roasted-red-pepper-dip-muhammara-lunch-platter"
+ },
+ "vegan-french-onion-dip": {
+  "img": "https://thevietvegan.com/wp-content/uploads/2015/04/vegan-french-onion-dip-hero.jpg",
+  "print": "https://thevietvegan.com/wprm_print/vegan-french-onion-dip"
+ },
+ "white-bean-dip-with-olives": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2019/09/White-Bean-Dip-Olives-8.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/white-bean-dip-with-olives"
+ },
+ "lemon-garlic-edamame-dip": {
+  "img": "https://hellolittlehome.com/wp-content/uploads/2015/02/lemon-garlic-edamame-dip-6.jpg",
+  "print": "https://hellolittlehome.com/wprm_print/lemon-garlic-edamame-dip"
+ },
+ "authentic-pico-de-gallo": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2016/07/authentic-pico-de-gallo-in-serving-bowl.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/authentic-well-balanced-pico-de-gallo"
+ },
+ "ceviche-de-pescado": {
+  "img": "https://www.abeautifulplate.com/wp-content/uploads/2013/08/ceviche-1.jpg",
+  "print": "https://www.abeautifulplate.com/wprm_print/ceviche-de-pescado"
+ },
+ "shoyu-ahi-poke": {
+  "img": "https://www.abeautifulplate.com/wp-content/uploads/2019/04/shoyu-ahi-poke-1-7.jpg",
+  "print": "https://www.abeautifulplate.com/wprm_print/shoyu-ahi-poke"
+ },
+ "salmon-tartare-with-chive-tomatoes": {
+  "img": "https://girlcarnivore.com/wp-content/uploads/2025/12/salmon-tartare-recipe-14.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/salmon-tartare-with-chive-tomatoes"
+ },
+ "turkish-stuffed-grape-leaves-yalanc-dolma": {
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2022/06/Turkish-stuffed-grape-leaves-dolma-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/turkish-stuffed-grape-leaves-yalanci-dolma"
+ },
+ "melon-and-prosciutto-skewers": {
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2025/06/melon-and-prosciutto-skewers-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/melon-and-prosciutto-skewers"
+ },
+ "rosemary-bacon-wrapped-dates": {
+  "img": "https://wholefully.com/wp-content/uploads/2017/11/dates-overhead-diag.jpg",
+  "print": "https://wholefully.com/wprm_print/rosemary-bacon-wrapped-dates"
+ },
+ "salmon-skewers-with-a-lemon-sauce": {
+  "img": "https://i1.wp.com/spainonafork.com/wp-content/uploads/2017/05/salmon2-11.png?fit=500%2C500&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/salmon-skewers-with-a-lemon-sauce"
+ },
+ "tuna-skewers-with-olives-and-capers": {
+  "img": "https://i2.wp.com/spainonafork.com/wp-content/uploads/2017/04/tunahorizontal-11.png?fit=500%2C500&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/tuna-skewers-with-olives-and-capers"
+ },
+ "garlic-mushrooms-with-spanish-padr-n-peppers": {
+  "img": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2019/10/padron2-11.png?fit=750%2C750&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/garlic-mushrooms-with-spanish-padron-peppers"
+ },
+ "beijing-lamb-skewers-yangrou-chuan": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2014/06/beijing-lamb-skewers.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/beijing-lamb-skewers-yangrou-chuan"
+ },
+ "chicken-satay-skewers-sunbutter-sauce": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2016/12/Chicken-Satay-Skewers-2.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/chicken-satay-skewers-recipe"
+ },
+ "grilled-jerk-chicken-skewers": {
+  "img": "https://girlcarnivore.com/wp-content/uploads/2026/06/Grilled-Jerk-Chicken-Skewers-recipe-13.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/grilled-jerk-chicken-skewers"
+ },
+ "rice-paper-dumplings": {
+  "img": "https://cookingwithayeh.com/wp-content/uploads/2021/09/Rice-Paper-Dumplings-000.jpg",
+  "print": "https://cookingwithayeh.com/wprm_print/rice-paper-dumplings"
+ },
+ "crispy-homestyle-pakora": {
+  "img": "https://www.teaforturmeric.com/wp-content/uploads/2024/03/Pakora-07.jpg",
+  "print": "https://www.teaforturmeric.com/wprm_print/crispy-pakora-recipe-simple-homestyle"
+ },
+ "hara-bhara-kebab": {
+  "img": "https://www.cookwithmanali.com/wp-content/uploads/2014/11/Hara-Bhara-Kebabs.jpg",
+  "print": "https://www.cookwithmanali.com/wprm_print/hara-bhara-kebab"
+ },
+ "honey-sesame-chickpea-lettuce-wraps": {
+  "img": "https://wanderingchickpea.com/wp-content/uploads/2021/05/DSCF6718-2.jpg",
+  "print": "https://wanderingchickpea.com/wprm_print/honey-sesame-chickpea-lettuce-wraps"
+ },
+ "marinated-olives": {
+  "img": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Marinated-Olives_EXPS_TOHDJ20_22579_B08_06_10b.jpg",
+  "print": "https://www.tasteofhome.com/recipes/marinated-olives/print/"
+ },
+ "sweet-potato-bites-with-avocado-and-bacon": {
+  "img": "https://www.wellplated.com/wp-content/uploads/2017/09/Baked-Sweet-Potato-Bites-with-Bacon-Avocado.jpg",
+  "print": "https://www.wellplated.com/wprm_print/sweet-potato-bites-with-avocado-and-bacon"
+ },
+ "chocolate-seed-bites": {
+  "img": "https://allergylicious.com/wp-content/uploads/2017/07/seed-bites.jpg",
+  "print": null
+ },
+ "chocolate-covered-banana-sunbutter-bites": {
+  "img": "https://allergylicious.com/wp-content/uploads/2017/02/Frozen-Bliss-Bites-e1488230373701.jpg",
+  "print": null
+ },
+ "pumpkin-seed-bars": {
+  "img": "https://www.frieddandelions.com/wp-content/uploads/2014/11/bars2.jpg",
+  "print": null
+ },
+ "chocolate-coconut-macaroons-no-bake": {
+  "img": "https://www.frieddandelions.com/wp-content/uploads/2012/10/ccm-3.jpg",
+  "print": null
+ },
+ "coconut-lime-macaroons": {
+  "img": "https://www.texanerin.com/content/uploads/2019/07/coconut-lime-macaroons-8.jpg",
+  "print": "https://www.texanerin.com/wprm_print/coconut-lime-macaroons-vegan-paleo"
+ },
+ "vegan-pumpkin-muffins": {
+  "img": "https://www.texanerin.com/content/uploads/2017/09/vegan-pumpkin-muffins-14.jpg",
+  "print": "https://www.texanerin.com/wprm_print/vegan-pumpkin-muffins-gluten-free-whole-grain-options"
+ },
+ "no-bake-coconut-date-balls": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/29053f3490ed0-545d-4a0d-bff1-a5668750e8c5-scaled.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/no-bake-coconut-date-balls/print/"
+ },
+ "air-fryer-plantains": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2025/07/healthy-plantains.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/air-fryer-plantains"
+ },
+ "patacones-tostones": {
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2026/06/patacones-tostones-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/patacones-tostones-fried-green-plantain"
+ },
+ "salt-and-vinegar-roasted-chickpeas": {
+  "img": "https://www.abeautifulplate.com/wp-content/uploads/2014/09/salt-and-vinegar-roasted-chickpeas-1-5.jpg",
+  "print": "https://www.abeautifulplate.com/wprm_print/salt-and-vinegar-roasted-chickpeas"
+ },
+ "spicy-edamame-with-chili-garlic": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/side-dish-spicy-edamame.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/spicy-edamame-w-chili-garlic"
+ },
+ "baked-potato-skin-chips": {
+  "img": "https://www.alphafoodie.com/wp-content/uploads/2021/01/Potato-peel-crisps-1-of-1.jpeg",
+  "print": "https://www.alphafoodie.com/wprm_print/homemade-baked-potato-skin-chips"
+ },
+ "red-lentil-crackers-lentil-chips": {
+  "img": "https://www.alphafoodie.com/wp-content/uploads/2021/09/Gluten-Free-Red-Lentil-Crackers-Square.jpg",
+  "print": "https://www.alphafoodie.com/wprm_print/gluten-free-red-lentil-crackers-lentil-chips"
+ },
+ "spicy-seaweed-tofu-rolls": {
+  "img": "https://fullofplants.com/wp-content/uploads/2019/08/Spicy-Seaweed-Tofu-Rolls-vegan-gluten-free-with-lemongrass-and-chili-12.jpg",
+  "print": "https://fullofplants.com/wprm_print/spicy-seaweed-tofu-rolls"
+ },
+ "air-fryer-polenta-fries": {
+  "img": "https://cadryskitchen.com/wp-content/uploads/2022/01/polenta-fries-marinara.jpg",
+  "print": "https://cadryskitchen.com/wprm_print/air-fryer-polenta-fries"
+ },
+ "gluten-free-focaccia": {
+  "img": "https://cupcakesandkalechips.com/wp-content/uploads/2023/09/gf-focaccia-13.jpg",
+  "print": "https://cupcakesandkalechips.com/wprm_print/gluten-free-focaccia"
+ },
+ "rosemary-buckwheat-focaccia-gluten-free-egg-free": {
+  "img": "https://assets.nourishingmeals.com/sites/default/files/styles/content/public/media/GLUTEN-FREE%20VEGAN%20ROSEMARY%20BUCKWHEAT%20%20FOCACCIA%20BREAD-2.jpg",
+  "print": null
+ },
+ "gluten-free-pizza-dough-sorghum-and-psyllium": {
+  "img": "https://www.darngoodveggies.com/wp-content/uploads/2019/01/IMG_2367.jpg",
+  "print": null
+ },
+ "gluten-free-garlic-knots": {
+  "img": "https://healthiersteps.com/wp-content/uploads/2021/12/garlic-knots.jpg",
+  "print": "https://healthiersteps.com/wprm_print/gluten-free-garlic-knots"
+ },
+ "gluten-free-vegan-pita-bread": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/05/pita1.jpg",
+  "print": null
+ },
+ "vegan-p-o-de-queijo-brazilian-cheese-breads": {
+  "img": "https://cupofyum.com/uploads/images/000/149/289/149289-vegan-pao-de-queijo-brazilian-cheese-breads-3e5a068860061cd7da2792e86e95e768.jpg",
+  "print": null
+ },
+ "gluten-free-baguette": {
+  "img": "https://www.glutenfreepalate.com/wp-content/uploads/2023/01/Gluten-Free-Baguette-26.jpg",
+  "print": null
+ },
+ "gluten-free-pumpkin-muffins-dairy-free-eggless": {
+  "img": "https://sweetsensitivefree.com/wp-content/uploads/2024/11/senza-titolo-5.jpg",
+  "print": "https://sweetsensitivefree.com/wprm_print/gluten-free-pumpkin-muffins-dairy-free-eggless"
+ },
+ "red-lentil-bread-vegan-and-gluten-free": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2026/04/Proteinbrot-Linsen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/red-lentil-bread-vegan-gluten-free"
+ },
+ "authentic-venezuelan-arepas": {
+  "img": "https://mommyshomecooking.com/wp-content/uploads/2013/11/How-to-Make-Venezuelan-Arepas-Arepas-Venezolanas-3.jpg",
+  "print": "https://mommyshomecooking.com/wprm_print/authentic-venezuelan-arepas-recipe"
+ },
+ "homemade-corn-tortillas": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2016/03/Stack-of-homemade-corn-tortillas-on-towel.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/homemade-corn-tortillas"
+ },
+ "arepa-salada-dominican-savory-cornbread": {
+  "img": "https://www.dominicancooking.com/wp-content/uploads/arepa-salada-057.jpg",
+  "print": "https://www.dominicancooking.com/wprm_print/arepa-salada-recipe-dominican-savory-cornbread"
+ },
+ "homemade-salvadoran-pupusas": {
+  "img": "https://www.thecuriouschickpea.com/wp-content/uploads/2019/04/homemade-pupusas-5.jpg",
+  "print": null
+ },
+ "gluten-free-flour-tortillas-fold-without-cracking": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2026/10/flour-tortillas-folded.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-flour-tortillas-they-hold-up-to-filling"
+ },
+ "gluten-free-artisan-cinnamon-raisin-bread": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2026/01/artisan-cinnamon-raisin-bread-hero.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-artisan-cinnamon-raisin-bread-crusty-and-delicious"
+ },
+ "gluten-free-soft-pretzels": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2023/02/gf-pretzels-hero.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-soft-pretzels-chewy-and-delicious"
+ },
+ "buckwheat-bagels-gf-and-vegan": {
+  "img": "https://www.natashashome.com/wp-content/uploads/2024/10/Buckwheat-flour-bagels.jpg",
+  "print": "https://www.natashashome.com/wprm_print/buckwheat-bagels-gf-vegan"
+ },
+ "gluten-free-slider-buns": {
+  "img": "https://www.natashashome.com/wp-content/uploads/2025/05/Gluten-Free-slider-crumb.jpg",
+  "print": "https://www.natashashome.com/wprm_print/gluten-free-slider-buns"
+ },
+ "gluten-free-artisan-boule-no-egg-optional-vegan": {
+  "img": "https://www.glutenfreealchemist.com/wp-content/uploads/2022/07/gluten-free-artisan-bread-boule-FI-scaled.jpg",
+  "print": "https://www.glutenfreealchemist.com/wprm_print/gluten-free-artisan-boule"
+ },
+ "gluten-free-vegan-apple-cider-doughnuts": {
+  "img": "https://glutenfreebaking.com/wp-content/uploads/2015/06/VeganDoughnuts.jpg",
+  "print": "https://glutenfreebaking.com/wprm_print/gluten-free-vegan-apple-cider-doughnuts"
+ },
+ "ground-flaxseed-crackers": {
+  "img": "https://cookingforpeanuts.com/wp-content/uploads/2026/10/ground-flaxseed-crackers-feature.jpg",
+  "print": "https://cookingforpeanuts.com/wprm_print/ground-flaxseed-crackers-recipe"
+ },
+ "annika-s-irish-soda-bread": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/annikas-irish-soda-bread/print/"
+ },
+ "annika-s-lemon-bread": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/annikas-lemon-bread/print/"
+ },
+ "pumpkin-scones": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/pumpkin-scones/print/"
+ },
+ "gluten-free-vegan-monkey-bread": {
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2013/10/082013005.png",
+  "print": null
+ },
+ "coconut-cream-cinnamon-coffee-cake-gluten-free-vegan": {
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2016/02/Coconut-Coffee-Cake-1-words.jpg",
+  "print": null
+ },
+ "vegan-gluten-free-zucchini-muffins": {
+  "img": "https://www.veganblueberry.com/wp-content/uploads/2021/04/vegan-zucchini-gluten-free-muffin-2.jpg",
+  "print": "https://www.veganblueberry.com/wprm_print/vegan-gluten-free-zucchini-muffins"
+ },
+ "congee-rice-porridge": {
+  "img": "https://veganheaven.org/wp-content/uploads/2016/06/Congee-Rice-Porridge-9.jpg",
+  "print": "https://veganheaven.org/wprm_print/congee-rice-porridge"
+ },
+ "millet-porridge-with-apples-and-pear": {
+  "img": "https://veganheaven.org/wp-content/uploads/2024/11/Millet-Porridge-7.jpg",
+  "print": "https://veganheaven.org/wprm_print/millet-porridge"
+ },
+ "pineapple-buckwheat-pancakes-with-coconut-cream": {
+  "img": "https://veganheaven.org/wp-content/uploads/2015/08/Pineapple-Buckwheat-Pancakes-with-Coconut-Cream.jpg",
+  "print": "https://veganheaven.org/wprm_print/pineapple-buckwheat-pancakes-with-coconut-cream"
+ },
+ "chickpea-shakshuka": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2021/05/shakshuka-kichererbsen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/chickpea-shakshuka-with-vegan-fried-eggs"
+ },
+ "vegan-dutch-baby-pancake": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2023/08/dutch-baby-pancake-berry.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/vegan-dutch-baby-pancake"
+ },
+ "perfect-oat-flour-pancakes": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2024/02/fluffy-oat-flour-pancakes.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/perfect-oat-flour-pancakes"
+ },
+ "sweet-potato-breakfast-hash": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2024/04/sweet-potato-breakfast-hash-on-plate.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/sweet-potato-breakfast-hash"
+ },
+ "instant-pot-teff-porridge": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2021/10/teff-porridge-recipe.jpeg",
+  "print": "https://sweetpotatosoul.com/wprm_print/instant-pot-teff-porridge"
+ },
+ "creamy-amaranth-porridge-with-coconut-milk": {
+  "img": "https://www.twospoons.ca/wp-content/uploads/2023/09/creamy-amaranth-porridge-recipe-easy-vegan-gluten-free-twospoons-14-scaled.jpg",
+  "print": "https://www.twospoons.ca/wprm_print/30-minute-creamy-amaranth-porridge-with-coconut-milk"
+ },
+ "vegan-polenta-frittata": {
+  "img": "https://www.twospoons.ca/wp-content/uploads/2018/07/1-60.jpg",
+  "print": "https://www.twospoons.ca/wprm_print/vegan-polenta-frittata"
+ },
+ "easy-baked-chickpea-frittata": {
+  "img": "https://www.thefullhelping.com/wp-content/uploads/2023/07/chickpea-frittata-4.jpg",
+  "print": "https://www.thefullhelping.com/wprm_print/easy-baked-chickpea-frittata"
+ },
+ "yellow-split-pea-coconut-breakfast-porridge": {
+  "img": "https://www.thefullhelping.com/wp-content/uploads/2011/01/Coconut-Split-Pea-Breakfast-Porridge-1.jpg",
+  "print": "https://www.thefullhelping.com/wprm_print/yellow-split-pea-coconut-breakfast-porridge"
+ },
+ "matcha-mochi-waffles": {
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2019/07/VeganMatchaMochiWaffles2813of1829.jpg",
+  "print": null
+ },
+ "tamagoyaki-scramble-vegan-japanese-scrambled-eggs": {
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2020/09/vegan-eggy-Japanese-scrambled-tofu-1-of-1-2.jpg",
+  "print": null
+ },
+ "vegan-coffee-cake-gluten-free-oil-free": {
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2019/07/img_5d1ed5530fa99.jpg",
+  "print": null
+ },
+ "allergy-free-waffles": {
+  "img": "https://www.theallergenfreekitchen.com/wp-content/uploads/2022/03/Waffles.jpg",
+  "print": "https://www.theallergenfreekitchen.com/wprm_print/allergy-free-waffles-gf-df-ef-vegan-top-8-free"
+ },
+ "allergen-friendly-funfetti-pancakes": {
+  "img": "https://www.theallergenfreekitchen.com/wp-content/uploads/2023/06/Allergen-Friendly-Funfetti-Pancakes-Square-Stack.jpg",
+  "print": "https://www.theallergenfreekitchen.com/wprm_print/allergen-friendly-funfetti-pancakes"
+ },
+ "peaches-and-cream-chia-pudding": {
+  "img": "https://www.theallergenfreekitchen.com/wp-content/uploads/2022/05/Peaches-and-Cream-Chia-Pudding3-scaled.jpg",
+  "print": "https://www.theallergenfreekitchen.com/wprm_print/peaches-and-cream-chia-pudding-gf-df-vegan-top-8-free"
+ },
+ "nut-free-granola-bars": {
+  "img": "https://fooddoodles.com/wp-content/uploads/2020/08/nut-free-granola-bars-fb.jpg",
+  "print": "https://fooddoodles.com/wprm_print/nut-free-granola-bars-gluten-free-vegan-options"
+ },
+ "overnight-mango-banana-chia-pudding-with-coconut-milk": {
+  "img": "https://gratefulgrazer.com/wp-content/uploads/2022/05/chia-pudding-collage.jpg",
+  "print": "https://gratefulgrazer.com/wprm_print/overnight-mango-banana-chia-pudding-with-coconut-milk"
+ },
+ "savory-oatmeal-breakfast-burrito-bowl": {
+  "img": "https://gratefulgrazer.com/wp-content/uploads/2019/03/savory-oatmeal-square.jpg",
+  "print": "https://gratefulgrazer.com/wprm_print/savory-oatmeal-breakfast-burrito-bowl"
+ },
+ "creamy-breakfast-vegan-rice-pudding": {
+  "img": "https://dreenaburton.com/wp-content/uploads/2017/12/Vegan-Rice-Pudding-recipe-FB.jpg",
+  "print": "https://dreenaburton.com/wprm_print/creamy-breakfast-vegan-rice-pudding"
+ },
+ "superfood-sweet-potato-hash": {
+  "img": "https://wholefully.com/wp-content/uploads/2018/01/sweet-potato-hash-hero.jpg",
+  "print": "https://wholefully.com/wprm_print/superfood-sweet-potato-hash"
+ },
+ "dosai-bean-and-rice-crepes": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/74252c8acc6-dce0-4689-aed3-762e64909548-scaled.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/dosai-bean-and-rice-crepes/print/"
+ },
+ "breakfast-or-country-sausage": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/breakfast-or-country-sausage/print/"
+ },
+ "pesarattu-green-moong-dal-dosa": {
+  "img": "https://hebbarskitchen.com/wp-content/uploads/2024/01/Pesarattu-Recipe-Green-Gram-Dosa-Green-Moong-Dal-Dosa-Pesara-Dosa-2-scaled.jpeg",
+  "print": "https://hebbarskitchen.com/wprm_print/pesarattu-recipe-green-gram-dosa-green-moong-dal-dosa-pesara-dosa"
+ },
+ "poha-kanda-batata-poha": {
+  "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/11/poha.jpg",
+  "print": "https://www.indianhealthyrecipes.com/wprm_print/poha-recipe-indian-breakfast"
+ },
+ "gluten-free-vegan-granola": {
+  "img": "https://www.glutenfreepalate.com/wp-content/uploads/2022/04/Maple-Granola-1.2.jpg",
+  "print": null
+ },
+ "tofu-tacos-with-black-beans": {
+  "img": "https://cadryskitchen.com/wp-content/uploads/2024/02/hor-breakfast-tacos-tofu-beans.jpg",
+  "print": "https://cadryskitchen.com/wprm_print/tofu-tacos-with-black-beans"
+ },
+ "smoothie-bowl": {
+  "img": "https://www.wellplated.com/wp-content/uploads/2023/01/Smoothie-Bowl-For-Dinner-Healthy-Featured.jpg",
+  "print": "https://www.wellplated.com/wprm_print/smoothie-bowl-recipe"
+ },
+ "oil-free-vegan-coconut-cream-pie": {
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2018/02/no-bake-gluten-free-vegan-coconut-cream-pie-recipe-no-nuts.jpg",
+  "print": null
+ },
+ "creamy-gluten-free-and-vegan-key-lime-pie": {
+  "img": "https://thefitcookie.com/wp-content/uploads/2024/04/Dairy-Free-Key-Lime-Pie-09.jpg",
+  "print": "https://thefitcookie.com/wprm_print/creamy-gluten-free-and-vegan-key-lime-pie"
+ },
+ "gluten-free-vegan-tres-leches-cake": {
+  "img": "https://gfjules.com/wp-content/uploads/2022/04/Untitled-design-11.jpg",
+  "print": "https://gfjules.com/wprm_print/gluten-free-vegan-tres-leches-cake-recipe"
+ },
+ "vegan-flan": {
+  "img": "https://dorastable.com/wp-content/uploads/2020/04/flan-8.jpg",
+  "print": "https://dorastable.com/wprm_print/vegan-flan"
+ },
+ "vegan-pavlova": {
+  "img": "https://addictedtodates.com/wp-content/uploads/2022/07/vegan-pavlova.jpg",
+  "print": "https://addictedtodates.com/wprm_print/vegan-pavlova"
+ },
+ "vegan-cr-me-br-l-e": {
+  "img": "https://addictedtodates.com/wp-content/uploads/2021/12/vegan-creme-brulee.jpg",
+  "print": "https://addictedtodates.com/wprm_print/vegan-creme-brulee"
+ },
+ "strawberry-mochi-ichigo-daifuku": {
+  "img": "https://www.justonecookbook.com/wp-content/uploads/2021/02/Strawberry-Mochi-Ichigo-Daifuku-3671-I.jpg",
+  "print": "https://www.justonecookbook.com/wprm_print/strawberry-mochi-ichigo-daifuku"
+ },
+ "gluten-free-red-velvet-cupcakes-vegan-egg-free": {
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2018/01/Gluten-Free-Red-Velvet-Cupcakes-1.jpg",
+  "print": null
+ },
+ "gluten-free-vegan-lava-cakes": {
+  "img": "https://www.glutenfreepalate.com/wp-content/uploads/2019/05/Gluten-Free-Lava-Cake-1.2.jpg",
+  "print": null
+ },
+ "chocolate-espresso-vegan-donuts": {
+  "img": "https://www.glutenfreepalate.com/wp-content/uploads/2016/05/Gluten-Free-Vegan-Chocolate-Espresso-Donuts2.2.jpg",
+  "print": null
+ },
+ "gluten-free-vegan-cherry-pie": {
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2018/06/show-stopping-gluten-free-vegan-cherry-pie-8.jpg",
+  "print": null
+ },
+ "vegan-and-gluten-free-tiramisu": {
+  "img": "https://www.glutarama.com/wp-content/uploads/2023/09/Vegan-and-Gluten-Free-Tiramisu-Recipe-6.jpg",
+  "print": "https://www.glutarama.com/wprm_print/vegan-and-gluten-free-tiramisu-recipe"
+ },
+ "lemon-popsicles": {
+  "img": "https://www.texanerin.com/content/uploads/2023/04/lemon-popsicles-1200-image.jpg",
+  "print": "https://www.texanerin.com/wprm_print/lemon-popsicles-naturally-vegan-paleo"
+ },
+ "vegan-gelato-chocolate": {
+  "img": "https://www.texanerin.com/content/uploads/2017/06/vegan-chocolate-ice-cream-photo-1200.jpg",
+  "print": "https://www.texanerin.com/wprm_print/vegan-gelato"
+ },
+ "berry-bars-gluten-free-vegan-option": {
+  "img": "https://www.texanerin.com/content/uploads/2016/04/berry-bars-16.jpeg",
+  "print": "https://www.texanerin.com/wprm_print/berry-bars-super-easy-regular-or-gluten-free-vegan"
+ },
+ "mango-sticky-rice": {
+  "img": "https://pickledplum.com/wp-content/uploads/2016/07/mango-sticky-rice-recipe-3-1200.jpg",
+  "print": null
+ },
+ "kinako-dango-sweet-soy-flour-dumplings": {
+  "img": "https://pickledplum.com/wp-content/uploads/2013/10/dango-600.jpg",
+  "print": null
+ },
+ "aquafaba-whipped-topping-or-meringues": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/delicious-recipes/images/recipes/recipe_19987.png",
+  "print": "https://kidswithfoodallergies.org/recipes/aquafaba-whipped-topping-or-meringues/print/"
+ },
+ "gluten-free-vegan-funfetti-cupcakes": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2015/11/Funfetti.jpg",
+  "print": null
+ },
+ "gluten-free-vegan-lemon-blackberry-cupcakes": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/05/ellacupcake9.jpg",
+  "print": null
+ },
+ "gluten-free-shortbread-petticoat-tails-dairy-free-option": {
+  "img": "https://www.glutenfreealchemist.com/wp-content/uploads/2023/08/gluten-free-shortbread-petticoat-tails-FI.jpg",
+  "print": "https://www.glutenfreealchemist.com/wprm_print/gluten-free-shortbread-petticoat-tails"
+ },
+ "gluten-free-jammie-dodgers-egg-free-vegan-option": {
+  "img": "https://www.glutenfreealchemist.com/wp-content/uploads/2023/02/jammie-dodgers-gluten-free-FI1.jpg",
+  "print": "https://www.glutenfreealchemist.com/wprm_print/jammie-dodgers-gluten-free-and-egg-free-with-butter"
+ },
+ "nut-free-and-dairy-free-baked-cheesecake": {
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2016/03/gluten-free-nut-free-grain-free-dairy-free-baked-cheesecake-recipe.jpg",
+  "print": null
+ },
+ "homemade-vegan-plum-sorbet": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2019/07/Plum-Sorbet-hero-1.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/vegan-plum-sorbet-just-3-ingredients"
+ },
+ "tahini-chocolate-fudge": {
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2025/05/tahini-chocolate-fudge-sq.jpg",
+  "print": null
+ },
+ "dark-chocolate-silk-pie": {
+  "img": "http://enjoylifefoods.com/cdn/shop/articles/Dark_Chocolate_Silk_Pie-1_1200x1200.jpg?v=1791916878",
+  "print": null
+ },
+ "raspberry-white-chocolate-mousse": {
+  "img": "http://enjoylifefoods.com/cdn/shop/articles/Raspberry_White_Chocolate_Mousse-1_1200x1200.jpg?v=1791918336",
+  "print": null
+ },
+ "reindeer-brownies": {
+  "img": "http://enjoylifefoods.com/cdn/shop/articles/Reindeer_Brownies-1_1200x1200.jpg?v=1791916155",
+  "print": null
+ },
+ "vegan-butter-mochi-gluten-free": {
+  "img": "https://www.rhiansrecipes.com/wp-content/uploads/2025/12/IMG_8317.jpg",
+  "print": "https://www.rhiansrecipes.com/wprm_print/vegan-butter-mochi-gluten-free"
+ },
+ "vegan-caramel-sauce-gluten-free": {
+  "img": "https://www.rhiansrecipes.com/wp-content/uploads/2026/01/IMG_9846.jpg",
+  "print": "https://www.rhiansrecipes.com/wprm_print/vegan-caramel-sauce-gluten-free"
+ },
+ "ohagi-japanese-sweet-rice-balls": {
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2023/11/ohagi-recipe.jpg",
+  "print": null
+ },
+ "easy-gluten-free-lemon-shortbread-cookies": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2024/02/lemon-shortbread-plate.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/buttery-gluten-free-lemon-shortbread-cookies"
+ },
+ "gluten-free-plum-upside-down-cake": {
+  "img": "https://www.glutarama.com/wp-content/uploads/2023/08/Plum-Upside-Down-Cake-3.jpg",
+  "print": "https://www.glutarama.com/wprm_print/gluten-free-plum-upside-down-cake"
+ },
+ "dairy-free-fudge-cupcakes-with-caramel": {
+  "img": "https://www.glutarama.com/wp-content/uploads/2022/08/Dairy-Free-Fudge-Cupcakes-12.jpg",
+  "print": "https://www.glutarama.com/wprm_print/dairy-free-fudge-cupcakes"
+ },
+ "allergy-friendly-spritz-cookies": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/17505d240c8ae-15b9-40f2-844f-9f1767a7ff5a-scaled.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/allergy-friendly-spritz-cookies/print/"
+ },
+ "sweet-bananas-in-coconut-milk": {
+  "img": "https://pickledplum.com/wp-content/uploads/2014/04/banana-coconut-2web.jpg",
+  "print": null
+ },
+ "gluten-free-funnel-cake": {
+  "img": "https://gfjules.com/wp-content/uploads/2019/08/gluten-free-funnel-cake-on-blue-plate.jpg",
+  "print": "https://gfjules.com/wprm_print/gluten-free-funnel-cake-recipe"
+ },
+ "gluten-free-churros": {
+  "img": "https://gfjules.com/wp-content/uploads/2018/02/gluten-free-churros-heart-with-bow.jpg",
+  "print": "https://gfjules.com/wprm_print/gluten-free-churros-recipe"
+ },
+ "chocolate-dipped-coconut-macaroons": {
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2017/01/Chocolate-Dipped-Coconut-Macaroons-PM2.jpg",
+  "print": null
+ },
+ "teriyaki-chicken": {
+  "img": "https://omnivorescookbook.com/wp-content/uploads/2026/09/260909_Japanese-Teriyaki-Chicken_550.jpg",
+  "print": "https://omnivorescookbook.com/wprm_print/teriyaki-chicken-%e6%97%a5%e5%bc%8f%e7%85%a7%e7%83%a7%e9%b8%a1%e8%82%89"
+ },
+ "thai-salmon-coconut-curry": {
+  "img": "https://omnivorescookbook.com/wp-content/uploads/2020/06/200506_Thai-Style-Salmon-Curry_5.jpg",
+  "print": "https://omnivorescookbook.com/wprm_print/thai-salmon-coconut-curry"
+ },
+ "chicken-curry-indian-style": {
+  "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg",
+  "print": "https://www.indianhealthyrecipes.com/wprm_print/chicken-curry-recipe"
+ },
+ "fish-curry-indian-fish-masala": {
+  "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/fish-curry-recipe.jpg",
+  "print": "https://www.indianhealthyrecipes.com/wprm_print/fish-curry-recipe-indian-fish-masala"
+ },
+ "rajma-masala-kidney-bean-curry": {
+  "img": "https://www.cookwithmanali.com/wp-content/uploads/2014/10/Rajma-Kidney-Beans-Curry.jpg",
+  "print": "https://www.cookwithmanali.com/wprm_print/rajma-masala"
+ },
+ "caribbean-curry-chicken-bunjay-style": {
+  "img": "https://caribbeanpot.com/wp-content/uploads/2026/04/bunjay-curry-chicken-13.jpg",
+  "print": "https://caribbeanpot.com/wprm_print/caribbean-curry-chicken-bunjay-style"
+ },
+ "jerk-chicken": {
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/jerk-chicken-f51736a.jpg?resize=440%2C230",
+  "print": null
+ },
+ "ratatouille": {
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2019/05/Ratatouille-ea27a5c.jpg?resize=440%2C230",
+  "print": null
+ },
+ "vietnamese-spicy-lemongrass-chicken-g-x-o-s-t": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/ga-xa-ot.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/vietnamese-spicy-lemongrass-chicken-ga-xao-sa-ot"
+ },
+ "c-kho-t-vietnamese-caramelized-braised-fish": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/ca-kho-featured.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/ca-kho-to-recipe-vietnamese-caramelized-braised-fish"
+ },
+ "thai-red-curry-chicken": {
+  "img": "https://carlsbadcravings.com/wp-content/uploads/2017/02/Thai-Red-Curry-Chicken-5.jpg",
+  "print": "https://carlsbadcravings.com/wprm_print/thai-curry-recipe"
+ },
+ "greek-chicken-skewers": {
+  "img": "https://carlsbadcravings.com/wp-content/uploads/2022/06/greek-chicken-kabobs-7.jpg",
+  "print": "https://carlsbadcravings.com/wprm_print/greek-chicken-skewers"
+ },
+ "moroccan-chicken-with-preserved-lemon-and-olives": {
+  "img": "https://tasteofmaroc.com/wp-content/uploads/2017/11/IMG_4456.jpg",
+  "print": "https://tasteofmaroc.com/wprm_print/moroccan-chicken-with-preserved-lemon-and-olives-djaj-mqualli-b-daghmira"
+ },
+ "moroccan-fish-tagine-with-chermoula": {
+  "img": "https://tasteofmaroc.com/wp-content/uploads/2018/08/fish-tagine-ready-to-cook.jpg",
+  "print": "https://tasteofmaroc.com/wprm_print/moroccan-fish-tagine-recipe-with-chermoula-and-vegetables"
+ },
+ "easy-chicken-cacciatore": {
+  "img": "https://www.saltandlavender.com/wp-content/uploads/2021/05/chicken-cacciatore-recipe-91.jpg",
+  "print": "https://www.saltandlavender.com/wprm_print/easy-chicken-cacciatore"
+ },
+ "honey-chipotle-chicken": {
+  "img": "https://reciperunner.com/wp-content/uploads/2026/07/honey-chipotle-chicken-7-1200x1682.jpg",
+  "print": "https://reciperunner.com/wprm_print/honey-chipotle-chicken-recipe"
+ },
+ "rosemary-chicken-with-potatoes-and-green-beans": {
+  "img": "https://www.littlespicejar.com/wp-content/uploads/2015/07/Rosemary-Chicken-with-Potatoes-and-Green-Beans-6.jpg",
+  "print": "https://www.littlespicejar.com/wprm_print/rosemary-chicken-with-potatoes-and-green-beans"
+ },
+ "roast-turkey-breast-with-gravy": {
+  "img": "https://recipesfromapantry.com/wp-content/uploads/2025/09/Roast-turkey-breast-aDE8A7728-copy.jpg",
+  "print": "https://recipesfromapantry.com/wprm_print/roast-turkey-breast"
+ },
+ "moroccan-spiced-sheet-pan-chicken-with-ras-el-hanout": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2025/11/sheet-pan-drumsticks-close-up.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/moroccan-spiced-sheet-pan-chicken-with-ras-el-hanout"
+ },
+ "coq-au-vin-with-mashed-potatoes": {
+  "img": "https://www.jocooks.com/wp-content/uploads/2019/02/coq-au-vin-1-3.jpg",
+  "print": "https://www.jocooks.com/wprm_print/coq-au-vin-with-mashed-potatoes"
+ },
+ "birria-de-res-beef-birria": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2020/05/Birria-de-Res-Beef-Birria-16.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/birria-de-res-beef-birria"
+ },
+ "vegetarian-red-pozole": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2022/11/Vegetarian-Red-Posole-5.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/vegetarian-red-pozole"
+ },
+ "instant-pot-carnitas": {
+  "img": "https://www.wholesomelicious.com/wp-content/uploads/2021/02/Instant-Pot-Carnitas-Photo.jpg",
+  "print": "https://www.wholesomelicious.com/wprm_print/instant-pot-carnitas"
+ },
+ "andalusian-pork-kebabs-pinchos-morunos": {
+  "img": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/06/DSC_0686-11.png?fit=750%2C750&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/andalusian-pork-kebabs-pinchos-morunos?wprm_public_post=19030"
+ },
+ "spanish-garlic-pork-tenderloin-solomillo-al-ajillo": {
+  "img": "https://spainonafork.com/wp-content/uploads/2026/07/DSC_0321-11.png",
+  "print": "https://spainonafork.com/wprm_print/spanish-garlic-pork-tenderloin-solomillo-de-cerdo-al-ajillo"
+ },
+ "spanish-chicken-paella-paella-de-pollo": {
+  "img": "https://spainonafork.com/wp-content/uploads/2026/10/image0-3-11.png",
+  "print": "https://spainonafork.com/wprm_print/authentic-spanish-chicken-paella-paella-de-pollo"
+ },
+ "lamb-mandi-yemeni-lamb-and-rice": {
+  "img": "https://www.hungrypaprikas.com/wp-content/uploads/2026/02/Lamb-Mandi-1.jpg",
+  "print": "https://www.hungrypaprikas.com/print/fall-apart-lamb-mandi-yemeni-lamb-and-rice"
+ },
+ "slow-cooker-osso-buco": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2024/04/OSSO-BUCO-H.png",
+  "print": "https://www.platingsandpairings.com/wprm_print/slow-cooker-osso-buco"
+ },
+ "grilled-swordfish-with-ros-wine-mayonnaise": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2017/05/Grilled-Swordfish-3.jpg",
+  "print": "https://www.platingsandpairings.com/wprm_print/grilled-swordfish-with-tangy-rose-wine-mayonnaise"
+ },
+ "bulgogi-deopbap-bulgogi-rice-bowl": {
+  "img": "https://www.koreanbapsang.com/wp-content/uploads/2011/12/DSC7219-e1668988718403.jpg",
+  "print": "https://www.koreanbapsang.com/wprm_print/bulgogi-deopbap-bulgogi-rice-bowl"
+ },
+ "jeyuk-bokkeum-spicy-pork-bulgogi": {
+  "img": "https://www.koreanbapsang.com/wp-content/uploads/2010/05/DSC5922.jpg",
+  "print": "https://www.koreanbapsang.com/wprm_print/jeyuk-bokkeum-or-spicy-pork-bulgogi"
+ },
+ "slow-cooker-bbq-pulled-beef": {
+  "img": "https://www.jocooks.com/wp-content/uploads/2025/10/slow-cooker-bbq-pulled-beef-1.jpg",
+  "print": "https://www.jocooks.com/wprm_print/slow-cooker-bbq-pulled-beef"
+ },
+ "vietnamese-caramelized-lamb-chops": {
+  "img": "https://www.cooking-therapy.com/wp-content/uploads/2026/01/Vietnamese-Caramelized-Lamb-Chops-11.jpg",
+  "print": "https://www.cooking-therapy.com/wprm_print/vietnamese-caramelized-lamb-chops"
+ },
+ "lemongrass-salmon-vermicelli-bowl": {
+  "img": "https://www.cooking-therapy.com/wp-content/uploads/2024/08/Lemongrass-Salmon-Vermicelli-Bowls-05.jpg",
+  "print": "https://www.cooking-therapy.com/wprm_print/refreshing-lemongrass-salmon-vermicelli-bowl"
+ },
+ "sirloin-tip-roast-with-gravy": {
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2021/07/sirlion-tip.jpg",
+  "print": null
+ },
+ "instant-pot-pulled-pork": {
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2017/01/crowd-pleasing-instant-pot-pulled-pork-recipe-with-dry-rub.jpg",
+  "print": null
+ },
+ "picadillo-ground-beef-with-tomato-and-olives": {
+  "img": "https://www.primaverakitchen.com/wp-content/uploads/2025/06/Picadillo-Recipe-10-e1757013148670.jpg",
+  "print": "https://www.primaverakitchen.com/wprm_print/picadillo-recipe-ground-beef-with-tomato-sauce-green-olives"
+ },
+ "garlic-butter-pan-seared-halibut": {
+  "img": "https://www.primaverakitchen.com/wp-content/uploads/2024/01/garlicbutterhalibut-9.jpg",
+  "print": "https://www.primaverakitchen.com/wprm_print/halibut-recipe-garlic-butter-pan-seared"
+ },
+ "garlic-butter-baked-rainbow-trout": {
+  "img": "https://www.primaverakitchen.com/wp-content/uploads/2018/07/Garlic-Butter-Trout-Primavera-Kitchen-2.jpg",
+  "print": "https://www.primaverakitchen.com/wprm_print/garlic-butter-baked-rainbow-trout-recipe"
+ },
+ "creamy-coconut-cod-curry": {
+  "img": "https://www.jaroflemons.com/wp-content/uploads/2026/09/Creamy-Coconut-Cod-Curry-Landscape-1.jpg",
+  "print": "https://www.jaroflemons.com/wprm_print/creamy-coconut-cod-curry"
+ },
+ "sesame-cumin-tofu-bowls-with-potato-crisps": {
+  "img": "https://plantbasedrdblog.com/wp-content/uploads/2026/10/Sesame-Cumin-Tofu-Bowls.jpg",
+  "print": null
+ },
+ "red-curry-vegetable-stir-fry-with-seared-tofu": {
+  "img": "https://www.heynutritionlady.com/wp-content/uploads/2022/01/Red-Curry-Coconut-Stir-Fry-Tofu-Vegetables-SQ.jpg",
+  "print": "https://www.heynutritionlady.com/wprm_print/red-curry-stir-fry"
+ },
+ "sweet-potato-glass-noodles-vegan-japchae": {
+  "img": "https://www.enhanceyourpalate.com/wp-content/uploads/Japchae-Noodles-Recipe-\u2013-Vegan-Gluten-Free.jpg",
+  "print": "https://www.enhanceyourpalate.com/wprm_print/sweet-potato-glass-noodles-vegan-japchae"
+ },
+ "general-tso-s-tempeh": {
+  "img": "https://thehealthyfoodie.com/wp-content/uploads/2019/06/General-Tsos-Tempeh.jpg",
+  "print": "https://thehealthyfoodie.com/wprm_print/general-tsos-tempeh"
+ },
+ "quinoa-stuffed-eggplant-with-tahini-sauce": {
+  "img": "https://www.simplyquinoa.com/wp-content/uploads/2023/09/quinoa-stuffed-eggplant-15.jpg",
+  "print": "https://www.simplyquinoa.com/wprm_print/quinoa-stuffed-eggplant-with-tahini-sauce"
+ },
+ "sinigang-na-baboy-filipino-pork-sinigang-soup": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/pork-sinigang-scoop.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/sinigang-na-baboy-filipino-pork-sinigang-soup-w-vegetables"
+ },
+ "b-n-th-t-n-ng-vietnamese-grilled-pork-and-rice-noodles": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/viet-bun-thit-nuong.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/bun-thit-nuong-recipe-vietnamese-grilled-pork-rice-noodles"
+ },
+ "korean-fish-donburi-bowl": {
+  "img": "https://pickledplum.com/wp-content/uploads/2021/04/Korean-style-fish-donburi-1-1200.jpg",
+  "print": null
+ },
+ "easy-comforting-fish-stew": {
+  "img": "https://pickledplum.com/wp-content/uploads/2019/10/comforting-fish-stew-1200.jpg",
+  "print": null
+ },
+ "light-spring-minestrone-soup": {
+  "img": "https://pickledplum.com/wp-content/uploads/2023/02/spring-minestrone-1OPTM-1200.jpg",
+  "print": null
+ },
+ "fresh-and-easy-vietnamese-noodle-salad": {
+  "img": "https://www.foodiecrush.com/wp-content/uploads/2017/05/Vietnamese-Noodle-Salad-foodiecrush.com-011.jpg",
+  "print": "https://www.foodiecrush.com/wprm_print/fresh-and-easy-vietnamese-noodle-salad"
+ },
+ "chicken-and-cabbage-salad-with-vietnamese-dressing": {
+  "img": "https://www.hummusapien.com/wp-content/uploads/2025/04/cabbage-chicken-salad.jpg",
+  "print": null
+ },
+ "nourishing-chicken-lentil-soup-with-turmeric-and-ginger": {
+  "img": "https://www.hummusapien.com/wp-content/uploads/2026/03/lentil-soup-with-chicken.jpg",
+  "print": null
+ },
+ "chicken-tortilla-soup": {
+  "img": "https://kristineskitchenblog.com/wp-content/uploads/2025/12/chicken-tortilla-soup-07-2.jpg",
+  "print": "https://kristineskitchenblog.com/wprm_print/chicken-tortilla-soup"
+ },
+ "salmon-bowls": {
+  "img": "https://kristineskitchenblog.com/wp-content/uploads/2025/06/salmon-bowl-recipe-10.jpg",
+  "print": "https://kristineskitchenblog.com/wprm_print/salmon-bowls"
+ },
+ "mediterranean-tuna-salad": {
+  "img": "https://kristineskitchenblog.com/wp-content/uploads/2025/01/mediterranean-tuna-salad-recipe-14-2.jpg",
+  "print": "https://kristineskitchenblog.com/wprm_print/mediterranean-tuna-salad"
+ },
+ "chipotle-pinto-bean-and-plantain-stew": {
+  "img": "https://plantbasedrdblog.com/wp-content/uploads/2022/01/chipotle-pinto-bean-and-plantain-stew_feat.jpg",
+  "print": null
+ },
+ "thai-beef-salad-yum-nua": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2018/02/THAI-BEEF-SALAD-PIN.png",
+  "print": "https://www.platingsandpairings.com/wprm_print/thai-beef-salad-yum-nua"
+ },
+ "persian-beef-stew": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2018/03/Instant-Pot-Persian-Beef-Stew-2.jpg",
+  "print": "https://www.platingsandpairings.com/wprm_print/persian-beef-stew"
+ },
+ "coconut-curry-noodle-soup": {
+  "img": "https://simply-delicious-food.com/wp-content/uploads/2022/09/Turmeric-coconut-noodle-soup3.jpg",
+  "print": "https://simply-delicious-food.com/wprm_print/coconut-curry-noodle-soup"
+ },
+ "red-pozole": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2020/11/Red-Pozole-Recipe-13.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/red-pozole"
+ },
+ "chicken-larb": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2019/08/chicken-larb-13.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/chicken-larb"
+ },
+ "bo-kho-spicy-vietnamese-beef-stew-with-noodles": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2017/10/vietnamese-bho-kho-12.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/bo-kho-spicy-vietnamese-beef-stew-with-noodles"
+ },
+ "roasted-butternut-squash-soup": {
+  "img": "https://wholefully.com/wp-content/uploads/2023/10/roasted-squash-soup-served.jpg",
+  "print": "https://wholefully.com/wprm_print/roasted-butternut-squash-soup-recipe"
+ },
+ "sweet-potato-tortilla-soup": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2019/01/Sweet-Potato-Tortilla-Soup-3.jpeg",
+  "print": "https://sweetpotatosoul.com/wprm_print/sweet-potato-tortilla-soup"
+ },
+ "everyday-buddha-bowl": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2025/07/everyday-buddha-bowl.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/everyday-buddha-bowl"
+ },
+ "onigiri-with-japanese-yam-and-kabocha-squash": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2015/05/Onigiri5.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/onigiri-filled-with-japanese-yam-and-kabocha-squash"
+ },
+ "chicken-pozole-verde": {
+  "img": "https://www.thehealthymaven.com/wp-content/uploads/2022/09/chicken-pozole-verde-13.jpg",
+  "print": null
+ },
+ "gazpacho-soup": {
+  "img": "https://www.thehealthymaven.com/wp-content/uploads/2014/07/blender-gazpacho-13.jpg",
+  "print": null
+ },
+ "piri-piri-chicken-bowls": {
+  "img": "https://www.thehealthymaven.com/wp-content/uploads/2021/04/piri-piri-chicken-bowls-FI.jpg",
+  "print": null
+ },
+ "cuban-brown-rice-bowl-with-sweet-plantains": {
+  "img": "https://www.vegkitchen.com/wp-content/uploads/2016/09/Cuban-Brown-Rice-Bowl-2.jpg",
+  "print": "https://www.vegkitchen.com/wprm_print/cuban-brown-rice-bowl-with-sweet-plantains"
+ },
+ "tom-kha-gai": {
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2025/09/Tom-Kha-Gai-5e07042.jpg?resize=900%2C471",
+  "print": null
+ },
+ "ponzu-tofu-poke-bowl": {
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Ponzu-tofu-poke-bowl-d98d157.jpg?resize=900%2C471",
+  "print": null
+ },
+ "winter-mulligatawny": {
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2024/11/Winter-Mulligatawny-474cca5.jpg?resize=900%2C471",
+  "print": null
+ },
+ "vegetarian-lettuce-wraps": {
+  "img": "https://www.wellplated.com/wp-content/uploads/2017/05/Vegetarian-Lettuce-Wraps-PF-Changs.jpg",
+  "print": "https://www.wellplated.com/wprm_print/lettuce-wraps"
+ },
+ "moroccan-chickpea-stew": {
+  "img": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Easy-Moroccan-Chickpea-Stew_EXPS_TOHD24_59098_EricKleinberg_4.jpg",
+  "print": "https://www.tasteofhome.com/recipes/easy-moroccan-chickpea-stew/print/"
+ },
+ "garlicky-saffron-rice": {
+  "img": "https://spainonafork.com/wp-content/uploads/2022/03/image9-57-11.png",
+  "print": "https://spainonafork.com/wprm_print/garlicky-saffron-rice"
+ },
+ "spanish-garlic-cabbage-salad-ensalada-de-col-andaluza": {
+  "img": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2025/05/DSC_0418-11.png?fit=750%2C750&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/spanish-garlic-cabbage-salad-ensalada-de-col-andaluza"
+ },
+ "spanish-pisto-andaluz": {
+  "img": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2025/07/DSC_0086-11.png?fit=750%2C750&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/better-than-ratatouille-spanish-pisto-andaluz?wprm_public_post=17973"
+ },
+ "vegan-southern-collard-greens": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2024/03/Vegan-collard-greens-in-skillet.jpeg",
+  "print": "https://sweetpotatosoul.com/wprm_print/vegan-collard-greens"
+ },
+ "maple-roasted-brussels-sprouts-and-carrots": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2025/11/Maple-Roasted-Brussels-Sprouts-and-Carrots-social.png",
+  "print": "https://sweetpotatosoul.com/wprm_print/maple-roasted-brussels-sprouts-carrots"
+ },
+ "vegan-kale-caesar-salad": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2024/05/vegan-caesar-salad.jpeg",
+  "print": "https://sweetpotatosoul.com/wprm_print/vegan-caesar-salad"
+ },
+ "jamaican-coleslaw": {
+  "img": "https://thatgirlcookshealthy.com/wp-content/uploads/2022/05/Jamaican-coleslaw-image-1.png",
+  "print": "https://thatgirlcookshealthy.com/wprm_print/jamaican-coleslaw"
+ },
+ "vegan-cuban-black-beans-frijoles-negros": {
+  "img": "https://thatgirlcookshealthy.com/wp-content/uploads/2021/08/vegan-Cuban-black-beans-image.png",
+  "print": "https://thatgirlcookshealthy.com/wprm_print/vegan-cuban-black-beans-frijoles-negros"
+ },
+ "jamaican-coconut-rice": {
+  "img": "https://thatgirlcookshealthy.com/wp-content/uploads/2022/08/Jamaican-Coconut-Rice-image.png",
+  "print": "https://thatgirlcookshealthy.com/wprm_print/jamaican-coconut-rice-instant-pot"
+ },
+ "garlic-hasselback-potatoes-with-sage": {
+  "img": "https://vancouverwithlove.com/wp-content/uploads/2023/09/garlic-hasselback-potatoes-32.jpg",
+  "print": "https://vancouverwithlove.com/wprm_print/garlic-hasselback-potatoes-with-sage"
+ },
+ "classic-vegan-stuffing-gluten-free": {
+  "img": "https://vancouverwithlove.com/wp-content/uploads/2024/11/vegan-stuffing-recipe.jpg",
+  "print": "https://vancouverwithlove.com/wprm_print/best-classic-vegan-stuffing-gluten-free-too"
+ },
+ "vegan-green-bean-casserole-gluten-free": {
+  "img": "https://www.keepingthepeas.com/wp-content/uploads/2020/09/dairy-free-green-bean-casserole-11.jpg",
+  "print": "https://www.keepingthepeas.com/wprm_print/vegan-green-bean-casserole"
+ },
+ "vegan-cranberry-sauce": {
+  "img": "https://www.keepingthepeas.com/wp-content/uploads/2020/10/vegan-cranberry-sauce-16.jpg",
+  "print": "https://www.keepingthepeas.com/wprm_print/vegan-cranberry-sauce"
+ },
+ "saut-ed-spinach-with-garlic": {
+  "img": "https://www.lemonblossoms.com/wp-content/uploads/2026/05/Sauteed-Spinach-S6.jpg",
+  "print": "https://www.lemonblossoms.com/wprm_print/sauteed-spinach-with-garlic"
+ },
+ "tostones-fried-green-plantains": {
+  "img": "https://www.lemonblossoms.com/wp-content/uploads/2024/01/Tostones-S2.jpg",
+  "print": "https://www.lemonblossoms.com/wprm_print/tostones-recipe-fried-green-plantains"
+ },
+ "french-potato-salad": {
+  "img": "https://www.lemonblossoms.com/wp-content/uploads/2024/07/French-Potato-Salad-S1.jpg",
+  "print": "https://www.lemonblossoms.com/wprm_print/french-potato-salad"
+ },
+ "balsamic-roasted-carrots": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2024/12/balsamic-carrots-3.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/balsamic-roasted-carrots-recipe"
+ },
+ "sauteed-bok-choy-with-garlic": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2021/02/Sauteeed-Bok-Choy-3-scaled.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/sauteed-bok-choy-with-garlic"
+ },
+ "german-potato-salad": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2020/07/GERMAN-POTATO-SALAD-H.png",
+  "print": "https://www.platingsandpairings.com/wprm_print/german-potato-salad"
+ },
+ "braised-red-cabbage": {
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2025/10/braised-red-cabbage-H.png",
+  "print": "https://www.platingsandpairings.com/wprm_print/braised-red-cabbage"
+ },
+ "chinese-cucumber-salad": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2019/08/chinese-garlic-cucumber-salad-7.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/chinese-cucumber-salad"
+ },
+ "cilantro-lime-quinoa-salad": {
+  "img": "https://plantbasedrdblog.com/wp-content/uploads/2021/04/Cilantro-Lime-Quinoa-Salad_1.jpg",
+  "print": null
+ },
+ "oven-roasted-potatoes-and-asparagus": {
+  "img": "https://wholefully.com/wp-content/uploads/2022/04/oven-roasted-veggies-close-up-resized.jpg",
+  "print": "https://wholefully.com/wprm_print/oven-roasted-potatoes-and-asparagus"
+ },
+ "cilantro-lime-rice": {
+  "img": "https://reciperunner.com/wp-content/uploads/2025/04/cilantro-lime-rice-6-scaled.jpg",
+  "print": "https://reciperunner.com/wprm_print/cilantro-lime-rice-recipe"
+ },
+ "mexican-rice-2-0": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2020/01/Mexican-Rice-2.0-6.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/mexican-rice-2-0"
+ },
+ "classic-creamy-coleslaw": {
+  "img": "https://natashaskitchen.com/wp-content/uploads/2024/06/Coleslaw-Recipe-2.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/coleslaw-recipe-with-creamy-dressing"
+ },
+ "curry-roasted-cauliflower": {
+  "img": "https://kalynskitchen.com/wp-content/uploads/2016/03/1200-curry-roasted-cauliflower-kalynskitchen.jpg",
+  "print": null
+ },
+ "easy-ratatouille": {
+  "img": "https://cafedelites.com/wp-content/uploads/2025/09/Ratatouille-14.jpg",
+  "print": "https://cafedelites.com/wprm_print/easy-ratatouille-recipe"
+ },
+ "easy-thai-coconut-rice": {
+  "img": "https://hungryinthailand.com/wp-content/uploads/2025/09/coconut-rice.webp",
+  "print": "https://hungryinthailand.com/wprm_print/easy-thai-coconut-rice-recipe"
+ },
+ "coconut-creamed-spinach": {
+  "img": "https://thecoconutmama.com/wp-content/uploads/2024/07/coconut-creamed-spinach-featured.png",
+  "print": null
+ },
+ "quinoa-tabbouleh": {
+  "img": "https://www.jessicagavin.com/wp-content/uploads/2015/05/quinoa-tabbouleh-recipe-1200.jpg",
+  "print": "https://www.jessicagavin.com/wprm_print/quinoa-tabbouleh"
+ },
+ "creamy-polenta": {
+  "img": "https://www.wellplated.com/wp-content/uploads/2024/02/Creamy-Polenta-Recipe.jpg",
+  "print": "https://www.wellplated.com/wprm_print/creamy-polenta"
  }
 }
