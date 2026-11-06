@@ -6,7 +6,7 @@ window.SWAPS_HTML = `
   <nav class="subnav">
     <a href="#" data-jump="eggs">Eggs</a><a href="#" data-jump="flour">Flour & gluten</a><a href="#" data-jump="barley">Hidden barley</a>
     <a href="#" data-jump="dairy">Dairy</a><a href="#" data-jump="nuts">Nuts & peanuts</a><a href="#" data-jump="shellfish">Shellfish</a>
-    <a href="#" data-jump="pantry">Pantry swaps</a><a href="#" data-jump="kitchen">Kitchen habits</a>
+    <a href="#" data-jump="pantry">Pantry swaps</a><a href="#" data-jump="kitchen">Kitchen habits</a><a href="#" data-jump="wfm">Whole Foods picks</a>
   </nav>
 </div>
 <div class="guide">

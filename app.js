@@ -330,7 +330,11 @@
 
   function viewSwaps() {
     setTitle("Swap guide");
-    return window.SWAPS_HTML ? window.SWAPS_HTML : `<div class="empty">Guide loading…</div>`;
+    const picks = (window.WFM_PICKS || []).map(p => `<tr><td><a href="${wfmUrl(p.search)}" target="_blank" rel="noopener">${esc(p.picks.join(" · "))} ↗</a></td><td>${esc(p.avoid)}</td></tr>`).join("");
+    const wfm = picks ? `<div class="guide" style="margin-top:18px"><section class="guide-sec" id="g-wfm"><h2>🛒 Safe picks at Whole Foods</h2>
+      <p>Specific products we checked against her eight allergens using Whole Foods' own listings. Click one to search it at your store. "Facility" notes matter if she reacts to cross-contact; ask her allergist how strict to be.</p>
+      <div class="table-scroll"><table><tr><th>Buy</th><th>Avoid</th></tr>${picks}</table></div></section></div>` : "";
+    return (window.SWAPS_HTML || "") + wfm;
   }
 
   // ---------- shopping list ----------
@@ -412,6 +416,7 @@
         ${warns.length ? `<span class="li-warn">⚠ ${esc(warns.join(" · "))}</span>` : ""}
         ${coconut ? `<span class="li-coco">contains coconut</span>` : ""}
         ${pick ? `<span class="li-pick">✓ Safe pick at Whole Foods: ${pick.picks.map(esc).join(" · ")}</span>` : ""}
+        ${pick && pick.avoid ? `<span class="li-warn">✕ Avoid: ${esc(pick.avoid)}</span>` : ""}
         <details class="li-from"><summary>${it.recipes.size} recipe${it.recipes.size > 1 ? "s" : ""}</summary>${it.lines.map(l => `<div>${esc(l)}</div>`).join("")}</details>
       </label>
       <a class="wfm" href="${wfmUrl(pick ? pick.search || it.name : it.name)}" target="_blank" rel="noopener" title="Search Whole Foods">WFM ↗</a>
