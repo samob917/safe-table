@@ -12696,7 +12696,7 @@ window.RECIPES = [
   ],
   "difficulty": "easy",
   "cuisine": "American",
-  "role": "side-veg",
+  "role": "condiment",
   "weight": "light",
   "includes": [
    "veg"

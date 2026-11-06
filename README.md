@@ -1,4 +1,4 @@
-# The Safe Table
+# Yummy Food
 
 A hand-picked collection of free recipes from across the web that are free of **egg, wheat, gluten, barley, dairy, tree nuts, peanuts and shellfish**, or need only one easy swap (noted on every recipe). Grouped by meal, with date-night and entertaining menus, a swap guide, and an auto-combining shopping list.
 

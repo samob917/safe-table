@@ -50,6 +50,8 @@ for f in sorted(glob.glob(SRC)) + sorted(glob.glob(SRC.replace("recipes/", "reci
         base = c.split("-")[0].split(" fusion")[0].strip()
         recipes[-1]["cuisine"] = CUISINE_NORM.get(base, base) if base else ""
         if recipes[-1]["cuisine"] == "Asian": recipes[-1]["cuisine"] = "Global"
+        ROLE_OVERRIDE = {"vegan-cranberry-sauce": "condiment"}
+        if rid in ROLE_OVERRIDE: recipes[-1]["role"] = ROLE_OVERRIDE[rid]
         recipes[-1]["watch"] = decoconut(recipes[-1]["watch"])
         recipes[-1]["swaps"] = decoconut(recipes[-1]["swaps"])
         m = MEDIA.get(rid, {})

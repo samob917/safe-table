@@ -194,7 +194,7 @@
       <ul>${items}</ul></a>`;
   }
 
-  function setTitle(t) { document.title = t ? `${t} · The Safe Table` : "The Safe Table"; }
+  function setTitle(t) { document.title = t ? `${t} · Yummy Food` : "Yummy Food"; }
   function setActiveNav(hash) {
     document.querySelectorAll(".nav a").forEach(a => a.classList.toggle("active", hash.startsWith(a.getAttribute("href"))));
   }
@@ -227,7 +227,7 @@
       <h2>Browse by meal</h2>
       <div class="tiles">
         ${CATS.filter(c => RECIPES.some(r => r.category === c.key)).map(c => `<a class="tile" href="#/c/${c.key}"><span class="emoji">${c.emoji}</span><b>${esc(c.short || c.name)}</b><span class="count">${RECIPES.filter(r => r.category === c.key).length} recipes</span></a>`).join("")}
-        <a class="tile" href="#/build"><span class="emoji">🍽</span><b>Build a meal</b><span class="count">pick one dish, get a whole menu</span></a>
+        <a class="tile" href="#/build"><span class="emoji">🍽</span><b>Build a meal</b><span class="count">select a recipe, get a whole meal</span></a>
         <a class="tile" href="#/swaps"><span class="emoji">🔁</span><b>Swap guide</b><span class="count">eggs, flour, butter, milk…</span></a>
       </div>
       <div class="collections">
@@ -524,7 +524,7 @@
         out.push(`☐ ${it.name} (${fmtAmount(it.entries)})${pick ? " [" + pick.picks[0] + "]" : ""}`);
       }
     }
-    return "Shopping list · The Safe Table\n" + Object.keys(cart).map(id => "• " + byId[id]?.title).join("\n") + "\n" + out.join("\n");
+    return "Shopping list · Yummy Food\n" + Object.keys(cart).map(id => "• " + byId[id]?.title).join("\n") + "\n" + out.join("\n");
   }
 
   // ---------- meal builder ----------
@@ -684,81 +684,102 @@
     store.set("safe-table-meal", meal);
   }
 
+  const BRUNCH_ROLES = ["breakfast-main", "breakfast-side", "breakfast-bake"];
   function viewBuild(params) {
     setTitle("Build a meal");
+    const anchor = byId[params.get("with") || ""];
+    if (!anchor) return viewPicker(params);
     const opts = {
-      mode: params.get("mode") || "dinner",
-      with: params.get("with") || "",
-      protein: params.get("protein") || "",
-      cuisine: params.get("cuisine") || "",
+      mode: BRUNCH_ROLES.includes(roleOf(anchor)) ? "brunch" : "dinner",
+      with: anchor.id,
       mood: params.get("mood") || "",
       skip: (params.get("skip") || "").split(",").filter(Boolean),
     };
     const sig = JSON.stringify(opts);
     if (!meal || meal.sig !== sig) {
-      meal = { ...buildMeal(opts, meal && meal.sig === sig ? meal : null), sig };
+      meal = { ...buildMeal(opts, null), sig };
       store.set("safe-table-meal", meal);
     }
     const link = (k, v) => {
-      const p = new URLSearchParams(params); p.delete("go");
+      const p = new URLSearchParams(params);
       if (v === null || p.get(k) === v) p.delete(k); else p.set(k, v);
       return "#/build?" + p.toString();
     };
-    const chip = (k, v, label) => `<a class="filter-btn" href="${link(k, v)}" aria-pressed="${opts[k] === v}">${esc(label)}</a>`;
-    const anchor = byId[opts.with];
     const toggleSkip = s => { const set = new Set(opts.skip); set.has(s) ? set.delete(s) : set.add(s); return link("skip", [...set].join(",") || null); };
     const slotsAvail = opts.mode === "brunch" ? [] : [["starter", "Starter"], ["starch", "Starch side"], ["veg", "Veg side"], ["bread", "Bread"], ["dessert", "Dessert"]];
-    const main = byId[meal.slots.find(s => s.slot === "main")?.id];
+    const others = meal.slots.filter(s => s.id && s.id !== anchor.id);
+    const anchorSlot = meal.slots.find(s => s.id === anchor.id);
+    const role = roleOf(anchor);
+    const what = anchorSlot ? anchorSlot.label.toLowerCase() : role === "dessert" ? "dessert" : "dish";
     return `
-      <div class="page-head"><div class="crumbs"><a href="#/">Home</a> / Build a meal</div>
-        <h1>🍽 Build a meal</h1>
-        <p>Pick a starting point and we'll put together a full menu that goes together: matching cuisine, balanced richness, right for the season. Shuffle any course you don't love, or lock the ones you do.</p>
-      </div>
-      <section class="builder">
-        <div class="builder-row"><span class="filter-label">Meal</span>
-          <a class="filter-btn" href="${link("mode", "dinner")}" aria-pressed="${opts.mode === "dinner"}">Dinner</a>
-          <a class="filter-btn" href="${link("mode", "brunch")}" aria-pressed="${opts.mode === "brunch"}">Brunch</a>
+      <div class="page-head"><div class="crumbs"><a href="#/">Home</a> / <a href="#/build">Build a meal</a> / ${esc(anchor.title)}</div></div>
+      <section class="anchor-hero">
+        <div class="anchor-photo">${photo(anchor, "big")}</div>
+        <div>
+          <div class="course-label">Step 2 · Your ${esc(what)}</div>
+          <h1>${esc(anchor.title)}</h1>
+          <p class="desc">${esc(anchor.description)}</p>
+          <p class="list-actions">
+            <a class="btn ghost" href="#/r/${esc(anchor.id)}">View recipe</a>
+            <a class="btn ghost" href="#/build">↺ Choose a different recipe</a>
+          </p>
         </div>
-        <div class="builder-row"><span class="filter-label">Start with a dish</span>
-          <form id="anchor-form" class="anchor-form">
-            <input list="recipe-names" name="dish" placeholder="Type any recipe, e.g. “short ribs”, “lemon bars”…" value="${anchor ? esc(anchor.title) : ""}" aria-label="Choose a recipe to build around">
-            <datalist id="recipe-names">${RECIPES.map(r => `<option value="${esc(r.title)}">`).join("")}</datalist>
-            ${anchor ? `<a class="filter-btn" href="${link("with", null)}">✕ clear</a>` : ""}
-          </form>
-        </div>
-        ${opts.mode === "dinner" ? `
-        <div class="builder-row"><span class="filter-label">…or a protein</span>
-          ${chip("protein", "chicken", "🍗 Chicken")}${chip("protein", "beef", "🥩 Beef")}${chip("protein", "pork", "🐖 Pork")}${chip("protein", "lamb", "🐑 Lamb")}${chip("protein", "fish", "🐟 Fish")}${chip("protein", "veg", "🌱 Vegetarian")}
-        </div>
-        <div class="builder-row"><span class="filter-label">Cuisine</span>
-          ${Object.keys(CUISINE_CHIPS).map(c => chip("cuisine", c, c)).join("")}
-        </div>` : ""}
-        <div class="builder-row"><span class="filter-label">Mood</span>
-          ${Object.entries(MOODS).map(([k, m]) => chip("mood", k, m.label)).join("")}
-        </div>
-        ${slotsAvail.length ? `<div class="builder-row"><span class="filter-label">Courses</span>
-          ${slotsAvail.map(([s, l]) => `<a class="filter-btn" href="${toggleSkip(s)}" aria-pressed="${!opts.skip.includes(s)}">${opts.skip.includes(s) ? "＋" : "✓"} ${l}</a>`).join("")}
-        </div>` : ""}
       </section>
       <div class="meal-head">
-        <h2>${main ? `Your ${esc(main.cuisine && main.cuisine !== "Global" ? main.cuisine + " " : "")}${opts.mode === "brunch" ? "brunch" : "dinner"}` : "No match. Try fewer filters"}</h2>
+        <div>
+          <h2>Make it a complete ${opts.mode === "brunch" ? "brunch" : "meal"}</h2>
+          <p class="muted">${others.length ? `These go with ${esc(anchor.title)}: matching ${esc(anchor.cuisine && anchor.cuisine !== "Global" ? anchor.cuisine + " " : "")}flavors, balanced richness and right for the season. Shuffle anything you don't love, or lock what you do.` : "We couldn't find pairings. Try turning more courses on below."}</p>
+        </div>
         <div class="list-actions">
-          <button class="btn" data-shuffle-all>🔀 Shuffle unlocked</button>
-          <button class="btn ghost" data-meal-list>🛒 Add meal to shopping list</button>
+          <button class="btn" data-shuffle-all>🔀 Shuffle suggestions</button>
+          <button class="btn ghost" data-meal-list>🛒 Add whole meal to shopping list</button>
         </div>
       </div>
+      <div class="adjust">
+        <span class="filter-label">Mood</span>
+        ${Object.entries(MOODS).map(([k, m]) => `<a class="filter-btn" href="${link("mood", k)}" aria-pressed="${opts.mood === k}">${esc(m.label)}</a>`).join("")}
+        ${slotsAvail.length ? `<span class="filter-label" style="margin-left:12px">Courses</span>
+          ${slotsAvail.filter(([s]) => s !== anchorSlot?.slot).map(([s, l]) => `<a class="filter-btn" href="${toggleSkip(s)}" aria-pressed="${!opts.skip.includes(s)}">${opts.skip.includes(s) ? "＋" : "✓"} ${l}</a>`).join("")}` : ""}
+      </div>
       <div class="meal-grid">
-        ${meal.slots.map(s => {
-          const r = byId[s.id]; if (!r) return "";
+        ${others.map(s => {
+          const r = byId[s.id];
           return `<div class="meal-slot">
             <div class="slot-bar"><span class="course-label">${esc(s.label)}</span>
-              <span><button class="slot-btn" data-lock="${s.slot}" aria-pressed="${!!s.locked}" title="${s.locked ? "Unlock" : "Lock"}">${s.locked ? "🔒" : "🔓"}</button>
-              <button class="slot-btn" data-shuffle="${s.slot}" title="Swap this course">🔀</button></span></div>
+              <span><button class="slot-btn" data-lock="${s.slot}" aria-pressed="${!!s.locked}" title="${s.locked ? "Unlock" : "Keep this one"}">${s.locked ? "🔒" : "🔓"}</button>
+              <button class="slot-btn" data-shuffle="${s.slot}" title="Suggest something else">🔀</button></span></div>
             ${card(r)}
           </div>`;
         }).join("")}
+      </div>`;
+  }
+
+  function viewPicker(params) {
+    const q = params.get("q") || "";
+    const cat = params.get("cat") || "";
+    const cats = ["dinner", "pasta", "lunch", "breakfast", "appetizers", "sides", "desserts", "breads"];
+    let list = RECIPES.filter(r => (!cat || r.category === cat) && matches(r, q) && r.category !== "staples" && r.category !== "snacks");
+    if (!q && !cat) list = list.filter(r => roleOf(r) === "main");
+    const shown = list.slice(0, 60);
+    const href = c => { const p = new URLSearchParams(); if (c) p.set("cat", c); if (q) p.set("q", q); return "#/build?" + p.toString(); };
+    return `
+      <div class="page-head"><div class="crumbs"><a href="#/">Home</a> / Build a meal</div>
+        <h1>🍽 Build a meal</h1>
+        <p><b>Step 1: select a recipe.</b> Pick the dish you're excited to make (a main, a pasta, even a dessert) and we'll suggest a starter, sides, bread and dessert that complete the meal.</p>
       </div>
-      <p class="muted small">Pairings use each recipe's cuisine, richness, season and what's already in the main (e.g. no potato side when the main has potatoes).</p>`;
+      <form class="search" id="pick-form"><input type="search" name="q" value="${esc(q)}" placeholder="Search any recipe, e.g. “short ribs”, “salmon”, “tiramisu”…" aria-label="Search for a recipe to build a meal around" autofocus></form>
+      <div class="filters">
+        <a class="filter-btn" href="${href("")}" aria-pressed="${!cat}">${q ? "All" : "Mains"}</a>
+        ${cats.map(c => `<a class="filter-btn" href="${href(c)}" aria-pressed="${cat === c}">${esc(catByKey[c].short || catByKey[c].name)}</a>`).join("")}
+      </div>
+      <p class="muted small">${list.length} recipe${list.length === 1 ? "" : "s"}${list.length > shown.length ? `. Showing the first ${shown.length}, so search to narrow it down` : ""}.</p>
+      <div class="pick-grid">
+        ${shown.map(r => `<a class="pick" href="#/build?with=${esc(r.id)}">
+          <span class="pick-img">${photo(r)}</span>
+          <span class="pick-body"><b>${esc(r.title)}</b><span class="muted small">${esc(r.site)}${r.time ? " · " + esc(r.time) : ""}</span>
+          <span class="pick-cta">Build a meal around this →</span></span>
+        </a>`).join("") || `<div class="empty">No recipes match. Try another word.</div>`}
+      </div>`;
   }
 
   function viewStorage() {
@@ -875,6 +896,13 @@
   document.addEventListener("submit", e => {
     const f = e.target;
     if (f.id === "home-search") { e.preventDefault(); location.hash = "#/search?q=" + encodeURIComponent(f.q.value.trim()); }
+    if (f.id === "pick-form") {
+      e.preventDefault();
+      const p = new URLSearchParams((location.hash.split("?")[1]) || "");
+      p.delete("with");
+      f.q.value.trim() ? p.set("q", f.q.value.trim()) : p.delete("q");
+      location.hash = "#/build?" + p.toString();
+    }
     if (f.id === "anchor-form") {
       e.preventDefault();
       const name = f.dish.value.trim().toLowerCase();
