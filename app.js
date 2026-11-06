@@ -838,6 +838,7 @@
       <p>Chain restaurants that publish allergen charts or allergen-filter tools, linked straight to the chart. Use them to plan before you go, then always tell your server about every allergy. Charts change, kitchens share fryers and grills, and staff can confirm what's true today.</p></div>
       <section class="guide-sec eo-tips"><h2>Before you order</h2><ul class="tips">
         <li><b>Check the chart the same day.</b> Chains update recipes and suppliers often; the "likely safe" ideas below are a starting point, not a guarantee.</li>
+        <li><b>"No wheat" isn't "no barley."</b> Most charts track wheat but not barley or malt (malt vinegar, malted batters, some buns and sauces), so ask about malt specifically.</li>
         <li><b>Say all eight allergens,</b> including barley/malt and shellfish, which many charts don't list. Ask for a manager or allergy protocol if they have one.</li>
         <li><b>Ask about shared fryers and grills.</b> Fries are often fried with breaded or battered items, and grills are often buttered.</li>
         <li><b>Sauces, marinades, seasoning and buns</b> are where egg, dairy and wheat hide. Order plain and add your own.</li>
