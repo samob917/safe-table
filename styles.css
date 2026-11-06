@@ -352,3 +352,10 @@ main { padding-top: 44px; padding-bottom: 90px; }
 .recipe-facts div { background: transparent; }
 
 .site-footer { background: transparent; }
+
+.collections { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: -24px 0 24px; }
+.collection { display: flex; gap: 16px; align-items: center; text-decoration: none; color: var(--ink); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; background: linear-gradient(135deg, #fff, var(--surface-2)); }
+.collection span { font-size: 2rem; }
+.collection b { font-family: var(--serif); font-weight: 400; font-size: 1.3rem; }
+.collection p { margin: 2px 0 0; color: var(--ink-soft); font-size: .95rem; }
+.collection:hover { border-color: #d9d4ca; }

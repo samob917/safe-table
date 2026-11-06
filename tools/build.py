@@ -21,7 +21,7 @@ def decoconut(text):
 
 recipes, seen, ids = [], set(), set()
 META = json.load(open("/Users/samob917/safe-table/tools/meta_existing.json")) if os.path.exists("/Users/samob917/safe-table/tools/meta_existing.json") else {}
-for f in sorted(glob.glob(SRC)) + sorted(glob.glob(SRC.replace("recipes/", "recipes2/"))):
+for f in sorted(glob.glob(SRC)) + sorted(glob.glob(SRC.replace("recipes/", "recipes2/"))) + sorted(glob.glob(SRC.replace("recipes/", "recipes3/"))):
     try:
         data = json.load(open(f))
     except Exception as e:

@@ -10,6 +10,7 @@
     { key: "breakfast",  name: "Breakfast",  emoji: "🥞", blurb: "Pancakes, oats, savory hashes and make-ahead mornings." },
     { key: "lunch",      name: "Lunch, Soups & Salads", short: "Lunch", emoji: "🥗", blurb: "Soups, bowls, big salads and things to pack." },
     { key: "dinner",     name: "Dinner",     emoji: "🍲", blurb: "Weeknight staples through dinner-party mains." },
+    { key: "pasta",      name: "Pasta & Noodles", short: "Pasta", emoji: "🍝", blurb: "Gluten-free pasta and rice noodles: Italian classics, creamy bakes without the dairy, Asian noodles, and homemade pasta and gnocchi." },
     { key: "sides",      name: "Sides",      emoji: "🥔", blurb: "Vegetables, potatoes, grains and salads to round out a plate." },
     { key: "appetizers", name: "Appetizers & Party Food", short: "Appetizers", emoji: "🫒", blurb: "Dips, bites and finger food for a crowd." },
     { key: "snacks",     name: "Snacks",     emoji: "🍿", blurb: "Bites, bars and crunchy things for between meals." },
@@ -229,6 +230,10 @@
         <a class="tile" href="#/build"><span class="emoji">🍽</span><b>Build a meal</b><span class="count">pick one dish, get a whole menu</span></a>
         <a class="tile" href="#/swaps"><span class="emoji">🔁</span><b>Swap guide</b><span class="count">eggs, flour, butter, milk…</span></a>
       </div>
+      <div class="collections">
+        <a class="collection" href="#/collection/gourmet"><span>✨</span><div><b>Gourmet & Project Cooking</b><p>Braises, roasts, elegant fish, showpiece desserts and weekend bakes.</p></div></a>
+        <a class="collection" href="#/collection/fun"><span>🎉</span><div><b>Fun Food Nights</b><p>Takeout-at-home, street food, dumpling night, build-your-own bars.</p></div></a>
+      </div>
       <div class="section-head"><h2>Dinner for two</h2><a href="#/plans#two">All date-night menus →</a></div>
       <div class="plan-grid">${two.map(planCard).join("")}</div>
       <div class="section-head"><h2>Entertaining</h2><a href="#/plans#entertain">All party menus →</a></div>
@@ -243,10 +248,13 @@
     setTitle(c.name);
     const BASIC_BREAD = /bagel|english muffin|tortilla|pizza|sandwich|vegan (gluten free )?bread|psyllium|loaf|naan|flatbread|buns?\b|rolls?\b|biscuit|focaccia|sourdough|cracker|pretzel|pita/i;
     const SWEET = /cinnamon|banana|pumpkin|zucchini|apple|chocolate|blueberry|cranberry|muffins?$|scone/i;
-    const list = key === "staples"
-      ? [...RECIPES.filter(r => r.category === "staples"),
-         ...RECIPES.filter(r => r.category === "breads" && BASIC_BREAD.test(r.title) && (!SWEET.test(r.title) || /english/i.test(r.title))).map(r => ({ ...r, subcategory: "Doughs & Breads" }))]
-      : RECIPES.filter(r => r.category === key);
+    const PASTA = /pasta|spaghetti|fusilli|penne|rigatoni|linguine|noodle|japchae|\bpho\b|vermicelli|ramen|gnocchi|lasagna|ziti|mac and cheese|mac & cheese|macaroni|bolognese|ravioli/i;
+    const QUICK = /bread|muffin|loaf|scone|roll|coffee cake|doughnut|donut/i;
+    let list = RECIPES.filter(r => r.category === key);
+    if (key === "staples") list = [...list, ...RECIPES.filter(r => r.category === "breads" && BASIC_BREAD.test(r.title) && (!SWEET.test(r.title) || /english/i.test(r.title))).map(r => ({ ...r, subcategory: "Doughs & Breads" }))];
+    if (key === "pasta") list = [...list, ...RECIPES.filter(r => ["dinner", "lunch", "sides"].includes(r.category) && PASTA.test(r.title)).map(r => ({ ...r, subcategory: /noodle|japchae|pho|vermicelli|ramen/i.test(r.title) ? "Asian Noodles" : /salad/i.test(r.title) ? "Noodle Salads" : "Italian Classics" }))];
+    if (key === "breakfast") list = [...list, ...RECIPES.filter(r => r.category === "breads" && (["breakfast-bake"].includes(r.role) || (QUICK.test(r.title) && SWEET.test(r.title)))).map(r => ({ ...r, subcategory: "Muffins & Quick Breads" }))];
+    { const seen = new Set(); list = list.filter(r => !seen.has(r.id) && seen.add(r.id)); }
     const activeTag = params.get("tag") || "";
     const q = params.get("q") || "";
     const tagCounts = {};
@@ -770,6 +778,22 @@
       ${!S.rows.length ? `<div class="empty">Storage chart coming soon.</div>` : ""}`;
   }
 
+  const COLLECTIONS = {
+    gourmet: { title: "Gourmet & Project Cooking", emoji: "✨", blurb: "Restaurant-worthy dishes and weekend projects for when you want to really cook: braises, roasts, elegant fish, showpiece desserts and ambitious bakes.", test: r => (r.tags || []).some(t => ["gourmet", "project", "dinner-party"].includes(t)) },
+    fun: { title: "Fun Food Nights", emoji: "🎉", blurb: "Takeout-at-home, street food, build-your-own bars and playful bakes. The recipes you make together on a Friday night.", test: r => (r.tags || []).some(t => ["fun", "takeout-fakeout", "street-food", "party", "game-day"].includes(t)) },
+  };
+  function viewCollection(key) {
+    const c = COLLECTIONS[key];
+    if (!c) return viewNotFound();
+    setTitle(c.title);
+    const list = RECIPES.filter(c.test);
+    const groups = {};
+    list.forEach(r => (groups[catByKey[r.category]?.name || r.category] ||= []).push(r));
+    return `<div class="page-head"><div class="crumbs"><a href="#/">Home</a> / ${esc(c.title)}</div>
+      <h1>${c.emoji} ${esc(c.title)}</h1><p>${esc(c.blurb)} ${list.length} recipes.</p></div>
+      ${Object.entries(groups).map(([g, rs]) => `<h2 class="group-title">${esc(g)} <small>${rs.length}</small></h2><div class="grid">${rs.map(r => card(r)).join("")}</div>`).join("")}`;
+  }
+
   function viewNotFound() {
     setTitle("Not found");
     return `<div class="empty"><h2>Page not found</h2><a href="#/">Back home</a></div>`;
@@ -795,6 +819,7 @@
     else if (parts[0] === "r") html = viewRecipe(parts[1]);
     else if (parts[0] === "build") html = viewBuild(params);
     else if (parts[0] === "storage") html = viewStorage();
+    else if (parts[0] === "collection") html = viewCollection(parts[1]);
     else html = viewNotFound();
     app.innerHTML = html;
     setActiveNav(hash);
