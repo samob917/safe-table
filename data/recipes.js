@@ -13369,7 +13369,7 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
-  "cuisine": "Asian",
+  "cuisine": "Global",
   "role": "staple",
   "weight": "light",
   "includes": [],
@@ -13541,7 +13541,7 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
-  "cuisine": "Southeast Asian",
+  "cuisine": "Thai",
   "role": "staple",
   "weight": "medium",
   "includes": [],
@@ -13887,7 +13887,7 @@ window.RECIPES = [
    "weekend-project"
   ],
   "difficulty": "involved",
-  "cuisine": "European",
+  "cuisine": "Global",
   "role": "staple",
   "weight": "medium",
   "includes": [],
@@ -13921,7 +13921,7 @@ window.RECIPES = [
    "weekend-project"
   ],
   "difficulty": "medium",
-  "cuisine": "Asian",
+  "cuisine": "Global",
   "role": "staple",
   "weight": "light",
   "includes": [],
@@ -14370,7 +14370,7 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
-  "cuisine": "Asian",
+  "cuisine": "Global",
   "role": "staple",
   "weight": "light",
   "includes": [],
@@ -14507,7 +14507,7 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
-  "cuisine": "Argentinian",
+  "cuisine": "Latin American",
   "role": "staple",
   "weight": "light",
   "includes": [],
@@ -14574,7 +14574,7 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
-  "cuisine": "Tex-Mex",
+  "cuisine": "Mexican",
   "role": "staple",
   "weight": "medium",
   "includes": [],
@@ -14713,7 +14713,7 @@ window.RECIPES = [
    "make-ahead"
   ],
   "difficulty": "easy",
-  "cuisine": "Tex-Mex",
+  "cuisine": "Mexican",
   "role": "staple",
   "weight": "light",
   "includes": [],
@@ -15368,7 +15368,7 @@ window.RECIPES = [
    "freezer-friendly"
   ],
   "difficulty": "easy",
-  "cuisine": "Tex-Mex",
+  "cuisine": "Mexican",
   "role": "staple",
   "weight": "hearty",
   "includes": [],
@@ -15475,7 +15475,7 @@ window.RECIPES = [
    "chocolate"
   ],
   "difficulty": "easy",
-  "cuisine": "European",
+  "cuisine": "Global",
   "role": "breakfast-bake",
   "weight": "medium",
   "includes": [],
@@ -15829,7 +15829,7 @@ window.RECIPES = [
    "chocolate"
   ],
   "difficulty": "medium",
-  "cuisine": "German",
+  "cuisine": "French",
   "role": "dessert",
   "weight": "hearty",
   "includes": [],
@@ -16181,15 +16181,15 @@ window.RECIPES = [
    "dinner-party"
   ],
   "difficulty": "easy",
-  "cuisine": "Filipino",
+  "cuisine": "Global",
   "role": "dessert",
   "weight": "light",
   "includes": [],
   "season": [
    "summer"
   ],
-  "img": "",
-  "print": ""
+  "img": "https://addictedtodates.com/wp-content/uploads/2026/05/vegan-ube-ice-cream.jpg",
+  "print": "https://addictedtodates.com/wprm_print/3-ingredient-ube-ice-cream-vegan-no-churn"
  },
  {
   "id": "apple-cinnamon-cr-pes",
@@ -16391,6 +16391,954 @@ window.RECIPES = [
   "print": ""
  },
  {
+  "id": "vegan-b-nh-x-o-vietnamese-crispy-crepes",
+  "title": "Vegan Bánh Xèo (Vietnamese Crispy Crepes)",
+  "url": "https://thevietvegan.com/vegan-banh-xeo/",
+  "site": "The Viet Vegan",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "about 45 min",
+  "serves": "4",
+  "description": "Lacy, golden turmeric-and-coconut rice-flour crepes stuffed with tofu, mushrooms and bean sprouts, then torn apart and wrapped in lettuce and herbs at the table. Loud, crackly and hands-on in the best way.",
+  "swaps": "Make the linked nuoc cham chay with GF tamari instead of Golden Mountain soy sauce",
+  "watch": "Vegan shrimp is optional; check its label for wheat or egg, or swap in extra tofu. Use coconut sparkling water, not beer.",
+  "tags": [
+   "fun",
+   "street-food",
+   "date-night",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://thevietvegan.com/wp-content/uploads/2019/10/pin-vegan-banh-xeo.jpg",
+  "print": "https://thevietvegan.com/wprm_print/vegan-banh-xeo"
+ },
+ {
+  "id": "karaage-japanese-fried-chicken",
+  "title": "Karaage (Japanese Fried Chicken)",
+  "url": "https://www.chopstickchronicles.com/karaage/",
+  "site": "Chopstick Chronicles",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Ginger-garlic marinated chicken thigh bites dredged in potato starch and fried until shatteringly crisp and juicy inside. It's an izakaya favorite that comes out naturally egg-free.",
+  "swaps": "Soy sauce → GF tamari; use potato starch (not flour or store-bought karaage mix)",
+  "watch": "Skip regular Japanese mayo for dipping (it contains egg). Fry in a non-peanut oil.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "kid-friendly",
+   "game-day"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.chopstickchronicles.com/wp-content/uploads/2019/08/Karaage-update-31-1.jpg",
+  "print": "https://www.chopstickchronicles.com/wprm_print/karaage-chicken-%e9%b6%8f%e3%81%ae%e5%94%90%e6%8f%9a%e3%81%92"
+ },
+ {
+  "id": "soy-free-orange-chicken",
+  "title": "Soy-Free Orange Chicken",
+  "url": "https://kidswithfoodallergies.org/recipes/soy-free-orange-chicken/",
+  "site": "Kids with Food Allergies",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "about 1 hr",
+  "serves": "4",
+  "description": "Takeout-style orange chicken, minus the fryer and the soy sauce. Chicken and stir-fry veggies are tossed in a tangy, glossy orange, lemon and brown-sugar glaze thickened with arrowroot, then spooned over rice.",
+  "swaps": "",
+  "watch": "Top-8 free as written; check balsamic and rice vinegar labels.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/soy-free-orange-chicken/print/"
+ },
+ {
+  "id": "chicken-nuggets-top-8-free",
+  "title": "Chicken Nuggets (Top-8 Free)",
+  "url": "https://kidswithfoodallergies.org/recipes/chicken-nuggets/",
+  "site": "Kids with Food Allergies",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "about 30 min",
+  "serves": "6",
+  "description": "Puffy, crunchy nuggets made with a quick brown-rice and tapioca flour batter lifted with vinegar and baking soda, so there's no egg needed. A drive-thru classic for the whole family.",
+  "swaps": "",
+  "watch": "Use certified GF flours if gluten is a concern.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "takeout-fakeout",
+   "game-day"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/chicken-nuggets/print/"
+ },
+ {
+  "id": "corn-dogs-masa-wrapped",
+  "title": "Corn Dogs (Masa-Wrapped)",
+  "url": "https://kidswithfoodallergies.org/recipes/corn-dog/",
+  "site": "Kids with Food Allergies",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "about 25 min",
+  "serves": "3",
+  "description": "A clever fair-food hack: hot dogs wrapped in a simple masa harina dough and fried until golden and crunchy. No eggs, milk or wheat, just pure carnival fun.",
+  "swaps": "",
+  "watch": "Check hot dog labels for wheat fillers, dairy and allergen statements.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "street-food",
+   "game-day"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/175003f05e66f-228f-46f8-a5f2-7282d67f4021.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/corn-dog/print/"
+ },
+ {
+  "id": "maki-sushi-homemade-sushi-rolls",
+  "title": "Maki Sushi (Homemade Sushi Rolls)",
+  "url": "https://pickledplum.com/maki-sushi/",
+  "site": "Pickled Plum",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "50 min",
+  "serves": "4 (8 rolls)",
+  "description": "Roll your own sushi night. Seasoned rice and nori get filled with tuna or salmon, cucumber, avocado, takuan and sweet potato, then sliced into neat rounds.",
+  "swaps": "Soy sauce for dipping → GF tamari",
+  "watch": "Use sashimi-grade fish. Skip imitation crab, tempura bits and spicy mayo add-ins.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "date-night",
+   "project",
+   "party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://pickledplum.com/wp-content/uploads/2020/06/maki-sushi-discov.jpg",
+  "print": ""
+ },
+ {
+  "id": "yaki-onigiri-grilled-rice-balls",
+  "title": "Yaki Onigiri (Grilled Rice Balls)",
+  "url": "https://pickledplum.com/yaki-onigiri-grilled-rice-ball/",
+  "site": "Pickled Plum",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "30 min",
+  "serves": "6–8 rice balls",
+  "description": "Japanese rice triangles pan-grilled and brushed with a soy-mirin glaze until crisp and caramelized outside and soft within. An izakaya snack that's great for little hands.",
+  "swaps": "Soy sauce → GF tamari; skip the optional cheese and butter",
+  "watch": "Check the mirin label for added wheat syrups.",
+  "tags": [
+   "fun",
+   "street-food",
+   "kid-friendly",
+   "party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://pickledplum.com/wp-content/uploads/2021/03/yaki-onigiri-2-1200.jpg",
+  "print": ""
+ },
+ {
+  "id": "oklahoma-onion-burgers",
+  "title": "Oklahoma Onion Burgers",
+  "url": "https://girlcarnivore.com/oklahoma-onion-burgers/",
+  "site": "Girl Carnivore",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Diner-style smash burgers where paper-thin onions get pressed right into the beef and caramelize on the griddle into a crispy, sweet, lacy crust. Fast, messy and wildly satisfying.",
+  "swaps": "Buns → GF egg-free, dairy-free buns; American cheese → nut-free vegan cheese or skip; skip the optional mayo",
+  "watch": "Many GF buns contain egg or milk, so read labels.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "game-day",
+   "weekend"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://girlcarnivore.com/wp-content/uploads/2026/05/oklahoma-onion-burger-recipe-30.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/oklahoma-onion-burgers-recipe"
+ },
+ {
+  "id": "l-grimas-de-pollo-crispy-andalusian-chicken-strips",
+  "title": "Lágrimas de Pollo (Crispy Andalusian Chicken Strips)",
+  "url": "https://spainonafork.com/crispy-andalusian-chicken-strips-the-famous-lagrimas-de-pollo/",
+  "site": "Spain on a Fork",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "4",
+  "description": "A Spanish bar-snack favorite. Lemon, garlic and smoked-paprika marinated chicken strips are dredged in a light starchy coating and fried crisp, then dunked in saffron aioli.",
+  "swaps": "All-purpose flour → GF flour blend (or all cornstarch); mayo in the aioli → egg-free vegan mayo",
+  "watch": "Use a nut-free vegan mayo.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "party",
+   "street-food"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://spainonafork.com/wp-content/uploads/2026/07/DSC_0586-2-11.png",
+  "print": "https://spainonafork.com/wprm_print/crispy-andalusian-chicken-strips-the-famous-lagrimas-de-pollo"
+ },
+ {
+  "id": "vegan-cauliflower-tacos",
+  "title": "Vegan Cauliflower Tacos",
+  "url": "https://veganheaven.org/recipe/vegan-cauliflower-tacos/",
+  "site": "Vegan Heaven",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "1 hr 10 min",
+  "serves": "3 (6 tacos)",
+  "description": "Crispy battered cauliflower 'wings' tossed in BBQ or buffalo sauce and piled into tortillas with crunchy cabbage, avocado and a cool garlic yogurt sauce.",
+  "swaps": "All-purpose flour → chickpea flour (author's GF option); omit panko; almond milk → soy milk; use corn tortillas; use coconut or soy yogurt",
+  "watch": "Some buffalo sauces contain butter, so check the label.",
+  "tags": [
+   "fun",
+   "game-day",
+   "street-food"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://veganheaven.org/wp-content/uploads/2018/03/Vegan-Cauliflower-Tacos-20.jpg",
+  "print": "https://veganheaven.org/wprm_print/vegan-cauliflower-tacos"
+ },
+ {
+  "id": "tacos-de-alambre",
+  "title": "Tacos de Alambre",
+  "url": "https://www.mexicanplease.com/tacos-de-alambre/",
+  "site": "Mexican Please",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "4",
+  "description": "A Mexico City taquería favorite: chopped steak, bacon, onion, jalapeño and tomato sizzled together on the griddle and heaped onto warm corn tortillas with a bright avocado salsa.",
+  "swaps": "Queso fresco → nut-free vegan cheese or skip",
+  "watch": "Check corn tortilla and bacon labels.",
+  "tags": [
+   "fun",
+   "street-food",
+   "takeout-fakeout",
+   "game-day"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2021/01/Tacos-de-Alambre-8.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/tacos-de-alambre"
+ },
+ {
+  "id": "gluten-free-copycat-totino-s-pizza-rolls",
+  "title": "Gluten-Free Copycat Totino's Pizza Rolls",
+  "url": "https://strengthandsunshine.com/homemade-gluten-free-copycat-totinos-pizza-rolls-vegan-allergy-free/",
+  "site": "Strength and Sunshine",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "38 min",
+  "serves": "10–12 rolls",
+  "description": "Homemade pizza rolls with a gluten-free, egg-free dough wrapped around herby tomato sauce and gooey vegan mozzarella. A nostalgic after-school snack made allergy-safe.",
+  "swaps": "",
+  "watch": "Confirm your vegan mozzarella is nut-free (the author suggests Daiya or So Delicious). Check the pizza mix and egg replacer labels.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "party",
+   "game-day"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/07/Homemade-Gluten-Free-Copycat-Totinos-Pizza-Rolls-Vegan-Allergy-Free-PM1.jpg",
+  "print": ""
+ },
+ {
+  "id": "pica-pollo-dominican-fried-chicken",
+  "title": "Pica Pollo (Dominican Fried Chicken)",
+  "url": "https://www.dominicancooking.com/pica-pollo-fried-chicken",
+  "site": "Dominican Cooking",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "about 45 min",
+  "serves": "4",
+  "description": "The Dominican Republic's beloved street-corner fried chicken. Pieces are simmered in a lime, oregano and garlic broth, then dredged and fried until deeply crunchy. Serve with tostones and ketchup-mayo dip.",
+  "swaps": "All-purpose flour → GF flour blend",
+  "watch": "Use egg-free mayo if you make the classic mayo-ketchup dip.",
+  "tags": [
+   "fun",
+   "street-food",
+   "takeout-fakeout",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Caribbean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.dominicancooking.com/wp-content/uploads/pica-pollo-dominican-fried-chicken-ClaraGon3479.jpg",
+  "print": "https://www.dominicancooking.com/wprm_print/pica-pollo-videorecipe-dominican-fried-chicken"
+ },
+ {
+  "id": "carrot-dogs",
+  "title": "Carrot Dogs",
+  "url": "https://healthiersteps.com/carrot-dogs/",
+  "site": "Healthier Steps",
+  "category": "lunch",
+  "subcategory": "Wraps & Handhelds",
+  "time": "24 min",
+  "serves": "4",
+  "description": "Whole carrots simmered in a smoky, savory maple marinade until they taste uncannily like a hot dog, then tucked into buns with all the ballpark toppings. A playful plant-based trick.",
+  "swaps": "Buns → GF egg-free, dairy-free buns (the author used Schär)",
+  "watch": "Check the relish and mustard labels.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "game-day"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://healthiersteps.com/wp-content/uploads/2021/06/carrot-hot-dog-recipe.jpg",
+  "print": "https://healthiersteps.com/wprm_print/carrot-dogs"
+ },
+ {
+  "id": "tacos-al-pastor-grilled",
+  "title": "Tacos al Pastor (Grilled)",
+  "url": "https://www.carolinescooking.com/tacos-al-pastor-grilled/",
+  "site": "Caroline's Cooking",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "25 min + 4 hr marinating",
+  "serves": "6 tacos",
+  "description": "Pork shoulder soaked in a guajillo, chipotle and pineapple marinade, grilled with charred pineapple and onion, and tucked into tortillas. It's the taco-truck legend made without a spit.",
+  "swaps": "Use corn tortillas",
+  "watch": "Check the guajillo chili paste and salsa labels.",
+  "tags": [
+   "fun",
+   "street-food",
+   "weekend",
+   "party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Mexican",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2020/10/Mexican-recipes-square.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/tacos-al-pastor"
+ },
+ {
+  "id": "vegan-arancini-mushroom-filled-rice-balls",
+  "title": "Vegan Arancini (Mushroom-Filled Rice Balls)",
+  "url": "https://biancazapatka.com/en/arancini-rice-balls/",
+  "site": "Bianca Zapatka",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "50 min + overnight chill",
+  "serves": "10 rice balls",
+  "description": "Creamy risotto shaped around a savory mushroom filling, rolled in crumbs and fried to a crackly golden shell. Serve with warm tomato sauce for dipping.",
+  "swaps": "Flour → GF flour blend; breadcrumbs → GF breadcrumbs; soy sauce → GF tamari; use oat or soy milk",
+  "watch": "The linked risotto and filling can use vegan butter, parmesan or feta. Choose nut-free brands and skip the pine nuts.",
+  "tags": [
+   "fun",
+   "party",
+   "date-night",
+   "project"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://biancazapatka.com/wp-content/uploads/2022/12/pilz-risotto-baellchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/arancini-sicilian-rice-balls-with-mushroom-filling-vegan"
+ },
+ {
+  "id": "vegan-fish-sticks-tofu-nuggets",
+  "title": "Vegan Fish Sticks (Tofu Nuggets)",
+  "url": "https://biancazapatka.com/en/vegan-fish-sticks/",
+  "site": "Bianca Zapatka",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "30 min + 2 hr marinating",
+  "serves": "15 pieces",
+  "description": "Tofu fingers marinated with nori and lemon for a gentle taste of the sea, then breaded and pan-fried until crunchy. Freezer-aisle nostalgia in plant-based form.",
+  "swaps": "Breadcrumbs → GF breadcrumbs; soy sauce → GF tamari; use soy or oat milk",
+  "watch": "The linked vegan remoulade isn't verified, so use an egg-free, nut-free dip.",
+  "tags": [
+   "fun",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://biancazapatka.com/wp-content/uploads/2024/02/fischstaebchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/homemade-vegan-fish-sticks-easy-crispy-delicious"
+ },
+ {
+  "id": "vietnamese-fried-chicken-wings",
+  "title": "Vietnamese Fried Chicken Wings",
+  "url": "https://www.cooking-therapy.com/vietnamese-fried-chicken-wings/",
+  "site": "Cooking Therapy",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "1 hr + overnight brine",
+  "serves": "6",
+  "description": "Wings brined overnight, coated in cornstarch, fried until glassy-crisp, then glazed with a sweet-sour fish sauce and lemon drizzle. A sticky, crunchy Vietnamese bar snack.",
+  "swaps": "Buttermilk → oat or soy milk with 2 tbsp lemon juice or vinegar",
+  "watch": "Choose a fish sauce made only from anchovies and salt, with no shrimp.",
+  "tags": [
+   "fun",
+   "game-day",
+   "party",
+   "takeout-fakeout"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.cooking-therapy.com/wp-content/uploads/2020/09/Vietnamese-Fried-Chicken-Wings.jpg",
+  "print": "https://www.cooking-therapy.com/wprm_print/buttermilk-brined-vietnamese-fried-chicken-wings"
+ },
+ {
+  "id": "guo-bao-rou-crispy-sweet-and-sour-pork",
+  "title": "Guo Bao Rou (Crispy Sweet & Sour Pork)",
+  "url": "https://thewoksoflife.com/guo-bao-rou-dongbei/",
+  "site": "The Woks of Life",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "1 hr 10 min",
+  "serves": "4",
+  "description": "Northeastern China's original sweet and sour pork. Thin pork slices fried twice in a potato-starch batter until puffy and crackling, then flash-tossed in a tangy vinegar-sugar glaze with ginger and scallion.",
+  "swaps": "Light soy sauce → GF tamari; Shaoxing wine → dry sherry",
+  "watch": "Shaoxing wine contains wheat. The batter is potato starch and water only, with no egg.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "weekend",
+   "date-night"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://thewoksoflife.com/wp-content/uploads/2018/05/guo-bao-rou-7.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/dongbei-guo-bao-rou-crispy-sweet-sour-pork"
+ },
+ {
+  "id": "gluten-free-ham-fried-rice-top-8-free",
+  "title": "Gluten-Free Ham Fried Rice (Top 8 Free)",
+  "url": "https://allergyawesomeness.com/ham-fried-rice-gf-df-egg-free-peanut-and-nut-free/",
+  "site": "Allergy Awesomeness",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "1 hr 10 min (30 min with leftover rice)",
+  "serves": "4",
+  "description": "Egg-free takeout fried rice loaded with ham, mushrooms, carrots, peas and green onion, seasoned with GF soy sauce. Perfect for using up leftover rice.",
+  "swaps": "",
+  "watch": "Skip the optional egg and shrimp add-ins. Confirm the soy sauce is GF, and ask the deli about shared slicers for the ham.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2015/09/fried-rice-5x7-logo-iii.jpg",
+  "print": ""
+ },
+ {
+  "id": "corn-ribs",
+  "title": "Corn Ribs",
+  "url": "https://sweetpotatosoul.com/corn-ribs/",
+  "site": "Sweet Potato Soul",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Corn cobs quartered lengthwise so they curl into smoky, paprika-dusted 'ribs' as they roast, served with a roasted red pepper aioli. Elote energy you can eat with your hands.",
+  "swaps": "",
+  "watch": "Use a nut-free vegan butter (or the avocado-oil option) and a nut-free vegan mayo for the aioli. Cutting cobs takes a sharp knife and care.",
+  "tags": [
+   "fun",
+   "party",
+   "game-day",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer",
+   "fall"
+  ],
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2025/04/succulent-corn-ribs.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/corn-ribs"
+ },
+ {
+  "id": "onigiri-dog-japanese-rice-hot-dog",
+  "title": "Onigiri Dog (Japanese Rice Hot Dog)",
+  "url": "https://www.okonomikitchen.com/onigiri-dog/",
+  "site": "Okonomi Kitchen",
+  "category": "lunch",
+  "subcategory": "Wraps & Handhelds",
+  "time": "55 min",
+  "serves": "2–4",
+  "description": "A viral Japanese convenience-store snack: rice pressed into a nori 'bun' and stuffed hot-dog style with fillings like soy-glazed yakiniku beef and crisp lettuce. Fun to build and pack.",
+  "swaps": "LEAVE OUT the imitation crab sticks: they contain shellfish (crab extract) and usually wheat and egg. Use the yakiniku beef filling with GF tamari (sake + tamari + mirin + sugar) instead of store-bought yakiniku sauce or mentsuyu",
+  "watch": "Skip the Kewpie mayo and imitation-crab fillings, or use an egg-free vegan mayo for the salmon or corn versions.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "street-food",
+   "project"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2026/03/onigiri-dog-rice-dog.jpg",
+  "print": ""
+ },
+ {
+  "id": "easy-carnitas-taquitos",
+  "title": "Easy Carnitas Taquitos",
+  "url": "https://mommyshomecooking.com/easy-carnitas-taquitos/",
+  "site": "Mommy's Home Cooking",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "20 min",
+  "serves": "16 taquitos",
+  "description": "Leftover carnitas rolled tight in corn tortillas and fried, baked or air-fried until crackly, then piled with lettuce, pico and guac for dunking. Party food in 20 minutes.",
+  "swaps": "Cream cheese and shredded cheese → nut-free dairy-free versions (the author suggests Violife); crema → skip or use a nut-free DF sour cream",
+  "watch": "Check store-bought carnitas labels.",
+  "tags": [
+   "fun",
+   "party",
+   "game-day",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://mommyshomecooking.com/wp-content/uploads/2025/09/Easy-carnitas-taquitos-11.jpg",
+  "print": "https://mommyshomecooking.com/wprm_print/easy-carnitas-taquitos"
+ },
+ {
+  "id": "easy-falafels",
+  "title": "Easy Falafels",
+  "url": "https://www.lazycatkitchen.com/classic-falafels/",
+  "site": "Lazy Cat Kitchen",
+  "category": "lunch",
+  "subcategory": "Wraps & Handhelds",
+  "time": "45 min + overnight soak",
+  "serves": "14 falafels",
+  "description": "Classic fried falafel made from soaked dried chickpeas and loads of fresh herbs, crunchy outside and bright green inside, drizzled with lemony tahini. Build-your-own wraps or plates.",
+  "swaps": "Flour → rice flour (author's GF option)",
+  "watch": "Serve with GF flatbread or over salad. Regular pita contains wheat.",
+  "tags": [
+   "fun",
+   "street-food",
+   "party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "protein",
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2015/03/falafels-and-trimmings-from-above.jpg",
+  "print": "https://www.lazycatkitchen.com/classic-falafels/?print-version=true"
+ },
+ {
+  "id": "gluten-free-vegan-homemade-ding-dongs",
+  "title": "Gluten-Free Vegan Homemade Ding Dongs",
+  "url": "https://www.forkandbeans.com/2014/08/22/gluten-free-vegan-homemade-ding-dongs/",
+  "site": "Fork and Beans",
+  "category": "desserts",
+  "subcategory": "Candy & Treats",
+  "time": "about 1 hr (incl. cooling and freezing)",
+  "serves": "8 cakes",
+  "description": "Chocolate snack cakes filled with whipped coconut cream and dunked in a crackly chocolate shell. A lunchbox throwback made gluten-, egg- and dairy-free.",
+  "swaps": "Almond milk → oat or soy milk",
+  "watch": "Use nut-free, dairy-free chocolate chips.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "project",
+   "party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/08/Ding-Dongs-FB.jpg",
+  "print": ""
+ },
+ {
+  "id": "la-galbi-korean-bbq-short-ribs",
+  "title": "LA Galbi (Korean BBQ Short Ribs)",
+  "url": "https://www.hungryhuy.com/la-galbi-korean-bbq-short-ribs/",
+  "site": "Hungry Huy",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "4 hr 40 min (mostly marinating)",
+  "serves": "6",
+  "description": "Thin cross-cut short ribs marinated in Korean pear, garlic, ginger and soy, then seared fast over high heat. Set out lettuce, rice and banchan for a Korean BBQ night at home.",
+  "swaps": "Soy sauce → GF tamari",
+  "watch": "Check the mirin and rice syrup labels.",
+  "tags": [
+   "fun",
+   "takeout-fakeout",
+   "party",
+   "weekend"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Korean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.hungryhuy.com/wp-content/uploads/serving-la-galbi-w-sides.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/la-galbi-korean-bbq-short-rib-marinade"
+ },
+ {
+  "id": "easy-gluten-free-pigs-in-a-blanket",
+  "title": "Easy Gluten-Free Pigs in a Blanket",
+  "url": "https://www.fearlessdining.com/easy-gluten-free-pigs-in-a-blanket/",
+  "site": "Fearless Dining",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "40 min",
+  "serves": "10 pieces",
+  "description": "Hot dogs wrapped in a quick, flaky, egg-free GF biscuit dough and baked golden. A party-tray classic everyone grabs first.",
+  "swaps": "Butter → nut-free vegan butter; milk → oat or soy milk (also for brushing)",
+  "watch": "Check hot dog labels for gluten and dairy.",
+  "tags": [
+   "fun",
+   "party",
+   "game-day",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2021/08/gluten-free-pigs-in-a-blanket-side.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-pigs-in-a-blanket-with-flaky-biscuit-wrap"
+ },
+ {
+  "id": "gluten-free-chickpea-fries",
+  "title": "Gluten Free Chickpea Fries",
+  "url": "https://www.darngoodveggies.com/gluten-free-chickpea-fries/",
+  "site": "Darn Good Veggies",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "35 min + 2 hr chill",
+  "serves": "4",
+  "description": "Chickpea flour cooked into a thick, thyme-and-garlic polenta, chilled, cut into sticks and roasted until crisp outside and custardy inside. Panisse-style fries for dunking.",
+  "swaps": "",
+  "watch": "Serve with ketchup or an egg-free dip. The restaurant aioli mentioned isn't part of the recipe.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.darngoodveggies.com/wp-content/uploads/2018/09/IMG_1426.jpg",
+  "print": ""
+ },
+ {
+  "id": "korean-air-fryer-chicken-wings",
+  "title": "Korean Air Fryer Chicken Wings",
+  "url": "https://www.wellplated.com/korean-air-fryer-chicken-wings/",
+  "site": "Well Plated",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "50 min",
+  "serves": "10 wings",
+  "description": "Air-fried wings tossed in a sticky-spicy glaze of gochujang, maple, garlic and ginger, then showered with scallions and sesame. Big Korean-fried-chicken flavor with no batter at all.",
+  "swaps": "Soy sauce → GF tamari",
+  "watch": "Most gochujang contains wheat or barley. Use a certified GF gochujang, or the sambal oelek or sriracha substitute.",
+  "tags": [
+   "fun",
+   "game-day",
+   "takeout-fakeout",
+   "party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Korean",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.wellplated.com/wp-content/uploads/2021/09/Air-Fried-Korean-Chicken-Wings.jpg",
+  "print": "https://www.wellplated.com/wprm_print/korean-air-fryer-chicken-wings"
+ },
+ {
+  "id": "gluten-free-vegan-gingerbread-house-egg-free-royal-icing",
+  "title": "Gluten Free Vegan Gingerbread House + Egg-Free Royal Icing",
+  "url": "https://petiteallergytreats.com/gluten-free-vegan-gingerbread-house-egg/",
+  "site": "Petite Allergy Treats",
+  "category": "desserts",
+  "subcategory": "Candy & Treats",
+  "time": "about 1 hr + 2–4 hr drying",
+  "serves": "2 mini houses",
+  "description": "Sturdy, spicy GF gingerbread walls glued together with an egg-free powdered-sugar royal icing. A holiday decorating project the whole allergy-friendly crew can join.",
+  "swaps": "Use oat or soy milk as the dairy-free milk",
+  "watch": "The author notes Bob's Red Mill 1-to-1 flour may share equipment with nuts. Check candy decorations for allergens.",
+  "tags": [
+   "fun",
+   "project",
+   "kid-friendly",
+   "party"
+  ],
+  "difficulty": "involved",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [
+   "starch"
+  ],
+  "season": [
+   "winter"
+  ],
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2014/12/Gluten-Free-Vegan-Gingerbread-House-HiRes1-wordssm.jpg",
+  "print": ""
+ },
+ {
   "id": "garlic-herb-prime-rib-roast",
   "title": "Garlic Herb Prime Rib Roast",
   "url": "https://girlcarnivore.com/prime-rib-roast/",
@@ -16470,7 +17418,7 @@ window.RECIPES = [
    "date-night"
   ],
   "difficulty": "medium",
-  "cuisine": "Peruvian",
+  "cuisine": "Latin American",
   "role": "main",
   "weight": "hearty",
   "includes": [
@@ -16826,7 +17774,7 @@ window.RECIPES = [
    "weekend"
   ],
   "difficulty": "involved",
-  "cuisine": "Portuguese",
+  "cuisine": "Spanish",
   "role": "main",
   "weight": "hearty",
   "includes": [
@@ -16981,7 +17929,7 @@ window.RECIPES = [
    "weeknight"
   ],
   "difficulty": "easy",
-  "cuisine": "Iraqi",
+  "cuisine": "Middle Eastern",
   "role": "main",
   "weight": "medium",
   "includes": [
@@ -17257,7 +18205,7 @@ window.RECIPES = [
    "dinner-party"
   ],
   "difficulty": "easy",
-  "cuisine": "Asian fusion",
+  "cuisine": "Global",
   "role": "starter",
   "weight": "medium",
   "includes": [

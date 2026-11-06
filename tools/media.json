@@ -2336,8 +2336,8 @@
   "print": null
  },
  "3-ingredient-ube-ice-cream-no-churn": {
-  "img": null,
-  "print": null
+  "img": "https://addictedtodates.com/wp-content/uploads/2026/05/vegan-ube-ice-cream.jpg",
+  "print": "https://addictedtodates.com/wprm_print/3-ingredient-ube-ice-cream-vegan-no-churn"
  },
  "apple-cinnamon-cr-pes": {
   "img": "https://elavegan.com/wp-content/uploads/2018/11/10-apple-cinnamon-crepes-drizzles-with-homemade-caramel-sauce.jpg",
@@ -2365,6 +2365,126 @@
  },
  "easy-gluten-free-chocolate-birthday-cupcakes": {
   "img": "https://allergyawesomeness.com/wp-content/uploads/2017/01/pinterest.short_.bday_.cupcakes.5x7.jpg",
+  "print": null
+ },
+ "vegan-b-nh-x-o-vietnamese-crispy-crepes": {
+  "img": "https://thevietvegan.com/wp-content/uploads/2019/10/pin-vegan-banh-xeo.jpg",
+  "print": "https://thevietvegan.com/wprm_print/vegan-banh-xeo"
+ },
+ "karaage-japanese-fried-chicken": {
+  "img": "https://www.chopstickchronicles.com/wp-content/uploads/2019/08/Karaage-update-31-1.jpg",
+  "print": "https://www.chopstickchronicles.com/wprm_print/karaage-chicken-%e9%b6%8f%e3%81%ae%e5%94%90%e6%8f%9a%e3%81%92"
+ },
+ "soy-free-orange-chicken": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/soy-free-orange-chicken/print/"
+ },
+ "chicken-nuggets-top-8-free": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/chicken-nuggets/print/"
+ },
+ "corn-dogs-masa-wrapped": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/175003f05e66f-228f-46f8-a5f2-7282d67f4021.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/corn-dog/print/"
+ },
+ "maki-sushi-homemade-sushi-rolls": {
+  "img": "https://pickledplum.com/wp-content/uploads/2020/06/maki-sushi-discov.jpg",
+  "print": null
+ },
+ "yaki-onigiri-grilled-rice-balls": {
+  "img": "https://pickledplum.com/wp-content/uploads/2021/03/yaki-onigiri-2-1200.jpg",
+  "print": null
+ },
+ "oklahoma-onion-burgers": {
+  "img": "https://girlcarnivore.com/wp-content/uploads/2026/05/oklahoma-onion-burger-recipe-30.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/oklahoma-onion-burgers-recipe"
+ },
+ "l-grimas-de-pollo-crispy-andalusian-chicken-strips": {
+  "img": "https://spainonafork.com/wp-content/uploads/2026/07/DSC_0586-2-11.png",
+  "print": "https://spainonafork.com/wprm_print/crispy-andalusian-chicken-strips-the-famous-lagrimas-de-pollo"
+ },
+ "vegan-cauliflower-tacos": {
+  "img": "https://veganheaven.org/wp-content/uploads/2018/03/Vegan-Cauliflower-Tacos-20.jpg",
+  "print": "https://veganheaven.org/wprm_print/vegan-cauliflower-tacos"
+ },
+ "tacos-de-alambre": {
+  "img": "https://www.mexicanplease.com/wp-content/uploads/2021/01/Tacos-de-Alambre-8.jpg",
+  "print": "https://www.mexicanplease.com/wprm_print/tacos-de-alambre"
+ },
+ "gluten-free-copycat-totino-s-pizza-rolls": {
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/07/Homemade-Gluten-Free-Copycat-Totinos-Pizza-Rolls-Vegan-Allergy-Free-PM1.jpg",
+  "print": null
+ },
+ "pica-pollo-dominican-fried-chicken": {
+  "img": "https://www.dominicancooking.com/wp-content/uploads/pica-pollo-dominican-fried-chicken-ClaraGon3479.jpg",
+  "print": "https://www.dominicancooking.com/wprm_print/pica-pollo-videorecipe-dominican-fried-chicken"
+ },
+ "carrot-dogs": {
+  "img": "https://healthiersteps.com/wp-content/uploads/2021/06/carrot-hot-dog-recipe.jpg",
+  "print": "https://healthiersteps.com/wprm_print/carrot-dogs"
+ },
+ "tacos-al-pastor-grilled": {
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2020/10/Mexican-recipes-square.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/tacos-al-pastor"
+ },
+ "vegan-arancini-mushroom-filled-rice-balls": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2022/12/pilz-risotto-baellchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/arancini-sicilian-rice-balls-with-mushroom-filling-vegan"
+ },
+ "vegan-fish-sticks-tofu-nuggets": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2024/02/fischstaebchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/homemade-vegan-fish-sticks-easy-crispy-delicious"
+ },
+ "vietnamese-fried-chicken-wings": {
+  "img": "https://www.cooking-therapy.com/wp-content/uploads/2020/09/Vietnamese-Fried-Chicken-Wings.jpg",
+  "print": "https://www.cooking-therapy.com/wprm_print/buttermilk-brined-vietnamese-fried-chicken-wings"
+ },
+ "guo-bao-rou-crispy-sweet-and-sour-pork": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2018/05/guo-bao-rou-7.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/dongbei-guo-bao-rou-crispy-sweet-sour-pork"
+ },
+ "gluten-free-ham-fried-rice-top-8-free": {
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2015/09/fried-rice-5x7-logo-iii.jpg",
+  "print": null
+ },
+ "corn-ribs": {
+  "img": "https://sweetpotatosoul.com/wp-content/uploads/2025/04/succulent-corn-ribs.jpg",
+  "print": "https://sweetpotatosoul.com/wprm_print/corn-ribs"
+ },
+ "onigiri-dog-japanese-rice-hot-dog": {
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2026/03/onigiri-dog-rice-dog.jpg",
+  "print": null
+ },
+ "easy-carnitas-taquitos": {
+  "img": "https://mommyshomecooking.com/wp-content/uploads/2025/09/Easy-carnitas-taquitos-11.jpg",
+  "print": "https://mommyshomecooking.com/wprm_print/easy-carnitas-taquitos"
+ },
+ "easy-falafels": {
+  "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2015/03/falafels-and-trimmings-from-above.jpg",
+  "print": "https://www.lazycatkitchen.com/classic-falafels/?print-version=true"
+ },
+ "gluten-free-vegan-homemade-ding-dongs": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/08/Ding-Dongs-FB.jpg",
+  "print": null
+ },
+ "la-galbi-korean-bbq-short-ribs": {
+  "img": "https://www.hungryhuy.com/wp-content/uploads/serving-la-galbi-w-sides.jpg",
+  "print": "https://www.hungryhuy.com/wprm_print/la-galbi-korean-bbq-short-rib-marinade"
+ },
+ "easy-gluten-free-pigs-in-a-blanket": {
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2021/08/gluten-free-pigs-in-a-blanket-side.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-pigs-in-a-blanket-with-flaky-biscuit-wrap"
+ },
+ "gluten-free-chickpea-fries": {
+  "img": "https://www.darngoodveggies.com/wp-content/uploads/2018/09/IMG_1426.jpg",
+  "print": null
+ },
+ "korean-air-fryer-chicken-wings": {
+  "img": "https://www.wellplated.com/wp-content/uploads/2021/09/Air-Fried-Korean-Chicken-Wings.jpg",
+  "print": "https://www.wellplated.com/wprm_print/korean-air-fryer-chicken-wings"
+ },
+ "gluten-free-vegan-gingerbread-house-egg-free-royal-icing": {
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2014/12/Gluten-Free-Vegan-Gingerbread-House-HiRes1-wordssm.jpg",
   "print": null
  }
 }

@@ -42,9 +42,14 @@ for f in sorted(glob.glob(SRC)) + sorted(glob.glob(SRC.replace("recipes/", "reci
         r["difficulty"] = (r.get("difficulty") or "").lower()
         recipes.append({k: r.get(k, "") for k in ["id","title","url","site","category","subcategory","time","serves","description","swaps","watch","tags","difficulty"]})
         meta = META.get(rid, {})
+        CUISINE_NORM = {"Filipino": "Global", "Peruvian": "Latin American", "Dominican": "Caribbean", "Portuguese": "Spanish", "German": "French", "European": "Global", "Iraqi": "Middle Eastern", "Malaysian": "Global", "Tex": "Mexican", "Southeast Asian": "Thai", "Argentinian": "Latin American"}
         for fld in ("cuisine", "role", "weight", "includes", "season"):
             recipes[-1][fld] = r.get(fld) or meta.get(fld) or ([] if fld in ("includes", "season") else "")
         if r.get("storage"): recipes[-1]["storage"] = r["storage"]
+        c = recipes[-1]["cuisine"] or ""
+        base = c.split("-")[0].split(" fusion")[0].strip()
+        recipes[-1]["cuisine"] = CUISINE_NORM.get(base, base) if base else ""
+        if recipes[-1]["cuisine"] == "Asian": recipes[-1]["cuisine"] = "Global"
         recipes[-1]["watch"] = decoconut(recipes[-1]["watch"])
         recipes[-1]["swaps"] = decoconut(recipes[-1]["swaps"])
         m = MEDIA.get(rid, {})
