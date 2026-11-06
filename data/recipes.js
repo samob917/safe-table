@@ -15457,6 +15457,949 @@ window.RECIPES = [
   "print": ""
  },
  {
+  "id": "garlic-herb-prime-rib-roast",
+  "title": "Garlic Herb Prime Rib Roast",
+  "url": "https://girlcarnivore.com/prime-rib-roast/",
+  "site": "Girl Carnivore",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "2 hr+",
+  "serves": "10",
+  "description": "A bone-in standing rib roast lacquered with Dijon, garlic and rosemary, roasted to a rosy center and served with a red-wine and roasted-garlic jus.",
+  "swaps": "",
+  "watch": "Worcestershire: US Lea & Perrins is gluten-free, but UK versions contain malt vinegar (barley); check the label.",
+  "tags": [
+   "gourmet",
+   "holiday",
+   "dinner-party",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "winter",
+   "fall"
+  ],
+  "img": "https://girlcarnivore.com/wp-content/uploads/2023/10/prime-rib-roast-2902.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/garlic-herb-prime-rib-roast"
+ },
+ {
+  "id": "classic-steak-au-poivre",
+  "title": "Classic Steak au Poivre",
+  "url": "https://www.pardonyourfrench.com/classic-steak-au-poivre-recipe/",
+  "site": "Pardon Your French",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "2",
+  "description": "Filet mignon pressed into crushed peppercorns, seared hard, then bathed in a flambéed cognac, shallot and Dijon pan sauce, the French bistro classic.",
+  "swaps": "Butter → nut-free vegan butter or olive oil; heavy cream → full-fat coconut cream or oat cooking cream.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2025/07/steak-au-poivre-14.jpg?fit=801%2C1200&ssl=1",
+  "print": ""
+ },
+ {
+  "id": "peruvian-lomo-saltado",
+  "title": "Peruvian Lomo Saltado",
+  "url": "https://www.theendlessmeal.com/peruvian-lomo-saltado/",
+  "site": "The Endless Meal",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "55 min",
+  "serves": "4",
+  "description": "Peru's wok-fired beef with red onion, tomato and a tangy vinegar-soy sauce, tossed with crisp fries and served over rice, a brilliant Chinese-Peruvian mashup.",
+  "swaps": "Soy sauce → GF tamari; for the green sauce use dairy-free yogurt and egg-free mayo (or skip it).",
+  "watch": "Beef stock/bouillon: check for wheat.",
+  "tags": [
+   "gourmet",
+   "weekend",
+   "date-night"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Peruvian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2017/09/Peruvian-Lomo-Saltado-680-6.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/peruvian-lomo-saltado-recipe"
+ },
+ {
+  "id": "b-l-c-l-c-vietnamese-shaking-beef",
+  "title": "Bò Lúc Lắc (Vietnamese Shaking Beef)",
+  "url": "https://thewoksoflife.com/shaking-beef-recipe-vietnamese-bo-luc-lac/",
+  "site": "The Woks of Life",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min + marinating",
+  "serves": "4",
+  "description": "Cubes of marinated ribeye seared in a screaming-hot wok and 'shaken' until caramelized, then piled over crisp lettuce, tomato and cucumber with lime.",
+  "swaps": "Light and dark soy sauce → GF tamari; oyster sauce → gluten-free vegetarian mushroom stir-fry sauce; butter → nut-free vegan butter.",
+  "watch": "Regular oyster sauce contains oyster (shellfish) and usually wheat, so don't skip the swap.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Vietnamese",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://thewoksoflife.com/wp-content/uploads/2025/07/shaking-beef-9.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/bo-luc-lac-shaking-beef"
+ },
+ {
+  "id": "cantonese-roast-pork-belly-siu-yuk",
+  "title": "Cantonese Roast Pork Belly (Siu Yuk)",
+  "url": "https://thewoksoflife.com/cantonese-roast-pork-belly/",
+  "site": "The Woks of Life",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "About 26 hr (mostly drying)",
+  "serves": "8",
+  "description": "The dim-sum-shop showpiece: five-spice-seasoned pork belly air-dried overnight and roasted under a salt crust until the skin puffs into shattering crackling.",
+  "swaps": "Shaoxing wine → dry sherry.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "project",
+   "dinner-party",
+   "weekend",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://thewoksoflife.com/wp-content/uploads/2015/03/cantonese-roast-pork-belly-13.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/cantonese-roast-pork-belly"
+ },
+ {
+  "id": "porchetta",
+  "title": "Porchetta",
+  "url": "https://www.carolinescooking.com/porchetta/",
+  "site": "Caroline's Cooking",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "2 hr 15 min",
+  "serves": "8",
+  "description": "Pork tenderloin rolled inside a slab of pork belly with fennel, garlic, lemon zest and fresh herbs, then roasted until the skin crackles. A manageable home take on the Italian feast roast.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "holiday",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2015/08/porchetta-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/porchetta"
+ },
+ {
+  "id": "short-rib-beef-bourguignon",
+  "title": "Short Rib Beef Bourguignon",
+  "url": "https://www.vikalinka.com/short-rib-beef-bourguignon/",
+  "site": "Vikalinka",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "3 hr",
+  "serves": "6",
+  "description": "The Burgundian classic made with meaty bone-in short ribs, braised low and slow in red wine with lardons, baby carrots and chestnut mushrooms until spoon-tender.",
+  "swaps": "All-purpose flour → GF all-purpose flour (or 2 tbsp cornstarch slurry at the end).",
+  "watch": "Bacon lardons and beef stock: check for gluten.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "make-ahead",
+   "weekend",
+   "project"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://vikalinka.com/wp-content/uploads/2026/02/Short-Rib-Beef-Bourguignon-5.jpg",
+  "print": "https://vikalinka.com/wprm_print/short-rib-beef-bourguignon"
+ },
+ {
+  "id": "red-wine-braised-lamb-shanks",
+  "title": "Red Wine Braised Lamb Shanks",
+  "url": "https://www.cookingwithwineblog.com/tender-red-wine-braised-lamb-shanks/",
+  "site": "Cooking with Wine",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "4 hr 30 min",
+  "serves": "2",
+  "description": "Herb-rubbed lamb shanks braised in a whole bottle of red wine with cinnamon and star anise until falling off the bone, finished with a bright mint-parsley gremolata.",
+  "swaps": "All-purpose flour → GF flour; butter → olive oil or nut-free vegan butter.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "make-ahead",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://cookingwithwineblog.com/wp-content/uploads/2024/12/Red-Wine-Braised-Lamb-Shanks-Featured-1.jpg",
+  "print": "https://cookingwithwineblog.com/wprm_print/tender-red-wine-braised-lamb-shanks"
+ },
+ {
+  "id": "sausage-and-apple-stuffed-butternut-squash",
+  "title": "Sausage and Apple Stuffed Butternut Squash",
+  "url": "https://www.wholesomelicious.com/sausage-and-apple-stuffed-butternut-squash/",
+  "site": "Wholesomelicious",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "About 1 hr 15 min",
+  "serves": "6",
+  "description": "Roasted butternut squash halves heaped with browned sausage, apple, mushrooms, celery, cranberries and sage. A stunning autumn centerpiece that is naturally grain-free.",
+  "swaps": "",
+  "watch": "Ground sausage: choose one with no breadcrumb, wheat or dairy fillers.",
+  "tags": [
+   "gourmet",
+   "holiday",
+   "dinner-party",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.wholesomelicious.com/wp-content/uploads/2019/10/Stuffed-Butternut-Squash-with-Sausage-and-Apples-Image.jpg",
+  "print": "https://www.wholesomelicious.com/wprm_print/sausage-and-apple-stuffed-butternut-squash"
+ },
+ {
+  "id": "chicken-marbella",
+  "title": "Chicken Marbella",
+  "url": "https://www.onceuponachef.com/recipes/chicken-marbella.html",
+  "site": "Once Upon a Chef",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 10 min + marinating",
+  "serves": "6",
+  "description": "The legendary Silver Palate dinner-party chicken: bone-in pieces marinated with garlic, oregano, prunes, olives and capers, then baked with brown sugar and white wine into a sweet-briny glaze.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "make-ahead",
+   "holiday"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.onceuponachef.com/images/2010/10/chicken-marbella-1200x1806.jpg",
+  "print": "https://www.onceuponachef.com/wprm_print/chicken-marbella"
+ },
+ {
+  "id": "middle-eastern-roast-chicken",
+  "title": "Middle Eastern Roast Chicken",
+  "url": "https://www.abeautifulplate.com/middle-eastern-spatchcocked-roast-chicken/",
+  "site": "A Beautiful Plate",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 45 min",
+  "serves": "6",
+  "description": "A spatchcocked whole chicken rubbed with a fragrant nine-spice blend and roasted over potatoes, carrots and leeks that soak up all the drippings.",
+  "swaps": "",
+  "watch": "Chicken broth: check for gluten.",
+  "tags": [
+   "gourmet",
+   "weekend",
+   "dinner-party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Middle Eastern",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter",
+   "spring"
+  ],
+  "img": "https://www.abeautifulplate.com/wp-content/uploads/2016/04/middle-eastern-spatchcocked-roast-chicken-and-vegetables-1-5.jpg",
+  "print": "https://www.abeautifulplate.com/wprm_print/middle-eastern-roast-chicken"
+ },
+ {
+  "id": "roasted-cornish-game-hens-with-garlic-herbs-and-lemon",
+  "title": "Roasted Cornish Game Hens with Garlic, Herbs and Lemon",
+  "url": "https://www.daringgourmet.com/roasted-cornish-game-hens-with-garlic-herb-and-lemon/",
+  "site": "The Daring Gourmet",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 20 min",
+  "serves": "4–8",
+  "description": "An individual bird for each guest, stuffed with garlic, lemon, rosemary and thyme and roasted golden, with a quick white-wine pan sauce. Elegant and surprisingly easy.",
+  "swaps": "Butter slices under the skin → nut-free vegan butter or a brush of olive oil.",
+  "watch": "Chicken broth: check for gluten.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party",
+   "holiday"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.daringgourmet.com/wp-content/uploads/2014/03/Cornish-Game-Hen-1.jpg",
+  "print": "https://www.daringgourmet.com/wprm_print/roasted-cornish-game-hen"
+ },
+ {
+  "id": "roasted-duck-with-port-cranberry-sauce",
+  "title": "Roasted Duck with Port Cranberry Sauce",
+  "url": "https://www.vikalinka.com/roasted-duck-port-cranberry-sauce/",
+  "site": "Vikalinka",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "About 2 hr",
+  "serves": "8",
+  "description": "A whole duck roasted with garlic and mandarin until the skin is crisp and burnished, served with a glossy cranberry sauce spiked with port. A festive alternative to turkey.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "holiday",
+   "dinner-party",
+   "weekend"
+  ],
+  "difficulty": "medium",
+  "cuisine": "British",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "winter",
+   "fall"
+  ],
+  "img": "https://vikalinka.com/wp-content/uploads/2023/11/Roast-Duck-8-Enhanced-NR-Edit.jpg",
+  "print": "https://vikalinka.com/wprm_print/roasted-duck-with-port-cranberry-sauce"
+ },
+ {
+  "id": "arroz-de-pato-portuguese-duck-rice",
+  "title": "Arroz de Pato (Portuguese Duck Rice)",
+  "url": "https://www.carolinescooking.com/arroz-de-pato-portuguese-duck-rice/",
+  "site": "Caroline's Cooking",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "2 hr 40 min",
+  "serves": "6",
+  "description": "Portugal's celebration dish: duck simmered into a rich stock, shredded and baked into rice with smoky chouriço and bacon until the top turns crisp.",
+  "swaps": "",
+  "watch": "Chouriço/chorizo and bacon: check labels for gluten and dairy.",
+  "tags": [
+   "gourmet",
+   "project",
+   "dinner-party",
+   "weekend"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Portuguese",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "starch",
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2023/12/arroz-de-pato-Portuguese-duck-rice-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/arroz-de-pato-portuguese-duck-rice"
+ },
+ {
+  "id": "braised-rabbit-with-prunes-lapin-aux-pruneaux",
+  "title": "Braised Rabbit with Prunes (Lapin aux Pruneaux)",
+  "url": "https://www.pardonyourfrench.com/braised-rabbit-with-prunes-lapin-aux-pruneaux/",
+  "site": "Pardon Your French",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "55 min",
+  "serves": "6–8",
+  "description": "A French country classic: rabbit browned with bacon and shallots, then braised in white wine with juniper, bay and sweet prunes until tender.",
+  "swaps": "Butter → olive oil or nut-free vegan butter; all-purpose flour → GF flour.",
+  "watch": "Bacon and chicken stock: check for gluten.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "weekend",
+   "project"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2020/12/Braised-Rabbit-with-Prunes-Lapin-aux-Pruneaux-1.jpg?fit=801%2C1200&ssl=1",
+  "print": ""
+ },
+ {
+  "id": "steamed-sea-bass-with-ginger-soy-and-sizzling-chilli-oil",
+  "title": "Steamed Sea Bass with Ginger, Soy and Sizzling Chilli Oil",
+  "url": "https://www.greatbritishchefs.com/recipes/steamed-sea-bass-ginger-soy-sizzling-chilli-oil-recipe",
+  "site": "Great British Chefs",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "25 min",
+  "serves": "2",
+  "description": "Delicate sea bass fillets steamed with ginger, then finished at the table with a pour of smoking-hot oil over spring onions and chillies for a dramatic sizzle.",
+  "swaps": "Light and dark soy sauce → GF tamari; Shaoxing wine → dry sherry.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Chinese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://media-cdn2.greatbritishchefs.com/media/ofmnsa5e/steamed-sea-bass-with-ginger-soy-and-sizzling-chilli-oil-landscape-1.whqc_1426x713q80.jpg",
+  "print": ""
+ },
+ {
+  "id": "roasted-branzino-with-lemon-caper-sauce",
+  "title": "Roasted Branzino with Lemon Caper Sauce",
+  "url": "https://girlcarnivore.com/roasted-branzino/",
+  "site": "Girl Carnivore",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "35 min",
+  "serves": "2",
+  "description": "Whole branzino stuffed with lemon, red onion and fresh herbs, roasted until the skin crisps, then spooned over with a sharp lemon-caper olive oil sauce.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ],
+  "img": "https://girlcarnivore.com/wp-content/uploads/2025/09/Roasted-Branzino-recipe-11.jpg",
+  "print": "https://girlcarnivore.com/wprm_print/roasted-branzino-recipe-with-lemon-caper-sauce"
+ },
+ {
+  "id": "roasted-black-cod-with-miso-butter-sauce",
+  "title": "Roasted Black Cod with Miso Butter Sauce",
+  "url": "https://www.cookingwithwineblog.com/easy-roasted-black-cod-butterfish-with-miso-butter-sauce/",
+  "site": "Cooking with Wine",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "50 min",
+  "serves": "2",
+  "description": "Silky black cod (sablefish) marinated in soy, roasted, and napped with a sake-miso beurre-blanc-style sauce scented with Sichuan pepper. Restaurant-level at home.",
+  "swaps": "Soy sauce and sweet black soy sauce → GF tamari (add a few drops of honey for the sweet soy); butter → nut-free vegan butter, whisked in cold.",
+  "watch": "Miso: use rice or soybean miso labeled gluten-free, never barley (mugi) miso.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://cookingwithwineblog.com/wp-content/uploads/2024/09/Black-Cod-with-Miso-Butter-Sauce-Featured-1.jpg",
+  "print": "https://cookingwithwineblog.com/wprm_print/roasted-black-cod-with-miso-butter-sauce"
+ },
+ {
+  "id": "broiled-whole-fish-with-iraqi-spice-paste",
+  "title": "Broiled Whole Fish with Iraqi Spice Paste",
+  "url": "https://www.hungrypaprikas.com/broiled-whole-fish-iraqi-spice-paste/",
+  "site": "Hungry Paprikas",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Butterflied whole pompano slathered with a tangy tomato and pomegranate molasses paste and broiled over onions and peppers, inspired by Iraqi masgouf.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Iraqi",
+  "role": "main",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "summer",
+   "spring"
+  ],
+  "img": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Broiled-Whole-Fish-1.jpg",
+  "print": "https://www.hungrypaprikas.com/print/15-minute-broiled-whole-fish-iraqi-style-spice-paste"
+ },
+ {
+  "id": "pan-seared-tuna-steaks-with-spanish-olives-and-herbs",
+  "title": "Pan-Seared Tuna Steaks with Spanish Olives and Herbs",
+  "url": "https://www.spainonafork.com/pan-seared-tuna-steaks-with-spanish-olives-herbs/",
+  "site": "Spain on a Fork",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "25 min",
+  "serves": "2",
+  "description": "Tuna steaks seared rare, then finished in a quick white-wine pan sauce with green Spanish olives, rosemary, thyme and lemon.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://i1.wp.com/spainonafork.com/wp-content/uploads/2018/07/tuna3-11.png?fit=750%2C750&ssl=1",
+  "print": "https://spainonafork.com/wprm_print/pan-seared-tuna-steaks-with-spanish-olives-herbs"
+ },
+ {
+  "id": "mushroom-bourguignon",
+  "title": "Mushroom Bourguignon",
+  "url": "https://www.jamieoliver.com/recipes/mushroom/mushroom-bourguignon/",
+  "site": "Jamie Oliver",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "50 min",
+  "serves": "4",
+  "description": "Four kinds of mushroom, including porcini and shiitake, slow-cooked with shallots, carrots and thyme in red wine for a deep, meaty-tasting vegetarian stew.",
+  "swaps": "Butter → nut-free vegan butter or extra olive oil.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "main",
+  "weight": "hearty",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://cdn.sanity.io/images/cq7w2e71/production/74925d637a2e8a709de94fbb8f3d8d81473a73bd-958x1280.png",
+  "print": ""
+ },
+ {
+  "id": "roasted-cauliflower-steaks-with-red-pepper-and-olive-salsa",
+  "title": "Roasted Cauliflower Steaks with Red Pepper and Olive Salsa",
+  "url": "https://www.bbcgoodfood.com/recipes/cauliflower-steaks-roasted-red-pepper-olive-salsa",
+  "site": "BBC Good Food",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "35 min",
+  "serves": "2",
+  "description": "Thick slabs of smoked-paprika cauliflower roasted until caramelized and topped with a punchy roasted pepper, olive and caper salsa.",
+  "swaps": "Toasted flaked almonds → toasted pumpkin or sunflower seeds.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "weeknight"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mediterranean",
+  "role": "main",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cauliflower-steaks-2bccad0.jpg?resize=440%2C230",
+  "print": ""
+ },
+ {
+  "id": "gazpacho-andaluz",
+  "title": "Gazpacho Andaluz",
+  "url": "https://www.onceuponachef.com/recipes/gazpacho-andaluz.html",
+  "site": "Once Upon a Chef",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "20 min + chilling",
+  "serves": "4–6",
+  "description": "Ripe tomatoes, cucumber, pepper and garlic blended with sherry vinegar and good olive oil into a silky chilled soup. Lovely served in small glasses as shooters.",
+  "swaps": "Skip the croutons (or use GF bread) and the chopped hard-boiled egg garnish.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "summer"
+  ],
+  "img": "https://www.onceuponachef.com/images/2024/05/gazpacho-andaluz-hero-04.jpg",
+  "print": "https://www.onceuponachef.com/wprm_print/gazpacho-andaluz"
+ },
+ {
+  "id": "seared-tuna-bites-with-manzanilla-tapenade",
+  "title": "Seared Tuna Bites with Manzanilla Tapenade",
+  "url": "https://www.theendlessmeal.com/seared-tuna-spanish-manzanilla-tapenade/",
+  "site": "The Endless Meal",
+  "category": "appetizers",
+  "subcategory": "Bites & Finger Food",
+  "time": "20 min",
+  "serves": "12 pieces",
+  "description": "Rare-seared albacore sliced onto cool cucumber rounds and topped with a briny olive, caper and anchovy tapenade. Elegant one-bite canapés.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "holiday"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Spanish",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2024/06/seared-tuna-bites-2.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/seared-tuna-bites-recipe"
+ },
+ {
+  "id": "beef-carpaccio-with-truffle-vinaigrette",
+  "title": "Beef Carpaccio with Truffle Vinaigrette",
+  "url": "https://www.carolinescooking.com/beef-carpaccio-truffle-vinaigrette/",
+  "site": "Caroline's Cooking",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "10 min (+ freezing)",
+  "serves": "2",
+  "description": "Paper-thin slices of beef tenderloin fanned on the plate with peppery arugula and a truffle-lemon vinaigrette.",
+  "swaps": "Skip the parmesan shavings.",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.carolinescooking.com/wp-content/uploads/2023/08/beef-carpaccio-featured-pic-sq.jpg",
+  "print": "https://www.carolinescooking.com/wprm_print/beef-carpaccio-with-truffle-vinaigrette"
+ },
+ {
+  "id": "beef-tataki",
+  "title": "Beef Tataki",
+  "url": "https://www.recipetineats.com/beef-tataki/",
+  "site": "RecipeTin Eats",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "About 30 min",
+  "serves": "2–4",
+  "description": "Japanese-style seared beef, rare in the middle and thinly sliced, dressed with a yuzu-soy ponzu and crisp garlic chips.",
+  "swaps": "Japanese soy sauce → GF tamari.",
+  "watch": "Store-bought crispy fried shallots are often coated in wheat flour; use GF ones or the homemade potato straws.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "date-night"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.recipetineats.com/tachyon/2024/07/Beef-tataki_8.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/147724"
+ },
+ {
+  "id": "hamachi-crudo",
+  "title": "Hamachi Crudo",
+  "url": "https://www.platingsandpairings.com/hamachi-crudo/",
+  "site": "Platings + Pairings",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "15 min",
+  "serves": "4",
+  "description": "Glistening slices of sushi-grade yellowtail dressed with yuzu and soy, lemon zest, serrano and flaky salt. Ready in minutes and very impressive.",
+  "swaps": "Soy sauce → GF tamari.",
+  "watch": "Buy sushi-grade fish from a trusted fishmonger.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "spring",
+   "summer"
+  ],
+  "img": "https://www.platingsandpairings.com/wp-content/uploads/2024/11/HAMACHI-CRUDO-H.png",
+  "print": "https://www.platingsandpairings.com/wprm_print/hamachi-crudo"
+ },
+ {
+  "id": "five-spice-duck-salad",
+  "title": "Five-Spice Duck Salad",
+  "url": "https://www.jamieoliver.com/recipes/duck/five-spice-duck-salad/",
+  "site": "Jamie Oliver",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "20 min",
+  "serves": "2",
+  "description": "Crisp-skinned five-spice duck breast sliced over watercress and little gem with mango, pomegranate jewels, lime and sesame oil.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Asian fusion",
+  "role": "starter",
+  "weight": "medium",
+  "includes": [
+   "veg",
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://cdn.sanity.io/images/cq7w2e71/production/db3c42d0e478786fd647af23fb1e32e93a269f85-973x1300.jpg",
+  "print": ""
+ },
+ {
+  "id": "vegan-beetroot-carpaccio",
+  "title": "Vegan Beetroot Carpaccio",
+  "url": "https://www.jamieoliver.com/recipes/vegetables/vegan-beetroot-carpaccio/",
+  "site": "Jamie Oliver",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "1 hr 10 min",
+  "serves": "8",
+  "description": "Multicolored beets cooked, sliced wafer-thin and dressed with lemon, dill, capers and sweet pickled red onion. A jewel-toned make-ahead starter.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "veg"
+  ],
+  "season": [
+   "fall",
+   "winter",
+   "spring"
+  ],
+  "img": "https://cdn.sanity.io/images/cq7w2e71/production/0e154fe0bbb216c0d8ed233c81ed17d78f1f5ccc-973x1300.jpg",
+  "print": ""
+ },
+ {
+  "id": "tuna-carpaccio",
+  "title": "Tuna Carpaccio",
+  "url": "https://www.recipetineats.com/tuna-carpaccio-recipe/",
+  "site": "RecipeTin Eats",
+  "category": "appetizers",
+  "subcategory": "Soups & Small Plates",
+  "time": "20 min",
+  "serves": "2",
+  "description": "Sashimi-grade tuna pounded paper-thin and dressed with Espelette pepper, chives, lemon and quick-pickled onion, served with crisp toasts.",
+  "swaps": "Pane di casa toasts → toasted GF baguette or GF crackers.",
+  "watch": "Use sashimi-grade tuna.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "starter",
+  "weight": "light",
+  "includes": [
+   "protein"
+  ],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.recipetineats.com/tachyon/2026/04/Tuna-Carpaccio_3.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/196461"
+ },
+ {
   "id": "short-rib-rag-pasta",
   "title": "Short Rib Ragù Pasta",
   "url": "https://www.vincenzosplate.com/short-ribs-ragu/",
