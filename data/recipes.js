@@ -15457,6 +15457,940 @@ window.RECIPES = [
   "print": ""
  },
  {
+  "id": "gluten-free-double-chocolate-banana-bread",
+  "title": "Gluten-Free Double Chocolate Banana Bread",
+  "url": "https://www.lazycatkitchen.com/gluten-free-double-chocolate-banana-bread/",
+  "site": "Lazy Cat Kitchen",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "1 hr 25 min",
+  "serves": "1 large loaf (about 10 slices)",
+  "description": "A dark, fudgy loaf with plenty of cacao, a shot of espresso and pockets of melted chocolate. Buckwheat and a chia egg hold it together, so it stays moist without any eggs.",
+  "swaps": "Use oat or soy milk as the plant milk; skip the chopped-hazelnut garnish (toasted pumpkin seeds work instead).",
+  "watch": "Use allergy-safe vegan chocolate chips; buckwheat and rice flour should be certified GF. No blend needed (buckwheat/rice/cornstarch mix).",
+  "tags": [
+   "gourmet",
+   "brunch",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "European",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2016/11/double-chocolate-banana-bread-before.jpg",
+  "print": "https://www.lazycatkitchen.com/gluten-free-double-chocolate-banana-bread/?print-version=true"
+ },
+ {
+  "id": "mini-lemon-poppy-seed-loaves-with-whipped-lemon-lavender-but",
+  "title": "Mini Lemon Poppy Seed Loaves with Whipped Lemon Lavender Butter",
+  "url": "https://www.unconventionalbaker.com/mini-lemon-poppy-seed-loaves-with-whipped-lemon-lavender-butter-gluten-free-vegan-refined-sugar-free/",
+  "site": "Unconventional Baker",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "45 min",
+  "serves": "2 mini loaves",
+  "description": "Bright little lemon poppy seed loaves made with applesauce and maple instead of eggs. They come with a whipped lemon-lavender butter for slathering, which makes a simple quick bread feel like a tea-room treat.",
+  "swaps": "For the whipped butter use a nut-free vegan butter, or the recipe's chilled coconut-cream option.",
+  "watch": "Uses its own brown rice, tapioca and sweet rice flour mix (no blend needed). Check that the coconut milk powder for dusting has no added milk protein (casein).",
+  "tags": [
+   "gourmet",
+   "brunch",
+   "date-night",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ],
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2015/04/Mini-Lemon-Poppy-Seed-Loaves-with-Whipped-Lemon-Lavender-Butter-Gluten-Free-Vegan-Refined-Sugar-Free-Oil-Free.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-chocolate-chip-pumpkin-bread",
+  "title": "Gluten-Free Chocolate Chip Pumpkin Bread",
+  "url": "https://strengthandsunshine.com/gluten-free-chocolate-chip-pumpkin-bread/",
+  "site": "Strength and Sunshine",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "55 min",
+  "serves": "1 8x4 loaf (about 10 slices)",
+  "description": "A tender, spiced pumpkin loaf with chocolate chips folded through and scattered on top. It's one bowl, egg-free and oil-based, so it stays moist for days.",
+  "swaps": "",
+  "watch": "Use allergy-safe chocolate chips (e.g., Enjoy Life). Made with a GF all-purpose flour; choose a nut-free GF all-purpose blend.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2024/08/Chocolate-Chip-Pumpkin-Bread-6.jpg",
+  "print": ""
+ },
+ {
+  "id": "applesauce-quick-bread",
+  "title": "Applesauce Quick Bread",
+  "url": "https://allergyawesomeness.com/applesauce-quick-bread-gluten-dairy-egg-soy-peanut-top-8-free-vegan/",
+  "site": "Allergy Awesomeness",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "1 hr",
+  "serves": "1 large loaf or 4 mini loaves",
+  "description": "A cozy, warmly spiced loaf made with two whole cups of cinnamon applesauce, finished with a crackly brown-sugar topping. It's free of the top allergens and tastes like apple-spice cake.",
+  "swaps": "",
+  "watch": "Made with Megan's GF all-purpose flour; choose a nut-free GF all-purpose blend, and add xanthan only if your blend doesn't already include it.",
+  "tags": [
+   "kid-friendly",
+   "make-ahead",
+   "brunch"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2016/08/applesauce.bread_.hero_.5x7-scaled.jpg",
+  "print": ""
+ },
+ {
+  "id": "gingerbread-banana-bread",
+  "title": "Gingerbread Banana Bread",
+  "url": "https://feastingonfruit.com/gingerbread-banana-bread/",
+  "site": "Feasting on Fruit",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "1 hr 20 min",
+  "serves": "10 slices",
+  "description": "Banana bread and gingerbread in one loaf, with molasses, a heap of warm spices and a tangy orange cream-cheese frosting. SunButter and coconut flour keep it fluffy without eggs.",
+  "swaps": "Use oat or soy milk instead of almond milk. For the frosting use a soy- or coconut-based dairy-free cream cheese (e.g., Tofutti), not a cashew or almond one.",
+  "watch": "The GF flour blend isn't specified; choose a nut-free GF all-purpose blend. SunButter is sunflower-based and safe.",
+  "tags": [
+   "gourmet",
+   "holiday",
+   "brunch",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://feastingonfruit.com/wp-content/uploads/2024/12/Gluten-Free-Gingerbread-Loaf-Cake-Recipe-1.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-vegan-chocolate-zucchini-bread-with-teff",
+  "title": "Gluten-Free Vegan Chocolate Zucchini Bread with Teff",
+  "url": "https://petiteallergytreats.com/gluten-free-vegan-chocolate-zucchini/",
+  "site": "Petite Allergy Treats",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "1 hr 35 min",
+  "serves": "1 loaf (about 10 slices)",
+  "description": "A deep, cocoa-dark loaf baked low and slow, with grated zucchini for moisture and earthy teff flour for richness. Molasses and maple give it a gingerbread-like depth.",
+  "swaps": "Use oat or soy milk as the 'milk of choice'.",
+  "watch": "Combines teff flour with a GF all-purpose flour; choose a nut-free GF all-purpose blend. Uses palm shortening.",
+  "tags": [
+   "kid-friendly",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "summer",
+   "fall"
+  ],
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2014/03/ChocolateZucchini1.5.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-orange-cranberry-bread",
+  "title": "Gluten-Free Orange Cranberry Bread",
+  "url": "https://petiteallergytreats.com/gluten-free-orange-cranberry-bread/",
+  "site": "Petite Allergy Treats",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "1 hr 15 min",
+  "serves": "1 9x5 loaf",
+  "description": "A dense, pound-cake-style holiday loaf studded with tart fresh cranberries, finished with a fresh orange glaze and sparkling sugared cranberries.",
+  "swaps": "",
+  "watch": "Built on Enjoy Life Foods muffin mix (made without the top allergens), so check the current label. Sparkling cranberries are optional.",
+  "tags": [
+   "holiday",
+   "brunch",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2015/12/Cranberry-Bread-1.2.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-vegan-raspberry-sweet-rolls",
+  "title": "Gluten Free Vegan Raspberry Sweet Rolls",
+  "url": "https://www.allergyfreealaska.com/gluten-free-vegan-raspberry-sweet-rolls/",
+  "site": "Allergy Free Alaska",
+  "category": "breads",
+  "subcategory": "Sweet Rolls",
+  "time": "4 hr 30 min",
+  "serves": "16 rolls",
+  "description": "Soft yeasted spiral rolls filled with a jammy raspberry filling and drizzled with a simple glaze. It's a weekend project with a bakery-style payoff for brunch or the holidays.",
+  "swaps": "Use a nut-free vegan butter (avoid cashew-based brands like Miyoko's).",
+  "watch": "Uses its own millet, sorghum, brown rice and tapioca mix with psyllium and chia (no blend needed).",
+  "tags": [
+   "project",
+   "brunch",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2016/01/Gluten-Free-Vegan-Raspberry-Sweet-Rolls-Recipe-Allergy-Free-Alaska.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-earl-grey-overnight-cinnamon-rolls",
+  "title": "Gluten Free Earl Grey Overnight Cinnamon Rolls",
+  "url": "https://gfjules.com/recipes/gluten-free-earl-grey-overnight-cinnamon-rolls/",
+  "site": "gfJules",
+  "category": "breads",
+  "subcategory": "Sweet Rolls",
+  "time": "12+ hr (mostly overnight rise)",
+  "serves": "12 rolls",
+  "description": "Classic gooey cinnamon rolls infused with bergamot-scented Earl Grey in the dough and the cream-cheese icing. You assemble them the night before and bake them fresh in the morning.",
+  "swaps": "Use 6 Tbsp aquafaba (or a commercial egg replacer) for the 2 eggs; oat or soy milk; vegan butter sticks (e.g., Earth Balance); Tofutti cream cheese; agave instead of honey.",
+  "watch": "Tested with gfJules All Purpose GF Flour. The vanilla pudding mix must be GF and dairy-free, so check the label.",
+  "tags": [
+   "gourmet",
+   "project",
+   "brunch",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://gfjules.com/wp-content/uploads/2023/01/Tea-Cinnamon-Rolls-00012.jpg",
+  "print": "https://gfjules.com/wprm_print/gluten-free-earl-grey-overnight-cinnamon-rolls"
+ },
+ {
+  "id": "gluten-free-cinnamon-sticky-rolls",
+  "title": "Gluten Free Cinnamon Sticky Rolls",
+  "url": "https://gfjules.com/recipes/gluten-free-cinnamon-sticky-rolls-recipe-oven-or-crock-pot-method/",
+  "site": "gfJules",
+  "category": "breads",
+  "subcategory": "Sweet Rolls",
+  "time": "1 hr 15 min",
+  "serves": "9 rolls",
+  "description": "Pull-apart cinnamon rolls baked over a bubbling maple and brown-sugar glaze, then flipped so the sticky topping drips down the sides. You can bake them in the oven or a slow cooker.",
+  "swaps": "Use the flax egg option (2 Tbsp flaxseed meal + 6 Tbsp warm water); coconut yogurt (e.g., So Delicious vanilla); vegan butter; maple or agave instead of honey. Leave out the optional pecans (toasted pumpkin seeds work).",
+  "watch": "Tested with gfJules All Purpose GF Flour. Check that the vanilla pudding mix is GF and dairy-free.",
+  "tags": [
+   "fun",
+   "brunch",
+   "holiday",
+   "kid-friendly"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://gfjules.com/wp-content/uploads/2020/12/gluten-free-cinnamon-sticky-buns-on-plate-banner-gfJules.jpg",
+  "print": "https://gfjules.com/wprm_print/gluten-free-cinnamon-sticky-rolls-recipe-oven-or-crock-pot"
+ },
+ {
+  "id": "gluten-free-dairy-free-rough-puff-pastry",
+  "title": "Gluten-Free Dairy-Free Rough Puff Pastry",
+  "url": "https://www.fearlessdining.com/dairy-free-rough-puff-pastry/",
+  "site": "Fearless Dining",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "3 hr 25 min",
+  "serves": "14 servings (1 batch of dough)",
+  "description": "A laminated, egg-free puff pastry with real flaky layers, built from frozen dairy-free butter and a series of folds. Use it as a base for turnovers, hand pies, Danish or fruit tarts.",
+  "swaps": "Use a nut-free frozen vegan butter stick in place of Miyoko's, which is cashew-based. Brush finished pastries with non-dairy milk or maple instead of the egg wash suggested for turnovers.",
+  "watch": "Only tested with Sandi's homemade GF pastry flour blend; other blends may behave differently.",
+  "tags": [
+   "project",
+   "gourmet",
+   "make-ahead"
+  ],
+  "difficulty": "involved",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.fearlessdining.com/wp-content/uploads/2025/05/rolled-pastry-inside.jpg",
+  "print": "https://www.fearlessdining.com/wprm_print/gluten-free-dairy-free-puff-pastry-lots-of-flaky-layers"
+ },
+ {
+  "id": "sunflower-seed-chocolate-tart",
+  "title": "Sunflower Seed Chocolate Tart",
+  "url": "https://www.unconventionalbaker.com/vegan-sunflower-seed-chocolate-tart/",
+  "site": "Unconventional Baker",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "15 min + overnight chill",
+  "serves": "7-inch tart (about 8 slices)",
+  "description": "A silky, fudgesicle-rich chocolate tart on a no-bake sunflower-seed and date crust, made nut-free with sunflower seed butter. Finish it with cacao nibs and rose petals for a dinner-party look.",
+  "swaps": "Use rice, soy or oat milk as the plant milk (the recipe's own nut-free note).",
+  "watch": "Use sunflower seed butter and seeds from a nut-free facility; the tart uses cacao butter and needs to set overnight.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "date-night",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2018/08/chocolate-tart-with-sunbutter.jpg",
+  "print": ""
+ },
+ {
+  "id": "vegan-black-forest-tart",
+  "title": "Vegan Black Forest Tart",
+  "url": "https://www.rainbownourishments.com/vegan-black-forest-tart/",
+  "site": "Rainbow Nourishments",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "4 hr 30 min (mostly chilling)",
+  "serves": "10",
+  "description": "A cocoa shortcrust filled with glossy dark-chocolate ganache and topped with whipped coconut cream and fresh cherries. It has all the flavours of a Black Forest gateau in tart form.",
+  "swaps": "For the crust use the recipe's 1:1 GF flour option (e.g., Bob's Red Mill 1-to-1) in place of plain flour, not the almond-flour version. Use a nut-free vegan butter.",
+  "watch": "Use dairy-free dark chocolate with no milk ingredients. The GF crust was suggested, not the primary version, so chill it well and blind-bake if it puffs.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "holiday",
+   "date-night",
+   "chocolate"
+  ],
+  "difficulty": "medium",
+  "cuisine": "German",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "summer",
+   "winter"
+  ],
+  "img": "https://www.rainbownourishments.com/wp-content/uploads/2020/12/vegan-black-forest-tart-1.jpg",
+  "print": "https://www.rainbownourishments.com/wprm_print/vegan-black-forest-tart"
+ },
+ {
+  "id": "gluten-free-blood-orange-plum-galette",
+  "title": "Gluten Free Blood Orange Plum Galette",
+  "url": "https://petiteallergytreats.com/gluten-free-blood-orange-plum-galette-pie-vegan/",
+  "site": "Petite Allergy Treats",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "1 hr 15 min",
+  "serves": "8",
+  "description": "A rustic, free-form galette filled with diced blood orange and plum and crowned with fanned plum slices, then finished with crunchy demerara sugar. It looks impressive but takes little effort.",
+  "swaps": "Use oat or soy milk as the dairy-free milk.",
+  "watch": "Crust is a GF all-purpose mix plus sorghum and dairy-free shortening; choose a nut-free GF all-purpose blend. Preheat a pizza stone or extra sheet for a crisp base.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "date-night"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "winter",
+   "spring"
+  ],
+  "img": "https://petiteallergytreats.com/wp-content/uploads/2016/04/Gluten-Free-Plum-Galette-2-words.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-pop-tarts",
+  "title": "Gluten Free Pop Tarts",
+  "url": "https://www.allergyfreealaska.com/gluten-free-vegan-pop-tarts/",
+  "site": "Allergy Free Alaska",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "1 hr 30 min",
+  "serves": "6 pastries",
+  "description": "Homemade toaster pastries with a flaky pie crust, strawberry jam filling and a pink vanilla glaze. They're a nostalgic, kid-pleasing bake with no dyes.",
+  "swaps": "Make the linked pie crust with palm shortening or a nut-free vegan butter.",
+  "watch": "Requires AFA's Best Gluten-Free Flaky Pie Crust (sorghum, millet, arrowroot and brown rice). Check that the jam is GF; beet powder gives the colour and shredded coconut stands in for sprinkles.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "brunch"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.allergyfreealaska.com/wp-content/uploads/2015/03/Gluten-Free-Vegan-Strawberry-Pop-Tarts-Allergy-Free-Alaska.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-vegan-oreos",
+  "title": "Gluten-free Vegan Oreos",
+  "url": "https://www.forkandbeans.com/2012/01/11/gluten-free-vegan-oreos/",
+  "site": "Fork and Beans",
+  "category": "desserts",
+  "subcategory": "Cookies & Bars",
+  "time": "30 min",
+  "serves": "12 sandwich cookies",
+  "description": "Crisp, dark cocoa wafers sandwiched around a thick vanilla creme filling. They're a homemade take on the cookie-aisle classic, made without the top allergens.",
+  "swaps": "Use oat or soy milk as the non-dairy milk.",
+  "watch": "Made with Cara's own GF all-purpose flour mix; any nut-free blend works. Use non-hydrogenated shortening.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "birthday"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2012/01/oreos.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-vegan-strawberry-shortcake-cake",
+  "title": "Gluten-free Vegan Strawberry Shortcake Cake",
+  "url": "https://www.thelittleblogofvegan.com/2022/07/gluten-free-vegan-strawberry-shortcake-cake.html",
+  "site": "The Little Blog of Vegan",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "4 hr (incl. cooling)",
+  "serves": "8-10",
+  "description": "A tall vanilla layer cake filled with strawberry jam, fresh berries and a fluffy vanilla cream. It's a summery centrepiece for birthdays and garden parties.",
+  "swaps": "Use oat or soy milk. Choose a coconut- or soy-based whipping cream and cream cheese, since many vegan cream cheeses are cashew- or almond-based.",
+  "watch": "UK recipe tested with gluten-free plain flour (Doves Farm style) plus xanthan; pick a nut-free blend.",
+  "tags": [
+   "gourmet",
+   "birthday",
+   "dinner-party",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "British",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "spring",
+   "summer"
+  ],
+  "img": "https://www.thelittleblogofvegan.com/wp-content/uploads/2022/07/strawberry-shortcake-cake-vegan-gluten-free-scaled.jpg",
+  "print": ""
+ },
+ {
+  "id": "dairy-free-millionaire-s-shortbread",
+  "title": "Dairy-free Millionaire's Shortbread",
+  "url": "https://glutenfreecuppatea.co.uk/2021/10/06/dairy-free-millionaires-shortbread-recipe/",
+  "site": "Gluten Free Cuppa Tea",
+  "category": "desserts",
+  "subcategory": "Cookies & Bars",
+  "time": "2 hr 25 min",
+  "serves": "9-16 squares",
+  "description": "Buttery shortbread under a thick golden-syrup caramel and a feathered dark, milk and white chocolate top. It's basically homemade Twix in tray-bake form.",
+  "swaps": "Use a nut-free vegan block butter (Stork block in the UK, Earth Balance sticks in the US).",
+  "watch": "Use dairy-free chocolates with no milk or nut ingredients. Tested with UK gluten-free plain flour plus xanthan; pick a nut-free blend.",
+  "tags": [
+   "fun",
+   "birthday",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "British",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2021/09/dairy-free-millionaires-recipe-featured.jpg",
+  "print": "https://glutenfreecuppatea.co.uk/wprm_print/dairy-free-millionaires-shortbread-recipe-vegan-gluten-free"
+ },
+ {
+  "id": "gluten-free-sticky-date-and-toffee-pudding",
+  "title": "Gluten Free Sticky Date and Toffee Pudding",
+  "url": "https://www.glutarama.com/sticky-date-toffee-pudding-gluten-free-dairy-free/",
+  "site": "Glutarama",
+  "category": "desserts",
+  "subcategory": "Puddings, Mousse & Frozen",
+  "time": "1 hr",
+  "serves": "4",
+  "description": "A warm, soft date sponge drowned in glossy brown-sugar toffee sauce, the classic British pudding made egg-free, dairy-free and nut-free. Serve it with dairy-free custard or ice cream.",
+  "swaps": "Use the ground flaxseed option rather than the egg; a nut-free plant butter; soya cream in the sauce.",
+  "watch": "Tested with UK gluten-free self-raising flour.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "holiday",
+   "date-night"
+  ],
+  "difficulty": "easy",
+  "cuisine": "British",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.glutarama.com/wp-content/uploads/2019/02/Sticky-Date-and-Toffee-Pudding-4-scaled.jpg",
+  "print": "https://www.glutarama.com/wprm_print/gluten-free-sticky-date-and-toffee-pudding"
+ },
+ {
+  "id": "vegan-cr-me-caramel",
+  "title": "Vegan Crème Caramel",
+  "url": "https://www.rhiansrecipes.com/creme-caramel/",
+  "site": "Rhian's Recipes",
+  "category": "desserts",
+  "subcategory": "Puddings, Mousse & Frozen",
+  "time": "30 min + setting",
+  "serves": "4 pots",
+  "description": "Silky custard pots tinted gold with saffron and set without eggs, served under a dark coconut-sugar caramel. It's an elegant make-ahead finish for a dinner party.",
+  "swaps": "Make it with rice milk as written (soy or oat also work). If you skip the cacao butter, use coconut oil rather than a nut butter.",
+  "watch": "The custard is thickened with cooked white rice, so it needs no flour.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "date-night",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.rhiansrecipes.com/wp-content/uploads/2024/09/IMG_6721.jpg",
+  "print": "https://www.rhiansrecipes.com/wprm_print/vegan-creme-caramel-gf"
+ },
+ {
+  "id": "red-wine-poached-pears",
+  "title": "Red Wine Poached Pears",
+  "url": "https://www.dishbydish.net/poached-pears/",
+  "site": "Dish by Dish",
+  "category": "desserts",
+  "subcategory": "Puddings, Mousse & Frozen",
+  "time": "55 min",
+  "serves": "4",
+  "description": "Whole Bosc pears simmered in red wine, orange juice, cinnamon and clove until jewel-red, then served with the reduced spiced syrup. It's an effortless and dramatic dessert.",
+  "swaps": "",
+  "watch": "Contains wine; most of the alcohol cooks off but not all.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "dinner-party",
+   "holiday",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.dishbydish.net/wp-content/uploads/Red-Wine-Poached-Pears-Gluten-Free-Vegan_Featured-Image-1200-x-1200_1.jpg",
+  "print": ""
+ },
+ {
+  "id": "vegan-gluten-free-s-mores-pie",
+  "title": "Vegan Gluten Free S'Mores Pie",
+  "url": "https://gfjules.com/recipes/vegan-gluten-free-smores-pie/",
+  "site": "gfJules",
+  "category": "desserts",
+  "subcategory": "Pies, Tarts & Crisps",
+  "time": "4 hr 50 min (mostly chilling)",
+  "serves": "12",
+  "description": "A graham-cracker crust filled with creamy coconut-milk chocolate pudding and topped with toasted vegan marshmallows. It brings the campfire indoors.",
+  "swaps": "Use the full-fat coconut milk option, vegan butter (e.g., Earth Balance sticks) and vegan marshmallows (e.g., Dandies).",
+  "watch": "GF graham crackers must be free of dairy, egg and nuts (gfJules graham mix or a top-allergen-free brand). Use allergy-safe chocolate chips. Tested with gfJules All Purpose GF Flour.",
+  "tags": [
+   "fun",
+   "kid-friendly",
+   "birthday",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "summer"
+  ],
+  "img": "https://gfjules.com/wp-content/uploads/2021/10/gluten-free-smores-pie-tart-overhead-gfJules.jpg",
+  "print": "https://gfjules.com/wprm_print/vegan-gluten-free-smores-pie"
+ },
+ {
+  "id": "chocolate-chip-marble-bundt-cake",
+  "title": "Chocolate Chip Marble Bundt Cake",
+  "url": "https://kidswithfoodallergies.org/recipes/chocolate-chip-marble-bundt-cake/",
+  "site": "Kids with Food Allergies",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "1 hr 15 min",
+  "serves": "1 bundt cake (about 12 slices)",
+  "description": "A family-favourite bundt with vanilla, cocoa and chocolate-chip layers swirled together, then dusted with powdered sugar. It's free of the top allergens and ready for a crowd.",
+  "swaps": "For the eggs use 2 Tbsp Ener-G Egg Replacer + ½ cup water (the recipe's recommendation).",
+  "watch": "Uses its own brown rice, white rice, tapioca and potato starch mix (no blend needed). Use vegan, nut-free chocolate chips and soy-free shortening.",
+  "tags": [
+   "fun",
+   "birthday",
+   "kid-friendly",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/18525a6071ab0-9b79-4afa-b7bd-1470507e1006.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/chocolate-chip-marble-bundt-cake/print/"
+ },
+ {
+  "id": "chocolate-black-sesame-cake",
+  "title": "Chocolate Black Sesame Cake",
+  "url": "https://www.okonomikitchen.com/vegan-chocolate-black-sesame-cake/",
+  "site": "Okonomi Kitchen",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "35 min",
+  "serves": "4",
+  "description": "A small, nutty-tasting chocolate cake made with toasty black sesame powder and oat flour, layered with whipped coconut cream and strawberries. It's sized just right for a date night.",
+  "swaps": "Use certified GF oat flour. Don't use 'another nut flour' as the notes suggest; stick with black sesame powder.",
+  "watch": "Coconut yogurt and coconut whipped cream should be from nut-free brands.",
+  "tags": [
+   "gourmet",
+   "date-night",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.okonomikitchen.com/wp-content/uploads/2020/08/vegan-chocolate-black-sesame-cake-recipe-8-of-10.jpg",
+  "print": ""
+ },
+ {
+  "id": "3-ingredient-ube-ice-cream-no-churn",
+  "title": "3 Ingredient Ube Ice Cream (No-Churn)",
+  "url": "https://addictedtodates.com/ube-ice-cream/",
+  "site": "Addicted to Dates",
+  "category": "desserts",
+  "subcategory": "Puddings, Mousse & Frozen",
+  "time": "5 hr 15 min (mostly freezing)",
+  "serves": "10",
+  "description": "Vivid purple, vanilla-scented ube ice cream made with just coconut whipping cream and ube condensed coconut milk, with no machine needed. It's an eye-catching scoop for parties.",
+  "swaps": "",
+  "watch": "Uses ube sweetened condensed coconut milk (homemade or store-bought, so check the label) and coconut whipping cream.",
+  "tags": [
+   "fun",
+   "gourmet",
+   "make-ahead",
+   "dinner-party"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Filipino",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "summer"
+  ],
+  "img": "",
+  "print": ""
+ },
+ {
+  "id": "apple-cinnamon-cr-pes",
+  "title": "Apple Cinnamon Crêpes",
+  "url": "https://elavegan.com/apple-cinnamon-crepes-vegan-gluten-free/",
+  "site": "Elavegan",
+  "category": "breads",
+  "subcategory": "Quick Breads & Muffins",
+  "time": "40 min",
+  "serves": "10 crêpes",
+  "description": "Thin, tender oat-and-rice-flour crêpes folded around warm cinnamon-caramelized apples. They're egg-free and easy to make for a special brunch or a French-style dessert.",
+  "swaps": "Use certified GF oats or oat flour; oat or soy milk if not using the canned lite coconut milk.",
+  "watch": "Uses its own oat, rice flour and cornstarch mix (no blend needed).",
+  "tags": [
+   "gourmet",
+   "brunch",
+   "date-night"
+  ],
+  "difficulty": "medium",
+  "cuisine": "French",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://elavegan.com/wp-content/uploads/2018/11/10-apple-cinnamon-crepes-drizzles-with-homemade-caramel-sauce.jpg",
+  "print": "https://elavegan.com/wprm_print/apple-cinnamon-crepes"
+ },
+ {
+  "id": "caramel-coconut-cake",
+  "title": "Caramel Coconut Cake",
+  "url": "https://www.unconventionalbaker.com/caramel-coconut-cake/",
+  "site": "Unconventional Baker",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "30 min",
+  "serves": "6-inch cake (6-8 slices)",
+  "description": "A no-bake layer cake made almost entirely from coconut: coconut-flour layers, whipped coconut-cream frosting and a drippy coconut-syrup caramel. It's a striking birthday cake for coconut lovers.",
+  "swaps": "",
+  "watch": "Naturally grain-free (coconut flour).",
+  "tags": [
+   "gourmet",
+   "birthday",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://www.unconventionalbaker.com/wp-content/uploads/2017/04/no-bake-coconut-caramel-cake-recipe-dairy-free-refined-sugar-free-birthday-cake.jpg",
+  "print": ""
+ },
+ {
+  "id": "chai-spice-tahini-cookies",
+  "title": "Chai Spice Tahini Cookies",
+  "url": "https://www.veganricha.com/chai-spice-tahini-cookies-nut-free/",
+  "site": "Vegan Richa",
+  "category": "desserts",
+  "subcategory": "Cookies & Bars",
+  "time": "35 min",
+  "serves": "12 cookies",
+  "description": "Soft, halva-like cookies made with tahini and warmed with chai spices, held together with flax and a little coconut flour. They're nut-free, oil-free and grain-free.",
+  "swaps": "",
+  "watch": "Grain-free (coconut flour). Use GF baking powder.",
+  "tags": [
+   "gourmet",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "fall",
+   "winter"
+  ],
+  "img": "https://www.veganricha.com/wp-content/uploads/2019/12/chai-spice-tahini-cocookies-veganricha-8462-2.jpg",
+  "print": "https://www.veganricha.com/wprm_print/chai-spice-tahini-cookies-nut-free-oil-free-grain-free"
+ },
+ {
+  "id": "baked-gluten-free-coffee-cake-doughnuts",
+  "title": "Baked Gluten-Free Coffee Cake Doughnuts",
+  "url": "https://strengthandsunshine.com/baked-gluten-free-coffee-cake-doughnuts-vegan/",
+  "site": "Strength and Sunshine",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "20 min",
+  "serves": "6 doughnuts",
+  "description": "Baked cinnamon doughnuts topped with a buttery brown-sugar crumb and a vanilla drizzle, like coffee cake in doughnut form. They're quick enough for a weekend brunch.",
+  "swaps": "Use a soy- or coconut-based vegan sour cream (not cashew), oat or soy milk, and a nut-free vegan butter.",
+  "watch": "Uses Bob's Red Mill Egg Replacer. The GF all-purpose flour isn't specified; choose a nut-free GF all-purpose blend.",
+  "tags": [
+   "fun",
+   "brunch",
+   "kid-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "breakfast-bake",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2021/02/Gluten-Free-Coffee-Cake-Doughnuts-9.jpg",
+  "print": ""
+ },
+ {
+  "id": "matcha-mochi-cookies",
+  "title": "Matcha Mochi Cookies",
+  "url": "https://pickledplum.com/matcha-mochi-cookies/",
+  "site": "Pickled Plum",
+  "category": "desserts",
+  "subcategory": "Cookies & Bars",
+  "time": "55 min",
+  "serves": "18-22 cookies",
+  "description": "Chewy, bouncy matcha cookies made from Japanese rice flours and silken tofu, with no eggs, butter or nuts. They have a crisp edge and a mochi-like centre.",
+  "swaps": "",
+  "watch": "Shiratamako and joshinko are rice flours (naturally GF). Contains soy (tofu).",
+  "tags": [
+   "fun",
+   "gourmet",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "dessert",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://pickledplum.com/wp-content/uploads/2023/04/Matcha-Mochi-Cookies-1200-04.jpg",
+  "print": ""
+ },
+ {
+  "id": "vegan-tahini-brownies",
+  "title": "Vegan Tahini Brownies",
+  "url": "https://www.lazycatkitchen.com/vegan-tahini-brownies/",
+  "site": "Lazy Cat Kitchen",
+  "category": "desserts",
+  "subcategory": "Cookies & Bars",
+  "time": "40 min",
+  "serves": "8-inch pan (about 16 squares)",
+  "description": "Fudgy dark-chocolate brownies swirled with a whipped tahini ripple and a hint of cardamom, finished with sesame seeds. They're sophisticated but still a crowd-pleaser.",
+  "swaps": "Use the recipe's GF flour mix option (a starch-rich blend) in place of plain flour. Use a nut-free vegan butter (the Naturli block contains almonds) and soy or oat milk.",
+  "watch": "Use vegan dark chocolate with no milk ingredients and GF baking soda.",
+  "tags": [
+   "gourmet",
+   "dinner-party",
+   "make-ahead",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2024/09/vegan-tahini-brownies-piece.jpg",
+  "print": "https://www.lazycatkitchen.com/vegan-tahini-brownies/?print-version=true"
+ },
+ {
+  "id": "easy-gluten-free-chocolate-birthday-cupcakes",
+  "title": "Easy Gluten Free Chocolate Birthday Cupcakes",
+  "url": "https://allergyawesomeness.com/the-best-allergy-friendly-chocolate-birthday-cupcakes-gluten-dairy-egg-peanut-vegan/",
+  "site": "Allergy Awesomeness",
+  "category": "desserts",
+  "subcategory": "Cakes & Cupcakes",
+  "time": "45 min",
+  "serves": "12 cupcakes",
+  "description": "Moist, deeply chocolatey cupcakes with flax eggs, piled high with vegan chocolate buttercream and ready for sprinkles and candles. They're top-allergen-free party cupcakes that everyone can share.",
+  "swaps": "Use the applesauce option (or a soy- or coconut-based DF sour cream, not cashew) and a nut-free vegan butter.",
+  "watch": "Made with Megan's own GF flour blend; any nut-free blend with xanthan works. Use allergy-safe sprinkles.",
+  "tags": [
+   "fun",
+   "birthday",
+   "kid-friendly",
+   "chocolate"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "dessert",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2017/01/pinterest.short_.bday_.cupcakes.5x7.jpg",
+  "print": ""
+ },
+ {
   "id": "garlic-herb-prime-rib-roast",
   "title": "Garlic Herb Prime Rib Roast",
   "url": "https://girlcarnivore.com/prime-rib-roast/",

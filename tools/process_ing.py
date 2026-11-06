@@ -160,7 +160,7 @@ def safety(raw_line, key):
         else: W.append(f"Contains {nut.group(1)}. Leave out or use pepitas/sunflower seeds"); B = "Pepitas or sunflower seeds"
     # dairy
     plant = r"(vegan|dairy[- ]free|non[- ]?dairy|nondairy|plant[- ]based|plant|coconut|oat|soy|rice|hemp|pea|cashew|almond|nut[- ]free|df|violife|tofutti|daiya)"
-    if re.search(r"\bbutter\b", L) and not re.search(r"(sun|seed|peanut|almond|cashew|cocoa|nut|apple|soy|cookie)\s*butter|butter (lettuce|beans?|squash)|buttermilk|butterscotch", L):
+    if re.search(r"\bbutter\b", L) and not re.search(r"(sunflower|sun|seed|peanut|almond|cashew|cocoa|nut|apple|soy|cookie)\s*butter|butter,? (lettuce|beans?|squash|bibb)|buttermilk|butterscotch", L):
         if re.search(plant + r"[\w\s]*butter", L) or re.search(r"earth balance|miyoko|melt", L):
             W.append("Pick a nut-free vegan butter (check label)"); B = "Nut-free vegan butter"
         else:
