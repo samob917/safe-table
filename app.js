@@ -113,7 +113,7 @@
     const row = (k, v) => v ? `<div><span>${k}</span><b>${esc(v)}</b></div>` : "";
     return `<div class="storage"><h3>How long it keeps</h3><div class="recipe-facts">${row("Counter", s.room)}${row("Fridge", s.fridge)}${row("Freezer", s.freezer)}</div>
       ${s.tips ? `<p class="small">${esc(s.tips)}</p>` : ""}
-      <p class="muted small">${s.general ? "General guideline for this kind of dish (USDA/FoodSafety.gov). The author's notes may differ." : s.source === "recipe" ? "From the recipe author's storage notes." : "Based on USDA/FoodSafety.gov guidance."} <a href="#/storage">Full storage chart →</a></p></div>`;
+      <p class="muted small">${s.general ? "General guideline for this kind of dish (FDA and university food-safety extension guidance). The author's notes may differ." : s.source === "recipe" ? "From the recipe author's storage notes." : "Based on FDA and university food-safety extension guidance."} <a href="#/storage">Full storage chart →</a></p></div>`;
   }
 
   function viewRecipe(id) {
@@ -769,7 +769,7 @@
     const host = u => { try { return new URL(u).hostname.replace("www.", ""); } catch { return ""; } };
     return `<div class="page-head"><div class="crumbs"><a href="#/">Home</a> / <a href="#/c/staples">Staples</a> / Storage chart</div>
       <h1>🧊 How long does it keep?</h1>
-      <p>Fridge and freezer times for homemade food, from USDA and FoodSafety.gov guidance. Freezer times are for best quality: frozen food stays safe indefinitely but slowly loses flavor and texture.</p></div>
+      <p>Fridge and freezer times for homemade food, from FDA and university food-safety extension guidance (each row links its source). Freezer times are for best quality: frozen food stays safe indefinitely but slowly loses flavor and texture.</p></div>
       ${S.rules.length ? `<div class="guide-sec"><h2>Ground rules</h2><ul class="tips">${S.rules.map(r => `<li>${esc(r.rule)} ${r.source ? `<a class="muted small" href="${esc(r.source)}" target="_blank" rel="noopener">source</a>` : ""}</li>`).join("")}</ul></div>` : ""}
       ${Object.entries(groups).map(([g, rows]) => `<h2 class="group-title">${esc(g)}</h2>
         <div class="table-scroll guide-sec" style="padding:6px 10px"><table class="storage-table"><tr><th>Food</th><th>Counter</th><th>Fridge</th><th>Freezer</th><th>Tips</th></tr>

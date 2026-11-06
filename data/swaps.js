@@ -4,12 +4,26 @@ window.SWAPS_HTML = `
   <h1>🔁 The swap guide</h1>
   <p>How to adapt everyday recipes for egg, wheat/gluten/barley, dairy, tree nut, peanut and shellfish allergies, plus the hidden sources that catch people out. Brand names are starting points only. Formulas change, so <strong>read the label every time</strong>.</p>
   <nav class="subnav">
-    <a href="#" data-jump="eggs">Eggs</a><a href="#" data-jump="flour">Flour & gluten</a><a href="#" data-jump="barley">Hidden barley</a>
+    <a href="#" data-jump="diy">Make it yourself</a><a href="#" data-jump="eggs">Eggs</a><a href="#" data-jump="flour">Flour & gluten</a><a href="#" data-jump="barley">Hidden barley</a>
     <a href="#" data-jump="dairy">Dairy</a><a href="#" data-jump="nuts">Nuts & peanuts</a><a href="#" data-jump="shellfish">Shellfish</a>
     <a href="#" data-jump="pantry">Pantry swaps</a><a href="#" data-jump="kitchen">Kitchen habits</a><a href="#" data-jump="wfm">Whole Foods picks</a>
   </nav>
 </div>
 <div class="guide">
+
+<section class="guide-sec" id="g-diy">
+  <h2>🫙 Make it yourself</h2>
+  <p>The hardest things to buy safely are often the easiest to make. Each of these is a tested staple recipe with fridge and freezer times.</p>
+  <div class="diy">
+    <div><h3>Instead of eggs</h3><a href="#/r/how-to-make-a-flax-egg">Flax egg</a><a href="#/r/homemade-vegan-mayonnaise-aquafaba">Egg-free mayo (aquafaba)</a></div>
+    <div><h3>Instead of wheat</h3><a href="#/r/cara-s-gluten-free-flour-blend">DIY GF flour blend</a><a href="#/r/easy-gluten-free-bread-crumbs">GF breadcrumbs</a><a href="#/r/gluten-free-croutons">Croutons</a><a href="#/r/gluten-free-imitation-bisquick">"Bisquick" baking mix</a><a href="#/r/gluten-free-pancake-mix">Pancake mix</a></div>
+    <div><h3>Instead of dairy</h3><a href="#/r/homemade-vegan-butter">Nut-free vegan butter</a><a href="#/r/how-to-make-vegan-buttermilk">Buttermilk</a><a href="#/r/how-to-make-coconut-whipped-cream">Coconut whipped cream</a><a href="#/r/vegan-sweetened-condensed-milk">Sweetened condensed milk</a><a href="#/r/creamy-nut-free-vegan-nacho-cheese-sauce">Nut-free cheese sauce</a><a href="#/r/vegan-alfredo-sauce-nut-free">Nut-free alfredo</a><a href="#/r/easy-dairy-free-caramel">Caramel</a></div>
+    <div><h3>Doughs</h3><a href="#/r/gluten-free-vegan-pie-crust">Pie crust</a><a href="#/r/gluten-free-rough-puff-pastry">Rough puff pastry</a><a href="#/r/gluten-free-pizza-dough-without-xanthan-gum">Pizza dough</a><a href="#/r/homemade-gluten-free-corn-tortillas">Corn tortillas</a><a href="#/r/gluten-free-dumpling-wrappers">Dumpling wrappers</a><a href="#/r/gluten-free-vegan-chickpea-and-flaxseed-pasta">Fresh pasta</a><a href="#/r/gluten-free-gnocchi">Gnocchi</a><a href="#/r/how-to-make-a-gluten-free-sourdough-starter">Sourdough starter</a><a href="#/c/staples">All doughs & breads →</a></div>
+    <div><h3>Sauces with hidden wheat</h3><a href="#/r/gluten-free-teriyaki-sauce">Teriyaki</a><a href="#/r/easy-stir-fry-sauce">Stir-fry sauce</a><a href="#/r/vegan-gravy">Gravy</a><a href="#/r/gluten-free-enchilada-sauce">Enchilada sauce</a><a href="#/r/kalyn-s-taco-seasoning-mix">Taco seasoning</a><a href="#/r/dairy-free-barbecue-sauce">BBQ sauce</a></div>
+    <div><h3>Instead of nut pesto & ranch</h3><a href="#/r/pumpkin-seed-pesto">Pumpkin seed pesto</a><a href="#/r/dairy-free-cilantro-lime-ranch">Dairy-free ranch</a><a href="#/r/tahini-sauce-dressing">Tahini sauce</a></div>
+  </div>
+</section>
+
 
 <section class="guide-sec" id="g-eggs">
   <h2>🥚 Eggs</h2>

@@ -1,0 +1,353 @@
+{
+ "rules": [
+  {
+   "rule": "The 2-hour rule: never leave cooked food or other perishables at room temperature for more than 2 hours, or 1 hour if it's above 90°F. This includes leftovers, doggie bags and takeout.",
+   "source": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  },
+  {
+   "rule": "Keep the fridge at 40°F (4°C) or below and the freezer at 0°F (-18°C). Check both with an appliance thermometer.",
+   "source": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  },
+  {
+   "rule": "Cool food quickly. Divide large batches into shallow containers (no more than about 2 inches deep), and never put a big pot of hot soup straight into the fridge.",
+   "source": "https://hgic.clemson.edu/factsheet/leftovers/"
+  },
+  {
+   "rule": "Reheat leftovers and casseroles to 165°F, checked with a food thermometer.",
+   "source": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+  },
+  {
+   "rule": "Label and date everything. Put tape on the container with the date, use refrigerated leftovers within 3–4 days, and freeze what you won't eat in time.",
+   "source": "https://hgic.clemson.edu/factsheet/leftovers/"
+  },
+  {
+   "rule": "Food held at 0°F stays safe indefinitely. Freezer times are for best quality (flavor and texture), not safety. Wrap food airtight to prevent freezer burn.",
+   "source": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  },
+  {
+   "rule": "Thaw safely in the fridge, in cold water, or in the microwave, never on the counter. Cook food thawed in cold water or the microwave right away.",
+   "source": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+  },
+  {
+   "rule": "When in doubt, throw it out. Food can make you sick even when it looks, smells and tastes fine, and moldy food should be discarded.",
+   "source": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  }
+ ],
+ "rows": [
+  {
+   "food": "Cooked rice (white, brown, jasmine, basmati)",
+   "group": "Grains & Pasta",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days (Clemson lists up to 7 for plain rice)",
+   "freezer": "6 months",
+   "tips": "Rice can carry Bacillus cereus spores, so spread it out to cool fast. Reheat with about 2 tbsp of water per cup until steaming.",
+   "source": "https://hgic.clemson.edu/factsheet/selecting-storing-cereals-grains/"
+  },
+  {
+   "food": "Cooked quinoa, millet and other whole grains",
+   "group": "Grains & Pasta",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Up to 6 months (handle like cooked rice)",
+   "tips": "Cool on a sheet pan and freeze in flat portion bags. Note: Clemson gives this time for rice; we apply it to other cooked grains.",
+   "source": "https://hgic.clemson.edu/factsheet/selecting-storing-cereals-grains/"
+  },
+  {
+   "food": "Cooked gluten-free pasta",
+   "group": "Grains & Pasta",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Freezes poorly (GF pasta softens); 1–2 months if you must",
+   "tips": "Undercook slightly, rinse, toss with a little oil, and store the pasta and sauce separately. Clemson gives no freezer time; ours is a quality estimate.",
+   "source": "https://hgic.clemson.edu/factsheet/leftovers/"
+  },
+  {
+   "food": "Pizza dough or other unbaked yeast dough",
+   "group": "Grains & Pasta",
+   "room": "Only while rising",
+   "fridge": "3–4 days",
+   "freezer": "1 month",
+   "tips": "Longer freezing weakens the yeast. Thaw overnight in the fridge.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Homemade tortillas (corn or GF flour)",
+   "group": "Grains & Pasta",
+   "room": "About 3 days, wrapped",
+   "fridge": "2–3 weeks",
+   "freezer": "3–5 months",
+   "tips": "Put parchment between tortillas before freezing. Corn tortillas dry out in the fridge, so warm them in a skillet. Times are NDSU's for homemade bread without preservatives.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Cooked chicken or turkey",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "4 months (6 months covered in broth or gravy)",
+   "tips": "Shred or slice before freezing. Reheat to 165°F.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Cooked ground meat and meat dishes (taco meat, meatballs, chili meat)",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Cool in shallow containers. Freeze it flat in bags so it thaws quickly.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Cooked beef or pork roast, shredded beef, pulled pork",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Cut large roasts into smaller pieces to chill. Freeze with some of the cooking juices to prevent dryness.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Cooked fish",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "4–6 months",
+   "tips": "Reheat gently, or flake it cold into salads.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Cooked beans, lentils and chickpeas",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Freeze them in their cooking liquid in about 2-cup (one-can) portions. UMN lists this time for vegetable soups and stews; we apply it to cooked beans.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Homemade hummus and bean dips",
+   "group": "Proteins",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Not recommended",
+   "tips": "Use a clean spoon each time and keep it covered with a thin layer of olive oil. Time is CSU's for homemade dips.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Tofu (opened)",
+   "group": "Proteins",
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "Up to 5 months",
+   "tips": "Change the storage water every day or two. Frozen tofu turns chewier, which works well in stir-fries.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Soups and stews (vegetable or meat)",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Divide a big pot into shallow containers to cool. Bring to a boil when reheating.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Homemade meat broth, stock or bone broth, and gravy",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "1–2 days",
+   "freezer": "2–3 months",
+   "tips": "Use or freeze it fast. Freeze in 1-cup portions or ice-cube trays, and skim the fat after chilling.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Homemade vegetable broth",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Freeze in jars with headspace, or in flat bags. Time is UMN's for vegetable soups.",
+   "source": "https://extension.umn.edu/food/preparing/cooking-at-home/storage-times-for-food-in-the-refrigerator-and-freezer"
+  },
+  {
+   "food": "Tomato sauce, marinara, pizza sauce (homemade or opened jar)",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "3–5 days",
+   "freezer": "Freezes well; about 3 months for best quality",
+   "tips": "Move opened canned tomato products into glass or plastic; don't store them in the can. NDSU gives no freezer time; ours is a quality estimate.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Pesto (basil, seed-based) and herb or garlic-in-oil sauces",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "Up to 4 days",
+   "freezer": "Freeze for longer storage",
+   "tips": "Garlic and herbs in oil can support botulism, so keep these cold and freeze them in ice-cube trays.",
+   "source": "https://extension.oregonstate.edu/food/preservation/guidelines-refrigeration-foods"
+  },
+  {
+   "food": "Homemade vinaigrette and dressings",
+   "group": "Soups & Sauces",
+   "room": "Serve, then refrigerate",
+   "fridge": "About 1 week; up to 4 days if made with fresh garlic or herbs in oil",
+   "freezer": "Not recommended",
+   "tips": "Oil firms up in the fridge, so let it sit for 5 minutes and shake. Garlic powder keeps longer than fresh garlic.",
+   "source": "https://extension.oregonstate.edu/food/preservation/guidelines-refrigeration-foods"
+  },
+  {
+   "food": "Homemade egg-free mayo (aquafaba) and creamy dressings",
+   "group": "Soups & Sauces",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Do not freeze",
+   "tips": "Homemade versions aren't pasteurized or commercially acidified like store mayo, so keep them cold and use clean utensils. Time is CSU's for homemade dips.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Cut fresh fruit (melon, pineapple, berries)",
+   "group": "Produce",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Up to 12 months",
+   "tips": "Refrigerate cut fruit promptly. For longer storage, tray-freeze the pieces and then bag them.",
+   "source": "https://hgic.clemson.edu/factsheet/selecting-storing-fruits-vegetables/"
+  },
+  {
+   "food": "Frozen fruit and smoothie packs",
+   "group": "Produce",
+   "room": "",
+   "fridge": "",
+   "freezer": "8–12 months",
+   "tips": "Freeze in moisture- and vapor-proof bags or jars and blend straight from frozen.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Cut raw vegetables and salad greens",
+   "group": "Produce",
+   "room": "No more than 2 hours",
+   "fridge": "3–5 days",
+   "freezer": "Blanch first, then about 8–12 months",
+   "tips": "Store them in moisture-resistant bags or containers with a paper towel. Celery, lettuce and cucumbers don't freeze well.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Roasted or cooked vegetables",
+   "group": "Produce",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "Texture suffers; freeze only for soups and purées",
+   "tips": "Reheat on a hot sheet pan to bring back some crispness.",
+   "source": "https://hgic.clemson.edu/factsheet/leftovers/"
+  },
+  {
+   "food": "Gluten-free bread and rolls",
+   "group": "Baked Goods",
+   "room": "3–7 days",
+   "fridge": "Not recommended: the fridge makes bread stale faster",
+   "freezer": "3 months",
+   "tips": "GF bread stales fast, so slice it before freezing and toast slices straight from frozen.",
+   "source": "https://hgic.clemson.edu/factsheet/food-storage/"
+  },
+  {
+   "food": "Muffins and quick breads",
+   "group": "Baked Goods",
+   "room": "3–4 days",
+   "fridge": "Only if not eaten in 3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Cool completely, then wrap individually before freezing.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Cookies (baked)",
+   "group": "Baked Goods",
+   "room": "2–3 weeks, airtight",
+   "fridge": "Not needed",
+   "freezer": "8–12 months",
+   "tips": "Freeze cookie dough balls to bake fresh. Baked cookies thaw in minutes.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Cake (baked, dairy-free frosting or plain)",
+   "group": "Baked Goods",
+   "room": "3–7 days",
+   "fridge": "7–10 days",
+   "freezer": "6 months",
+   "tips": "Freeze unfrosted layers wrapped twice. Refrigerate cakes with whipped or creamy fillings.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Fruit pie (baked)",
+   "group": "Baked Goods",
+   "room": "1–2 days",
+   "fridge": "Up to 1 week",
+   "freezer": "8 months",
+   "tips": "Cool completely before wrapping. Re-crisp in a 350°F oven.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  },
+  {
+   "food": "Cooked pancakes, waffles and crêpes",
+   "group": "Baked Goods",
+   "room": "No more than 2 hours",
+   "fridge": "3–7 days",
+   "freezer": "1–2 months",
+   "tips": "Freeze them in a single layer, then bag them. Reheat in the toaster or oven.",
+   "source": "https://hgic.clemson.edu/factsheet/food-storage-refrigerator-freezer/"
+  },
+  {
+   "food": "Coconut whipped cream",
+   "group": "Dairy-free & Other",
+   "room": "No more than 2 hours",
+   "fridge": "Up to 3 days",
+   "freezer": "Not recommended",
+   "tips": "Re-whip briefly before serving. Time is CSU's for whipped topping prepared from a mix (some recipes claim longer).",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Opened canned coconut milk or coconut cream",
+   "group": "Dairy-free & Other",
+   "room": "",
+   "fridge": "3–5 days",
+   "freezer": "1–3 months",
+   "tips": "Move it out of the can into a covered jar. Frozen coconut milk separates, so use it for cooking. Time is CSU's for opened evaporated milk.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Opened plant milk (soy, oat, coconut carton)",
+   "group": "Dairy-free & Other",
+   "room": "Unopened shelf-stable cartons: several months",
+   "fridge": "Up to 1 week after opening (or by the label)",
+   "freezer": "1–3 months",
+   "tips": "Freezing changes the texture, so use thawed milk for cooking and baking. Times are CSU's for soy milk.",
+   "source": "https://extension.colostate.edu/resource/food-storage-for-safety-and-quality/"
+  },
+  {
+   "food": "Flax eggs, chia eggs and whipped aquafaba",
+   "group": "Dairy-free & Other",
+   "room": "No more than 2 hours",
+   "fridge": "Best made fresh (use the same day)",
+   "freezer": "Not recommended",
+   "tips": "No official chart covers these, so make them fresh just before using. Keep ground flaxseed itself in the fridge.",
+   "source": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  },
+  {
+   "food": "Leftover takeout and restaurant meals",
+   "group": "Dairy-free & Other",
+   "room": "Refrigerate within 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months",
+   "tips": "Move it into microwave-safe dishes; don't reheat in foam or carry-out containers. Reheat until steaming (165°F).",
+   "source": "https://hgic.clemson.edu/factsheet/leftovers/"
+  },
+  {
+   "food": "Casseroles and bakes",
+   "group": "Dairy-free & Other",
+   "room": "No more than 2 hours",
+   "fridge": "3–4 days",
+   "freezer": "1 month",
+   "tips": "Cool in shallow pans. Reheat covered to 165°F in the center.",
+   "source": "https://www.ndsu.edu/agriculture/extension/publications/food-storage-guide-answers-question"
+  }
+ ]
+}

@@ -1746,5 +1746,257 @@
  "creamy-polenta": {
   "img": "https://www.wellplated.com/wp-content/uploads/2024/02/Creamy-Polenta-Recipe.jpg",
   "print": "https://www.wellplated.com/wprm_print/creamy-polenta"
+ },
+ "gluten-free-vegan-chickpea-and-flaxseed-pasta": {
+  "img": "https://wholefully.com/wp-content/uploads/2011/09/flaxseed-pasta-nests.jpg",
+  "print": "https://wholefully.com/wprm_print/gluten-free-and-vegan-chickpea-and-flaxseed-homemade-pasta"
+ },
+ "gluten-free-gnocchi": {
+  "img": "https://elavegan.com/wp-content/uploads/2021/08/Homemade-gluten-free-vegan-gnocchi-before-cooking-on-a-cutting-board.jpg",
+  "print": "https://elavegan.com/wprm_print/gluten-free-gnocchi"
+ },
+ "how-to-cook-jasmine-rice": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2024/10/how-to-cook-jasmine-rice-9.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/how-to-cook-jasmine-rice"
+ },
+ "how-to-cook-basmati-rice": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2020/05/Basmati-Rice.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/how-to-cook-basmati-rice-recipe"
+ },
+ "how-to-cook-brown-rice": {
+  "img": "https://www.recipetineats.com/tachyon/2020/09/Perfectly-Cooked-Brown-Rice_7.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/50524"
+ },
+ "authentic-sushi-rice": {
+  "img": "https://www.justonecookbook.com/wp-content/uploads/2027/01/How-to-Make-Sushi-Rice-3232-I-1.jpg",
+  "print": "https://www.justonecookbook.com/wprm_print/authentic-sushi-rice-recipe"
+ },
+ "instant-pot-wild-rice": {
+  "img": "https://minimalistbaker.com/wp-content/uploads/2020/09/Instant-Pot-White-Rice-Perfect-FLUFFY-FAST-no-soaking-required-instantpot-plantbased-howto-rice-recipe-minimalistbaker-4-1.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/instant-pot-wild-rice-fast-tender-no-soaking"
+ },
+ "coconut-rice": {
+  "img": "https://thewoksoflife.com/wp-content/uploads/2017/08/coconut-rice-1.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/coconut-rice-quick-easy"
+ },
+ "how-to-cook-quinoa-perfectly": {
+  "img": "https://www.inspiredtaste.net/wp-content/uploads/2019/01/How-to-Cook-Quinoa-1-1200.jpg",
+  "print": null
+ },
+ "creamy-polenta-2": {
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/02/polenta.jpg",
+  "print": null
+ },
+ "how-to-make-cauliflower-rice": {
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/12/Cauliflower-Rice-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/32566/"
+ },
+ "gluten-free-sandwich-bread": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/34222a90be8b-e36d-4caf-9122-b1d4600d61eb.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/gluten-free-sandwich-bread/print/"
+ },
+ "gluten-free-pizza-dough-without-xanthan-gum": {
+  "img": "https://georgeats.com/wp-content/uploads/2022/02/DSC_9233small-scaled.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-pizza-dough-without-xanthan-gum"
+ },
+ "homemade-gluten-free-corn-tortillas": {
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Corn-Tortillas-Vegan_Featured-Image-1200-x-1200_2.jpg",
+  "print": null
+ },
+ "gluten-free-vegan-pie-crust": {
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2020/11/Unbaked-Pie-Crust-6.jpg",
+  "print": null
+ },
+ "easy-gluten-free-biscuits": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/11/Fluffy-gluten-free-biscuits.jpg",
+  "print": null
+ },
+ "how-to-make-a-gluten-free-sourdough-starter": {
+  "img": "https://www.bakerita.com/wp-content/uploads/2021/05/Sourdough-Starter-09.jpg",
+  "print": "https://www.bakerita.com/wprm_print/how-to-make-a-gluten-free-sourdough-starter"
+ },
+ "gluten-free-rough-puff-pastry": {
+  "img": "https://georgeats.com/wp-content/uploads/2022/11/Glutenfree-applepie-1.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-rough-puff-pastry"
+ },
+ "gluten-free-dumpling-wrappers": {
+  "img": "https://georgeats.com/wp-content/uploads/2022/02/DSC_1121small-scaled.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-dumpling-wrappers"
+ },
+ "gluten-free-pita-bread": {
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Pita-Bread-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
+  "print": null
+ },
+ "homemade-vegan-burger-buns": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2021/04/vegane-burger-broetchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/homemade-burger-buns-vegan-easy"
+ },
+ "gluten-free-herbed-breadsticks": {
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2021/01/top-8-free-breadstick-recipe.jpg",
+  "print": null
+ },
+ "4-ingredient-vegan-cr-pes": {
+  "img": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2019/02/gluten-free-and-vegan-crepes-recipe-low-fodmap-featured-a.jpg",
+  "print": "https://glutenfreecuppatea.co.uk/wprm_print/4-ingredient-vegan-crepes-recipe-dairy-free-low-fodmap"
+ },
+ "gluten-free-pancake-mix": {
+  "img": "https://minimalistbaker.com/wp-content/uploads/2013/12/Fluffy-Gluten-Free-Pancake-Mix-glutenfree-MinimalistBaker.com_.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/gluten-free-pancake-mix"
+ },
+ "gluten-free-imitation-bisquick": {
+  "img": "https://zestforbaking.com/wp-content/uploads/2018/05/gluten-free-bisquick-recipe-1.jpg",
+  "print": "https://zestforbaking.com/wprm_print/printable-gluten-free-imitation-bisquick-recipe-card"
+ },
+ "gluten-free-croutons": {
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Croutons-Dairy-Free-Vegan_Step6-scaled.jpg",
+  "print": null
+ },
+ "arepas": {
+  "img": "https://elavegan.com/wp-content/uploads/2023/04/6-arepas-on-wooden-board-with-healthy-fillings.jpg",
+  "print": "https://elavegan.com/wprm_print/arepas-filling-ideas"
+ },
+ "easy-gluten-free-bread-crumbs": {
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2024/03/breadcrumbs.9-scaled.jpg",
+  "print": null
+ },
+ "authentic-italian-marinara-sauce": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2024/08/marinara-sauce-recipe.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/authentic-italian-marinara-sauce"
+ },
+ "pumpkin-seed-pesto": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/pumpkin-seed-pesto/print/"
+ },
+ "gluten-free-teriyaki-sauce": {
+  "img": "https://meaningfuleats.com/wp-content/uploads/2022/06/gluten-free-teriyaki-sauce-recipe.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-teriyaki-sauce"
+ },
+ "easy-stir-fry-sauce": {
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/2025/02/stir-fry-sauce-social.jpg",
+  "print": null
+ },
+ "dairy-free-barbecue-sauce": {
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/dairy-free-barbecue-sauce/print/"
+ },
+ "gluten-free-enchilada-sauce": {
+  "img": "https://meaningfuleats.com/wp-content/uploads/2021/03/gluten-free-enchilada-sauce-recipe.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-enchilada-sauce"
+ },
+ "salsa-verde": {
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2022/11/Salsa-Verde-SpendWithPennies-9.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/salsa-verde"
+ },
+ "chimichurri-sauce": {
+  "img": "https://natashaskitchen.com/wp-content/uploads/2026/08/Chimichurri-Sauce.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/chimichurri-sauce"
+ },
+ "vegan-gravy": {
+  "img": "https://elavegan.com/wp-content/uploads/2022/11/Sauciere-with-the-best-vegan-gravy.jpg",
+  "print": "https://elavegan.com/wprm_print/vegan-gravy-recipe"
+ },
+ "creamy-nut-free-vegan-nacho-cheese-sauce": {
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/04/Creamy-Nut-Free-Vegan-Nacho-Cheese-Sauce-Gluten-Free-Paleo-Allergy-Free-PM1.jpg",
+  "print": null
+ },
+ "vegan-alfredo-sauce-nut-free": {
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2019/09/Vegan-Alfredo-Sauce-PM1.jpg",
+  "print": null
+ },
+ "tahini-sauce-dressing": {
+  "img": "https://biancazapatka.com/wp-content/uploads/2022/06/buddha-bowl-tahini-sauce-1.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/tahini-sauce-dressing-quick-easy"
+ },
+ "balsamic-vinaigrette": {
+  "img": "https://wholefully.com/wp-content/uploads/2022/01/vinaigrette-in-bottle-by-salad-scaled.jpg",
+  "print": "https://wholefully.com/wprm_print/balsamic-vinaigrette-salad-dressing-recipe"
+ },
+ "dairy-free-cilantro-lime-ranch": {
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2018/07/dairy-free-costa-vida-cilantro-lime-vinaigrette-scaled.jpg",
+  "print": null
+ },
+ "homemade-vegan-mayonnaise-aquafaba": {
+  "img": "https://cdn.pickuplimes.com/cache/70/aa/70aa5de1f272337f74e930ceedbd2018.jpg",
+  "print": null
+ },
+ "kalyn-s-taco-seasoning-mix": {
+  "img": "https://kalynskitchen.com/wp-content/uploads/2011/06/1200-kalyns-taco-seasoning-mix-kalynskitchen.jpg",
+  "print": null
+ },
+ "homemade-pizza-sauce": {
+  "img": "https://natashaskitchen.com/wp-content/uploads/2020/04/Red-Sauce-For-Pizza-2.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/pizza-sauce"
+ },
+ "chicken-stock": {
+  "img": "https://www.recipetineats.com/tachyon/2021/09/Homemade-chicken-stock_92.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/68755"
+ },
+ "homemade-vegetable-stock": {
+  "img": "https://www.recipetineats.com/tachyon/2021/04/Homemade-Vegetable-Stock_7.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/61068"
+ },
+ "beef-bone-broth": {
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2020/09/Beef-Bone-Broth-12-1.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/the-best-beef-bone-broth-recipe-for-soups-and-sipping"
+ },
+ "cara-s-gluten-free-flour-blend": {
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/09/Fork-and-Beans-Gluten-Free-Flour-Blend.jpg",
+  "print": null
+ },
+ "how-to-make-vegan-buttermilk": {
+  "img": "https://lovingitvegan.com/wp-content/uploads/2021/10/Vegan-Buttermilk-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/how-to-make-vegan-buttermilk"
+ },
+ "how-to-make-coconut-whipped-cream": {
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/07/Coconut-Whipped-Cream-1.jpg",
+  "print": "https://downshiftology.com/wprm_print/12270/"
+ },
+ "how-to-make-a-flax-egg": {
+  "img": "https://minimalistbaker.com/wp-content/uploads/2020/05/How-to-Make-a-Flax-Egg.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/how-to-make-a-flax-egg"
+ },
+ "homemade-vegan-butter": {
+  "img": "https://lovingitvegan.com/wp-content/uploads/2018/01/Vegan-Butter-3.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/homemade-vegan-butter"
+ },
+ "vegan-sweetened-condensed-milk": {
+  "img": "https://cdn.pickuplimes.com/cache/8b/9e/8b9e752781b359dc6161bbe1f39ca241.jpg",
+  "print": null
+ },
+ "easy-dairy-free-caramel": {
+  "img": "https://meaningfuleats.com/wp-content/uploads/2013/12/dairy-free-caramel-sauce-1.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/easy-dairy-free-caramel"
+ },
+ "best-baked-chicken-breast": {
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/01/Baked-Chicken-Breasts-10.jpg",
+  "print": "https://downshiftology.com/wprm_print/48755/"
+ },
+ "crockpot-shredded-chicken": {
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2019/01/SpendWithPennies-Crock-Pot-Chicken-Breasts-23.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/crockpot-shredded-chicken"
+ },
+ "carnitas-mexican-pulled-pork": {
+  "img": "https://natashaskitchen.com/wp-content/uploads/2020/04/Pork-Carnitas-Recipe-6.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/carnitas-recipe-mexican-pulled-pork"
+ },
+ "how-to-cook-dried-beans-in-a-crockpot": {
+  "img": "https://kalynskitchen.com/wp-content/uploads/2010/12/crockpot-beans-500x500-kalynskitchen.jpg",
+  "print": null
+ },
+ "roasted-vegetables": {
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/12/roasted-vegetables-2.jpg",
+  "print": null
+ },
+ "fajita-meal-prep-bowls": {
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2017/03/Fajita-Meal-Prep-Bowls-24.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/fajita-meal-prep-bowls"
+ },
+ "make-ahead-freezer-burritos": {
+  "img": "https://cdn.pickuplimes.com/cache/39/a3/39a3ab409e5e3abd90b687f33be11500.jpg",
+  "print": null
+ },
+ "make-ahead-smoothies-3-ways": {
+  "img": "https://wholefully.com/wp-content/uploads/2017/10/meal-prep-smoothies-blueberrysmoothie.jpg",
+  "print": null
  }
 }

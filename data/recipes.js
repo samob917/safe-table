@@ -13281,5 +13281,2179 @@ window.RECIPES = [
   ],
   "img": "https://www.wellplated.com/wp-content/uploads/2024/02/Creamy-Polenta-Recipe.jpg",
   "print": "https://www.wellplated.com/wprm_print/creamy-polenta"
+ },
+ {
+  "id": "gluten-free-vegan-chickpea-and-flaxseed-pasta",
+  "title": "Gluten-Free Vegan Chickpea and Flaxseed Pasta",
+  "url": "https://wholefully.com/chickpea-flaxseed-homemade-pasta/",
+  "site": "Wholefully",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "1 hr",
+  "serves": "2",
+  "description": "Fresh pasta dough made from chickpea and tapioca flours, held together with a flax 'egg' instead of real eggs. Roll it thin and cut it into fettuccine, pappardelle or other shapes.",
+  "swaps": "",
+  "watch": "Buy chickpea flour labeled gluten-free; bean flours are often milled alongside wheat.",
+  "tags": [
+   "from-scratch",
+   "weekend-project"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Uncooked: 1–2 days, covered. Cooked: 3–4 days",
+   "freezer": "Not tested by the author. Flash-freeze uncooked nests and cook from frozen.",
+   "tips": "Dust the cut noodles with tapioca so they don't stick. Toss cooked leftovers with a little oil before chilling.",
+   "source": "USDA"
+  },
+  "img": "https://wholefully.com/wp-content/uploads/2011/09/flaxseed-pasta-nests.jpg",
+  "print": "https://wholefully.com/wprm_print/gluten-free-and-vegan-chickpea-and-flaxseed-homemade-pasta"
+ },
+ {
+  "id": "gluten-free-gnocchi",
+  "title": "Gluten-Free Gnocchi",
+  "url": "https://elavegan.com/gluten-free-vegan-gnocchi-recipe/",
+  "site": "Elavegan",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "35 min",
+  "serves": "6",
+  "description": "Pillowy potato gnocchi bound with chickpea and tapioca flours, with no egg. Make a big batch and freeze the extras raw.",
+  "swaps": "",
+  "watch": "Use chickpea flour labeled gluten-free.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "from-scratch"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "1–2 days, uncooked and covered",
+   "freezer": "2 months (uncooked)",
+   "tips": "Freeze in a single layer on a tray, then bag them. Boil straight from frozen.",
+   "source": "recipe"
+  },
+  "img": "https://elavegan.com/wp-content/uploads/2021/08/Homemade-gluten-free-vegan-gnocchi-before-cooking-on-a-cutting-board.jpg",
+  "print": "https://elavegan.com/wprm_print/gluten-free-gnocchi"
+ },
+ {
+  "id": "how-to-cook-jasmine-rice",
+  "title": "How to Cook Jasmine Rice",
+  "url": "https://thewoksoflife.com/how-to-cook-jasmine-rice/",
+  "site": "The Woks of Life",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "35 min",
+  "serves": "6",
+  "description": "A no-fuss stovetop method for fluffy jasmine rice: rinse it, use the right amount of water, then rest it covered. The recipe needs only rice and water.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "beginner",
+   "meal-prep",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Asian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days (Clemson lists plain cooked rice at up to 7 days)",
+   "freezer": "6 months",
+   "tips": "Spread hot rice out to cool quickly and refrigerate within 2 hours, because cooked rice can carry Bacillus cereus. Sprinkle with water before reheating.",
+   "source": "USDA"
+  },
+  "img": "https://thewoksoflife.com/wp-content/uploads/2024/10/how-to-cook-jasmine-rice-9.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/how-to-cook-jasmine-rice"
+ },
+ {
+  "id": "how-to-cook-basmati-rice",
+  "title": "How to Cook Basmati Rice",
+  "url": "https://www.theendlessmeal.com/how-to-cook-basmati-rice/",
+  "site": "The Endless Meal",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "17 min",
+  "serves": "3 cups cooked",
+  "description": "Rinsed basmati simmered with a measured amount of cold water, which gives long, separate grains every time. It's a weeknight base for curries and grain bowls.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "beginner",
+   "meal-prep",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Indian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 6 days, covered",
+   "freezer": "6 months",
+   "tips": "Cool it completely, then freeze it in flat single-portion bags.",
+   "source": "recipe"
+  },
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2020/05/Basmati-Rice.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/how-to-cook-basmati-rice-recipe"
+ },
+ {
+  "id": "how-to-cook-brown-rice",
+  "title": "How to Cook Brown Rice",
+  "url": "https://www.recipetineats.com/how-to-cook-brown-rice/",
+  "site": "RecipeTin Eats",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "about 40 min",
+  "serves": "3",
+  "description": "Two foolproof ways to cook brown rice: boil it like pasta in plenty of water, or use the absorption method for short-grain. Either way it comes out tender, not gluggy.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "beginner",
+   "meal-prep",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days (Clemson allows up to 7)",
+   "freezer": "6 months",
+   "tips": "Cool fast in a shallow container. When reheating, add about 2 tbsp of water per cup.",
+   "source": "USDA"
+  },
+  "img": "https://www.recipetineats.com/tachyon/2020/09/Perfectly-Cooked-Brown-Rice_7.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/50524"
+ },
+ {
+  "id": "authentic-sushi-rice",
+  "title": "Authentic Sushi Rice",
+  "url": "https://www.justonecookbook.com/how-to-make-sushi-rice/",
+  "site": "Just One Cookbook",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "1 hr 30 min",
+  "serves": "4",
+  "description": "Japanese short-grain rice cooked with kombu, then seasoned with rice vinegar, sugar and salt. Use it for rolls, hand rolls and poke bowls.",
+  "swaps": "",
+  "watch": "Use plain (unseasoned) rice vinegar. Some bottled 'sushi vinegar' blends add other seasonings, so read the label.",
+  "tags": [
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Japanese",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "A few hours, under a damp towel",
+   "fridge": "Not recommended: chilling hardens the rice",
+   "freezer": "1 month",
+   "tips": "Thaw in the fridge overnight, then microwave it back to room temperature before using.",
+   "source": "recipe"
+  },
+  "img": "https://www.justonecookbook.com/wp-content/uploads/2027/01/How-to-Make-Sushi-Rice-3232-I-1.jpg",
+  "print": "https://www.justonecookbook.com/wprm_print/authentic-sushi-rice-recipe"
+ },
+ {
+  "id": "instant-pot-wild-rice",
+  "title": "Instant Pot Wild Rice",
+  "url": "https://minimalistbaker.com/instant-pot-wild-rice-fast-tender-no-soaking/",
+  "site": "Minimalist Baker",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "48 min",
+  "serves": "4",
+  "description": "Tender, chewy wild rice from the pressure cooker with no soaking, using just wild rice and water.",
+  "swaps": "",
+  "watch": "Real wild rice is naturally gluten-free, but 'wild rice blends' can include other grains, so check the bag.",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 5 days",
+   "freezer": "1 month",
+   "tips": "Store cooled leftovers airtight and add them to soups, salads and pilafs.",
+   "source": "recipe"
+  },
+  "img": "https://minimalistbaker.com/wp-content/uploads/2020/09/Instant-Pot-White-Rice-Perfect-FLUFFY-FAST-no-soaking-required-instantpot-plantbased-howto-rice-recipe-minimalistbaker-4-1.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/instant-pot-wild-rice-fast-tender-no-soaking"
+ },
+ {
+  "id": "coconut-rice",
+  "title": "Coconut Rice",
+  "url": "https://thewoksoflife.com/quick-easy-coconut-rice/",
+  "site": "The Woks of Life",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "50 min",
+  "serves": "6",
+  "description": "Jasmine rice cooked in coconut milk with a little sugar and salt, topped with optional toasted coconut. It's a rich side for curries and grilled fish.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Southeast Asian",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 4 days",
+   "freezer": "Can be frozen, though the texture changes a little (no time given; plan on about 1 month)",
+   "tips": "Freeze any leftovers you won't eat within 4 days in an airtight container. Steam or microwave to reheat.",
+   "source": "recipe"
+  },
+  "img": "https://thewoksoflife.com/wp-content/uploads/2017/08/coconut-rice-1.jpg",
+  "print": "https://thewoksoflife.com/wprm_print/coconut-rice-quick-easy"
+ },
+ {
+  "id": "how-to-cook-quinoa-perfectly",
+  "title": "How to Cook Quinoa Perfectly",
+  "url": "https://www.inspiredtaste.net/38095/how-to-cook-quinoa/",
+  "site": "Inspired Taste",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "20 min",
+  "serves": "3 cups cooked",
+  "description": "Rinsed quinoa simmered in water or broth, then rested off the heat so it turns out fluffy and not mushy. It's a good grain to batch-cook for bowls and salads.",
+  "swaps": "",
+  "watch": "If you cook it in broth, choose a broth labeled gluten-free and dairy-free.",
+  "tags": [
+   "quick",
+   "beginner",
+   "meal-prep",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 5 days",
+   "freezer": "Up to 2 months",
+   "tips": "Cool it on a sheet pan before packing so it stays fluffy.",
+   "source": "recipe"
+  },
+  "img": "https://www.inspiredtaste.net/wp-content/uploads/2019/01/How-to-Cook-Quinoa-1-1200.jpg",
+  "print": ""
+ },
+ {
+  "id": "creamy-polenta-2",
+  "title": "Creamy Polenta",
+  "url": "https://www.loveandlemons.com/polenta-recipe/",
+  "site": "Love and Lemons",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Stone-ground polenta cooked slowly in salted water and finished with olive oil instead of butter and cheese, so it's dairy-free as written.",
+  "swaps": "",
+  "watch": "Choose polenta or cornmeal labeled gluten-free.",
+  "tags": [
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days",
+   "freezer": "Not recommended: the texture turns grainy",
+   "tips": "Leftover polenta sets firm. Slice it and pan-fry or bake it, or whisk in hot water to make it creamy again.",
+   "source": "USDA"
+  },
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/02/polenta.jpg",
+  "print": ""
+ },
+ {
+  "id": "how-to-make-cauliflower-rice",
+  "title": "How to Make Cauliflower Rice",
+  "url": "https://downshiftology.com/recipes/how-to-make-cauliflower-rice/",
+  "site": "Downshiftology",
+  "category": "staples",
+  "subcategory": "Pasta & Grains",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Cauliflower riced in a food processor and sautéed with onion and olive oil. It's a light grain-free swap for rice.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "meal-prep",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 4 days (cooked)",
+   "freezer": "Freeze raw riced cauliflower; cooked turns mushy",
+   "tips": "Bag raw riced cauliflower in portions and freeze it, then sauté straight from frozen.",
+   "source": "recipe"
+  },
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/12/Cauliflower-Rice-main.jpg",
+  "print": "https://downshiftology.com/wprm_print/32566/"
+ },
+ {
+  "id": "gluten-free-sandwich-bread",
+  "title": "Gluten-Free Sandwich Bread",
+  "url": "https://kidswithfoodallergies.org/recipes/gluten-free-sandwich-bread/",
+  "site": "Kids With Food Allergies",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 2 hrs (includes rise)",
+  "serves": "1 loaf",
+  "description": "An everyday sandwich loaf made with sorghum, millet and potato starch, using an egg replacer instead of eggs. It's from an allergy nonprofit, so it's built to be free of the top allergens.",
+  "swaps": "Use oil or a nut-free dairy-free margarine for the optional melted fat.",
+  "watch": "The recipe uses Ener-G Egg Replacer (egg-free). Sweeten with honey, agave or brown rice syrup.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "from-scratch"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "3–7 days",
+   "fridge": "Not recommended: the fridge makes bread stale faster",
+   "freezer": "3 months, sliced",
+   "tips": "Slice the loaf once it has cooled, put parchment between the slices and freeze. Toast slices straight from the freezer.",
+   "source": "USDA"
+  },
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/34222a90be8b-e36d-4caf-9122-b1d4600d61eb.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/gluten-free-sandwich-bread/print/"
+ },
+ {
+  "id": "gluten-free-pizza-dough-without-xanthan-gum",
+  "title": "Gluten-Free Pizza Dough Without Xanthan Gum",
+  "url": "https://georgeats.com/recipes/gluten-free-pizza-dough-without-xanthan-gum/",
+  "site": "George Eats",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 2 hrs (or overnight proof)",
+  "serves": "4 pizza bases",
+  "description": "A yeasted pizza dough made with rice, tapioca and sorghum flours, using psyllium for stretch instead of xanthan gum. It can proof in the fridge overnight.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly",
+   "from-scratch"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Overnight cold proof (up to about 1 day)",
+   "freezer": "Par-bake the bases and freeze them cooked (about 1 month)",
+   "tips": "The author recommends par-baking before freezing. Top the bases and bake from frozen.",
+   "source": "recipe"
+  },
+  "img": "https://georgeats.com/wp-content/uploads/2022/02/DSC_9233small-scaled.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-pizza-dough-without-xanthan-gum"
+ },
+ {
+  "id": "homemade-gluten-free-corn-tortillas",
+  "title": "Homemade Gluten-Free Corn Tortillas",
+  "url": "https://www.dishbydish.net/homemade-gluten-free-corn-tortillas/",
+  "site": "Dish by Dish",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "50 min",
+  "serves": "16 tortillas",
+  "description": "Three-ingredient tortillas made from masa harina, warm water and salt, pressed and cooked in a dry skillet.",
+  "swaps": "",
+  "watch": "Choose masa harina labeled gluten-free.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "1–2 days, wrapped",
+   "fridge": "Up to 1 week",
+   "freezer": "3 months",
+   "tips": "Stack the tortillas with parchment between them and freeze them in bags. Warm them in a dry skillet.",
+   "source": "recipe"
+  },
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Corn-Tortillas-Vegan_Featured-Image-1200-x-1200_2.jpg",
+  "print": ""
+ },
+ {
+  "id": "gluten-free-vegan-pie-crust",
+  "title": "Gluten-Free Vegan Pie Crust",
+  "url": "https://strengthandsunshine.com/gluten-free-vegan-pie-crust/",
+  "site": "Strength and Sunshine",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "1 hr 40 min",
+  "serves": "1 (9-inch) crust",
+  "description": "An 'all-butter' flaky crust made with a 1-to-1 gluten-free flour and cold dairy-free butter. Make extra dough discs to keep in the freezer.",
+  "swaps": "",
+  "watch": "Use a nut-free vegan butter (some brands are cashew- or almond-based). Check that the 1-to-1 flour has no almond flour.",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Dough or shaped crust: up to 1 week",
+   "freezer": "Dough: up to 6 months",
+   "tips": "Wrap the dough in plastic, then a freezer bag. Thaw overnight in the fridge before you roll it.",
+   "source": "recipe"
+  },
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2020/11/Unbaked-Pie-Crust-6.jpg",
+  "print": ""
+ },
+ {
+  "id": "easy-gluten-free-biscuits",
+  "title": "Easy Gluten-Free Biscuits",
+  "url": "https://www.forkandbeans.com/2014/11/20/easy-gluten-free-biscuits/",
+  "site": "Fork and Beans",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "25 min",
+  "serves": "8 biscuits",
+  "description": "Vegan biscuits made with shortening and dairy-free 'buttermilk' (nondairy milk plus vinegar). They pair well with the homemade flour blend from the same site.",
+  "swaps": "Nondairy milk: use oat, soy or coconut milk, not almond.",
+  "watch": "The recipe calls for Cara's all-purpose GF flour (see the Fork and Beans flour blend entry). If you use a store-bought blend, check it for almond flour.",
+  "tags": [
+   "quick",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "1–2 days",
+   "fridge": "Up to 1 week",
+   "freezer": "2–4 months",
+   "tips": "Freeze baked biscuits, then reheat them in a 350°F oven.",
+   "source": "USDA"
+  },
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/11/Fluffy-gluten-free-biscuits.jpg",
+  "print": ""
+ },
+ {
+  "id": "how-to-make-a-gluten-free-sourdough-starter",
+  "title": "How to Make a Gluten-Free Sourdough Starter",
+  "url": "https://www.bakerita.com/how-to-make-a-gluten-free-sourdough-starter/",
+  "site": "Bakerita",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 1 week to establish",
+  "serves": "1 starter",
+  "description": "A step-by-step guide to growing a wild-yeast starter from just gluten-free whole-grain flour (such as brown rice) and water. It covers twice-daily early feedings, discard, and what an active starter looks like.",
+  "swaps": "",
+  "watch": "Use a whole-grain flour labeled gluten-free.",
+  "tags": [
+   "from-scratch",
+   "weekend-project"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Feed daily at room temperature",
+   "fridge": "Feed about once a week when it lives in the fridge",
+   "freezer": "Not covered (the author suggests dehydrating as a backup)",
+   "tips": "Before baking, take the starter out of the fridge and feed it until it's bubbly and active.",
+   "source": "recipe"
+  },
+  "img": "https://www.bakerita.com/wp-content/uploads/2021/05/Sourdough-Starter-09.jpg",
+  "print": "https://www.bakerita.com/wprm_print/how-to-make-a-gluten-free-sourdough-starter"
+ },
+ {
+  "id": "gluten-free-rough-puff-pastry",
+  "title": "Gluten-Free Rough Puff Pastry",
+  "url": "https://georgeats.com/recipes/gluten-free-rough-puff-pastry/",
+  "site": "George Eats",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 2 hrs (includes chilling)",
+  "serves": "2 sheets",
+  "description": "A shortcut flaky pastry made with sorghum, cassava and tapioca flours and rolled and folded with cold fat. Use it for turnovers, tarts, sausage rolls and pot-pie lids.",
+  "swaps": "Butter → a firm, block-style nut-free vegan butter, very cold. Leave out the icing sugar for savory pastry.",
+  "watch": "Check that the vegan butter is nut-free.",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly",
+   "weekend-project"
+  ],
+  "difficulty": "involved",
+  "cuisine": "European",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Best used within 1 day",
+   "freezer": "Freezes well (no time given; frozen pastry shells keep about 2 months)",
+   "tips": "Wrap it tightly before freezing. Let it come up to cool room temperature before rolling.",
+   "source": "recipe"
+  },
+  "img": "https://georgeats.com/wp-content/uploads/2022/11/Glutenfree-applepie-1.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-rough-puff-pastry"
+ },
+ {
+  "id": "gluten-free-dumpling-wrappers",
+  "title": "Gluten-Free Dumpling Wrappers",
+  "url": "https://georgeats.com/recipes/gluten-free-dumpling-wrappers-without-xanthan-gum/",
+  "site": "George Eats",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 45 min",
+  "serves": "45 wrappers",
+  "description": "A hot-water dough of rice flour, tapioca and psyllium that rolls thin and pleats for gyoza, potstickers and wontons, with no egg and no gums.",
+  "swaps": "",
+  "watch": "The oil can be any neutral oil. Skip the peanut oil the author mentions.",
+  "tags": [
+   "freezer-friendly",
+   "weekend-project"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Asian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Cooked dumplings: 3–4 days",
+   "freezer": "Uncooked filled dumplings: freeze on a tray, then bag (about 2–3 months)",
+   "tips": "Freeze them spaced apart on a lined tray so they don't stick, then cook from frozen.",
+   "source": "recipe"
+  },
+  "img": "https://georgeats.com/wp-content/uploads/2022/02/DSC_1121small-scaled.jpg",
+  "print": "https://georgeats.com/wprm_print/gluten-free-dumpling-wrappers"
+ },
+ {
+  "id": "gluten-free-pita-bread",
+  "title": "Gluten-Free Pita Bread",
+  "url": "https://www.dishbydish.net/gluten-free-pita-bread/",
+  "site": "Dish by Dish",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "1 hr 32 min",
+  "serves": "5 pitas",
+  "description": "Soft yeasted pitas made with a gluten-free flour blend, tapioca and psyllium. They puff in a hot pan or oven and are vegan as written.",
+  "swaps": "",
+  "watch": "Use a nut-free gluten-free all-purpose blend.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "Middle Eastern",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Up to 2 days, sealed",
+   "fridge": "Not recommended (stales)",
+   "freezer": "3 months",
+   "tips": "Wrap each pita and freeze it. Thaw at room temperature or warm it briefly in the microwave.",
+   "source": "recipe"
+  },
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Pita-Bread-Dairy-Free_Featured-Image-1200-x-1200_1.jpg",
+  "print": ""
+ },
+ {
+  "id": "homemade-vegan-burger-buns",
+  "title": "Homemade Vegan Burger Buns",
+  "url": "https://biancazapatka.com/en/vegan-burger-buns/",
+  "site": "Bianca Zapatka",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "about 2 hrs (includes rise)",
+  "serves": "9 buns",
+  "description": "Soft yeasted buns made with soy milk and vegan butter. The author says a 1:1 gluten-free blend can replace the flour. Shape the dough into long rolls for hot dog buns.",
+  "swaps": "All-purpose flour → a 1:1 gluten-free flour blend with xanthan gum, as the author notes. Expect a slightly denser bun and add a splash more liquid if needed.",
+  "watch": "Use a nut-free vegan butter, or swap in the oil option the author gives.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead"
+  ],
+  "difficulty": "medium",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Up to 3 days, airtight",
+   "fridge": "Not recommended",
+   "freezer": "3 months",
+   "tips": "Freeze the buns one at a time as soon as they cool. Thaw at room temperature and warm them briefly.",
+   "source": "recipe"
+  },
+  "img": "https://biancazapatka.com/wp-content/uploads/2021/04/vegane-burger-broetchen.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/homemade-burger-buns-vegan-easy"
+ },
+ {
+  "id": "gluten-free-herbed-breadsticks",
+  "title": "Gluten-Free Herbed Breadsticks",
+  "url": "https://allergyawesomeness.com/gluten-free-vegan-breadsticks/",
+  "site": "Allergy Awesomeness",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "50 min",
+  "serves": "10",
+  "description": "Soft garlic-herb breadsticks made from a gluten-free pizza crust mix, with aquafaba in place of eggs and vegan butter on top.",
+  "swaps": "Eggs → aquafaba, as written. Butter → a nut-free vegan butter.",
+  "watch": "The author uses Bob's Red Mill GF pizza crust mix, which she notes is made in a facility that also processes tree nuts and soy. Decide whether that works for your household.",
+  "tags": [
+   "quick"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Same day is best; airtight",
+   "fridge": "Not recommended",
+   "freezer": "3 months",
+   "tips": "Freeze baked breadsticks and reheat them wrapped in foil.",
+   "source": "USDA"
+  },
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2021/01/top-8-free-breadstick-recipe.jpg",
+  "print": ""
+ },
+ {
+  "id": "4-ingredient-vegan-cr-pes",
+  "title": "4-Ingredient Vegan Crêpes",
+  "url": "https://glutenfreecuppatea.co.uk/2019/02/18/vegan-crepes-recipe-dairy-free-low-fodmap/",
+  "site": "Gluten Free Cuppa Tea",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "10 min",
+  "serves": "6 crêpes",
+  "description": "Thin, egg-free crêpes made from gluten-free plain flour, sugar, baking powder and plant milk. They work for sweet or savory fillings.",
+  "swaps": "Almond milk → oat, soy or coconut milk.",
+  "watch": "Use a nut-free gluten-free plain flour blend.",
+  "tags": [
+   "quick",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "French",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–7 days",
+   "freezer": "1–2 months",
+   "tips": "Stack the cooked crêpes with parchment between them, bag them, and reheat in a dry pan.",
+   "source": "USDA"
+  },
+  "img": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2019/02/gluten-free-and-vegan-crepes-recipe-low-fodmap-featured-a.jpg",
+  "print": "https://glutenfreecuppatea.co.uk/wprm_print/4-ingredient-vegan-crepes-recipe-dairy-free-low-fodmap"
+ },
+ {
+  "id": "gluten-free-pancake-mix",
+  "title": "Gluten-Free Pancake Mix",
+  "url": "https://minimalistbaker.com/gluten-free-pancake-mix/",
+  "site": "Minimalist Baker",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "25 min",
+  "serves": "8",
+  "description": "A make-ahead dry mix of brown and white rice flours, oat flour, buckwheat and cornmeal. Scoop out 1 cup whenever you want pancakes or waffles.",
+  "swaps": "To cook: egg → flax egg; butter → oil or nut-free vegan butter; buttermilk → dairy-free buttermilk (oat or soy milk plus lemon).",
+  "watch": "The oat flour must be certified gluten-free.",
+  "tags": [
+   "make-ahead",
+   "meal-prep",
+   "pantry"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Dry mix: several months, airtight",
+   "fridge": "Dry mix: several months (keeps freshest)",
+   "freezer": "Cooked pancakes: 1–2 months",
+   "tips": "Label the jar with the add-ins for one batch.",
+   "source": "recipe"
+  },
+  "img": "https://minimalistbaker.com/wp-content/uploads/2013/12/Fluffy-Gluten-Free-Pancake-Mix-glutenfree-MinimalistBaker.com_.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/gluten-free-pancake-mix"
+ },
+ {
+  "id": "gluten-free-imitation-bisquick",
+  "title": "Gluten-Free Imitation Bisquick",
+  "url": "https://zestforbaking.com/make-gluten-free-bisquick-without-xanthan-gum/",
+  "site": "Zest for Baking",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "5 min",
+  "serves": "about 582 g mix",
+  "description": "A homemade biscuit and baking mix of brown and white rice flours, tapioca, sugar, baking powder and shortening. Use it for quick biscuits, pancakes or dumplings.",
+  "swaps": "",
+  "watch": "Use vegetable shortening, not butter-flavored blends that contain dairy.",
+  "tags": [
+   "make-ahead",
+   "pantry",
+   "quick"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Up to 6 weeks, airtight",
+   "fridge": "Up to 2 months",
+   "freezer": "Up to 2 months",
+   "tips": "Let the mix come to room temperature before you use it.",
+   "source": "recipe"
+  },
+  "img": "https://zestforbaking.com/wp-content/uploads/2018/05/gluten-free-bisquick-recipe-1.jpg",
+  "print": "https://zestforbaking.com/wprm_print/printable-gluten-free-imitation-bisquick-recipe-card"
+ },
+ {
+  "id": "gluten-free-croutons",
+  "title": "Gluten-Free Croutons",
+  "url": "https://www.dishbydish.net/crunchy-gluten-free-croutons-dairy-free-vegan/",
+  "site": "Dish by Dish",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "22 min",
+  "serves": "6 cups",
+  "description": "Cubes of stale gluten-free bread tossed with olive oil, dried herbs and garlic, then baked until crunchy. It's a good use for leftover loaf ends.",
+  "swaps": "",
+  "watch": "Start with an egg-free, dairy-free GF bread, such as the sandwich loaf above.",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Up to 1 week, airtight",
+   "fridge": "",
+   "freezer": "2 months",
+   "tips": "Cool them completely before storing so they stay crisp.",
+   "source": "recipe"
+  },
+  "img": "https://www.dishbydish.net/wp-content/uploads/Gluten-Free-Croutons-Dairy-Free-Vegan_Step6-scaled.jpg",
+  "print": ""
+ },
+ {
+  "id": "arepas",
+  "title": "Arepas",
+  "url": "https://elavegan.com/how-to-make-arepas/",
+  "site": "Elavegan",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "30 min",
+  "serves": "6 arepas",
+  "description": "Venezuelan-style corn cakes made from pre-cooked corn flour (masarepa), water and salt. Griddle or bake them, then split and stuff them.",
+  "swaps": "",
+  "watch": "Choose a masarepa labeled gluten-free.",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Latin American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Dough: 2–3 days. Cooked arepas: 3–5 days",
+   "freezer": "3 months",
+   "tips": "Wrap them individually and thaw overnight in the fridge before reheating.",
+   "source": "recipe"
+  },
+  "img": "https://elavegan.com/wp-content/uploads/2023/04/6-arepas-on-wooden-board-with-healthy-fillings.jpg",
+  "print": "https://elavegan.com/wprm_print/arepas-filling-ideas"
+ },
+ {
+  "id": "easy-gluten-free-bread-crumbs",
+  "title": "Easy Gluten Free Bread Crumbs",
+  "url": "https://allergyawesomeness.com/gluten-free-bread-crumbs/",
+  "site": "Allergy Awesomeness",
+  "category": "staples",
+  "subcategory": "Doughs & Breads",
+  "time": "20 min",
+  "serves": "14",
+  "description": "A whole loaf of gluten-free bread blitzed with garlic salt, onion powder and Italian herbs, then toasted into seasoned crumbs for breading and toppings.",
+  "swaps": "",
+  "watch": "The author uses Schär bread. Use any GF loaf that is also egg- and dairy-free, and check that the cooking spray is plain oil.",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly",
+   "pantry"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "3 months",
+   "tips": "Date the bag. Use them straight from the freezer.",
+   "source": "recipe"
+  },
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2024/03/breadcrumbs.9-scaled.jpg",
+  "print": ""
+ },
+ {
+  "id": "authentic-italian-marinara-sauce",
+  "title": "Authentic Italian Marinara Sauce",
+  "url": "https://www.theendlessmeal.com/marinara-sauce/",
+  "site": "The Endless Meal",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "1 hr",
+  "serves": "4 cups",
+  "description": "A simple tomato sauce of olive oil, onion, garlic, whole canned tomatoes and fresh herbs, simmered until rich. It's free of all eight allergens as written.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "meal-prep"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 5 days",
+   "freezer": "3 months",
+   "tips": "Freeze it in jars or bags labeled with the date, and thaw overnight in the fridge.",
+   "source": "recipe"
+  },
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2024/08/marinara-sauce-recipe.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/authentic-italian-marinara-sauce"
+ },
+ {
+  "id": "pumpkin-seed-pesto",
+  "title": "Pumpkin Seed Pesto",
+  "url": "https://kidswithfoodallergies.org/recipes/pumpkin-seed-pesto/",
+  "site": "Kids With Food Allergies",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "15 min",
+  "serves": "about 1 cup",
+  "description": "A nut-free, cheese-free basil pesto made with toasted pumpkin seeds, nutritional yeast and lemon.",
+  "swaps": "",
+  "watch": "Check the pumpkin seeds and nutritional yeast for shared-facility warnings.",
+  "tags": [
+   "quick",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "4 days (OSU Extension's limit for pesto; the recipe says within a week)",
+   "freezer": "Freeze for longer storage (ice-cube trays work well)",
+   "tips": "Press plastic onto the surface to keep it green. Freeze it in cubes for single portions.",
+   "source": "USDA"
+  },
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/pumpkin-seed-pesto/print/"
+ },
+ {
+  "id": "gluten-free-teriyaki-sauce",
+  "title": "Gluten-Free Teriyaki Sauce",
+  "url": "https://meaningfuleats.com/gluten-free-teriyaki-sauce/",
+  "site": "Meaningful Eats",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "15 min",
+  "serves": "8",
+  "description": "A glossy homemade teriyaki made with tamari, ginger, garlic, brown sugar, honey and rice vinegar, thickened with cornstarch.",
+  "swaps": "",
+  "watch": "Use tamari labeled gluten-free. Regular soy sauce contains wheat.",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Japanese",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "Several months",
+   "tips": "Freeze it in an airtight jar and shake it well after thawing.",
+   "source": "recipe"
+  },
+  "img": "https://meaningfuleats.com/wp-content/uploads/2022/06/gluten-free-teriyaki-sauce-recipe.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-teriyaki-sauce"
+ },
+ {
+  "id": "easy-stir-fry-sauce",
+  "title": "Easy Stir Fry Sauce",
+  "url": "https://www.loveandlemons.com/stir-fry-sauce/",
+  "site": "Love and Lemons",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "4–6",
+  "description": "An all-purpose stir-fry sauce of soy sauce, rice vinegar, sesame oil, garlic, ginger and a touch of sweetness, thickened with cornstarch.",
+  "swaps": "Soy sauce → certified gluten-free low-sodium tamari, as the author notes.",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Asian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "3 months",
+   "tips": "Thaw overnight in the fridge and shake before using.",
+   "source": "recipe"
+  },
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/2025/02/stir-fry-sauce-social.jpg",
+  "print": ""
+ },
+ {
+  "id": "dairy-free-barbecue-sauce",
+  "title": "Dairy-Free Barbecue Sauce",
+  "url": "https://kidswithfoodallergies.org/recipes/dairy-free-barbecue-sauce/",
+  "site": "Kids With Food Allergies",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "10 min",
+  "serves": "about 1½ cups",
+  "description": "A five-ingredient sweet BBQ sauce simmered from ketchup, brown sugar, onion, garlic and an optional splash of liquid smoke. It has no Worcestershire.",
+  "swaps": "",
+  "watch": "Read the ketchup label. Most are fine, but some specialty brands add other ingredients.",
+  "tags": [
+   "quick",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–5 days (extension guidance for tomato-based sauces)",
+   "freezer": "Freezes well in portions (about 2–3 months for best quality)",
+   "tips": "Keep it in a clean jar. For grilling, set aside a portion so the brush never touches raw meat and then the jar.",
+   "source": "USDA"
+  },
+  "img": "https://kidswithfoodallergies.org/wp-content/uploads/2022/08/KFA-Generic_Recipe_Image.jpg",
+  "print": "https://kidswithfoodallergies.org/recipes/dairy-free-barbecue-sauce/print/"
+ },
+ {
+  "id": "gluten-free-enchilada-sauce",
+  "title": "Gluten-Free Enchilada Sauce",
+  "url": "https://meaningfuleats.com/gluten-free-enchilada-sauce/",
+  "site": "Meaningful Eats",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "30 min",
+  "serves": "8",
+  "description": "A red enchilada sauce thickened by simmering rather than with flour. It's built on onion, jalapeño, chili powder, cumin, tomato sauce and stock.",
+  "swaps": "",
+  "watch": "Use a GF-labeled chili powder and a GF, dairy-free stock or broth.",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–5 days",
+   "freezer": "Freezable (the author confirms); about 2–3 months",
+   "tips": "Cool it completely, freeze it airtight, and thaw overnight in the fridge.",
+   "source": "USDA"
+  },
+  "img": "https://meaningfuleats.com/wp-content/uploads/2021/03/gluten-free-enchilada-sauce-recipe.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/gluten-free-enchilada-sauce"
+ },
+ {
+  "id": "salsa-verde",
+  "title": "Salsa Verde",
+  "url": "https://www.spendwithpennies.com/salsa-verde/",
+  "site": "Spend With Pennies",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "1 hr 15 min (includes chilling)",
+  "serves": "8",
+  "description": "Tomatillos, jalapeño, onion and garlic cooked and blended with cilantro to make a bright green salsa for tacos, eggs and enchiladas.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 2 weeks",
+   "freezer": "3 months",
+   "tips": "Freeze it in ice-cube trays and drop a cube or two into soups and chili.",
+   "source": "recipe"
+  },
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2022/11/Salsa-Verde-SpendWithPennies-9.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/salsa-verde"
+ },
+ {
+  "id": "chimichurri-sauce",
+  "title": "Chimichurri Sauce",
+  "url": "https://natashaskitchen.com/chimichurri-sauce-recipe/",
+  "site": "Natasha's Kitchen",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "20 min",
+  "serves": "8",
+  "description": "A punchy Argentinian herb sauce of parsley, garlic, oregano, red wine vinegar and olive oil for steak, chicken, fish or vegetables.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Argentinian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 4 days",
+   "freezer": "3 months",
+   "tips": "Freeze it in ice-cube trays, then move the cubes to a freezer bag.",
+   "source": "recipe"
+  },
+  "img": "https://natashaskitchen.com/wp-content/uploads/2026/08/Chimichurri-Sauce.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/chimichurri-sauce"
+ },
+ {
+  "id": "vegan-gravy",
+  "title": "Vegan Gravy",
+  "url": "https://elavegan.com/vegan-gravy/",
+  "site": "Elavegan",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "20 min",
+  "serves": "7",
+  "description": "A savory mushroom-onion brown gravy thickened with cornstarch instead of flour. It's naturally gluten-free and dairy-free.",
+  "swaps": "Dairy-free milk → oat or soy milk. Use the tamari option, not regular soy sauce.",
+  "watch": "Use a GF, dairy-free vegetable broth. The red wine is optional.",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "4–5 days",
+   "freezer": "2 months",
+   "tips": "Freeze it in portions or ice-cube trays. Thaw it in the fridge and whisk while reheating.",
+   "source": "recipe"
+  },
+  "img": "https://elavegan.com/wp-content/uploads/2022/11/Sauciere-with-the-best-vegan-gravy.jpg",
+  "print": "https://elavegan.com/wprm_print/vegan-gravy-recipe"
+ },
+ {
+  "id": "creamy-nut-free-vegan-nacho-cheese-sauce",
+  "title": "Creamy Nut-Free Vegan Nacho Cheese Sauce",
+  "url": "https://strengthandsunshine.com/creamy-nut-free-vegan-nacho-cheese-sauce-gluten-free-paleo-allergy-free/",
+  "site": "Strength and Sunshine",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "about 25 min (includes cooking the potatoes)",
+  "serves": "3 cups",
+  "description": "A cashew-free 'cheese' sauce blended from cooked potatoes, pimentos, nutritional yeast and spices. Use it for nachos, mac and cheese, or broccoli.",
+  "swaps": "Non-dairy milk → oat, soy or coconut milk.",
+  "watch": "",
+  "tags": [
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Tex-Mex",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days",
+   "freezer": "Not recommended (potato sauces turn grainy)",
+   "tips": "It thickens when cold. Reheat it gently with a splash of milk.",
+   "source": "recipe"
+  },
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2018/04/Creamy-Nut-Free-Vegan-Nacho-Cheese-Sauce-Gluten-Free-Paleo-Allergy-Free-PM1.jpg",
+  "print": ""
+ },
+ {
+  "id": "vegan-alfredo-sauce-nut-free",
+  "title": "Vegan Alfredo Sauce (Nut-Free)",
+  "url": "https://strengthandsunshine.com/vegan-alfredo-sauce-nut-free-soy-free/",
+  "site": "Strength and Sunshine",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "10 min",
+  "serves": "4 cups",
+  "description": "A silky cashew-free Alfredo blended from white cannellini beans, cooked cauliflower, plant milk, nutritional yeast and garlic.",
+  "swaps": "Non-dairy milk → oat, soy or coconut milk. Butter → nut-free vegan butter, or leave it out.",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "5–6 days (uncooked sauce)",
+   "freezer": "Freezes well in cubes or a flat bag (about 2–3 months)",
+   "tips": "After thawing, blend it again to fix any separation.",
+   "source": "recipe"
+  },
+  "img": "https://strengthandsunshine.com/wp-content/uploads/2019/09/Vegan-Alfredo-Sauce-PM1.jpg",
+  "print": ""
+ },
+ {
+  "id": "tahini-sauce-dressing",
+  "title": "Tahini Sauce Dressing",
+  "url": "https://biancazapatka.com/en/the-best-tahini-sauce/",
+  "site": "Bianca Zapatka",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "4",
+  "description": "A zippy tahini sauce with lime, garlic, a little sriracha and paprika for bowls, falafel and roasted vegetables.",
+  "swaps": "",
+  "watch": "The oil options include peanut oil. Use olive, sesame or sunflower oil instead.",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Middle Eastern",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "Freezes well",
+   "tips": "Thin it with water if it thickens in the fridge.",
+   "source": "recipe"
+  },
+  "img": "https://biancazapatka.com/wp-content/uploads/2022/06/buddha-bowl-tahini-sauce-1.jpg",
+  "print": "https://biancazapatka.com/en/wprm_print/tahini-sauce-dressing-quick-easy"
+ },
+ {
+  "id": "balsamic-vinaigrette",
+  "title": "Balsamic Vinaigrette",
+  "url": "https://wholefully.com/balsamic-vinaigrette-dressing/",
+  "site": "Wholefully",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "8 (1 cup)",
+  "description": "A classic shake-in-a-jar dressing of olive oil, balsamic vinegar, Dijon, garlic and a little honey.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "A few weeks (recipe). With fresh garlic, use within about 1 week",
+   "freezer": "Not recommended",
+   "tips": "The olive oil firms up when cold, so let it sit out for a few minutes and shake. Use garlic powder for longer keeping.",
+   "source": "recipe"
+  },
+  "img": "https://wholefully.com/wp-content/uploads/2022/01/vinaigrette-in-bottle-by-salad-scaled.jpg",
+  "print": "https://wholefully.com/wprm_print/balsamic-vinaigrette-salad-dressing-recipe"
+ },
+ {
+  "id": "dairy-free-cilantro-lime-ranch",
+  "title": "Dairy-Free Cilantro Lime Ranch",
+  "url": "https://allergyawesomeness.com/dairy-free-cilantro-lime-ranch/",
+  "site": "Allergy Awesomeness",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "about 2 cups",
+  "description": "A Cafe Rio-style creamy ranch blended from vegan mayo, cilantro, lime, tomatillo, jalapeño and dill. It's egg-free and dairy-free.",
+  "swaps": "Vegan mayo → the homemade aquafaba mayo below, if you like.",
+  "watch": "If you buy vegan mayo, check the label; a few are cashew-based.",
+  "tags": [
+   "quick",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Tex-Mex",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 3 days",
+   "freezer": "Not recommended",
+   "tips": "Keep it cold and stir before serving.",
+   "source": "recipe"
+  },
+  "img": "https://allergyawesomeness.com/wp-content/uploads/2018/07/dairy-free-costa-vida-cilantro-lime-vinaigrette-scaled.jpg",
+  "print": ""
+ },
+ {
+  "id": "homemade-vegan-mayonnaise-aquafaba",
+  "title": "Homemade Vegan Mayonnaise (Aquafaba)",
+  "url": "https://www.pickuplimes.com/recipe/homemade-vegan-mayonnaise-946",
+  "site": "Pick Up Limes",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "7",
+  "description": "Egg-free mayo whipped from chickpea liquid (aquafaba), lemon, Dijon and a neutral oil until thick and creamy.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 2 weeks (recipe). Use clean utensils every time",
+   "freezer": "Do not freeze",
+   "tips": "If it won't thicken, blend longer or let chilled aquafaba warm to room temperature first.",
+   "source": "recipe"
+  },
+  "img": "https://cdn.pickuplimes.com/cache/70/aa/70aa5de1f272337f74e930ceedbd2018.jpg",
+  "print": ""
+ },
+ {
+  "id": "kalyn-s-taco-seasoning-mix",
+  "title": "Kalyn's Taco Seasoning Mix",
+  "url": "https://kalynskitchen.com/recipe-for-kalyns-taco-seasoning-mix/",
+  "site": "Kalyn's Kitchen",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "8",
+  "description": "A bold homemade taco seasoning of ancho and regular chile powders, cumin, paprika, garlic, onion and a little chipotle, with no fillers or starches.",
+  "swaps": "",
+  "watch": "Some chile powders are blends, so check that yours is labeled gluten-free.",
+  "tags": [
+   "quick",
+   "pantry",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "About 6 months for best flavor, airtight and away from heat",
+   "fridge": "",
+   "freezer": "6–12 months",
+   "tips": "Make a triple batch and label the jar with how much to use per pound of meat.",
+   "source": "USDA"
+  },
+  "img": "https://kalynskitchen.com/wp-content/uploads/2011/06/1200-kalyns-taco-seasoning-mix-kalynskitchen.jpg",
+  "print": ""
+ },
+ {
+  "id": "homemade-pizza-sauce",
+  "title": "Homemade Pizza Sauce",
+  "url": "https://natashaskitchen.com/homemade-pizza-sauce/",
+  "site": "Natasha's Kitchen",
+  "category": "staples",
+  "subcategory": "Sauces & Dressings",
+  "time": "5 min",
+  "serves": "3 cups",
+  "description": "A no-cook pizza sauce of crushed tomatoes, garlic, olive oil, salt and oregano that gets better after a rest in the fridge.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Italian",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "1–2 weeks",
+   "freezer": "Freezes well in flat bags (about 3 months)",
+   "tips": "Freeze it in pizza-sized portions and lay the bags flat so they thaw quickly.",
+   "source": "recipe"
+  },
+  "img": "https://natashaskitchen.com/wp-content/uploads/2020/04/Red-Sauce-For-Pizza-2.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/pizza-sauce"
+ },
+ {
+  "id": "chicken-stock",
+  "title": "Chicken Stock",
+  "url": "https://www.recipetineats.com/chicken-stock-recipe/",
+  "site": "RecipeTin Eats",
+  "category": "staples",
+  "subcategory": "Broths & Stocks",
+  "time": "about 3 hrs",
+  "serves": "2 quarts",
+  "description": "Homemade stock from raw chicken frames simmered with carrot, onion, celery, herbs and a splash of vinegar. It's rich enough to set like jelly.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "meal-prep"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 5 days (recipe). USDA and extension charts are stricter: 1–2 days for meat broth",
+   "freezer": "6 months (recipe)",
+   "tips": "Cool it before refrigerating, never hot. Freeze it in 1-cup portions.",
+   "source": "recipe"
+  },
+  "img": "https://www.recipetineats.com/tachyon/2021/09/Homemade-chicken-stock_92.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/68755"
+ },
+ {
+  "id": "homemade-vegetable-stock",
+  "title": "Homemade Vegetable Stock",
+  "url": "https://www.recipetineats.com/homemade-vegetable-stock/",
+  "site": "RecipeTin Eats",
+  "category": "staples",
+  "subcategory": "Broths & Stocks",
+  "time": "about 1 hr 30 min",
+  "serves": "4 cups",
+  "description": "A clean-tasting vegetable stock from carrots, onion, celery, garlic, herbs, peppercorns and coriander seed. No bouillon cubes are needed, so there are no hidden allergens.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "At least 5 days",
+   "freezer": "3 months",
+   "tips": "Freeze it in 1-cup jars or flat bags for easy portions.",
+   "source": "recipe"
+  },
+  "img": "https://www.recipetineats.com/tachyon/2021/04/Homemade-Vegetable-Stock_7.jpg",
+  "print": "https://www.recipetineats.com/wprm_print/61068"
+ },
+ {
+  "id": "beef-bone-broth",
+  "title": "Beef Bone Broth",
+  "url": "https://www.theendlessmeal.com/beef-bone-broth/",
+  "site": "The Endless Meal",
+  "category": "staples",
+  "subcategory": "Broths & Stocks",
+  "time": "about 25 hrs",
+  "serves": "12 cups",
+  "description": "A long-simmered broth from roasted beef soup bones and water, for sipping and as a soup base.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "freezer-friendly",
+   "make-ahead",
+   "weekend-project"
+  ],
+  "difficulty": "involved",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–5 days",
+   "freezer": "Freezes very well; about 2–3 months for best quality",
+   "tips": "Skim off the fat after chilling. Freeze it in stackable bags.",
+   "source": "recipe"
+  },
+  "img": "https://www.theendlessmeal.com/wp-content/uploads/2020/09/Beef-Bone-Broth-12-1.jpg",
+  "print": "https://www.theendlessmeal.com/wprm_print/the-best-beef-bone-broth-recipe-for-soups-and-sipping"
+ },
+ {
+  "id": "cara-s-gluten-free-flour-blend",
+  "title": "Cara's Gluten-Free Flour Blend",
+  "url": "https://www.forkandbeans.com/2013/02/13/the-best-gluten-free-flour-blend/",
+  "site": "Fork and Beans",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "5 min",
+  "serves": "6 cups",
+  "description": "A nut-free all-purpose blend of brown rice flour, sorghum, potato starch and arrowroot in a 2:1 ratio of flours to starches.",
+  "swaps": "",
+  "watch": "Buy flours labeled gluten-free. Add xanthan gum per recipe, because the blend contains none.",
+  "tags": [
+   "pantry",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Up to about 6 months, airtight",
+   "fridge": "Longer; brown rice flour keeps best cold",
+   "freezer": "Up to 1 year",
+   "tips": "Whisk it well before measuring. Brown rice flour can go rancid at warm room temperature.",
+   "source": "USDA"
+  },
+  "img": "https://www.forkandbeans.com/wp-content/uploads/2014/09/Fork-and-Beans-Gluten-Free-Flour-Blend.jpg",
+  "print": ""
+ },
+ {
+  "id": "how-to-make-vegan-buttermilk",
+  "title": "How to Make Vegan Buttermilk",
+  "url": "https://lovingitvegan.com/how-to-make-vegan-buttermilk/",
+  "site": "Loving It Vegan",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "2 min",
+  "serves": "1 cup",
+  "description": "Soy milk soured with lemon juice for a dairy-free buttermilk to use in biscuits, pancakes and cakes.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "Freeze in ice-cube trays",
+   "tips": "Thaw the cubes in the fridge and stir before using.",
+   "source": "recipe"
+  },
+  "img": "https://lovingitvegan.com/wp-content/uploads/2021/10/Vegan-Buttermilk-Square.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/how-to-make-vegan-buttermilk"
+ },
+ {
+  "id": "how-to-make-coconut-whipped-cream",
+  "title": "How to Make Coconut Whipped Cream",
+  "url": "https://downshiftology.com/recipes/how-to-make-coconut-whipped-cream/",
+  "site": "Downshiftology",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "5 min (plus 1–2 days chilling)",
+  "serves": "4",
+  "description": "The solid cream from chilled full-fat canned coconut milk, whipped with a little sweetener and vanilla into a dairy-free topping.",
+  "swaps": "",
+  "watch": "Use canned full-fat coconut milk with no added stabilizers. Carton coconut milk won't whip.",
+  "tags": [
+   "quick",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 1 week",
+   "freezer": "Not specified",
+   "tips": "It firms up in the fridge. Re-whip briefly before serving.",
+   "source": "recipe"
+  },
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/07/Coconut-Whipped-Cream-1.jpg",
+  "print": "https://downshiftology.com/wprm_print/12270/"
+ },
+ {
+  "id": "how-to-make-a-flax-egg",
+  "title": "How to Make a Flax Egg",
+  "url": "https://minimalistbaker.com/how-to-make-a-flax-egg/",
+  "site": "Minimalist Baker",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "5 min",
+  "serves": "1 egg replacement",
+  "description": "Ground flaxseed and water rested into a gel that stands in for one egg in muffins, pancakes, cookies and quick breads.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "quick",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "Make fresh and use within the hour",
+   "fridge": "Best made fresh",
+   "freezer": "Not recommended",
+   "tips": "Grind your own flax or keep flaxseed meal in the fridge so it doesn't go rancid.",
+   "source": "recipe"
+  },
+  "img": "https://minimalistbaker.com/wp-content/uploads/2020/05/How-to-Make-a-Flax-Egg.jpg",
+  "print": "https://minimalistbaker.com/wprm_print/how-to-make-a-flax-egg"
+ },
+ {
+  "id": "homemade-vegan-butter",
+  "title": "Homemade Vegan Butter",
+  "url": "https://lovingitvegan.com/homemade-vegan-butter/",
+  "site": "Loving It Vegan",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "5 min",
+  "serves": "1 block",
+  "description": "A spreadable, bakeable butter made from refined coconut oil, a little canola oil and soy milk cultured with vinegar, plus salt and a pinch of turmeric for color.",
+  "swaps": "Use the soy milk option, not almond milk.",
+  "watch": "",
+  "tags": [
+   "make-ahead",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 2 weeks (best within 10–12 days)",
+   "freezer": "Freezes well; about 6–9 months (extension guidance for butter and margarine)",
+   "tips": "Freeze extra blocks and thaw them in the fridge. Soften briefly before spreading.",
+   "source": "recipe"
+  },
+  "img": "https://lovingitvegan.com/wp-content/uploads/2018/01/Vegan-Butter-3.jpg",
+  "print": "https://lovingitvegan.com/wprm_print/homemade-vegan-butter"
+ },
+ {
+  "id": "vegan-sweetened-condensed-milk",
+  "title": "Vegan Sweetened Condensed Milk",
+  "url": "https://www.pickuplimes.com/recipe/vegan-sweetened-condensed-milk-600",
+  "site": "Pick Up Limes",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "50 min",
+  "serves": "16",
+  "description": "Full-fat coconut milk and sugar slowly reduced into thick, sweet condensed milk for fudge, pies, iced coffee and caramel.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 5 days",
+   "freezer": "1–3 months (extension guidance for opened condensed milk)",
+   "tips": "It thickens a lot as it cools. Warm it gently to loosen.",
+   "source": "recipe"
+  },
+  "img": "https://cdn.pickuplimes.com/cache/8b/9e/8b9e752781b359dc6161bbe1f39ca241.jpg",
+  "print": ""
+ },
+ {
+  "id": "easy-dairy-free-caramel",
+  "title": "Easy Dairy-Free Caramel",
+  "url": "https://meaningfuleats.com/easy-dairy-free-caramel-sauce-gluten-free-paleo/",
+  "site": "Meaningful Eats",
+  "category": "staples",
+  "subcategory": "Baking Basics",
+  "time": "15 min",
+  "serves": "2 cups",
+  "description": "A quick stovetop caramel of brown sugar, vegan butter and the thick cream from canned coconut milk, finished with vanilla and salt.",
+  "swaps": "Vegan butter → a nut-free brand or the homemade vegan butter above.",
+  "watch": "The author suggests Kite Hill butter, which is almond-based. Don't use it; pick a nut-free brand.",
+  "tags": [
+   "quick",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 2 weeks",
+   "freezer": "Not specified",
+   "tips": "Rewarm it in short microwave bursts and stir.",
+   "source": "recipe"
+  },
+  "img": "https://meaningfuleats.com/wp-content/uploads/2013/12/dairy-free-caramel-sauce-1.jpg",
+  "print": "https://meaningfuleats.com/wprm_print/easy-dairy-free-caramel"
+ },
+ {
+  "id": "best-baked-chicken-breast",
+  "title": "Best Baked Chicken Breast",
+  "url": "https://downshiftology.com/recipes/baked-chicken-breasts/",
+  "site": "Downshiftology",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Juicy oven-baked chicken breasts with a simple paprika, garlic and herb rub. They're a weekly protein base for salads, bowls and wraps.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "quick",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days",
+   "freezer": "3 months",
+   "tips": "Slice, dice or shred it before freezing so it reheats faster.",
+   "source": "recipe"
+  },
+  "img": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/01/Baked-Chicken-Breasts-10.jpg",
+  "print": "https://downshiftology.com/wprm_print/48755/"
+ },
+ {
+  "id": "crockpot-shredded-chicken",
+  "title": "Crockpot Shredded Chicken",
+  "url": "https://www.spendwithpennies.com/crockpot-shredded-chicken/",
+  "site": "Spend With Pennies",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "2 hrs 5 min",
+  "serves": "8",
+  "description": "Chicken breasts slow-cooked with onion, broth and herbs, then shredded for tacos, soups, casseroles and salads.",
+  "swaps": "",
+  "watch": "Use a gluten-free, dairy-free chicken broth. Check the seasoned salt for wheat-based anti-caking agents.",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days",
+   "freezer": "About 4 months (6 months if covered in broth)",
+   "tips": "Freeze it in recipe-sized bags with a splash of the cooking liquid.",
+   "source": "USDA"
+  },
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2019/01/SpendWithPennies-Crock-Pot-Chicken-Breasts-23.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/crockpot-shredded-chicken"
+ },
+ {
+  "id": "carnitas-mexican-pulled-pork",
+  "title": "Carnitas (Mexican Pulled Pork)",
+  "url": "https://natashaskitchen.com/pork-carnitas/",
+  "site": "Natasha's Kitchen",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "5 hrs 30 min",
+  "serves": "8",
+  "description": "Pork shoulder slow-cooked with citrus, onion, garlic and oregano, then shredded and crisped under the broiler.",
+  "swaps": "",
+  "watch": "Use a gluten-free, dairy-free chicken broth.",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 3 days",
+   "freezer": "3 months",
+   "tips": "Freeze it with some of the juices and crisp it after reheating.",
+   "source": "recipe"
+  },
+  "img": "https://natashaskitchen.com/wp-content/uploads/2020/04/Pork-Carnitas-Recipe-6.jpg",
+  "print": "https://natashaskitchen.com/wprm_print/carnitas-recipe-mexican-pulled-pork"
+ },
+ {
+  "id": "how-to-cook-dried-beans-in-a-crockpot",
+  "title": "How to Cook Dried Beans in a Crockpot",
+  "url": "https://kalynskitchen.com/how-to-cook-dried-beans-in-crockpot/",
+  "site": "Kalyn's Kitchen",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "4 hrs 5 min",
+  "serves": "6",
+  "description": "A hands-off slow-cooker method for turning dried beans or chickpeas into a freezer stash that replaces canned beans.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "budget",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "medium",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "3–4 days",
+   "freezer": "2–3 months for best quality (author freezes 2-cup portions)",
+   "tips": "Freeze the beans in a little cooking liquid. A 2-cup container is about one can. Save chickpea liquid for aquafaba.",
+   "source": "USDA"
+  },
+  "img": "https://kalynskitchen.com/wp-content/uploads/2010/12/crockpot-beans-500x500-kalynskitchen.jpg",
+  "print": ""
+ },
+ {
+  "id": "roasted-vegetables",
+  "title": "Roasted Vegetables",
+  "url": "https://www.loveandlemons.com/roasted-vegetables/",
+  "site": "Love and Lemons",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "40 min",
+  "serves": "4",
+  "description": "A big sheet pan of seasonal vegetables (squash, Brussels sprouts, cauliflower, carrots, turnips, onion, radish) roasted with olive oil and herbs to use all week.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "meal-prep",
+   "beginner"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Global",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 3 days",
+   "freezer": "Not recommended (they turn soft). Freeze only for soups",
+   "tips": "Reheat on a hot sheet pan, not in the microwave, to keep the edges crisp.",
+   "source": "recipe"
+  },
+  "img": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2020/12/roasted-vegetables-2.jpg",
+  "print": ""
+ },
+ {
+  "id": "fajita-meal-prep-bowls",
+  "title": "Fajita Meal Prep Bowls",
+  "url": "https://www.spendwithpennies.com/fajita-meal-prep-bowls/",
+  "site": "Spend With Pennies",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "35 min",
+  "serves": "6",
+  "description": "Sheet-pan fajita chicken and peppers packed over rice with salsa: six lunches in one go.",
+  "swaps": "Skip the cheese and sour cream. Top with avocado, cilantro or the cilantro-lime ranch.",
+  "watch": "Check the salsa and seasoned salt labels.",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Tex-Mex",
+  "role": "staple",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 4 days",
+   "freezer": "Freezes (no time given; cooked poultry dishes keep about 4–6 months)",
+   "tips": "Microwave from frozen for about 3½ minutes.",
+   "source": "recipe"
+  },
+  "img": "https://www.spendwithpennies.com/wp-content/uploads/2017/03/Fajita-Meal-Prep-Bowls-24.jpg",
+  "print": "https://www.spendwithpennies.com/wprm_print/fajita-meal-prep-bowls"
+ },
+ {
+  "id": "make-ahead-freezer-burritos",
+  "title": "Make-Ahead Freezer Burritos",
+  "url": "https://www.pickuplimes.com/recipe/make-ahead-freezer-burritos-330",
+  "site": "Pick Up Limes",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "30 min",
+  "serves": "6 burritos",
+  "description": "Bean-packed burritos with peppers, corn, olives, jalapeños and cilantro, rolled and frozen for grab-and-go lunches.",
+  "swaps": "Flour tortillas → large gluten-free tortillas (the author's swap). Veggie ground → cooked lentils or black beans (also the author's swap).",
+  "watch": "Many store veggie grounds contain wheat gluten, so use the lentil or bean swap. Check the refried beans and seasoning labels.",
+  "tags": [
+   "freezer-friendly",
+   "meal-prep",
+   "make-ahead"
+  ],
+  "difficulty": "easy",
+  "cuisine": "Mexican",
+  "role": "staple",
+  "weight": "hearty",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Up to 2 days",
+   "freezer": "2 months",
+   "tips": "Wrap each one in parchment before freezing. Reheat it in the oven or a covered pan.",
+   "source": "recipe"
+  },
+  "img": "https://cdn.pickuplimes.com/cache/39/a3/39a3ab409e5e3abd90b687f33be11500.jpg",
+  "print": ""
+ },
+ {
+  "id": "make-ahead-smoothies-3-ways",
+  "title": "Make-Ahead Smoothies, 3 Ways",
+  "url": "https://wholefully.com/meal-prep-smoothies/",
+  "site": "Wholefully",
+  "category": "staples",
+  "subcategory": "Meal Prep",
+  "time": "10 min",
+  "serves": "varies",
+  "description": "Three ways to prep smoothies ahead: freezer jars, freezer bags, or fully blended bottles in the fridge. Each makes a fast breakfast.",
+  "swaps": "Liquid: use oat, soy or coconut milk or juice instead of the almond or nut milks mentioned. Skip nut butters.",
+  "watch": "Seeds (chia, flax) are fine. Any protein powder must be checked for dairy, egg and nut ingredients.",
+  "tags": [
+   "meal-prep",
+   "freezer-friendly",
+   "quick",
+   "breakfast"
+  ],
+  "difficulty": "easy",
+  "cuisine": "American",
+  "role": "staple",
+  "weight": "light",
+  "includes": [],
+  "season": [
+   "all"
+  ],
+  "storage": {
+   "room": "",
+   "fridge": "Blended: 2–3 days (skip greens and seeds)",
+   "freezer": "Jars or bags: 3 months",
+   "tips": "Freeze the fruit and dry add-ins, then add liquid and blend straight from frozen.",
+   "source": "recipe"
+  },
+  "img": "https://wholefully.com/wp-content/uploads/2017/10/meal-prep-smoothies-blueberrysmoothie.jpg",
+  "print": ""
  }
 ];
