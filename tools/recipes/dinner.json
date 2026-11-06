@@ -1,0 +1,618 @@
+[
+ {
+  "title": "Braised Short Ribs (Cabernet)",
+  "url": "https://downshiftology.com/recipes/cabernet-braised-short-ribs/",
+  "site": "Downshiftology",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "2 hr 50 min",
+  "serves": "6",
+  "description": "Bone-in short ribs seared in bacon fat, then slowly braised in red wine and beef broth with aromatics and herbs until they fall off the bone in a glossy, deep sauce.",
+  "swaps": "",
+  "watch": "Check bacon and beef broth are gluten-free",
+  "tags": [
+   "date-night",
+   "dinner-party",
+   "make-ahead",
+   "comfort"
+  ],
+  "difficulty": "involved"
+ },
+ {
+  "title": "Rack of Lamb with Dijon Herb Crust",
+  "url": "https://downshiftology.com/recipes/rack-of-lamb-dijon-herb/",
+  "site": "Downshiftology",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "35 min",
+  "serves": "8",
+  "description": "Frenched lamb racks slathered in Dijon, garlic, lemon zest and a thick coat of fresh rosemary, thyme and parsley, then roasted to a rosy medium-rare. Impressive but fast.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "medium"
+ },
+ {
+  "title": "Slow Cooker Pot Roast",
+  "url": "https://downshiftology.com/recipes/slow-cooker-pot-roast/",
+  "site": "Downshiftology",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "8 hr 20 min",
+  "serves": "6",
+  "description": "Chuck roast cooked low and slow with potatoes, carrots, celery, red wine and herbs, with the juices thickened by cornstarch into a silky gravy.",
+  "swaps": "",
+  "watch": "Check beef broth is gluten-free",
+  "tags": [
+   "slow-cooker",
+   "comfort",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "30-Minute Dairy-Free Creamy Tuscan Chicken",
+  "url": "https://allergyawesomeness.com/30-minute-dairy-free-creamy-tuscan-chicken-gf-df-egg-soy-peanut-tree-nut-free-top-8-free/",
+  "site": "Allergy Awesomeness",
+  "category": "dinner",
+  "subcategory": "Pasta & Rice",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Thin chicken strips in a coconut-milk cream sauce with sun-dried tomatoes, garlic and Italian herbs, tossed with gluten-free spaghetti. Written to be top-8 allergen free.",
+  "swaps": "Use gluten-free spaghetti (as the recipe specifies); use full-fat coconut milk or a nut-free plant cream (not cashew/almond)",
+  "watch": "Contains coconut; check chicken bouillon is gluten-free",
+  "tags": [
+   "weeknight",
+   "comfort"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Baked Honey Mustard Chicken & Potatoes",
+  "url": "https://allergyawesomeness.com/honey-mustard-chicken-and-potatoes/",
+  "site": "Allergy Awesomeness",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "55 min",
+  "serves": "4",
+  "description": "Seasoned chicken breasts and potato chunks roasted together and brushed with a sweet three-mustard honey glaze. A hands-off, kid-friendly one-pan supper.",
+  "swaps": "",
+  "watch": "Check seasoned salt and mustards are gluten-free (avoid malt-vinegar mustards)",
+  "tags": [
+   "weeknight",
+   "one-pan",
+   "comfort"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "30-Minute Sweet and Sour Chicken Stir Fry",
+  "url": "https://allergyawesomeness.com/sweet-and-sour-chicken-stir-fry-recipe/",
+  "site": "Allergy Awesomeness",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "25 min",
+  "serves": "5",
+  "description": "Better-than-takeout stir fry: chicken, peppers, zucchini and pineapple in a tangy ketchup-vinegar sauce, served over rice with sesame seeds.",
+  "swaps": "Use gluten-free tamari for the soy sauce",
+  "watch": "Check ketchup is gluten-free",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Easy Gluten-Free Chicken Piccata",
+  "url": "https://www.dishbydish.net/chicken-piccata",
+  "site": "Dish by Dish",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "40 min",
+  "serves": "4",
+  "description": "Thin chicken cutlets dredged in cornstarch, pan-fried, and finished in a bright lemon, garlic and caper pan sauce. The classic, made gluten- and dairy-free.",
+  "swaps": "Use a nut-free dairy-free butter (or olive oil); omit the dairy-free Parmesan or use a nut-free brand (many are cashew-based)",
+  "watch": "Check chicken broth is gluten-free",
+  "tags": [
+   "date-night",
+   "weeknight"
+  ],
+  "difficulty": "medium"
+ },
+ {
+  "title": "Turkey Bolognese with Gluten-Free Fusilli",
+  "url": "https://www.dishbydish.net/turkey-bolognese-with-gluten-free-fusilli-pasta/",
+  "site": "Dish by Dish",
+  "category": "dinner",
+  "subcategory": "Pasta & Rice",
+  "time": "1 hr 5 min",
+  "serves": "4",
+  "description": "Ground turkey simmered with onion, garlic, thyme and bay leaves in tomato sauce, tossed with gluten-free fusilli and fresh basil. Simple family pasta night.",
+  "swaps": "Use gluten-free pasta (as written); omit the dairy-free Parmesan or use a nut-free brand",
+  "watch": "Check jarred pasta sauce has no cheese or wheat",
+  "tags": [
+   "weeknight",
+   "comfort",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "1-Pot Chickpea Shakshuka",
+  "url": "https://minimalistbaker.com/1-pot-chickpea-shakshuka/",
+  "site": "Minimalist Baker",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "30 min",
+  "serves": "6",
+  "description": "An egg-free take on shakshuka: chickpeas simmered in a smoky, warmly spiced tomato and red pepper sauce, finished with olives and lemon.",
+  "swaps": "Serve with rice or gluten-free bread rather than regular bread/flatbread",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "1-Pot Red Lentil Chili",
+  "url": "https://minimalistbaker.com/1-pot-red-lentil-chili/",
+  "site": "Minimalist Baker",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "55 min",
+  "serves": "6",
+  "description": "A thick, hearty vegan chili with red lentils, kidney and black beans, peppers and corn in a smoky chili-cumin tomato base. Great for batch cooking.",
+  "swaps": "Skip the linked vegan 'cheese' Fritos topping (it may contain nuts); top with avocado and cilantro instead",
+  "watch": "Check chili powder blend is gluten-free",
+  "tags": [
+   "make-ahead",
+   "crowd",
+   "comfort"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Spicy Red Lentil Curry",
+  "url": "https://minimalistbaker.com/spicy-red-lentil-curry/",
+  "site": "Minimalist Baker",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "30 min",
+  "serves": "3",
+  "description": "Red lentils simmered in a red curry, tomato and ginger sauce with a splash of coconut milk, served over rice with pickled onion and cilantro.",
+  "swaps": "Omit the pita/naan; serve over rice",
+  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste; contains coconut (oil and milk)",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "A Really Good Slow Cooker Beef Stew",
+  "url": "https://www.recipetineats.com/slow-cooker-beef-stew/",
+  "site": "RecipeTin Eats",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "10 hr 20 min",
+  "serves": "6",
+  "description": "Chuck beef braised for hours in red wine and stock with carrots, celery and baby potatoes until meltingly tender, with a rich, thick gravy.",
+  "swaps": "Use the gluten-free flour option (recipe Note 1) or cornstarch instead of plain flour; use gluten-free Worcestershire (e.g. Lea & Perrins US)",
+  "watch": "Check stock and stock cube are gluten-free",
+  "tags": [
+   "slow-cooker",
+   "comfort",
+   "make-ahead",
+   "crowd"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Chimichurri Steak",
+  "url": "https://www.recipetineats.com/skirt-steak-with-chimichurri-sauce/",
+  "site": "RecipeTin Eats",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "15 min",
+  "serves": "4",
+  "description": "Quick-seared flank, skirt or flat iron steak, sliced and spooned with a punchy fresh parsley, oregano, garlic and red wine vinegar chimichurri.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "grill",
+   "date-night"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Carne Asada",
+  "url": "https://www.recipetineats.com/carne-asada/",
+  "site": "RecipeTin Eats",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "18 min (+ marinating)",
+  "serves": "6",
+  "description": "Skirt or flank steak marinated in orange, lime, cilantro, jalapeño and garlic, then charred hot and fast and sliced for tacos.",
+  "swaps": "Use corn tortillas (labeled gluten-free) instead of flour tortillas",
+  "watch": "",
+  "tags": [
+   "grill",
+   "crowd",
+   "weeknight"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Eggless Meatballs",
+  "url": "https://foodbymars.com/egg-free-meatballs-paleo-aip-whole30-gluten-free/",
+  "site": "Food by Mars",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "25 min",
+  "serves": "2",
+  "description": "Juicy beef (or beef-pork) meatballs held together with arrowroot instead of egg or breadcrumbs. Simmer in your favorite marinara or broth.",
+  "swaps": "",
+  "watch": "If finishing in sauce, check jarred marinara has no cheese; check broth is gluten-free",
+  "tags": [
+   "weeknight",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Creamy Vegan Mushroom Risotto",
+  "url": "https://runningonrealfood.com/vegan-mushroom-risotto/",
+  "site": "Running on Real Food",
+  "category": "dinner",
+  "subcategory": "Pasta & Rice",
+  "time": "55 min",
+  "serves": "6",
+  "description": "Arborio rice stirred slowly with vegetable stock, two kinds of mushrooms, thyme and lemon zest until naturally creamy, without any cream or cheese.",
+  "swaps": "Use a nut-free vegan butter (or olive oil) for the finishing butter",
+  "watch": "Check vegetable stock is gluten-free",
+  "tags": [
+   "date-night",
+   "comfort"
+  ],
+  "difficulty": "medium"
+ },
+ {
+  "title": "Sheet Pan Lemon-Herb Salmon with Asparagus",
+  "url": "https://kalejunkie.com/sheet-pan-lemon-herb-salmon-with-asparagus/",
+  "site": "Kalejunkie",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Salmon fillets and asparagus roasted together under a lemon, garlic, thyme and parsley olive-oil dressing. Dinner in 20 minutes with one pan to wash.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Sheet Pan Maple Dijon Salmon",
+  "url": "https://livelytable.com/sheet-pan-maple-dijon-salmon/",
+  "site": "Lively Table",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "45 min",
+  "serves": "4",
+  "description": "Maple-Dijon-rosemary glazed salmon roasted alongside caramelized sweet potatoes and Brussels sprouts on a single sheet pan.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Sheet Pan Blueberry Salmon",
+  "url": "https://www.cottercrunch.com/superfood-baked-salmon-recipe-paleo/",
+  "site": "Cotter Crunch",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "25 min",
+  "serves": "4",
+  "description": "Salmon and Brussels sprouts roasted with a jammy blueberry, balsamic and basil topping. Pretty enough for guests and easy enough for a weeknight.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan",
+   "date-night"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Tofu Jalfrezi",
+  "url": "https://www.veganricha.com/tofu-jalfrezi/",
+  "site": "Vegan Richa",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "35 min",
+  "serves": "4",
+  "description": "Pan-seared tofu tossed with charred onion and bell peppers in a smoky, tangy tomato-spice masala with cumin, coriander and fenugreek.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Baked Tofu Curry (Tofu Makhani)",
+  "url": "https://www.veganricha.com/baked-tofu-curry/",
+  "site": "Vegan Richa",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "55 min",
+  "serves": "4",
+  "description": "A mostly hands-off vegan 'butter tofu': tofu, aromatics and spices baked in a creamy tomato and coconut milk sauce until rich and thick.",
+  "swaps": "Use the coconut milk option, not the cashew milk alternative",
+  "watch": "Contains coconut",
+  "tags": [
+   "one-pan",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Easy Harissa Chicken",
+  "url": "https://realsimplegood.com/easy-harissa-chicken-recipe/",
+  "site": "Real Simple Good",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "35 min",
+  "serves": "4",
+  "description": "Chicken pressure-cooked (or slow-cooked) with bell peppers, garlic, paprika, cumin and harissa into a smoky, spicy shreddable stew. Serve over rice.",
+  "swaps": "Skip the optional 'creamy herb sauce' topping (it may be egg- or nut-based); serve with capers and lemon instead",
+  "watch": "Contains coconut (coconut aminos); check harissa and chicken broth labels",
+  "tags": [
+   "instant-pot",
+   "slow-cooker",
+   "weeknight",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Ropa Vieja",
+  "url": "https://realsimplegood.com/ropa-vieja/",
+  "site": "Real Simple Good",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "1 hr 5 min",
+  "serves": "8",
+  "description": "Cuban-style shredded chuck roast cooked with peppers, onion, tomatoes, cumin, oregano and green olives in the Instant Pot or slow cooker.",
+  "swaps": "Use the coconut oil option (or olive oil) instead of ghee",
+  "watch": "If using coconut oil, it is coconut; check beef broth is gluten-free",
+  "tags": [
+   "instant-pot",
+   "slow-cooker",
+   "crowd",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Pork Tenderloin with Apples",
+  "url": "https://thecleaneatingcouple.com/apple-pork-tenderloin-sheet-pan-dinner/",
+  "site": "The Clean Eating Couple",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Pork tenderloin roasted with apples, onion and Brussels sprouts in a whole-grain mustard, balsamic and rosemary glaze. Autumn on a sheet pan.",
+  "swaps": "",
+  "watch": "Check whole-grain mustard is gluten-free",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Salsa Pork Chops",
+  "url": "https://eatthegains.com/salsa-pork-chops/",
+  "site": "Eat the Gains",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "5 hr",
+  "serves": "6",
+  "description": "Five-ingredient slow-cooker pork chops simmered in salsa, onion and taco seasoning until they shred easily. Use in tacos, bowls or over rice.",
+  "swaps": "",
+  "watch": "Check taco seasoning and salsa are gluten-free",
+  "tags": [
+   "slow-cooker",
+   "weeknight",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Roast Chicken with Herb Butter",
+  "url": "https://www.onceuponachef.com/recipes/roast-chicken-herb-butter.html",
+  "site": "Once Upon a Chef",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "1 hr 20 min",
+  "serves": "6",
+  "description": "Cut-up chicken rubbed with thyme, rosemary, sage, shallot and lemon zest and roasted over shallots and garlic, with a Dijon pan sauce from the drippings.",
+  "swaps": "Make the 'herb butter' with a nut-free dairy-free butter or olive oil instead of butter; finish the pan sauce with olive oil or DF butter",
+  "watch": "Check chicken broth is gluten-free",
+  "tags": [
+   "date-night",
+   "dinner-party",
+   "comfort"
+  ],
+  "difficulty": "medium"
+ },
+ {
+  "title": "Grilled Chimichurri Chicken Thighs",
+  "url": "https://www.onceuponachef.com/recipes/grilled-chimichurri-chicken-thighs.html",
+  "site": "Once Upon a Chef",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "4-6",
+  "description": "Boneless thighs marinated and grilled with a herb-heavy chimichurri of parsley, cilantro, mint, shallot and sherry vinegar, with extra sauce for drizzling.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "grill",
+   "weeknight",
+   "crowd"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Baked Cod with Fennel and Tomatoes",
+  "url": "https://www.skinnytaste.com/baked-cod/",
+  "site": "Skinnytaste",
+  "category": "dinner",
+  "subcategory": "Fish",
+  "time": "35 min",
+  "serves": "4",
+  "description": "Lemon-thyme cod fillets baked on a bed of onion, fennel, cherry tomatoes, garlic and capers until the vegetables are soft and saucy.",
+  "swaps": "",
+  "watch": "Check vegetable broth is gluten-free",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Easy Lentil Shepherd's Pie (Vegan)",
+  "url": "https://strengthandsunshine.com/lentil-shepherds-pie-vegan/",
+  "site": "Strength and Sunshine",
+  "category": "dinner",
+  "subcategory": "Vegetarian & Vegan",
+  "time": "25 min",
+  "serves": "6",
+  "description": "Lentils and mixed vegetables in a savory thyme-rosemary tomato filling, topped with fluffy mashed potatoes. Written by an allergy-focused blogger.",
+  "swaps": "Use a nut-free vegan butter and a non-nut milk (oat certified GF, soy, rice or hemp) in the mash",
+  "watch": "Contains coconut (coconut aminos)",
+  "tags": [
+   "comfort",
+   "make-ahead",
+   "weeknight"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Baked Hamburgers",
+  "url": "https://www.simplywhisked.com/baked-hamburgers/",
+  "site": "Simply Whisked",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "25 min",
+  "serves": "12",
+  "description": "Egg-free beef patties seasoned with garlic, mustard and hot sauce and baked on a sheet pan, an easy way to make burgers for a crowd.",
+  "swaps": "Use gluten-free Worcestershire (e.g. Lea & Perrins US); serve on gluten-free buns or lettuce wraps",
+  "watch": "Check mustard and hot sauce labels",
+  "tags": [
+   "crowd",
+   "weeknight"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Thai Yellow Chicken Curry with Potatoes",
+  "url": "https://pinchofyum.com/thai-yellow-chicken-curry-with-potatoes",
+  "site": "Pinch of Yum",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "40 min",
+  "serves": "6",
+  "description": "Chicken and baby potatoes simmered in a mellow, golden coconut curry sauce, served over jasmine rice with cilantro.",
+  "swaps": "",
+  "watch": "If using store-bought Thai curry paste, pick a shellfish-free one (e.g. Thai Kitchen); many Thai brands (Maesri, Mae Ploy) contain shrimp paste; contains coconut; check fish sauce is gluten-free (some brands add wheat)",
+  "tags": [
+   "weeknight",
+   "comfort"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Slow Cooker Chicken Curry",
+  "url": "https://www.wellplated.com/slow-cooker-chicken-curry/",
+  "site": "Well Plated",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "5 hr 15 min",
+  "serves": "4",
+  "description": "Chicken thighs, sweet potato and red peppers slow-cooked in a smoky curry-spiced coconut sauce brightened with lime.",
+  "swaps": "",
+  "watch": "Contains coconut",
+  "tags": [
+   "slow-cooker",
+   "make-ahead"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "20-Minute Gluten-Free Mongolian Beef",
+  "url": "https://feedmephoebe.com/healthy-mongolian-beef-recipe/",
+  "site": "Feed Me Phoebe",
+  "category": "dinner",
+  "subcategory": "Beef, Lamb & Pork",
+  "time": "20 min",
+  "serves": "4",
+  "description": "Thin-sliced flank steak seared crisp and tossed with broccoli and scallions in a glossy tamari, ginger and maple glaze. Takeout at home.",
+  "swaps": "",
+  "watch": "Use gluten-free tamari as specified; contains coconut oil (avocado oil works too)",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "title": "Roasted Duck Breast with Cherry Relish",
+  "url": "https://familyfocusblog.com/paleo-duck-recipe-roasted-duck-breast-cherry-relish/",
+  "site": "Family Focus Blog",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "30 min",
+  "serves": "4",
+  "description": "Crisp-skinned duck breasts paired with a quick relish of rum- or cognac-soaked dried cherries and fresh basil. A short ingredient list with dinner-party payoff.",
+  "swaps": "",
+  "watch": "",
+  "tags": [
+   "date-night",
+   "dinner-party"
+  ],
+  "difficulty": "medium"
+ },
+ {
+  "title": "Sheet Pan Chicken Fajitas",
+  "url": "https://www.cookingclassy.com/sheet-pan-chicken-fajitas/",
+  "site": "Cooking Classy",
+  "category": "dinner",
+  "subcategory": "Chicken & Poultry",
+  "time": "33 min",
+  "serves": "4",
+  "description": "Chicken strips, three colors of peppers and onion roasted with a homemade chili-cumin-coriander rub, finished with lime and cilantro.",
+  "swaps": "Use corn tortillas (labeled gluten-free) instead of flour tortillas; skip sour cream and cheese, top with avocado/guacamole and tomatoes",
+  "watch": "",
+  "tags": [
+   "weeknight",
+   "one-pan"
+  ],
+  "difficulty": "easy"
+ }
+]

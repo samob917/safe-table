@@ -1,0 +1,535 @@
+{
+  "search_url_pattern": "https://www.wholefoodsmarket.com/grocery/search?k={url-encoded query}",
+  "search_url_notes": "Checked with curl on 2026-11-06. https://www.wholefoodsmarket.com/search?text=tamari returns HTTP 301 to /grocery/search?k=tamari, which returns 200. /search?query=X also redirects (to /grocery/search?query=X&k=, with an empty k), so it is NOT a good pattern. /search/tamari returns 404. Link straight to /grocery/search?k= (use + or %20 for spaces; /grocery/search?k=gluten+free+tamari returned 200). Results load client-side, so the server HTML has no product list. I could not confirm in a browser that results show up, and the results depend on the selected store. WFM product pages are /grocery/product/{slug}-{asin} or /product/{slug}-{asin}; /grocery/product/{ASIN} also works (e.g. /grocery/product/B074HBKS3R). Amazon: https://www.amazon.com/s?k=tamari&i=wholefoods returned HTTP 503 (bot block) to both curl and WebFetch, with and without &almBrandId=VUZHIFdob2xlIEZvb2Rz, so it is UNVERIFIED. The Amazon WFM storefront https://www.amazon.com/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz returned 200; that almBrandId comes from WFM's own 'Grocery Pickup & Delivery' nav link. Recommendation: use the wholefoodsmarket.com /grocery/search?k= pattern.",
+  "general_notes": "Verification here means the product page on wholefoodsmarket.com was fetched (HTTP 200) and its ingredient text read on 2026-11-06. WFM pages are Amazon-sourced and often omit 'may contain' lines, so facility statements came from brand or retailer sources and are marked as such. The shopper must re-read every package. Coconut appears in many picks: get allergist sign-off on coconut. Soy, corn, sesame and mustard are not on this allergy list but appear in some picks.",
+  "items": [
+    {
+      "key": "gf flour",
+      "picks": [
+        {
+          "product": "Bob's Red Mill Gluten Free 1-to-1 Baking Flour (22 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-1-to-1-gluten-free-baking-flour-22-oz-b07fw7scb2",
+          "verified_at_wfm": true,
+          "notes": "WFM page ingredients: sweet white rice flour, brown rice flour, potato starch, sorghum flour, tapioca flour, xanthan gum. No egg, dairy, nut or barley ingredients. Bob's Red Mill says its gluten-free facility is 100% dedicated GF, but retailer copies of the label read 'Manufactured in a facility that also uses tree nuts and soy' (a bulk listing also names milk). Treat as a tree-nut cross-contact risk. Not for yeast breads."
+        }
+      ],
+      "avoid": "King Arthur Measure for Measure (WFM sells it) is GF and has safe ingredients, but King Arthur's allergen-program page says it is 'Produced on equipment that also processes wheat, milk, soy, eggs, almonds, pistachios, and walnuts'. Cup4Cup contains milk. Pamela's blends contain almond flour. Namaste Perfect Flour Blend (made free of the top 14 allergens) would be a good choice, but I found no WFM listing for it."
+    },
+    {
+      "key": "gf rolled oats",
+      "picks": [
+        {
+          "product": "Bob's Red Mill Gluten Free Old Fashioned Rolled Oats (32 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-old-fashioned-gluten-free-rolled-oats-32-ounce-b07c9krvnt",
+          "verified_at_wfm": true,
+          "notes": "Ingredients: whole grain oats. Packed in a separate GF facility and ELISA batch-tested. Bob's Red Mill says its gluten-free facility is 100% dedicated GF, but retailer copies of the label read 'Manufactured in a facility that also uses tree nuts and soy' (a bulk listing also names milk). Treat as a tree-nut cross-contact risk."
+        },
+        {
+          "product": "Bob's Red Mill Organic Gluten Free Old Fashioned Rolled Oats (32 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-organic-old-fashioned-rolled-oats-32-oz-b07brxfxcr",
+          "verified_at_wfm": true,
+          "notes": "Ingredients: organic whole grain oats. Same GF-facility and tree-nut caveat as the regular version."
+        }
+      ],
+      "avoid": "Regular (non-GF) Quaker or 365 oats can be cross-contaminated with wheat or barley. Buy only oats labeled gluten-free. One Degree Sprouted GF Rolled Oats are also at WFM, but I did not check that facility's allergen statement."
+    },
+    {
+      "key": "gf tamari",
+      "picks": [
+        {
+          "product": "San-J Organic Tamari, Gluten Free (10 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/organic-tamari-b000qwxizq",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: water, organic soybeans, salt, organic alcohol. No wheat. Certified by GFCO. Contains soy, which isn't on this allergy list."
+        }
+      ],
+      "avoid": "Regular soy sauce and shoyu (including San-J Organic Shoyu) contain wheat. Some cheaper 'tamari' contains wheat, so it must say gluten-free."
+    },
+    {
+      "key": "coconut aminos",
+      "picks": [
+        {
+          "product": "Coconut Secret Coconut Aminos, Original (8 fl oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/coconut-secret-coconut-aminos-8-fl-oz-b003xb5lmu",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic coconut tree sap, sea salt. Labeled gluten-free and vegan. Made from tree sap, not coconut meat. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        }
+      ],
+      "avoid": "Coconut Secret's flavored sauces (teriyaki, hoisin, ginger-turmeric and others) have different ingredient lists. One flavored listing showed a tree-nut allergen note, so stick to the Original."
+    },
+    {
+      "key": "vegan butter sticks",
+      "picks": [
+        {
+          "product": "Earth Balance Vegan Buttery Sticks (4 ct, 16 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/earth-balance-vegan-buttery-sticks-b000wlxm5c",
+          "verified_at_wfm": true,
+          "notes": "The WFM page lists no ingredients. Retailer label copy: palm, canola, soybean and flaxseed oils, water, salt, natural flavor, soy protein isolate, olive oil, soy lecithin, lactic acid, annatto. CONTAINS: SOY. Nut-free and dairy-free by ingredients. I did not find a facility statement."
+        },
+        {
+          "product": "Melt Organic Buttery Sticks",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/melt%C2%AE-organic%20buttery%20sticks%20virgin%20coconut%20oil-b078k5lqmy",
+          "verified_at_wfm": true,
+          "notes": "Indexed WFM text gives ingredients: organic coconut, high-oleic sunflower and palm fruit oils, water, sea salt, sunflower lecithin. The live page shows no ingredients now, so check the box. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        }
+      ],
+      "avoid": "Miyoko's Cultured Vegan Butter (sold at WFM) is made from cashew milk, and its WFM page doesn't show that. Country Crock Plant Butter with Almond Oil contains almond. Earth Balance Soy-Free sticks are fine by ingredients, but their WFM URL returned 404."
+    },
+    {
+      "key": "vegan cream cheese",
+      "picks": [
+        {
+          "product": "Violife Just Like Cream Cheese, Original (7.05 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/violife-just-like-original-cream-cheese-705-oz-b07gt5n1b3",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: filtered water, coconut oil, potato starch, sea salt, glucono-delta-lactone, vegan flavor, olive extract, B12. WFM text says 'Free from dairy, soy, nut, gluten'. I found no manufacturer 'may contain' statement, so check the tub. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        },
+        {
+          "product": "Tofutti Better Than Cream Cheese (plain)",
+          "evidence_url": "https://tofutti.com/allergen-info",
+          "verified_at_wfm": false,
+          "notes": "Tofutti says its products are made in nut-free facilities. I did not confirm a WFM listing for the cream cheese; WFM does list Tofutti sour cream. Contains soy."
+        }
+      ],
+      "avoid": "Kite Hill is almond-based. Miyoko's and Treeline are cashew-based. Daiya's plain cream cheese is at WFM (b01lywn8un), but it has been reformulated on an oat-cream base and its WFM page lists no ingredients, so I couldn't verify it."
+    },
+    {
+      "key": "dairy-free yogurt",
+      "picks": [
+        {
+          "product": "So Delicious Coconutmilk Yogurt Alternative, Unsweetened Plain (24 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/so-delicious-dairy-free-dairy-free-unsweetened-coconutmilk-yogurt-alternative-b01hpw5peq",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic coconut milk, rice starch, pectin, calcium phosphate, cultures, locust bean gum, vitamins. Retailer labels say 'Contains: tree nuts (coconut)'. One listing also says 'may contain tree nuts and soy' or 'facility processes other tree nuts', because the maker also produces almond and cashew products. That is a real cross-contact flag. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        },
+        {
+          "product": "Cocojune Organic Pure Coconut Yogurt, Plain (4 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/organic-plain%20cultured%20coconut%20yogurt,%204%20oz-b08l95vy38",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic coconuts, water, organic tapioca, vegan cultures. The WFM page lists 'Allergen information: tree_nuts' (the coconut). I did not find a facility statement. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        }
+      ],
+      "avoid": "Kite Hill (almond), Forager (cashew), Silk almond yogurts and Lavva (pili nut) contain tree nuts. Oatly and other oat yogurts are GF only if labeled. I found no WFM listing for a plain soy yogurt."
+    },
+    {
+      "key": "oat milk",
+      "picks": [
+        {
+          "product": "Oatly Barista Edition Oatmilk (32 fl oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/B013EITF4Q",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: oat base (water, oats), rapeseed oil, phosphates, calcium, sea salt, vitamins. WFM page says Gluten Free. GoDairyFree quotes Oatly as saying US products are 'certified gluten-free and made without tree nuts, peanuts, dairy, and egg'. Oatly's forum cites strict top-9 cross-contact controls."
+        },
+        {
+          "product": "Califia Farms Organic Oatmilk, Original (48 fl oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/califia-farms-organic-original-oatmilk-b0bcdq4w6g",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: water, organic oats, sea salt. Other Califia oatmilks say 'made with gluten-free oats'. Califia also makes almond milk, and I could not find an official statement on whether oatmilk shares a facility with almonds. Third-party sources say it may, so prefer Oatly for a tree-nut allergy."
+        }
+      ],
+      "avoid": "Califia Oatmilk + Almond blend (sold at WFM, contains almond), and any oat milk not labeled gluten-free. Regular oats are often cross-contaminated with wheat or barley."
+    },
+    {
+      "key": "soy milk",
+      "picks": [
+        {
+          "product": "Silk Organic Unsweet Soymilk (64 fl oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/silk-organic-unsweetened-soymilk-64-fl-oz-b000pkz9jm",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic soymilk, vitamin and mineral blend, sea salt, gellan gum, ascorbic acid, natural flavor. Labeled gluten-free and dairy-free. Silk also makes almond and cashew milks, and I did not confirm Silk's facility statement."
+        },
+        {
+          "product": "365 by Whole Foods Market Organic Unsweetened Soy Beverage (32 fl oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/soymilk,-original%20-%20unsweetened,%2032%20fl%20oz-b074h5zkdm",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic soymilk, calcium carbonate, sea salt, organic natural flavor, gellan and locust bean gums, vitamins. Nut-free by ingredients, but there is no GF claim or facility statement on the page."
+        }
+      ],
+      "avoid": "Check soy milks for barley malt or 'malted cereal extract'. Some brands use it (not verified here per brand)."
+    },
+    {
+      "key": "canned coconut milk",
+      "picks": [
+        {
+          "product": "Native Forest Organic Unsweetened Coconut Milk, Simple (13.5 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/native-forest-unsweetened-organic-coconut-milk-simple-b01e8thwmm",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic coconut, filtered water. No guar gum. Labeled vegan and gluten-free. I did not find a facility statement. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        }
+      ],
+      "avoid": "Coconut 'beverage' cartons are not the same as canned coconut milk."
+    },
+    {
+      "key": "chocolate chips",
+      "picks": [
+        {
+          "product": "Enjoy Life Dark Chocolate Morsels (9 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/dark-chocolate%20morsels,%209%20oz-b00fe5gfm8",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: unsweetened chocolate, cane sugar, cocoa butter. 'Made in a dedicated nut-free and gluten-free facility' and 'free from 14 common allergens, including wheat, peanuts, tree nuts, dairy, casein, soy, and egg'."
+        },
+        {
+          "product": "Enjoy Life Semi-Sweet Mini Chips (9 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/enjoy-life-enjoy-life-semi-sweet-mini-chips-9-oz-b01n8v14pm",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: cane sugar, unsweetened chocolate, cocoa butter. Same Enjoy Life dedicated-facility claim, though this particular WFM page doesn't state it."
+        }
+      ],
+      "avoid": "Most 'dark' or 'semi-sweet' chips (Nestle, Ghirardelli, Guittard, 365) contain milk or carry may-contain-milk warnings."
+    },
+    {
+      "key": "white chocolate chips",
+      "picks": [
+        {
+          "product": "Enjoy Life White Baking Chips, Mini (9 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/enjoy-life-white-chocolate-mini-chips-9-oz-b09bk1n5lw",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: cane sugar, palm kernel oil, brown rice syrup solids, sunflower lecithin, vanilla extract. 'Made in a dedicated nut-free and gluten-free facility', free from 14 allergens. Brown rice syrup is generally barley-free, and the product is certified GF."
+        }
+      ],
+      "avoid": "Regular white chocolate chips contain milk. Pascha's rice-milk white chips (made in a dedicated dairy/nut/gluten-free facility) are a good choice, but I found no WFM listing."
+    },
+    {
+      "key": "sunflower seed butter",
+      "picks": [
+        {
+          "product": "SunButter Original Sunflower Seed Butter (16 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/sunbutter-natural-sunflower-butter-16-oz-b000vk84p2",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: roasted sunflower seeds, sugar, salt. WFM text: 'Free from allergens like peanuts, tree nuts, soy, dairy, gluten, eggs, sesame, fish, and shellfish.' WFM's No Sugar Added listing says it is made in a dedicated facility."
+        },
+        {
+          "product": "SunButter Organic Sunflower Seed Butter (16 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/sunbutter-organic-sunflower-butter-16-oz-b003pwjfxs",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic roasted sunflower seeds. Same SunButter allergen claims."
+        }
+      ],
+      "avoid": "Once Again and some store-brand sunflower butters are made on lines shared with peanut or tree-nut butters, so check the facility statement."
+    },
+    {
+      "key": "egg-free mayo",
+      "picks": [
+        {
+          "product": "Sir Kensington's Classic Vegan Mayo (12 oz)",
+          "evidence_url": "https://wholefoodsmarket.com/product/classic-vegan%20mayonnaise,%2012%20fl%20oz-b08129jpyc",
+          "verified_at_wfm": true,
+          "notes": "Aquafaba-based (chickpea water). The WFM page lists no ingredient line. Retailer and foodservice copy gives: sunflower oil, organic aquafaba (water, chickpeas), cane sugar, sea salt, distilled vinegar, water, lemon juice, acacia gum, xanthan gum, black pepper. Labeled certified vegan, gluten-free, soy-free. I found no nut or facility statement."
+        },
+        {
+          "product": "Follow Your Heart Original Vegenaise",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/reduced-fat%20vegenaise,%2014%20fz-b078hrrmfj",
+          "verified_at_wfm": true,
+          "notes": "The WFM page title is 'Original Vegenaise, 16 oz' but it shows no ingredients. Retailer copy: canola/safflower oil, water, brown rice syrup, apple cider vinegar, soy protein, sea salt, mustard flour, lemon juice. Contains soy and mustard, which aren't on this list. FYH's 2022 allergen chart marks it egg-free."
+        }
+      ],
+      "avoid": "Regular mayo, and Sir Kensington's non-vegan 'Classic Mayonnaise', contain egg. Read 'vegan' mayo labels for shared-facility egg warnings."
+    },
+    {
+      "key": "egg replacer",
+      "picks": [
+        {
+          "product": "Bob's Red Mill Gluten Free Egg Replacer (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-egg-replacer-b01lzzup98",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: potato starch, tapioca flour, baking soda, psyllium husk. For baking only. Bob's Red Mill says its gluten-free facility is 100% dedicated GF, but retailer copies of the label read 'Manufactured in a facility that also uses tree nuts and soy' (a bulk listing also names milk). Treat as a tree-nut cross-contact risk."
+        },
+        {
+          "product": "Ener-G Egg Replacer (16 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/energ-foods-egg-replacer-16-oz-b0014dzguq",
+          "verified_at_wfm": true,
+          "notes": "WFM page: 'Gluten Free, Vegan, Nut Free', made from potato starch and tapioca starch flour. Ener-G's own page says its facility also handles eggs and that egg-free items run on a separate line in another room. I could not retrieve its full allergen statement."
+        }
+      ],
+      "avoid": "Products sold as 'egg substitute' in cartons (Egg Beaters and similar) are made from egg whites. JUST Egg is mung-bean based and fine allergen-wise, but it isn't a baking powder."
+    },
+    {
+      "key": "ground flaxseed",
+      "picks": [
+        {
+          "product": "365 by Whole Foods Market Organic Ground Flaxseed (14 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/B07MG5GZ4M",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic brown flaxseed meal. Single ingredient. I found no GF claim or facility statement on the page."
+        },
+        {
+          "product": "Bob's Red Mill Flaxseed Meal (32 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-flaxseed-meal-whole-ground-b075xg8mrh",
+          "verified_at_wfm": true,
+          "notes": "The WFM page says non-GMO and gluten-free. Bob's Red Mill says its gluten-free facility is 100% dedicated GF, but retailer copies of the label read 'Manufactured in a facility that also uses tree nuts and soy' (a bulk listing also names milk). Treat as a tree-nut cross-contact risk."
+        }
+      ],
+      "avoid": ""
+    },
+    {
+      "key": "psyllium husk",
+      "picks": [
+        {
+          "product": "Yerba Prima Whole Psyllium Husks (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/yerba-prima-whole-psyllium-husk-12-oz-b00013yyks",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: 'Whole Psyllium Husks. And nothing else!' Labeled gluten-free and vegan. I found no facility statement."
+        },
+        {
+          "product": "365 by Whole Foods Market Psyllium Husk (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/365-by-whole-foods-market-365-by-whole-foods-market-psyllium-husk-conventional-12-ounce-b0cdqppw1w",
+          "verified_at_wfm": true,
+          "notes": "The WFM page exists but shows no ingredients or allergen info, so it's unverified."
+        }
+      ],
+      "avoid": "Flavored fiber supplements (Metamucil and similar) have sweeteners and colors, and are not baking psyllium."
+    },
+    {
+      "key": "xanthan gum",
+      "picks": [
+        {
+          "product": "Bob's Red Mill Xanthan Gum (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/bobs-red-mill-xanthan-gum-8-oz-b078t45fyd",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: xanthan gum. Packed in a separate GF facility and ELISA-tested. Bob's Red Mill says its gluten-free facility is 100% dedicated GF, but retailer copies of the label read 'Manufactured in a facility that also uses tree nuts and soy' (a bulk listing also names milk). Treat as a tree-nut cross-contact risk."
+        }
+      ],
+      "avoid": ""
+    },
+    {
+      "key": "gf breadcrumbs/panko",
+      "picks": [
+        {
+          "product": "Ian's Gluten Free Panko Breadcrumbs (Italian style, 7 oz)",
+          "evidence_url": "https://wholefoodsmarket.com/product/gluten-free%20italian%20style%20panko%20breadcrumbs,%207%20oz-b00cnvjoba",
+          "verified_at_wfm": true,
+          "notes": "The WFM page lists no ingredients. Ian's Original GF panko retailer copy: rice flour, xanthan gum, salt, leavening, cane sugar, yeast, ascorbic acid, and 'No wheat or gluten. No milk or casein. No eggs. No peanuts or tree nuts.' I did not verify the Italian flavor's seasonings, so check the box. One retailer notes a facility with soy."
+        },
+        {
+          "product": "Kinnikinnick Panko Style Bread Crumbs (12.5 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/panko-style%20bread%20crumbs-b004w9sl8i",
+          "verified_at_wfm": true,
+          "notes": "WFM says 'allergy friendly vegan' and that Kinnikinnick is 'free from dairy, nuts, peanuts and soy'. HEB says it is made in a dedicated GF, dairy-free, peanut-free, tree-nut-free facility. But an older Amazon/WFM ingredient list included WHOLE EGGS, and HEB lists 'May contain: eggs'. Kinnikinnick makes egg-containing products in the same plant. Not safe for egg allergy unless the box has no egg warning."
+        }
+      ],
+      "avoid": "Many GF breadcrumbs contain egg or carry egg warnings, so read labels on 4C GF and Aleia's (not verified here). Regular panko is wheat."
+    },
+    {
+      "key": "gf pasta",
+      "picks": [
+        {
+          "product": "Jovial Organic Brown Rice Capellini (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/100%25-organic%20whole%20grain%20capellin%20brown%20rice%20pasta,%2012%20oz-b071vcfs48",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic brown rice flour, water. 'Made in a dedicated gluten-free facility', certified GF <10 ppm. No egg. I found no tree-nut facility statement."
+        },
+        {
+          "product": "Jovial Organic Brown Rice Elbows (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/12-ounce-pack-of-1-b01fuzmvq0",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic brown rice flour, water. Same dedicated GF facility claim."
+        }
+      ],
+      "avoid": "Jovial's Gluten Free EGG Tagliatelle and egg pastas contain egg. Many fresh GF pastas (including Cappello's) contain egg and almond flour. Banza and Barilla GF are egg-free, but I didn't verify them at WFM."
+    },
+    {
+      "key": "gf vegan sandwich bread",
+      "picks": [
+        {
+          "product": "Little Northern Bakehouse Seeds & Grains Gluten Free Bread (17 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/gluten-free%20bread%20seeds%20&%20grains-b07667l67c",
+          "verified_at_wfm": true,
+          "notes": "WFM text: '100% plant-based', 'no eggs, no wheat, no tree nuts and no peanuts... free of the top 8 allergens'. Certified GF. A review site says it is made in a dairy-free, nut-free facility. Includes seeds; check for sesame if relevant."
+        },
+        {
+          "product": "Little Northern Bakehouse Millet & Chia Gluten Free Bread (16 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/gluten-free%20bread%20millet%20&%20chia-b01lx47jbd",
+          "verified_at_wfm": true,
+          "notes": "Labeled vegan on WFM. Indexed WFM text lists tapioca, potato, corn and brown rice flours, psyllium, millet, chia. The live page shows no ingredients."
+        }
+      ],
+      "avoid": "Canyon Bakehouse (sold at WFM) uses egg whites in its breads. Schar and Udi's GF breads mostly contain egg. Many GF breads contain almond flour or nut milks."
+    },
+    {
+      "key": "gf tortillas",
+      "picks": [
+        {
+          "product": "Siete Cassava Flour Tortillas (or Burrito-Size cassava tortillas)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/siete-family-foods-cassava-coconut-amazing-grain-free-tortillas-7-oz-b0774ww3pp",
+          "verified_at_wfm": true,
+          "notes": "NOT RECOMMENDED for tree-nut allergy. WFM ingredients: cassava flour, water, coconut flour, coconut oil, ACV, sea salt, xanthan gum. Siete's FAQ says its tortillas 'are made with almonds, cashews, and/or coconuts. If you're seriously allergic to tree nuts, then these products definitely aren't for you.' Retailer labels: 'Manufactured on equipment that also processes tree nuts (almonds, cashews).' Egg-free. Listed only so the site can warn against it."
+        }
+      ],
+      "avoid": "I found no egg-free, nut-free GF flour-style tortilla at WFM that I could verify. Siete's tortillas all share equipment with almond and cashew. Use corn tortillas instead. BFree wraps, Mission GF and Toufayan GF wraps are egg- and nut-free by ingredients, but I didn't find them on wholefoodsmarket.com."
+    },
+    {
+      "key": "corn tortillas",
+      "picks": [
+        {
+          "product": "365 by Whole Foods Market Stone Ground Corn Tortillas (12 ct)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-organic-stone-ground-corn-tortilla-8-oz-b084r4r9pk",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: stone ground corn masa flour, water, guar gum, lime, folic acid. No wheat by ingredients, but there is no GF claim or facility statement, and tortilla plants often also make wheat tortillas."
+        },
+        {
+          "product": "La Tortilla Factory Organic Yellow Corn Tortillas (8 ct)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/la-tortilla-factory-organic-corn-tortillas-846-oz-b01an8eb62",
+          "verified_at_wfm": true,
+          "notes": "The WFM page shows no ingredients. A search snippet of the organic corn listing gave water, organic yellow corn masa flour, organic guar gum, lime, and 'naturally gluten free'. La Tortilla Factory also makes wheat tortillas."
+        }
+      ],
+      "avoid": "Do NOT buy La Tortilla Factory's non-organic 'Corn' or white corn and wheat tortillas. The WFM listing shows wheat gluten and cultured wheat flour. Many 'corn' tortillas are corn-wheat blends."
+    },
+    {
+      "key": "gf crisp rice cereal",
+      "picks": [
+        {
+          "product": "365 by Whole Foods Market Organic Brown Rice Crisps Cereal (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/B074HBKS3R",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic whole grain brown rice, organic cane sugar, sea salt. No malt. But there is no GF claim or facility statement on the page, so it's unverified for celiac-level gluten safety."
+        },
+        {
+          "product": "One Degree Organic Sprouted Brown Rice Crisps (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/one-degree-organic-foods-organic-sprouted-brown-rice-crisp-cereal-8-oz-b00go6vcme",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic sprouted whole grain rice flour, coconut sugar, salt, tocopherols. Certified GF and vegan. But a Safeway listing and a buyer report say the package states 'Made in a facility that uses dairy, soy and nuts'. That is a tree-nut and dairy cross-contact flag."
+        }
+      ],
+      "avoid": "Kellogg's Rice Krispies contain malt flavoring (barley), and store-brand 'crispy rice' often does too. Nature's Path Crispy Rice is GF but says 'produced in a facility that uses peanuts, tree nuts or soy'. I found no fully clean, verified option."
+    },
+    {
+      "key": "gf worcestershire",
+      "picks": [
+        {
+          "product": "Wan Ja Shan Organic Worcestershire Sauce (10 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/10-fl-oz-pack-of-1-b00886nniy",
+          "verified_at_wfm": true,
+          "notes": "The WFM page shows no ingredient line (the 33.8 oz WFM listing title says gluten-free and vegan). Retailer copy: organic vinegar, organic gluten-free tamari (water, soybeans, salt), cane sugar, salt, spices, sometimes garlic and onion. No anchovy. Contains soy."
+        }
+      ],
+      "avoid": "Lea & Perrins contains anchovies (fish, not shellfish) and uses malt vinegar in the UK version. Annie's vegan Worcestershire contains soy sauce made with wheat, so it is not GF. Many store brands use malt vinegar (barley)."
+    },
+    {
+      "key": "thai curry paste",
+      "picks": [
+        {
+          "product": "Thai Kitchen Red Curry Paste (4 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/red-curry-b000srmb3o",
+          "verified_at_wfm": true,
+          "notes": "WFM text: red chili pepper, garlic, lemongrass, salt, shallot, coriander root, makrut lime peel, 'gluten free, vegan'. No shrimp or fish. Confirm the jar's full ingredient line."
+        }
+      ],
+      "avoid": "Traditional Thai pastes (Mae Ploy; some Maesri, such as Prik Khing) contain shrimp paste (kapi). Maesri red listings conflict. Some green and Panang pastes contain shrimp or peanuts. Thai Taste red curry paste (WFM b07fzcw828) has no ingredients on its WFM page; one indexed copy listed tree nuts as an allergen, which I could not confirm."
+    },
+    {
+      "key": "nutritional yeast",
+      "picks": [
+        {
+          "product": "365 by Whole Foods Market Nutritional Yeast",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/15-9-ounce-pack-of-2-b0dh6m9l64",
+          "verified_at_wfm": true,
+          "notes": "The WFM page exists (labeled vegan) but shows no ingredients, GF claim or facility statement, so it's unverified."
+        },
+        {
+          "product": "Bragg Nutritional Yeast Seasoning (4.5 oz)",
+          "evidence_url": "https://www.kroger.com/p/bragg-nutritional-yeast-seasoning/0007430506605",
+          "verified_at_wfm": false,
+          "notes": "Retailers describe it as gluten-free, dairy-free and vegan. WFM lists Bragg Smoky BBQ nutritional yeast (b09r32rgw3), but I did not find the plain Bragg on wholefoodsmarket.com."
+        }
+      ],
+      "avoid": "Brewer's yeast is a by-product of beer brewing and can carry barley or gluten. Use nutritional yeast labeled gluten-free."
+    },
+    {
+      "key": "vegan shredded cheese",
+      "picks": [
+        {
+          "product": "Violife Just Like Cheddar Shreds (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/violife-just-like-cheddar-shreds-b07gt6857v",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: water, coconut oil, potato and corn starches, sea salt, vegan cheddar flavor, olive extract, paprika and beta carotene, B12, cellulose. WFM text: 'Free from dairy, soy, gluten, lactose, nuts'. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        },
+        {
+          "product": "Follow Your Heart Dairy-Free Shredded Cheddar (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/vegan-cheddar%20cheese%20shreds,%208%20oz-b075m4qvsn",
+          "verified_at_wfm": true,
+          "notes": "The WFM page shows no ingredients. FYH's 2022 allergen chart says its shreds are free of the 8 major allergens. Coconut-oil based. I did not find a facility statement."
+        }
+      ],
+      "avoid": "Cashew-based shreds (Miyoko's, Treeline) are not suitable. Some 'veggie' or 'lactose-free' cheese shreds contain casein, which is milk. Avoid anything listing casein or caseinate."
+    },
+    {
+      "key": "vegan mozzarella",
+      "picks": [
+        {
+          "product": "Violife Just Like Mozzarella Shreds (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/violife-just-like-mozzarella-shreds-b07gt6h8sy",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: water, coconut oil, modified potato and corn starch, corn starch, sea salt, vegan mozzarella flavor, olive extract, beta carotene, B12, cellulose. 'Free from dairy, soy, gluten, lactose, nuts'. Coconut: labels may say 'Contains: tree nuts (coconut)'. FDA's 2025 guidance no longer counts coconut as a tree nut, and many people with tree-nut allergy tolerate it, but have the allergist confirm coconut is OK."
+        },
+        {
+          "product": "Follow Your Heart Dairy-Free Mozzarella Shreds (7 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/follow-your-heart-cheese-plant-based-mozzarella-7-ounce-b09f5p4kq7",
+          "verified_at_wfm": true,
+          "notes": "WFM text: 'free from dairy, lactose, casein, soy, and gluten'. No ingredients shown. FYH's 2022 chart lists its mozzarella as free of the 8 major allergens. I did not find a facility statement."
+        }
+      ],
+      "avoid": "Miyoko's Liquid Vegan Pizza Mozzarella and Fresh Mozz are cashew-based. Kite Hill (almond) and Treeline (cashew) are not suitable. 'Lactose-free mozzarella' is still dairy."
+    },
+    {
+      "key": "gf broth",
+      "picks": [
+        {
+          "product": "Pacific Foods Organic Vegetable Broth (32 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/grocery/product/pacific-foods-organic-vegetable-broth-32-oz-b0005ygog0",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: water, organic carrot, celery, leek, onion, mushroom juice concentrates, sea salt, garlic, tomato paste, spices, apple cider vinegar. WFM's low-sodium listing says gluten-free. Pacific also makes almond and other nut beverages, and I could not find a facility statement for the broth."
+        },
+        {
+          "product": "Pacific Foods Organic Low Sodium Free Range Chicken Broth (32 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/pacific-foods-organic-low-sodium-free-range-chicken-broth-32-fl-oz-b008231i0i",
+          "verified_at_wfm": true,
+          "notes": "WFM ingredients: organic chicken broth, organic chicken flavor, organic onion powder, organic yeast extract, organic rosemary extract. WFM text says 'Fat-free and gluten-free'. Same facility caveat. Yeast extract is sometimes barley-derived; here the product is labeled GF."
+        }
+      ],
+      "avoid": "Many bouillon cubes and pastes, and some broths, contain wheat, barley malt or hydrolyzed wheat protein, so read labels (specific brands not verified here). The 365 Organic Vegetable Broth (b074vcshfn) has clean ingredients, but its WFM page makes no GF claim."
+    },
+    {
+      "key": "gf graham crackers",
+      "picks": [
+        {
+          "product": "Partake Classic Graham Crackers (6.75 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/partake-foods-classic-graham-crackers-675-oz-b0d828t6tb",
+          "verified_at_wfm": true,
+          "notes": "WFM text: GF flour blend of buckwheat, oat, cassava and tapioca. 'Baked without the top 9 allergens'. School-safe, nut-free. Certified GF and vegan. Retailers say it is made in a dedicated GF, peanut-free, allergy-friendly facility. Target notes 'produced on equipment that processes coconut'. Contains GF oats."
+        }
+      ],
+      "avoid": "Kinnikinnick S'moreables are vegan, but Kinnikinnick's plant handles egg (see the panko note). Schar Honeygrams contain soy and I didn't verify them at WFM. Regular grahams contain wheat and often honey or milk."
+    },
+    {
+      "key": "gf pretzels",
+      "picks": [
+        {
+          "product": "Snyder's of Hanover Gluten Free Pretzel Sticks (8 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/snyders-of-hanover-gluten-free-pretzel-sticks-8-oz-b0047ig6ou",
+          "verified_at_wfm": true,
+          "notes": "WFM text: certified GF, 'made without dairy, egg or milk', 'made in a facility that does not process peanuts'. I found no tree-nut statement and the WFM page lists no ingredients."
+        },
+        {
+          "product": "Quinn Classic Sea Salt Pretzel Sticks",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/quinn-classic-sea-salt-pretzels-7-oz-b01g2gipra",
+          "verified_at_wfm": true,
+          "notes": "CAUTION. WFM ingredients: sorghum flour, potato and tapioca starch, brown rice flour, sunflower oil, cane sugar, pea protein, sea salt, xanthan gum, molasses, yeast, sunflower lecithin. Egg- and dairy-free. But retailer labels say 'shared equipment with peanut and wheat products' (Vitacost says peanuts AND tree nuts). Quinn makes peanut-butter-filled pretzels. Not recommended for peanut allergy."
+        }
+      ],
+      "avoid": "Glutino pretzels are egg-free but I didn't verify them at WFM. Many filled pretzels contain peanut or nut butters. Regular pretzels contain wheat and often barley malt."
+    },
+    {
+      "key": "dairy-free sour cream",
+      "picks": [
+        {
+          "product": "Tofutti Better Than Sour Cream (12 oz)",
+          "evidence_url": "https://www.wholefoodsmarket.com/product/tofutti-dairy-free-sour-cream-12-oz-b000o6g8g0",
+          "verified_at_wfm": true,
+          "notes": "The WFM page lists no ingredients. Tofutti's allergen page says its sour cream is 'totally nut-free and manufactured in nut-free facilities' and made in a gluten- and wheat-free facility. Soy-based (contains soy). Dairy- and egg-free."
+        }
+      ],
+      "avoid": "Kite Hill sour cream (sold at WFM) is ALMOND MILK-based (WFM ingredients: almond milk, coconut oil, ...). Forager sour cream is cashew-based. Follow Your Heart sour cream (coconut-based) is nut-free by ingredients, but I didn't find it on wholefoodsmarket.com."
+    }
+  ]
+}
