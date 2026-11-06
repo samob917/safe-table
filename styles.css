@@ -47,7 +47,7 @@ p { margin: 0 0 1em; }
 .nav a:hover, .nav a.active { background: var(--surface-2); color: var(--ink); }
 .nav a.nav-em { color: var(--accent); font-weight: 600; }
 .nav-toggle { display: none; margin-left: auto; background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; font-size: 1.2rem; padding: 4px 10px; cursor: pointer; }
-@media (max-width: 1240px) {
+@media (max-width: 1400px) {
   .nav-toggle { display: block; }
   .nav { display: none; position: absolute; left: 0; right: 0; top: 62px; background: var(--surface); border-bottom: 1px solid var(--line); padding: 8px 16px 14px; flex-direction: column; }
   .nav.open { display: flex; }
@@ -303,7 +303,7 @@ main { padding-top: 44px; padding-bottom: 90px; }
 .nav a { font-weight: 400; color: var(--ink-soft); font-size: .95rem; }
 .nav a:hover, .nav a.active { background: transparent; color: var(--ink); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
 .nav a.nav-em { font-weight: 500; }
-@media (max-width: 1240px) { .nav { background: var(--bg); } }
+@media (max-width: 1400px) { .nav { background: var(--bg); } }
 
 .allergen-bar { background: transparent; border-bottom: 1px solid var(--line); font-size: .86rem; padding: 12px 0; color: var(--ink-soft); }
 .allergen-bar strong { font-weight: 500; }
