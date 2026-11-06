@@ -228,6 +228,7 @@
       <div class="tiles">
         ${CATS.filter(c => RECIPES.some(r => r.category === c.key)).map(c => `<a class="tile" href="#/c/${c.key}"><span class="emoji">${c.emoji}</span><b>${esc(c.short || c.name)}</b><span class="count">${RECIPES.filter(r => r.category === c.key).length} recipes</span></a>`).join("")}
         <a class="tile" href="#/build"><span class="emoji">🍽</span><b>Build a meal</b><span class="count">select a recipe, get a whole meal</span></a>
+        <a class="tile" href="#/eating-out"><span class="emoji">🍴</span><b>Eating out</b><span class="count">chain allergen charts</span></a>
         <a class="tile" href="#/swaps"><span class="emoji">🔁</span><b>Swap guide</b><span class="count">eggs, flour, butter, milk…</span></a>
       </div>
       <div class="collections">
@@ -815,6 +816,87 @@
       ${Object.entries(groups).map(([g, rs]) => `<h2 class="group-title">${esc(g)} <small>${rs.length}</small></h2><div class="grid">${rs.map(r => card(r)).join("")}</div>`).join("")}`;
   }
 
+  // ---------- eating out ----------
+  const HER = ["egg", "milk", "wheat", "gluten", "peanut", "tree nut", "shellfish"];
+  function viewEatingOut(params) {
+    setTitle("Eating out");
+    const R = window.RESTAURANTS || [];
+    const type = params.get("type") || "";
+    const q = (params.get("q") || "").toLowerCase();
+    const types = [...new Set(R.map(r => r.type))].sort();
+    const list = R.filter(r => !type || r.type === type).sort((x, y) => x.name.localeCompare(y.name));
+    const href = t => "#/eating-out" + (t ? "?type=" + encodeURIComponent(t) : "");
+    const covChips = r => {
+      const cov = (r.covers || []).map(c => c.toLowerCase());
+      const has = k => cov.some(c => c.includes(k) || (k === "milk" && c.includes("dairy")) || (k === "tree nut" && c.includes("tree")));
+      const chips = HER.map(k => `<span class="cov ${has(k) ? "yes" : "no"}" title="${has(k) ? "Listed on the chart" : "Not listed on the chart"}">${has(k) ? "✓" : "?"} ${k}</span>`);
+      chips.push(`<span class="cov ${r.mentions_barley_malt ? "yes" : "no"}" title="Barley / malt">${r.mentions_barley_malt ? "✓" : "?"} barley/malt</span>`);
+      return chips.join("");
+    };
+    return `<div class="page-head"><div class="crumbs"><a href="#/">Home</a> / Eating out</div>
+      <h1>🍴 Eating out</h1>
+      <p>Chain restaurants that publish allergen charts or allergen-filter tools, linked straight to the chart. Use them to plan before you go, then always tell your server about every allergy. Charts change, kitchens share fryers and grills, and staff can confirm what's true today.</p></div>
+      <section class="guide-sec eo-tips"><h2>Before you order</h2><ul class="tips">
+        <li><b>Check the chart the same day.</b> Chains update recipes and suppliers often; the "likely safe" ideas below are a starting point, not a guarantee.</li>
+        <li><b>Say all eight allergens,</b> including barley/malt and shellfish, which many charts don't list. Ask for a manager or allergy protocol if they have one.</li>
+        <li><b>Ask about shared fryers and grills.</b> Fries are often fried with breaded or battered items, and grills are often buttered.</li>
+        <li><b>Sauces, marinades, seasoning and buns</b> are where egg, dairy and wheat hide. Order plain and add your own.</li>
+        <li><b>Carry epinephrine,</b> and avoid busy rush times when you can.</li>
+      </ul></section>
+      <div class="search"><input type="search" id="eo-q" value="${esc(params.get("q") || "")}" placeholder="Search ${R.length} restaurants… typos are fine (e.g. “chikfila”, “outbak”)" aria-label="Search restaurants" autocomplete="off"></div>
+      <div class="filters"><a class="filter-btn" href="${href("")}" aria-pressed="${!type}">All</a>${types.map(t => `<a class="filter-btn" href="${href(t)}" aria-pressed="${type === t}">${esc(t)}</a>`).join("")}</div>
+      <p class="muted small"><span id="eo-count">${list.length}</span> chains · <span class="cov yes">✓</span> listed on the chart, <span class="cov no">?</span> not listed (ask in person). Links checked ${esc((R[0] || {}).checked || "")}.</p>
+      ${R.length ? `<div class="eo-grid">${list.map(r => `<article class="eo" data-fz="${esc([r.name, r.type].join(" "))}">
+        <div class="eo-head"><h3><a href="${esc(r.chart_url)}" target="_blank" rel="noopener" title="Open ${esc(r.name)}'s allergen chart">${esc(r.name)} ↗</a></h3><span class="tag">${esc(r.type)}</span></div>
+        <div class="eo-meta">${esc(r.format || "")}${r.multi_filter ? ` · <b>filter by several allergens</b>` : ""}</div>
+        <div class="cov-row">${covChips(r)}</div>
+        ${r.red_flags ? `<div class="note watch"><b>Heads up:</b> ${esc(r.red_flags)}</div>` : ""}
+        ${(r.likely_safe || []).length ? `<div class="note ok"><b>Likely options (confirm first):</b><ul>${r.likely_safe.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+        <div class="eo-actions"><a class="btn" href="${esc(r.chart_url)}" target="_blank" rel="noopener">Allergen chart ↗</a>${r.homepage ? `<a class="btn ghost" href="${esc(r.homepage)}" target="_blank" rel="noopener">Website</a>` : ""}</div>
+      </article>`).join("")}</div>` : `<div class="empty">Restaurant list coming shortly.</div>`}
+      <div class="empty" id="eo-none" hidden>No matches. Try fewer letters.</div>`;
+  }
+
+  // fuzzy matching: substring > word-prefix > subsequence > small typo distance
+  const norm = s => String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/&/g, "and").replace(/[^a-z0-9 ]/g, "");
+  function lev(a, b) {
+    const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
+    let prev = Array.from({ length: n + 1 }, (_, j) => j);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      prev = cur;
+    }
+    return prev[n];
+  }
+  function fuzzyScore(query, text) {
+    const q = norm(query).trim(); if (!q) return 1;
+    const t = norm(text), tc = t.replace(/ /g, ""), qc = q.replace(/ /g, "");
+    if (tc.includes(qc)) return 100 - tc.indexOf(qc);
+    const words = t.split(" ").filter(Boolean);
+    if (q.split(" ").every(w => words.some(x => x.startsWith(w)))) return 80;
+    let i = 0; for (const ch of tc) if (ch === qc[i]) i++;
+    if (i === qc.length && qc.length >= 3) return 60 - (tc.length - qc.length) / 4;
+    const tol = qc.length <= 4 ? 1 : qc.length <= 8 ? 2 : 3;
+    let best = lev(qc, tc.slice(0, qc.length + 1));
+    for (const w of words) best = Math.min(best, lev(qc, w), lev(qc, w.slice(0, qc.length)));
+    for (let k = 0; k + 1 < words.length; k++) best = Math.min(best, lev(qc, words[k] + words[k + 1]));
+    return best <= tol ? 40 - best * 10 : 0;
+  }
+  function applyEoFilter() {
+    const inp = document.getElementById("eo-q"); if (!inp) return;
+    const grid = document.querySelector(".eo-grid"); if (!grid) return;
+    const cards = [...grid.children];
+    const q = inp.value;
+    const scored = cards.map(c => [fuzzyScore(q, c.dataset.fz), c]);
+    let shown = 0;
+    scored.sort((x, y) => q ? y[0] - x[0] : 0);
+    scored.forEach(([s, c]) => { c.hidden = s <= 0; if (s > 0) shown++; if (q) grid.appendChild(c); });
+    if (!q) cards.sort((x, y) => x.dataset.fz.localeCompare(y.dataset.fz)).forEach(c => grid.appendChild(c));
+    document.getElementById("eo-count").textContent = shown;
+    document.getElementById("eo-none").hidden = shown > 0;
+  }
+
   function viewNotFound() {
     setTitle("Not found");
     return `<div class="empty"><h2>Page not found</h2><a href="#/">Back home</a></div>`;
@@ -841,8 +923,10 @@
     else if (parts[0] === "build") html = viewBuild(params);
     else if (parts[0] === "storage") html = viewStorage();
     else if (parts[0] === "collection") html = viewCollection(parts[1]);
+    else if (parts[0] === "eating-out") html = viewEatingOut(params);
     else html = viewNotFound();
     app.innerHTML = html;
+    if (parts[0] === "eating-out") applyEoFilter();
     setActiveNav(hash);
     document.getElementById("nav").classList.remove("open");
     const el = anchor && document.getElementById("g-" + anchor);
@@ -896,6 +980,7 @@
   document.addEventListener("submit", e => {
     const f = e.target;
     if (f.id === "home-search") { e.preventDefault(); location.hash = "#/search?q=" + encodeURIComponent(f.q.value.trim()); }
+    if (f.id === "eo-form") { e.preventDefault(); location.hash = "#/eating-out" + (f.q.value.trim() ? "?q=" + encodeURIComponent(f.q.value.trim()) : ""); }
     if (f.id === "pick-form") {
       e.preventDefault();
       const p = new URLSearchParams((location.hash.split("?")[1]) || "");
@@ -918,6 +1003,7 @@
       location.hash = `#/c/${f.dataset.cat}${p.toString() ? "?" + p : ""}`;
     }
   });
+  document.addEventListener("input", e => { if (e.target.id === "eo-q") applyEoFilter(); });
   document.addEventListener("change", e => {
     if (e.target.name === "dish" && RECIPES.some(r => r.title === e.target.value)) { e.target.form.requestSubmit(); return; }
     const c = e.target.closest("[data-check]");

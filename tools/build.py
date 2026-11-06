@@ -75,3 +75,13 @@ SC = "/Users/samob917/safe-table/tools/storage_chart.json"
 if os.path.exists(SC):
     open("/Users/samob917/safe-table/data/storage.js", "w").write("window.STORAGE = " + json.dumps(json.load(open(SC)), ensure_ascii=False) + ";\n")
     print("storage chart written")
+
+RS = [p for p in ("/Users/samob917/safe-table/tools/restaurants_fast.json", "/Users/samob917/safe-table/tools/restaurants_sitdown.json", "/Users/samob917/safe-table/tools/restaurants_more.json") if os.path.exists(p)]
+if RS:
+    rest, seen_names = [], set()
+    for p in RS:
+        for x in json.load(open(p)):
+            if x.get("name") and x.get("chart_url") and x["name"].lower() not in seen_names:
+                seen_names.add(x["name"].lower()); rest.append(x)
+    open("/Users/samob917/safe-table/data/restaurants.js", "w").write("window.RESTAURANTS = " + json.dumps(rest, ensure_ascii=False, indent=1) + ";\n")
+    print("restaurants", len(rest))

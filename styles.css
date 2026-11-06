@@ -381,3 +381,21 @@ main { padding-top: 44px; padding-bottom: 90px; }
 .anchor-hero .desc { font-size: 1.1rem; color: var(--ink-soft); }
 .adjust { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin: 0 0 18px; }
 .meal-head p { margin: 4px 0 0; max-width: 46em; }
+
+/* Eating out */
+.eo-tips { margin-bottom: 20px; }
+.eo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; }
+.eo { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; }
+.eo-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.eo-head h3 { margin: 0; font-weight: 400; font-size: 1.3rem; }
+.eo-meta { font-size: .9rem; color: var(--ink-soft); }
+.cov-row { display: flex; flex-wrap: wrap; gap: 4px; }
+.cov { font-size: .75rem; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--line); }
+.cov.yes { color: var(--green); background: var(--green-soft); border-color: transparent; }
+.cov.no { color: var(--warn-ink); background: var(--warn-bg); border-color: transparent; }
+.eo .note ul { margin: 4px 0 0; padding-left: 18px; }
+.eo-actions { display: flex; gap: 8px; margin-top: auto; padding-top: 4px; }
+.eo-actions .btn { text-decoration: none; }
+.eo-head h3 a { color: var(--ink); text-decoration: none; }
+.eo-head h3 a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.eo[hidden] { display: none; }
