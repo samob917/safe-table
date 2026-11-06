@@ -270,6 +270,7 @@
         <div class="crumbs"><a href="#/">Home</a> / ${esc(c.name)}</div>
         <h1>${c.emoji} ${esc(c.name)}</h1>
         <p>${esc(c.blurb)} ${list.length} recipes from ${new Set(list.map(r => r.site)).size} different sites.${key === "staples" ? ` <a href="#/storage">See the full storage chart →</a>` : ""}</p>
+        ${key === "staples" && !RECIPES.some(r => r.category === "staples") ? `<div class="callout">Coming very soon: sauces & dressings, how to cook every kind of rice, broths, baking basics (DIY flour blend, buttermilk, coconut whip) and meal-prep proteins, each with fridge and freezer times. The dough and bread basics are below.</div>` : ""}
       </div>
       <form class="search" id="cat-search" data-cat="${key}"><input type="search" name="q" value="${esc(q)}" placeholder="Search ${esc(c.short || c.name).toLowerCase()}…" aria-label="Search this category"></form>
       <div class="filters">
